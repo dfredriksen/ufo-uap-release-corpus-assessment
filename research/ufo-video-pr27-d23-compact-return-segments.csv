@@ -1,0 +1,19 @@
+﻿segment_id,start_second,end_second,duration_seconds,sample_count,phase_start,phase_end,interpretation
+PR27-C01,136.00,137.00,1.0,2,zoom and centered track,zoom and centered track,consecutive validated compact-return candidates; not a physical track without telemetry
+PR27-C02,147.00,147.00,0.0,1,zoom and centered track,zoom and centered track,consecutive validated compact-return candidates; not a physical track without telemetry
+PR27-C03,148.50,148.50,0.0,1,zoom and centered track,zoom and centered track,consecutive validated compact-return candidates; not a physical track without telemetry
+PR27-C04,150.50,152.50,2.0,3,zoom and centered track,zoom and centered track,consecutive validated compact-return candidates; not a physical track without telemetry
+PR27-C05,155.00,158.00,3.0,5,zoom and centered track,zoom and centered track,consecutive validated compact-return candidates; not a physical track without telemetry
+PR27-C06,159.50,161.00,1.5,4,zoom and centered track,zoom and centered track,consecutive validated compact-return candidates; not a physical track without telemetry
+PR27-C07,163.50,164.00,0.5,2,zoom and centered track,zoom and centered track,consecutive validated compact-return candidates; not a physical track without telemetry
+PR27-C08,166.00,166.50,0.5,2,zoom and centered track,zoom and centered track,consecutive validated compact-return candidates; not a physical track without telemetry
+PR27-C09,172.00,176.00,4.0,6,zoom and centered track,zoom and centered track,consecutive validated compact-return candidates; not a physical track without telemetry
+PR27-C10,181.50,181.50,0.0,1,zoom and centered track,zoom and centered track,consecutive validated compact-return candidates; not a physical track without telemetry
+PR27-C11,194.00,194.00,0.0,1,zoom and centered track,zoom and centered track,consecutive validated compact-return candidates; not a physical track without telemetry
+PR27-C12,195.50,195.50,0.0,1,zoom and centered track,zoom and centered track,consecutive validated compact-return candidates; not a physical track without telemetry
+PR27-C13,204.50,204.50,0.0,1,zoom and centered track,zoom and centered track,consecutive validated compact-return candidates; not a physical track without telemetry
+PR27-C14,206.50,211.50,5.0,9,zoom and centered track,sensor-motion loss and reacquisition,consecutive validated compact-return candidates; not a physical track without telemetry
+PR27-C15,215.50,228.00,12.5,23,sensor-motion loss and reacquisition,sensor-motion loss and reacquisition,consecutive validated compact-return candidates; not a physical track without telemetry
+PR27-C16,235.00,266.00,31.0,62,sensor-motion loss and reacquisition,sensor-motion loss and reacquisition,consecutive validated compact-return candidates; not a physical track without telemetry
+PR27-C17,269.50,284.50,15.0,31,sensor-motion loss and reacquisition,sensor-motion loss and reacquisition,consecutive validated compact-return candidates; not a physical track without telemetry
+PR27-C18,287.50,297.00,9.5,20,sensor-motion loss and reacquisition,sensor-motion loss and reacquisition,consecutive validated compact-return candidates; not a physical track without telemetry

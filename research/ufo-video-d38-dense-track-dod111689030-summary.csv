@@ -1,0 +1,13 @@
+﻿metric,value,note
+sample_count,186,50.0s-87.0s at 5.0 fps
+high_confidence_samples,148,dense review confidence
+medium_confidence_samples,33,dense review confidence
+low_confidence_samples,5,dense review confidence
+manual_control_mean_delta_px,1.0,delta between dense refined mark and existing one-second accepted mark on seed seconds
+manual_control_max_delta_px,3.17,largest delta on one-second manual seed control frames
+phase_count: post-zoom sustained interval,56,DVIDS/local phase
+phase_count: primary sustained DVIDS in-FOV interval,126,DVIDS/local phase
+phase_count: zoom-transition lead-in,4,DVIDS/local phase
+overlay_count: intersects colored overlay,16,colored overlay relation
+overlay_count: near colored overlay,65,colored overlay relation
+overlay_count: separate from colored overlay,105,colored overlay relation

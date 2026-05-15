@@ -1,0 +1,10 @@
+# Original source media/documents are intentionally not redistributed here.
+source-files-not-included/
+ufo-derived/
+
+# Local/editor noise.
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+

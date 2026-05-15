@@ -1,0 +1,6 @@
+﻿video,release_id,report_id,phase,start_second,end_second,sample_count,high_count,medium_count,low_count,none_count,near_or_intersects_overlay_count,dvids_anchor
+DOD_111688825.mp4,DOW-UAP-PR27,DoW-UAP-D23,no-content / scene context lead-in,0.0,115.5,29,0,0,29,0,1,DVIDS: 00:00-01:55 no content
+DOD_111688825.mp4,DOW-UAP-PR27,DoW-UAP-D23,initial right-side contrast,116.0,123.5,16,0,0,0,16,0,DVIDS: 01:56 contrast becomes distinguishable near center-right
+DOD_111688825.mp4,DOW-UAP-PR27,DoW-UAP-D23,pan to center,124.0,133.5,20,1,9,0,10,1,DVIDS: 02:04 IR sensor pans to center on contrast
+DOD_111688825.mp4,DOW-UAP-PR27,DoW-UAP-D23,zoom and centered track,134.0,206.5,146,35,66,44,1,89,DVIDS: 02:14 zoom; 02:15-03:26 contrast remains generally centered
+DOD_111688825.mp4,DOW-UAP-PR27,DoW-UAP-D23,sensor-motion loss and reacquisition,207.0,297.0,181,172,8,1,0,11,DVIDS: 03:27-04:57 sensor motion repeatedly loses/reacquires contrast

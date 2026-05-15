@@ -1,0 +1,17 @@
+﻿track,sample_count,start_second,end_second,duration_second,net_displacement_px,net_rate_px_s,total_path_px,path_average_rate_px_s,step_rate_mean_px_s,step_rate_median_px_s,step_rate_p95_px_s
+pr44_primary_visual_validation_all_154_2048,255,154.0,204.8,50.8,231.294,4.553,1918.801,37.772,37.772,33.459,81.002
+pr44_primary_visual_validation_high_medium_only,204,154.4,204.8,50.4,233.121,4.625,1716.456,34.057,37.996,33.634,81.056
+visual_quality_count: high,121,,,,,,,,,,
+visual_quality_count: low,51,,,,,,,,,,
+visual_quality_count: medium,83,,,,,,,,,,
+validation_status_count: confirmed_dense_mark,163,,,,,,,,,,
+validation_status_count: confirmed_near_dense_mark,39,,,,,,,,,,
+validation_status_count: recentered_visual_candidate,2,,,,,,,,,,
+validation_status_count: unconfirmed_seed_or_dense_mark,36,,,,,,,,,,
+validation_status_count: weak_visual_candidate,15,,,,,,,,,,
+overlay_count: intersects colored overlay,2,,,,,,,,,,
+overlay_count: near colored overlay,51,,,,,,,,,,
+overlay_count: separate from colored overlay,202,,,,,,,,,,
+source_dense_confidence_count: high,73,,,,,,,,,,
+source_dense_confidence_count: low,128,,,,,,,,,,
+source_dense_confidence_count: medium,54,,,,,,,,,,

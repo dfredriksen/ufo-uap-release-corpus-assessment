@@ -1,0 +1,7 @@
+﻿track,sample_count,start_second,end_second,duration_second,start_x,start_y,end_x,end_y,net_displacement_px,net_rate_px_s,total_path_px,path_average_rate_px_s,step_rate_mean_px_s,step_rate_median_px_s,step_rate_p90_px_s,step_rate_p95_px_s,step_rate_max_px_s
+dense_5fps_full_validated_interval_50_87,186,50.0,87.0,37.0,627.3,795.3,606.6,686.2,111.046,3.001,3146.076,85.029,85.029,54.3,172.679,257.337,866.225
+dense_5fps_primary_interval_50_75,126,50.0,75.0,25.0,627.3,795.3,785.9,645.4,218.229,8.729,1810.342,72.414,72.414,48.26,166.902,223.681,479.267
+dense_5fps_post_zoom_interval_76_87,56,76.0,87.0,11.0,561.3,780.3,606.6,686.2,104.436,9.494,1068.116,97.101,97.101,81.624,173.94,332.848,343.331
+manual_1fps_full_validated_interval_50_87,38,50.0,87.0,37.0,627.0,795.0,608.0,685.0,111.629,3.017,2973.927,80.376,80.376,52.887,164.222,253.314,277.366
+manual_1fps_primary_interval_50_75,26,50.0,75.0,25.0,627.0,795.0,786.0,645.0,218.589,8.744,1692.845,67.714,67.714,42.048,164.222,182.631,253.314
+manual_1fps_post_zoom_interval_76_87,12,76.0,87.0,11.0,561.0,780.0,608.0,685.0,105.991,9.636,1018.689,92.608,92.608,80.994,135.004,277.366,277.366

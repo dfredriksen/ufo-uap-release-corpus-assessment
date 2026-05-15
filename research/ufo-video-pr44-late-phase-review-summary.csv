@@ -1,0 +1,17 @@
+﻿metric,value,note
+video,DOD_111689115.mp4,local source video
+release_id,DOW-UAP-PR44,DVIDS public release identity
+interval,244s-294s,late PR44 phase review interval
+sample_count,51,one-fps qualitative samples
+detected_seed_rows,26,conservative one-fps compact-return detections
+no_seed_rows,25,no conservative compact target found
+phase_count: loss-exit interval,4,0 compact-return detections in this phase
+phase_count: reticle-cycling tail,20,8 compact-return detections in this phase
+phase_count: zoom-out continued-track interval,27,18 compact-return detections in this phase
+seed_confidence_count: high,21,one-fps seed confidence
+seed_confidence_count: low,4,one-fps seed confidence
+seed_confidence_count: medium,1,one-fps seed confidence
+seed_confidence_count: none,25,one-fps seed confidence
+overlay_count: intersects colored overlay,1,seed relation to colored overlay
+overlay_count: near colored overlay,2,seed relation to colored overlay
+overlay_count: separate from colored overlay,23,seed relation to colored overlay

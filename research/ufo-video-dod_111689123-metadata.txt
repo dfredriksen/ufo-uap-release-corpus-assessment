@@ -1,0 +1,12 @@
+﻿source_video=source-files-not-included/DOD_111689123.mp4
+video_id=DOD_111689123
+release_id=DOW-UAP-PR45
+fps=30.0
+total_frames=1763
+duration_seconds=58.766666666666666
+frame_width=1920
+frame_height=1080
+sample_rate=5.0
+review_start=0.0
+review_end=58.5
+note=OpenCV source video metadata and local review settings; not incident metadata.

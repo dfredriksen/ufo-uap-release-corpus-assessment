@@ -1,0 +1,12 @@
+﻿source=source-files-not-included/DOD_111689030.mp4
+opencv_fps=30.0
+opencv_frame_count=4121
+opencv_duration_seconds=137.36666666666667
+ffprobe_output:
+codec_name=h264
+width=1920
+height=1080
+avg_frame_rate=30/1
+codec_name=aac
+avg_frame_rate=0/0
+duration=137.366667

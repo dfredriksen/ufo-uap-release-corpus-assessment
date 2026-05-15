@@ -1,0 +1,225 @@
+﻿track,rate_metric,rate_label,pixel_rate_px_s,target_speed_mph,target_speed_mps,assumed_full_frame_hfov_deg,source_width_px,angular_rate_rad_s,implied_slant_range_for_80mph_m,implied_slant_range_for_80mph_nm
+manual_review_track_all_4_59,net_rate_px_s,net start-to-end rate,8.455,80.0,35.763,0.5,1920,3.8429e-05,930629.1,502.499
+manual_review_track_all_4_59,net_rate_px_s,net start-to-end rate,8.455,80.0,35.763,1.0,1920,7.6858e-05,465314.5,251.25
+manual_review_track_all_4_59,net_rate_px_s,net start-to-end rate,8.455,80.0,35.763,2.0,1920,0.000153716,232657.3,125.625
+manual_review_track_all_4_59,net_rate_px_s,net start-to-end rate,8.455,80.0,35.763,4.0,1920,0.000307432,116328.6,62.812
+manual_review_track_all_4_59,net_rate_px_s,net start-to-end rate,8.455,80.0,35.763,8.0,1920,0.000614865,58164.3,31.406
+manual_review_track_all_4_59,net_rate_px_s,net start-to-end rate,8.455,80.0,35.763,10.0,1920,0.000768581,46531.5,25.125
+manual_review_track_all_4_59,net_rate_px_s,net start-to-end rate,8.455,80.0,35.763,20.0,1920,0.001537162,23265.7,12.562
+manual_review_track_all_4_59,path_average_rate_px_s,path-length average rate,118.837,80.0,35.763,0.5,1920,0.000540129,66212.3,35.752
+manual_review_track_all_4_59,path_average_rate_px_s,path-length average rate,118.837,80.0,35.763,1.0,1920,0.001080259,33106.1,17.876
+manual_review_track_all_4_59,path_average_rate_px_s,path-length average rate,118.837,80.0,35.763,2.0,1920,0.002160518,16553.1,8.938
+manual_review_track_all_4_59,path_average_rate_px_s,path-length average rate,118.837,80.0,35.763,4.0,1920,0.004321035,8276.5,4.469
+manual_review_track_all_4_59,path_average_rate_px_s,path-length average rate,118.837,80.0,35.763,8.0,1920,0.008642071,4138.3,2.234
+manual_review_track_all_4_59,path_average_rate_px_s,path-length average rate,118.837,80.0,35.763,10.0,1920,0.010802588,3310.6,1.788
+manual_review_track_all_4_59,path_average_rate_px_s,path-length average rate,118.837,80.0,35.763,20.0,1920,0.021605176,1655.3,0.894
+manual_review_track_all_4_59,step_rate_median_px_s,median consecutive-step rate,84.039,80.0,35.763,0.5,1920,0.000381968,93628.8,50.555
+manual_review_track_all_4_59,step_rate_median_px_s,median consecutive-step rate,84.039,80.0,35.763,1.0,1920,0.000763936,46814.4,25.278
+manual_review_track_all_4_59,step_rate_median_px_s,median consecutive-step rate,84.039,80.0,35.763,2.0,1920,0.001527872,23407.2,12.639
+manual_review_track_all_4_59,step_rate_median_px_s,median consecutive-step rate,84.039,80.0,35.763,4.0,1920,0.003055744,11703.6,6.319
+manual_review_track_all_4_59,step_rate_median_px_s,median consecutive-step rate,84.039,80.0,35.763,8.0,1920,0.006111489,5851.8,3.16
+manual_review_track_all_4_59,step_rate_median_px_s,median consecutive-step rate,84.039,80.0,35.763,10.0,1920,0.007639361,4681.4,2.528
+manual_review_track_all_4_59,step_rate_median_px_s,median consecutive-step rate,84.039,80.0,35.763,20.0,1920,0.015278721,2340.7,1.264
+manual_review_track_all_4_59,step_rate_p95_px_s,p95 consecutive-step rate,375.811,80.0,35.763,0.5,1920,0.001708109,20937.3,11.305
+manual_review_track_all_4_59,step_rate_p95_px_s,p95 consecutive-step rate,375.811,80.0,35.763,1.0,1920,0.003416218,10468.7,5.653
+manual_review_track_all_4_59,step_rate_p95_px_s,p95 consecutive-step rate,375.811,80.0,35.763,2.0,1920,0.006832437,5234.3,2.826
+manual_review_track_all_4_59,step_rate_p95_px_s,p95 consecutive-step rate,375.811,80.0,35.763,4.0,1920,0.013664874,2617.2,1.413
+manual_review_track_all_4_59,step_rate_p95_px_s,p95 consecutive-step rate,375.811,80.0,35.763,8.0,1920,0.027329747,1308.6,0.707
+manual_review_track_all_4_59,step_rate_p95_px_s,p95 consecutive-step rate,375.811,80.0,35.763,10.0,1920,0.034162184,1046.9,0.565
+manual_review_track_all_4_59,step_rate_p95_px_s,p95 consecutive-step rate,375.811,80.0,35.763,20.0,1920,0.068324368,523.4,0.283
+manual_review_accepted_marks_only_4_59,net_rate_px_s,net start-to-end rate,8.455,80.0,35.763,0.5,1920,3.8429e-05,930629.1,502.499
+manual_review_accepted_marks_only_4_59,net_rate_px_s,net start-to-end rate,8.455,80.0,35.763,1.0,1920,7.6858e-05,465314.5,251.25
+manual_review_accepted_marks_only_4_59,net_rate_px_s,net start-to-end rate,8.455,80.0,35.763,2.0,1920,0.000153716,232657.3,125.625
+manual_review_accepted_marks_only_4_59,net_rate_px_s,net start-to-end rate,8.455,80.0,35.763,4.0,1920,0.000307432,116328.6,62.812
+manual_review_accepted_marks_only_4_59,net_rate_px_s,net start-to-end rate,8.455,80.0,35.763,8.0,1920,0.000614865,58164.3,31.406
+manual_review_accepted_marks_only_4_59,net_rate_px_s,net start-to-end rate,8.455,80.0,35.763,10.0,1920,0.000768581,46531.5,25.125
+manual_review_accepted_marks_only_4_59,net_rate_px_s,net start-to-end rate,8.455,80.0,35.763,20.0,1920,0.001537162,23265.7,12.562
+manual_review_accepted_marks_only_4_59,path_average_rate_px_s,path-length average rate,118.837,80.0,35.763,0.5,1920,0.000540129,66212.3,35.752
+manual_review_accepted_marks_only_4_59,path_average_rate_px_s,path-length average rate,118.837,80.0,35.763,1.0,1920,0.001080259,33106.1,17.876
+manual_review_accepted_marks_only_4_59,path_average_rate_px_s,path-length average rate,118.837,80.0,35.763,2.0,1920,0.002160518,16553.1,8.938
+manual_review_accepted_marks_only_4_59,path_average_rate_px_s,path-length average rate,118.837,80.0,35.763,4.0,1920,0.004321035,8276.5,4.469
+manual_review_accepted_marks_only_4_59,path_average_rate_px_s,path-length average rate,118.837,80.0,35.763,8.0,1920,0.008642071,4138.3,2.234
+manual_review_accepted_marks_only_4_59,path_average_rate_px_s,path-length average rate,118.837,80.0,35.763,10.0,1920,0.010802588,3310.6,1.788
+manual_review_accepted_marks_only_4_59,path_average_rate_px_s,path-length average rate,118.837,80.0,35.763,20.0,1920,0.021605176,1655.3,0.894
+manual_review_accepted_marks_only_4_59,step_rate_median_px_s,median consecutive-step rate,82.309,80.0,35.763,0.5,1920,0.000374105,95596.7,51.618
+manual_review_accepted_marks_only_4_59,step_rate_median_px_s,median consecutive-step rate,82.309,80.0,35.763,1.0,1920,0.00074821,47798.4,25.809
+manual_review_accepted_marks_only_4_59,step_rate_median_px_s,median consecutive-step rate,82.309,80.0,35.763,2.0,1920,0.00149642,23899.2,12.905
+manual_review_accepted_marks_only_4_59,step_rate_median_px_s,median consecutive-step rate,82.309,80.0,35.763,4.0,1920,0.00299284,11949.6,6.452
+manual_review_accepted_marks_only_4_59,step_rate_median_px_s,median consecutive-step rate,82.309,80.0,35.763,8.0,1920,0.005985679,5974.8,3.226
+manual_review_accepted_marks_only_4_59,step_rate_median_px_s,median consecutive-step rate,82.309,80.0,35.763,10.0,1920,0.007482099,4779.8,2.581
+manual_review_accepted_marks_only_4_59,step_rate_median_px_s,median consecutive-step rate,82.309,80.0,35.763,20.0,1920,0.014964198,2389.9,1.29
+manual_review_accepted_marks_only_4_59,step_rate_p95_px_s,p95 consecutive-step rate,302.3,80.0,35.763,0.5,1920,0.001373992,26028.7,14.054
+manual_review_accepted_marks_only_4_59,step_rate_p95_px_s,p95 consecutive-step rate,302.3,80.0,35.763,1.0,1920,0.002747985,13014.3,7.027
+manual_review_accepted_marks_only_4_59,step_rate_p95_px_s,p95 consecutive-step rate,302.3,80.0,35.763,2.0,1920,0.005495969,6507.2,3.514
+manual_review_accepted_marks_only_4_59,step_rate_p95_px_s,p95 consecutive-step rate,302.3,80.0,35.763,4.0,1920,0.010991938,3253.6,1.757
+manual_review_accepted_marks_only_4_59,step_rate_p95_px_s,p95 consecutive-step rate,302.3,80.0,35.763,8.0,1920,0.021983876,1626.8,0.878
+manual_review_accepted_marks_only_4_59,step_rate_p95_px_s,p95 consecutive-step rate,302.3,80.0,35.763,10.0,1920,0.027479845,1301.4,0.703
+manual_review_accepted_marks_only_4_59,step_rate_p95_px_s,p95 consecutive-step rate,302.3,80.0,35.763,20.0,1920,0.054959691,650.7,0.351
+phase_all: entry from bottom-left quarter,net_rate_px_s,net start-to-end rate,185.976,80.0,35.763,0.5,1920,0.000845285,42309.1,22.845
+phase_all: entry from bottom-left quarter,net_rate_px_s,net start-to-end rate,185.976,80.0,35.763,1.0,1920,0.00169057,21154.5,11.423
+phase_all: entry from bottom-left quarter,net_rate_px_s,net start-to-end rate,185.976,80.0,35.763,2.0,1920,0.003381139,10577.3,5.711
+phase_all: entry from bottom-left quarter,net_rate_px_s,net start-to-end rate,185.976,80.0,35.763,4.0,1920,0.006762278,5288.6,2.856
+phase_all: entry from bottom-left quarter,net_rate_px_s,net start-to-end rate,185.976,80.0,35.763,8.0,1920,0.013524556,2644.3,1.428
+phase_all: entry from bottom-left quarter,net_rate_px_s,net start-to-end rate,185.976,80.0,35.763,10.0,1920,0.016905695,2115.5,1.142
+phase_all: entry from bottom-left quarter,net_rate_px_s,net start-to-end rate,185.976,80.0,35.763,20.0,1920,0.033811391,1057.7,0.571
+phase_all: entry from bottom-left quarter,path_average_rate_px_s,path-length average rate,222.254,80.0,35.763,0.5,1920,0.001010173,35403.0,19.116
+phase_all: entry from bottom-left quarter,path_average_rate_px_s,path-length average rate,222.254,80.0,35.763,1.0,1920,0.002020346,17701.5,9.558
+phase_all: entry from bottom-left quarter,path_average_rate_px_s,path-length average rate,222.254,80.0,35.763,2.0,1920,0.004040692,8850.8,4.779
+phase_all: entry from bottom-left quarter,path_average_rate_px_s,path-length average rate,222.254,80.0,35.763,4.0,1920,0.008081383,4425.4,2.39
+phase_all: entry from bottom-left quarter,path_average_rate_px_s,path-length average rate,222.254,80.0,35.763,8.0,1920,0.016162767,2212.7,1.195
+phase_all: entry from bottom-left quarter,path_average_rate_px_s,path-length average rate,222.254,80.0,35.763,10.0,1920,0.020203459,1770.2,0.956
+phase_all: entry from bottom-left quarter,path_average_rate_px_s,path-length average rate,222.254,80.0,35.763,20.0,1920,0.040406917,885.1,0.478
+phase_all: entry from bottom-left quarter,step_rate_median_px_s,median consecutive-step rate,272.523,80.0,35.763,0.5,1920,0.001238652,28872.7,15.59
+phase_all: entry from bottom-left quarter,step_rate_median_px_s,median consecutive-step rate,272.523,80.0,35.763,1.0,1920,0.002477304,14436.3,7.795
+phase_all: entry from bottom-left quarter,step_rate_median_px_s,median consecutive-step rate,272.523,80.0,35.763,2.0,1920,0.004954608,7218.2,3.897
+phase_all: entry from bottom-left quarter,step_rate_median_px_s,median consecutive-step rate,272.523,80.0,35.763,4.0,1920,0.009909216,3609.1,1.949
+phase_all: entry from bottom-left quarter,step_rate_median_px_s,median consecutive-step rate,272.523,80.0,35.763,8.0,1920,0.019818432,1804.5,0.974
+phase_all: entry from bottom-left quarter,step_rate_median_px_s,median consecutive-step rate,272.523,80.0,35.763,10.0,1920,0.02477304,1443.6,0.779
+phase_all: entry from bottom-left quarter,step_rate_median_px_s,median consecutive-step rate,272.523,80.0,35.763,20.0,1920,0.04954608,721.8,0.39
+phase_all: entry from bottom-left quarter,step_rate_p95_px_s,p95 consecutive-step rate,381.369,80.0,35.763,0.5,1920,0.001733371,20632.2,11.14
+phase_all: entry from bottom-left quarter,step_rate_p95_px_s,p95 consecutive-step rate,381.369,80.0,35.763,1.0,1920,0.003466742,10316.1,5.57
+phase_all: entry from bottom-left quarter,step_rate_p95_px_s,p95 consecutive-step rate,381.369,80.0,35.763,2.0,1920,0.006933484,5158.0,2.785
+phase_all: entry from bottom-left quarter,step_rate_p95_px_s,p95 consecutive-step rate,381.369,80.0,35.763,4.0,1920,0.013866968,2579.0,1.393
+phase_all: entry from bottom-left quarter,step_rate_p95_px_s,p95 consecutive-step rate,381.369,80.0,35.763,8.0,1920,0.027733936,1289.5,0.696
+phase_all: entry from bottom-left quarter,step_rate_p95_px_s,p95 consecutive-step rate,381.369,80.0,35.763,10.0,1920,0.03466742,1031.6,0.557
+phase_all: entry from bottom-left quarter,step_rate_p95_px_s,p95 consecutive-step rate,381.369,80.0,35.763,20.0,1920,0.069334841,515.8,0.279
+phase_accepted_only: entry from bottom-left quarter,net_rate_px_s,net start-to-end rate,185.976,80.0,35.763,0.5,1920,0.000845285,42309.1,22.845
+phase_accepted_only: entry from bottom-left quarter,net_rate_px_s,net start-to-end rate,185.976,80.0,35.763,1.0,1920,0.00169057,21154.5,11.423
+phase_accepted_only: entry from bottom-left quarter,net_rate_px_s,net start-to-end rate,185.976,80.0,35.763,2.0,1920,0.003381139,10577.3,5.711
+phase_accepted_only: entry from bottom-left quarter,net_rate_px_s,net start-to-end rate,185.976,80.0,35.763,4.0,1920,0.006762278,5288.6,2.856
+phase_accepted_only: entry from bottom-left quarter,net_rate_px_s,net start-to-end rate,185.976,80.0,35.763,8.0,1920,0.013524556,2644.3,1.428
+phase_accepted_only: entry from bottom-left quarter,net_rate_px_s,net start-to-end rate,185.976,80.0,35.763,10.0,1920,0.016905695,2115.5,1.142
+phase_accepted_only: entry from bottom-left quarter,net_rate_px_s,net start-to-end rate,185.976,80.0,35.763,20.0,1920,0.033811391,1057.7,0.571
+phase_accepted_only: entry from bottom-left quarter,path_average_rate_px_s,path-length average rate,222.253,80.0,35.763,0.5,1920,0.001010168,35403.2,19.116
+phase_accepted_only: entry from bottom-left quarter,path_average_rate_px_s,path-length average rate,222.253,80.0,35.763,1.0,1920,0.002020337,17701.6,9.558
+phase_accepted_only: entry from bottom-left quarter,path_average_rate_px_s,path-length average rate,222.253,80.0,35.763,2.0,1920,0.004040674,8850.8,4.779
+phase_accepted_only: entry from bottom-left quarter,path_average_rate_px_s,path-length average rate,222.253,80.0,35.763,4.0,1920,0.008081347,4425.4,2.39
+phase_accepted_only: entry from bottom-left quarter,path_average_rate_px_s,path-length average rate,222.253,80.0,35.763,8.0,1920,0.016162694,2212.7,1.195
+phase_accepted_only: entry from bottom-left quarter,path_average_rate_px_s,path-length average rate,222.253,80.0,35.763,10.0,1920,0.020203368,1770.2,0.956
+phase_accepted_only: entry from bottom-left quarter,path_average_rate_px_s,path-length average rate,222.253,80.0,35.763,20.0,1920,0.040406736,885.1,0.478
+phase_accepted_only: entry from bottom-left quarter,step_rate_median_px_s,median consecutive-step rate,189.367,80.0,35.763,0.5,1920,0.000860697,41551.4,22.436
+phase_accepted_only: entry from bottom-left quarter,step_rate_median_px_s,median consecutive-step rate,189.367,80.0,35.763,1.0,1920,0.001721395,20775.7,11.218
+phase_accepted_only: entry from bottom-left quarter,step_rate_median_px_s,median consecutive-step rate,189.367,80.0,35.763,2.0,1920,0.003442789,10387.9,5.609
+phase_accepted_only: entry from bottom-left quarter,step_rate_median_px_s,median consecutive-step rate,189.367,80.0,35.763,4.0,1920,0.006885578,5193.9,2.804
+phase_accepted_only: entry from bottom-left quarter,step_rate_median_px_s,median consecutive-step rate,189.367,80.0,35.763,8.0,1920,0.013771157,2597.0,1.402
+phase_accepted_only: entry from bottom-left quarter,step_rate_median_px_s,median consecutive-step rate,189.367,80.0,35.763,10.0,1920,0.017213946,2077.6,1.122
+phase_accepted_only: entry from bottom-left quarter,step_rate_median_px_s,median consecutive-step rate,189.367,80.0,35.763,20.0,1920,0.034427892,1038.8,0.561
+phase_accepted_only: entry from bottom-left quarter,step_rate_p95_px_s,p95 consecutive-step rate,381.369,80.0,35.763,0.5,1920,0.001733371,20632.2,11.14
+phase_accepted_only: entry from bottom-left quarter,step_rate_p95_px_s,p95 consecutive-step rate,381.369,80.0,35.763,1.0,1920,0.003466742,10316.1,5.57
+phase_accepted_only: entry from bottom-left quarter,step_rate_p95_px_s,p95 consecutive-step rate,381.369,80.0,35.763,2.0,1920,0.006933484,5158.0,2.785
+phase_accepted_only: entry from bottom-left quarter,step_rate_p95_px_s,p95 consecutive-step rate,381.369,80.0,35.763,4.0,1920,0.013866968,2579.0,1.393
+phase_accepted_only: entry from bottom-left quarter,step_rate_p95_px_s,p95 consecutive-step rate,381.369,80.0,35.763,8.0,1920,0.027733936,1289.5,0.696
+phase_accepted_only: entry from bottom-left quarter,step_rate_p95_px_s,p95 consecutive-step rate,381.369,80.0,35.763,10.0,1920,0.03466742,1031.6,0.557
+phase_accepted_only: entry from bottom-left quarter,step_rate_p95_px_s,p95 consecutive-step rate,381.369,80.0,35.763,20.0,1920,0.069334841,515.8,0.279
+phase_all: horizontal back-and-forth tracking,net_rate_px_s,net start-to-end rate,64.177,80.0,35.763,0.5,1920,0.000291693,122605.7,66.202
+phase_all: horizontal back-and-forth tracking,net_rate_px_s,net start-to-end rate,64.177,80.0,35.763,1.0,1920,0.000583385,61302.9,33.101
+phase_all: horizontal back-and-forth tracking,net_rate_px_s,net start-to-end rate,64.177,80.0,35.763,2.0,1920,0.001166771,30651.4,16.55
+phase_all: horizontal back-and-forth tracking,net_rate_px_s,net start-to-end rate,64.177,80.0,35.763,4.0,1920,0.002333542,15325.7,8.275
+phase_all: horizontal back-and-forth tracking,net_rate_px_s,net start-to-end rate,64.177,80.0,35.763,8.0,1920,0.004667083,7662.9,4.138
+phase_all: horizontal back-and-forth tracking,net_rate_px_s,net start-to-end rate,64.177,80.0,35.763,10.0,1920,0.005833854,6130.3,3.31
+phase_all: horizontal back-and-forth tracking,net_rate_px_s,net start-to-end rate,64.177,80.0,35.763,20.0,1920,0.011667708,3065.1,1.655
+phase_all: horizontal back-and-forth tracking,path_average_rate_px_s,path-length average rate,195.586,80.0,35.763,0.5,1920,0.000888963,40230.2,21.723
+phase_all: horizontal back-and-forth tracking,path_average_rate_px_s,path-length average rate,195.586,80.0,35.763,1.0,1920,0.001777927,20115.1,10.861
+phase_all: horizontal back-and-forth tracking,path_average_rate_px_s,path-length average rate,195.586,80.0,35.763,2.0,1920,0.003555854,10057.6,5.431
+phase_all: horizontal back-and-forth tracking,path_average_rate_px_s,path-length average rate,195.586,80.0,35.763,4.0,1920,0.007111708,5028.8,2.715
+phase_all: horizontal back-and-forth tracking,path_average_rate_px_s,path-length average rate,195.586,80.0,35.763,8.0,1920,0.014223415,2514.4,1.358
+phase_all: horizontal back-and-forth tracking,path_average_rate_px_s,path-length average rate,195.586,80.0,35.763,10.0,1920,0.017779269,2011.5,1.086
+phase_all: horizontal back-and-forth tracking,path_average_rate_px_s,path-length average rate,195.586,80.0,35.763,20.0,1920,0.035558538,1005.8,0.543
+phase_all: horizontal back-and-forth tracking,step_rate_median_px_s,median consecutive-step rate,98.793,80.0,35.763,0.5,1920,0.000449027,79646.0,43.005
+phase_all: horizontal back-and-forth tracking,step_rate_median_px_s,median consecutive-step rate,98.793,80.0,35.763,1.0,1920,0.000898054,39823.0,21.503
+phase_all: horizontal back-and-forth tracking,step_rate_median_px_s,median consecutive-step rate,98.793,80.0,35.763,2.0,1920,0.001796107,19911.5,10.751
+phase_all: horizontal back-and-forth tracking,step_rate_median_px_s,median consecutive-step rate,98.793,80.0,35.763,4.0,1920,0.003592215,9955.8,5.376
+phase_all: horizontal back-and-forth tracking,step_rate_median_px_s,median consecutive-step rate,98.793,80.0,35.763,8.0,1920,0.00718443,4977.9,2.688
+phase_all: horizontal back-and-forth tracking,step_rate_median_px_s,median consecutive-step rate,98.793,80.0,35.763,10.0,1920,0.008980537,3982.3,2.15
+phase_all: horizontal back-and-forth tracking,step_rate_median_px_s,median consecutive-step rate,98.793,80.0,35.763,20.0,1920,0.017961074,1991.2,1.075
+phase_all: horizontal back-and-forth tracking,step_rate_p95_px_s,p95 consecutive-step rate,410.444,80.0,35.763,0.5,1920,0.001865521,19170.6,10.351
+phase_all: horizontal back-and-forth tracking,step_rate_p95_px_s,p95 consecutive-step rate,410.444,80.0,35.763,1.0,1920,0.003731041,9585.3,5.176
+phase_all: horizontal back-and-forth tracking,step_rate_p95_px_s,p95 consecutive-step rate,410.444,80.0,35.763,2.0,1920,0.007462082,4792.7,2.588
+phase_all: horizontal back-and-forth tracking,step_rate_p95_px_s,p95 consecutive-step rate,410.444,80.0,35.763,4.0,1920,0.014924165,2396.3,1.294
+phase_all: horizontal back-and-forth tracking,step_rate_p95_px_s,p95 consecutive-step rate,410.444,80.0,35.763,8.0,1920,0.02984833,1198.2,0.647
+phase_all: horizontal back-and-forth tracking,step_rate_p95_px_s,p95 consecutive-step rate,410.444,80.0,35.763,10.0,1920,0.037310412,958.5,0.518
+phase_all: horizontal back-and-forth tracking,step_rate_p95_px_s,p95 consecutive-step rate,410.444,80.0,35.763,20.0,1920,0.074620825,479.3,0.259
+phase_accepted_only: horizontal back-and-forth tracking,net_rate_px_s,net start-to-end rate,68.78,80.0,35.763,0.5,1920,0.000312614,114400.5,61.771
+phase_accepted_only: horizontal back-and-forth tracking,net_rate_px_s,net start-to-end rate,68.78,80.0,35.763,1.0,1920,0.000625228,57200.3,30.886
+phase_accepted_only: horizontal back-and-forth tracking,net_rate_px_s,net start-to-end rate,68.78,80.0,35.763,2.0,1920,0.001250456,28600.1,15.443
+phase_accepted_only: horizontal back-and-forth tracking,net_rate_px_s,net start-to-end rate,68.78,80.0,35.763,4.0,1920,0.002500911,14300.1,7.721
+phase_accepted_only: horizontal back-and-forth tracking,net_rate_px_s,net start-to-end rate,68.78,80.0,35.763,8.0,1920,0.005001823,7150.0,3.861
+phase_accepted_only: horizontal back-and-forth tracking,net_rate_px_s,net start-to-end rate,68.78,80.0,35.763,10.0,1920,0.006252278,5720.0,3.089
+phase_accepted_only: horizontal back-and-forth tracking,net_rate_px_s,net start-to-end rate,68.78,80.0,35.763,20.0,1920,0.012504557,2860.0,1.544
+phase_accepted_only: horizontal back-and-forth tracking,path_average_rate_px_s,path-length average rate,200.801,80.0,35.763,0.5,1920,0.000912666,39185.4,21.158
+phase_accepted_only: horizontal back-and-forth tracking,path_average_rate_px_s,path-length average rate,200.801,80.0,35.763,1.0,1920,0.001825333,19592.7,10.579
+phase_accepted_only: horizontal back-and-forth tracking,path_average_rate_px_s,path-length average rate,200.801,80.0,35.763,2.0,1920,0.003650665,9796.4,5.29
+phase_accepted_only: horizontal back-and-forth tracking,path_average_rate_px_s,path-length average rate,200.801,80.0,35.763,4.0,1920,0.00730133,4898.2,2.645
+phase_accepted_only: horizontal back-and-forth tracking,path_average_rate_px_s,path-length average rate,200.801,80.0,35.763,8.0,1920,0.014602661,2449.1,1.322
+phase_accepted_only: horizontal back-and-forth tracking,path_average_rate_px_s,path-length average rate,200.801,80.0,35.763,10.0,1920,0.018253326,1959.3,1.058
+phase_accepted_only: horizontal back-and-forth tracking,path_average_rate_px_s,path-length average rate,200.801,80.0,35.763,20.0,1920,0.036506652,979.6,0.529
+phase_accepted_only: horizontal back-and-forth tracking,step_rate_median_px_s,median consecutive-step rate,97.232,80.0,35.763,0.5,1920,0.000441932,80924.7,43.696
+phase_accepted_only: horizontal back-and-forth tracking,step_rate_median_px_s,median consecutive-step rate,97.232,80.0,35.763,1.0,1920,0.000883864,40462.3,21.848
+phase_accepted_only: horizontal back-and-forth tracking,step_rate_median_px_s,median consecutive-step rate,97.232,80.0,35.763,2.0,1920,0.001767728,20231.2,10.924
+phase_accepted_only: horizontal back-and-forth tracking,step_rate_median_px_s,median consecutive-step rate,97.232,80.0,35.763,4.0,1920,0.003535455,10115.6,5.462
+phase_accepted_only: horizontal back-and-forth tracking,step_rate_median_px_s,median consecutive-step rate,97.232,80.0,35.763,8.0,1920,0.007070911,5057.8,2.731
+phase_accepted_only: horizontal back-and-forth tracking,step_rate_median_px_s,median consecutive-step rate,97.232,80.0,35.763,10.0,1920,0.008838638,4046.2,2.185
+phase_accepted_only: horizontal back-and-forth tracking,step_rate_median_px_s,median consecutive-step rate,97.232,80.0,35.763,20.0,1920,0.017677276,2023.1,1.092
+phase_accepted_only: horizontal back-and-forth tracking,step_rate_p95_px_s,p95 consecutive-step rate,410.353,80.0,35.763,0.5,1920,0.001865107,19174.9,10.354
+phase_accepted_only: horizontal back-and-forth tracking,step_rate_p95_px_s,p95 consecutive-step rate,410.353,80.0,35.763,1.0,1920,0.003730214,9587.4,5.177
+phase_accepted_only: horizontal back-and-forth tracking,step_rate_p95_px_s,p95 consecutive-step rate,410.353,80.0,35.763,2.0,1920,0.007460428,4793.7,2.588
+phase_accepted_only: horizontal back-and-forth tracking,step_rate_p95_px_s,p95 consecutive-step rate,410.353,80.0,35.763,4.0,1920,0.014920856,2396.9,1.294
+phase_accepted_only: horizontal back-and-forth tracking,step_rate_p95_px_s,p95 consecutive-step rate,410.353,80.0,35.763,8.0,1920,0.029841712,1198.4,0.647
+phase_accepted_only: horizontal back-and-forth tracking,step_rate_p95_px_s,p95 consecutive-step rate,410.353,80.0,35.763,10.0,1920,0.03730214,958.7,0.518
+phase_accepted_only: horizontal back-and-forth tracking,step_rate_p95_px_s,p95 consecutive-step rate,410.353,80.0,35.763,20.0,1920,0.074604281,479.4,0.259
+phase_all: generally centered in FOV,net_rate_px_s,net start-to-end rate,2.164,80.0,35.763,0.5,1920,9.836e-06,3636076.2,1963.324
+phase_all: generally centered in FOV,net_rate_px_s,net start-to-end rate,2.164,80.0,35.763,1.0,1920,1.9671e-05,1818038.1,981.662
+phase_all: generally centered in FOV,net_rate_px_s,net start-to-end rate,2.164,80.0,35.763,2.0,1920,3.9343e-05,909019.0,490.831
+phase_all: generally centered in FOV,net_rate_px_s,net start-to-end rate,2.164,80.0,35.763,4.0,1920,7.8685e-05,454509.5,245.416
+phase_all: generally centered in FOV,net_rate_px_s,net start-to-end rate,2.164,80.0,35.763,8.0,1920,0.000157371,227254.8,122.708
+phase_all: generally centered in FOV,net_rate_px_s,net start-to-end rate,2.164,80.0,35.763,10.0,1920,0.000196713,181803.8,98.166
+phase_all: generally centered in FOV,net_rate_px_s,net start-to-end rate,2.164,80.0,35.763,20.0,1920,0.000393426,90901.9,49.083
+phase_all: generally centered in FOV,path_average_rate_px_s,path-length average rate,88.817,80.0,35.763,0.5,1920,0.000403685,88591.9,47.836
+phase_all: generally centered in FOV,path_average_rate_px_s,path-length average rate,88.817,80.0,35.763,1.0,1920,0.000807369,44296.0,23.918
+phase_all: generally centered in FOV,path_average_rate_px_s,path-length average rate,88.817,80.0,35.763,2.0,1920,0.001614739,22148.0,11.959
+phase_all: generally centered in FOV,path_average_rate_px_s,path-length average rate,88.817,80.0,35.763,4.0,1920,0.003229477,11074.0,5.979
+phase_all: generally centered in FOV,path_average_rate_px_s,path-length average rate,88.817,80.0,35.763,8.0,1920,0.006458955,5537.0,2.99
+phase_all: generally centered in FOV,path_average_rate_px_s,path-length average rate,88.817,80.0,35.763,10.0,1920,0.008073693,4429.6,2.392
+phase_all: generally centered in FOV,path_average_rate_px_s,path-length average rate,88.817,80.0,35.763,20.0,1920,0.016147386,2214.8,1.196
+phase_all: generally centered in FOV,step_rate_median_px_s,median consecutive-step rate,67.507,80.0,35.763,0.5,1920,0.000306828,116557.8,62.936
+phase_all: generally centered in FOV,step_rate_median_px_s,median consecutive-step rate,67.507,80.0,35.763,1.0,1920,0.000613656,58278.9,31.468
+phase_all: generally centered in FOV,step_rate_median_px_s,median consecutive-step rate,67.507,80.0,35.763,2.0,1920,0.001227312,29139.5,15.734
+phase_all: generally centered in FOV,step_rate_median_px_s,median consecutive-step rate,67.507,80.0,35.763,4.0,1920,0.002454624,14569.7,7.867
+phase_all: generally centered in FOV,step_rate_median_px_s,median consecutive-step rate,67.507,80.0,35.763,8.0,1920,0.004909248,7284.9,3.934
+phase_all: generally centered in FOV,step_rate_median_px_s,median consecutive-step rate,67.507,80.0,35.763,10.0,1920,0.006136559,5827.9,3.147
+phase_all: generally centered in FOV,step_rate_median_px_s,median consecutive-step rate,67.507,80.0,35.763,20.0,1920,0.012273119,2913.9,1.573
+phase_all: generally centered in FOV,step_rate_p95_px_s,p95 consecutive-step rate,236.439,80.0,35.763,0.5,1920,0.001074646,33279.1,17.969
+phase_all: generally centered in FOV,step_rate_p95_px_s,p95 consecutive-step rate,236.439,80.0,35.763,1.0,1920,0.002149291,16639.5,8.985
+phase_all: generally centered in FOV,step_rate_p95_px_s,p95 consecutive-step rate,236.439,80.0,35.763,2.0,1920,0.004298582,8319.8,4.492
+phase_all: generally centered in FOV,step_rate_p95_px_s,p95 consecutive-step rate,236.439,80.0,35.763,4.0,1920,0.008597165,4159.9,2.246
+phase_all: generally centered in FOV,step_rate_p95_px_s,p95 consecutive-step rate,236.439,80.0,35.763,8.0,1920,0.017194329,2079.9,1.123
+phase_all: generally centered in FOV,step_rate_p95_px_s,p95 consecutive-step rate,236.439,80.0,35.763,10.0,1920,0.021492912,1664.0,0.898
+phase_all: generally centered in FOV,step_rate_p95_px_s,p95 consecutive-step rate,236.439,80.0,35.763,20.0,1920,0.042985823,832.0,0.449
+phase_accepted_only: generally centered in FOV,net_rate_px_s,net start-to-end rate,2.164,80.0,35.763,0.5,1920,9.836e-06,3636076.2,1963.324
+phase_accepted_only: generally centered in FOV,net_rate_px_s,net start-to-end rate,2.164,80.0,35.763,1.0,1920,1.9671e-05,1818038.1,981.662
+phase_accepted_only: generally centered in FOV,net_rate_px_s,net start-to-end rate,2.164,80.0,35.763,2.0,1920,3.9343e-05,909019.0,490.831
+phase_accepted_only: generally centered in FOV,net_rate_px_s,net start-to-end rate,2.164,80.0,35.763,4.0,1920,7.8685e-05,454509.5,245.416
+phase_accepted_only: generally centered in FOV,net_rate_px_s,net start-to-end rate,2.164,80.0,35.763,8.0,1920,0.000157371,227254.8,122.708
+phase_accepted_only: generally centered in FOV,net_rate_px_s,net start-to-end rate,2.164,80.0,35.763,10.0,1920,0.000196713,181803.8,98.166
+phase_accepted_only: generally centered in FOV,net_rate_px_s,net start-to-end rate,2.164,80.0,35.763,20.0,1920,0.000393426,90901.9,49.083
+phase_accepted_only: generally centered in FOV,path_average_rate_px_s,path-length average rate,88.817,80.0,35.763,0.5,1920,0.000403685,88591.9,47.836
+phase_accepted_only: generally centered in FOV,path_average_rate_px_s,path-length average rate,88.817,80.0,35.763,1.0,1920,0.000807369,44296.0,23.918
+phase_accepted_only: generally centered in FOV,path_average_rate_px_s,path-length average rate,88.817,80.0,35.763,2.0,1920,0.001614739,22148.0,11.959
+phase_accepted_only: generally centered in FOV,path_average_rate_px_s,path-length average rate,88.817,80.0,35.763,4.0,1920,0.003229477,11074.0,5.979
+phase_accepted_only: generally centered in FOV,path_average_rate_px_s,path-length average rate,88.817,80.0,35.763,8.0,1920,0.006458955,5537.0,2.99
+phase_accepted_only: generally centered in FOV,path_average_rate_px_s,path-length average rate,88.817,80.0,35.763,10.0,1920,0.008073693,4429.6,2.392
+phase_accepted_only: generally centered in FOV,path_average_rate_px_s,path-length average rate,88.817,80.0,35.763,20.0,1920,0.016147386,2214.8,1.196
+phase_accepted_only: generally centered in FOV,step_rate_median_px_s,median consecutive-step rate,66.389,80.0,35.763,0.5,1920,0.000301747,118520.7,63.996
+phase_accepted_only: generally centered in FOV,step_rate_median_px_s,median consecutive-step rate,66.389,80.0,35.763,1.0,1920,0.000603493,59260.3,31.998
+phase_accepted_only: generally centered in FOV,step_rate_median_px_s,median consecutive-step rate,66.389,80.0,35.763,2.0,1920,0.001206986,29630.2,15.999
+phase_accepted_only: generally centered in FOV,step_rate_median_px_s,median consecutive-step rate,66.389,80.0,35.763,4.0,1920,0.002413972,14815.1,8.0
+phase_accepted_only: generally centered in FOV,step_rate_median_px_s,median consecutive-step rate,66.389,80.0,35.763,8.0,1920,0.004827944,7407.5,4.0
+phase_accepted_only: generally centered in FOV,step_rate_median_px_s,median consecutive-step rate,66.389,80.0,35.763,10.0,1920,0.00603493,5926.0,3.2
+phase_accepted_only: generally centered in FOV,step_rate_median_px_s,median consecutive-step rate,66.389,80.0,35.763,20.0,1920,0.012069861,2963.0,1.6
+phase_accepted_only: generally centered in FOV,step_rate_p95_px_s,p95 consecutive-step rate,215.242,80.0,35.763,0.5,1920,0.000978302,36556.4,19.739
+phase_accepted_only: generally centered in FOV,step_rate_p95_px_s,p95 consecutive-step rate,215.242,80.0,35.763,1.0,1920,0.001956605,18278.2,9.869
+phase_accepted_only: generally centered in FOV,step_rate_p95_px_s,p95 consecutive-step rate,215.242,80.0,35.763,2.0,1920,0.00391321,9139.1,4.935
+phase_accepted_only: generally centered in FOV,step_rate_p95_px_s,p95 consecutive-step rate,215.242,80.0,35.763,4.0,1920,0.00782642,4569.5,2.467
+phase_accepted_only: generally centered in FOV,step_rate_p95_px_s,p95 consecutive-step rate,215.242,80.0,35.763,8.0,1920,0.01565284,2284.8,1.234
+phase_accepted_only: generally centered in FOV,step_rate_p95_px_s,p95 consecutive-step rate,215.242,80.0,35.763,10.0,1920,0.01956605,1827.8,0.987
+phase_accepted_only: generally centered in FOV,step_rate_p95_px_s,p95 consecutive-step rate,215.242,80.0,35.763,20.0,1920,0.0391321,913.9,0.493

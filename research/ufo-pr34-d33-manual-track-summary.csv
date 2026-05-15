@@ -1,0 +1,19 @@
+﻿metric,value,note
+video,DOD_111689011.mp4,local source video
+release_report_pair,DOW-UAP-PR34 / DoW-UAP-D33,DVIDS hard-paired release/report lane
+interval,4.0s-59.0s,bounded pre-reticle PR34/D33 manual-review interval
+sample_count,111,2 fps rows inherited from phase pass
+accepted_detector_marks,97,source detections retained after false-top-edge rejection
+interpolated_detector_dropouts,14,short gaps where the source detector selected recurring top-edge artifact
+excluded_rows,0,rows without enough neighbors for interpolation
+net_displacement_px,465.03,image-plane displacement from first to last manual-review point
+path_length_px,6536.08,sum of image-plane step distances across manual-review track
+path_average_rate_px_s,118.84,image-plane path rate; not real-world speed
+median_step_rate_px_s,84.04,median 0.5s image-plane step rate
+sharp_image_plane_turn_events,7,smoothed heading changes >=60 deg; not real-world turns without sensor geometry
+manual_status: accepted_detector_mark,97,track row status
+manual_status: interpolated_detector_dropout,14,track row status
+manual_quality: high,87,track row quality
+manual_quality: interpolated,14,track row quality
+manual_quality: low,2,track row quality
+manual_quality: medium,8,track row quality

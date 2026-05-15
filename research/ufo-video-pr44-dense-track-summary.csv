@@ -1,0 +1,10 @@
+﻿track,sample_count,start_second,end_second,duration_second,net_displacement_px,net_rate_px_s,total_path_px,path_average_rate_px_s,step_rate_mean_px_s,step_rate_median_px_s,step_rate_p95_px_s
+dense_seeded_pr44_primary_plus_reticle_154_243,446,154.0,243.0,89.0,256.427,2.881,3651.62,41.029,41.029,36.418,83.86
+dense_seeded_pr44_primary_154_204,255,154.0,204.8,50.8,231.282,4.553,1962.457,38.631,38.631,33.923,81.174
+dense_seeded_pr44_reticle_205_243,191,205.0,243.0,38.0,147.368,3.878,1683.31,44.298,44.298,41.638,83.86
+confidence_count: high,155,,,,,,,,,,
+confidence_count: low,137,,,,,,,,,,
+confidence_count: medium,154,,,,,,,,,,
+overlay_count: intersects colored overlay,6,,,,,,,,,,
+overlay_count: near colored overlay,58,,,,,,,,,,
+overlay_count: separate from colored overlay,382,,,,,,,,,,

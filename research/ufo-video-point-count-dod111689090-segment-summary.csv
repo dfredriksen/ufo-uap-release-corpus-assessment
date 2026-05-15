@@ -1,0 +1,6 @@
+﻿"video","segment","frame_start","frame_end","sample_frames","frames_with_one_or_more","frames_with_two_or_more","max_strong_candidate_count","note"
+"DOD_111689090","s000-059","1","60","60","50","0","1","mostly one recurring bright point"
+"DOD_111689090","s060-119","61","120","60","50","2","2","mostly one bright point, with isolated two-bright-candidate frames"
+"DOD_111689090","s120-179","121","180","60","48","0","1","mostly one recurring bright point"
+"DOD_111689090","s180-239","181","240","60","50","1","2","mostly one bright point, with isolated two-bright-candidate frames"
+"DOD_111689090","s240-292","241","293","53","17","1","2","mostly one bright point, with isolated two-bright-candidate frames"

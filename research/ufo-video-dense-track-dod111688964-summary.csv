@@ -1,0 +1,14 @@
+﻿metric,value,note
+sample_count,101,1.0s-21.0s at 5.0 fps
+high_confidence_samples,62,dense review confidence
+medium_confidence_samples,35,dense review confidence
+low_confidence_samples,4,dense review confidence
+vertical_feature_yes,5,algorithmic visual flag; requires human interpretation
+vertical_feature_possible,90,algorithmic visual flag; requires human interpretation
+vertical_feature_no,6,algorithmic visual flag; requires human interpretation
+manual_control_mean_delta_px,13.53,delta between dense refined mark and existing one-second manual seed on seed seconds
+manual_control_max_delta_px,32.76,largest delta on one-second manual seed control frames
+relation_count: inside colored track box,17,colored overlay relation
+relation_count: intersects colored track symbology,15,colored overlay relation
+relation_count: near colored track symbology,8,colored overlay relation
+relation_count: separate from colored track symbology,61,colored overlay relation

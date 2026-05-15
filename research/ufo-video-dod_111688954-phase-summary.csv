@@ -1,0 +1,6 @@
+﻿video,release_id,report_id_working,dvids_report_label,phase,start_second,end_second,sample_count,high_count,medium_count,low_count,none_count,near_or_intersects_overlay_count,dvids_anchor
+DOD_111688954.mp4,DOW-UAP-PR28,DoW-UAP-D25,DoW-UAP-D7,split EO/SWIR context,0.0,3.9,8,5,2,0,1,2,Before DVIDS 00:04 contrast note; split electro-optical / SWIR display
+DOD_111688954.mp4,DOW-UAP-PR28,DoW-UAP-D25,DoW-UAP-D7,split-screen right-frame contrast,4.0,9.9,12,7,4,0,1,0,DVIDS: 00:04 area of contrast becomes distinguishable in center of right frame
+DOD_111688954.mp4,DOW-UAP-PR28,DoW-UAP-D25,DoW-UAP-D7,full-screen SWIR track,10.0,55.9,92,50,36,6,0,20,DVIDS: 00:10 display shifts to full-screen SWIR; 00:55 contrast remains generally centered
+DOD_111688954.mp4,DOW-UAP-PR28,DoW-UAP-D25,DoW-UAP-D7,visible-spectrum loss,56.0,56.9,2,0,0,1,1,1,DVIDS: 00:56 operator switches to visible spectrum and loses subject
+DOD_111688954.mp4,DOW-UAP-PR28,DoW-UAP-D25,DoW-UAP-D7,SWIR black-hot non-reacquisition,57.0,65.5,18,0,0,16,2,2,DVIDS: 00:57-01:05 switches to SWIR black-hot but does not reacquire area of contrast

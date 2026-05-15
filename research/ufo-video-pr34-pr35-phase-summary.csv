@@ -1,0 +1,13 @@
+﻿video,release_id,report_id,phase,start_second,end_second,sample_count,high_count,medium_count,low_count,none_count,near_or_intersects_overlay_count,dvids_anchor
+DOD_111689011.mp4,DOW-UAP-PR34,DoW-UAP-D33,pre-entry/context,0.0,3.9,8,2,6,0,0,0,Before DVIDS 00:04 entry note
+DOD_111689011.mp4,DOW-UAP-PR34,DoW-UAP-D33,entry from bottom-left quarter,4.0,6.9,6,5,1,0,0,0,DVIDS: 00:04 area of contrast enters from bottom-left quarter
+DOD_111689011.mp4,DOW-UAP-PR34,DoW-UAP-D33,horizontal back-and-forth tracking,7.0,19.9,26,23,3,0,0,2,DVIDS: 00:07-00:19 area of contrast moves back and forth as sensor pans
+DOD_111689011.mp4,DOW-UAP-PR34,DoW-UAP-D33,generally centered in FOV,20.0,59.9,80,59,19,2,0,28,DVIDS: 00:20-01:00 area remains generally centered
+DOD_111689011.mp4,DOW-UAP-PR34,DoW-UAP-D33,blue-reticle designation,60.0,121.9,124,2,115,7,0,7,DVIDS: 01:00-02:01 blue reticle designates and synchronizes with contrast area
+DOD_111689011.mp4,DOW-UAP-PR34,DoW-UAP-D33,contrast-filter interval,122.0,141.9,40,0,34,6,0,0,DVIDS: 02:02-02:21 contrast filter differentiates area from background
+DOD_111689011.mp4,DOW-UAP-PR34,DoW-UAP-D33,lock-loss transition,142.0,146.9,10,0,10,0,0,0,DVIDS: 02:22 area becomes indistinguishable and reticle drops lock
+DOD_111689011.mp4,DOW-UAP-PR34,DoW-UAP-D33,post-loss zoom/contrast cycling,147.0,177.0,61,0,61,0,0,0,DVIDS: 02:27-02:57 rapid zoom and contrast cycling after lock loss
+DOD_111689022.mp4,DOW-UAP-PR35,DoW-UAP-D35,pre-zoom/context,0.0,1.9,4,4,0,0,0,0,Before DVIDS 00:02 zoom note
+DOD_111689022.mp4,DOW-UAP-PR35,DoW-UAP-D35,zoom-in near center,2.0,2.9,2,1,1,0,0,0,DVIDS: 00:02 sensor narrows FOV to zoom on central area of contrast
+DOD_111689022.mp4,DOW-UAP-PR35,DoW-UAP-D35,ocean-background track,3.0,19.9,34,19,15,0,0,0,DVIDS: 00:03-00:19 sensor tracks area of contrast against ocean background
+DOD_111689022.mp4,DOW-UAP-PR35,DoW-UAP-D35,land-transition/loss,20.0,24.0,10,0,0,10,0,0,DVIDS: 00:20 area becomes indistinguishable as background transitions to land

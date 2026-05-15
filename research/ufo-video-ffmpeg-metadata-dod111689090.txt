@@ -1,0 +1,19 @@
+﻿Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'source-files-not-included/DOD_111689090.mp4':
+  Metadata:
+    major_brand     : M4V 
+    minor_version   : 1
+    compatible_brands: isomavc1mp42
+    creation_time   : 2026-05-08T01:05:25.000000Z
+  Duration: 00:04:53.17, start: 0.000000, bitrate: 7496 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1920x1080 [SAR 1:1 DAR 16:9], 7392 kb/s, 30.30 fps, 30.30 tbr, 30303 tbn (default)
+      Metadata:
+        creation_time   : 2026-05-08T01:05:25.000000Z
+        handler_name    : ETI ISO Video Media Handler
+        vendor_id       : [0][0][0][0]
+        encoder         : Elemental H.264
+  Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 96 kb/s (default)
+      Metadata:
+        creation_time   : 2026-05-08T01:05:25.000000Z
+        handler_name    : ETI ISO Audio Media Handler
+        vendor_id       : [0][0][0][0]
+At least one output file must be specified

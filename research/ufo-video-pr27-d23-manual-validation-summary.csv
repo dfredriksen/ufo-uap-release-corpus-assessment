@@ -1,0 +1,24 @@
+﻿metric,value,scope,note
+video,DOD_111688825.mp4,manual validation,local source video
+release_report_pair,DOW-UAP-PR27 / DoW-UAP-D23,manual validation,DVIDS hard-paired release/report lane
+interval,134.0s-297.0s,manual validation,active PR27/D23 review interval
+sample_count,327,manual validation,phase-track rows reviewed
+manual_category_count: frame_edge_artifact,27,manual validation,category count
+manual_category_count: reticle_overlay_artifact,88,manual validation,category count
+manual_category_count: shoreline_terrain_artifact,3,manual validation,category count
+manual_category_count: true_compact_return_candidate,175,manual validation,category count
+manual_category_count: uncertain,10,manual validation,category count
+manual_category_count: uncertain_no_candidate,1,manual validation,category count
+manual_category_count: water_texture_artifact,23,manual validation,category count
+phase_category_count: sensor-motion loss and reacquisition / frame_edge_artifact,27,manual validation,category count by phase
+phase_category_count: sensor-motion loss and reacquisition / reticle_overlay_artifact,2,manual validation,category count by phase
+phase_category_count: sensor-motion loss and reacquisition / true_compact_return_candidate,144,manual validation,category count by phase
+phase_category_count: sensor-motion loss and reacquisition / uncertain,8,manual validation,category count by phase
+phase_category_count: zoom and centered track / reticle_overlay_artifact,86,manual validation,category count by phase
+phase_category_count: zoom and centered track / shoreline_terrain_artifact,3,manual validation,category count by phase
+phase_category_count: zoom and centered track / true_compact_return_candidate,31,manual validation,category count by phase
+phase_category_count: zoom and centered track / uncertain,2,manual validation,category count by phase
+phase_category_count: zoom and centered track / uncertain_no_candidate,1,manual validation,category count by phase
+phase_category_count: zoom and centered track / water_texture_artifact,23,manual validation,category count by phase
+compact_return_segments,18,manual validation,validated compact-return runs with <=1.0s gaps
+longest_compact_return_segment,PR27-C16 235.00-266.00s (62 samples),manual validation,not a physical track without telemetry

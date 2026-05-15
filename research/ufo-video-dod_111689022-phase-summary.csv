@@ -1,0 +1,5 @@
+﻿video,release_id,report_id,phase,start_second,end_second,sample_count,high_count,medium_count,low_count,none_count,near_or_intersects_overlay_count,dvids_anchor
+DOD_111689022.mp4,DOW-UAP-PR35,DoW-UAP-D35,pre-zoom/context,0.0,1.9,4,4,0,0,0,0,Before DVIDS 00:02 zoom note
+DOD_111689022.mp4,DOW-UAP-PR35,DoW-UAP-D35,zoom-in near center,2.0,2.9,2,1,1,0,0,0,DVIDS: 00:02 sensor narrows FOV to zoom on central area of contrast
+DOD_111689022.mp4,DOW-UAP-PR35,DoW-UAP-D35,ocean-background track,3.0,19.9,34,19,15,0,0,0,DVIDS: 00:03-00:19 sensor tracks area of contrast against ocean background
+DOD_111689022.mp4,DOW-UAP-PR35,DoW-UAP-D35,land-transition/loss,20.0,24.0,10,0,0,10,0,0,DVIDS: 00:20 area becomes indistinguishable as background transitions to land

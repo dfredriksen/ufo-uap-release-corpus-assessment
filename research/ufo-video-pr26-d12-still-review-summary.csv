@@ -1,0 +1,11 @@
+﻿metric,value,note
+video,DOD_111688816.mp4,local source video
+release_report_pair,DOW-UAP-PR26 / DoW-UAP-D12,DVIDS-stated report pairing
+duration_seconds,43.167,OpenCV video duration
+frame_count,1295,OpenCV frame count
+frame_size,1920x1080,OpenCV frame size
+sample_count,12,sampled frames
+mean_abs_diff_median,9.92,between sampled frames; high values imply video pan/zoom/scene motion rather than a single frozen still
+changed_px_gt12_pct_median,34.3742,between sampled frames
+max_red_or_orange_pixel_count,0,red/orange overlay presence proxy
+sample_contact_sheet,C:/Users/Dan/Desktop/Projects/igh-planning/https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-hard-pair-phase-review/DOD_111688816/DOD_111688816-sample-contact-sheet.jpg,review sheet
