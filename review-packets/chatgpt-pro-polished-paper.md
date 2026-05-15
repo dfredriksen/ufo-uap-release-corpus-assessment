@@ -1,4 +1,4 @@
-# Scientific Assessment of the UFO/UAP Release Corpus
+﻿# Scientific Assessment of the UFO/UAP Release Corpus
 
 **Owner:** Dan Fredriksen  
 **Draft created:** 2026-05-14  
@@ -25,10 +25,10 @@ This distinction is important. The report's strongest findings concern the moder
 
 Primary scope artifacts:
 
-- [File manifest](research/ufo-file-manifest.csv)
-- [Final report coverage audit](research/ufo-final-report-coverage-audit.md)
-- [File coverage map](research/ufo-file-coverage-map.csv)
-- [File analysis thread](research/ufo-file-analysis-thread.md)
+- [File manifest](../research/ufo-file-manifest.csv)
+- [Final report coverage audit](../research/ufo-final-report-coverage-audit.md)
+- [File coverage map](../research/ufo-file-coverage-map.csv)
+- [File analysis thread](../research/ufo-file-analysis-thread.md)
 
 ## Method
 
@@ -49,16 +49,16 @@ The video work was intentionally bounded. Local visual review can support statem
 
 Primary methods artifacts:
 
-- [Duplicate candidates](research/ufo-duplicate-candidates.csv)
-- [Targeted duplicate summary](research/ufo-targeted-duplicate-summary.csv)
-- [Video dedupe summary](research/ufo-video-dedupe-summary.md)
-- [Report/video correlation matrix](research/ufo-report-video-correlation-matrix.md)
-- [Evidence ladder](research/ufo-evidence-ladder.md)
-- [NASA/DOS gap triage](research/ufo-nasa-dos-gap-triage.md)
-- [FBI photo gap triage](research/ufo-fbi-photo-gap-triage.md)
-- [Historical archive gap triage](research/ufo-historical-archive-gap-triage.md)
-- [ChatGPT Pro touch-up packet](review-packets/chatgpt-pro-touchup-packet.md)
-- [Claude review packet](review-packets/claude-review-packet.md)
+- [Duplicate candidates](../research/ufo-duplicate-candidates.csv)
+- [Targeted duplicate summary](../research/ufo-targeted-duplicate-summary.csv)
+- [Video dedupe summary](../research/ufo-video-dedupe-summary.md)
+- [Report/video correlation matrix](../research/ufo-report-video-correlation-matrix.md)
+- [Evidence ladder](../research/ufo-evidence-ladder.md)
+- [NASA/DOS gap triage](../research/ufo-nasa-dos-gap-triage.md)
+- [FBI photo gap triage](../research/ufo-fbi-photo-gap-triage.md)
+- [Historical archive gap triage](../research/ufo-historical-archive-gap-triage.md)
+- [ChatGPT Pro touch-up packet](chatgpt-pro-touchup-packet.md)
+- [Claude review packet](claude-review-packet.md)
 
 ## Evidence Standard
 
@@ -83,9 +83,9 @@ This is a significant finding, but it is not equivalent to a finding of non-huma
 
 Primary support:
 
-- [Priority incidents](research/ufo-priority-incidents.md)
-- [Modern event timeline](research/ufo-modern-event-timeline.md)
-- [Evidence ladder](research/ufo-evidence-ladder.md)
+- [Priority incidents](../research/ufo-priority-incidents.md)
+- [Modern event timeline](../research/ufo-modern-event-timeline.md)
+- [Evidence ladder](../research/ufo-evidence-ladder.md)
 
 ### Finding 2: Hard Report/Video Pairings Exist
 
@@ -103,13 +103,13 @@ Other strong public lanes include:
 
 Primary support:
 
-- [Report/video correlation matrix](research/ufo-report-video-correlation-matrix.md)
-- [D38 anchor notes](research/ufo-video-d38-anchor-notes.md)
-- [PR34/D33 manual track notes](research/ufo-pr34-d33-manual-track-notes.md)
-- [PR28/D25 phase review notes](research/ufo-video-pr28-d25-phase-review-notes.md)
-- [PR29/D27 visual alignment](research/ufo-pr29-d27-visual-alignment.md)
-- [PR27/D23 manual validation notes](research/ufo-video-pr27-d23-manual-validation-notes.md)
-- [PR34/PR35 phase review notes](research/ufo-video-pr34-pr35-phase-review-notes.md)
+- [Report/video correlation matrix](../research/ufo-report-video-correlation-matrix.md)
+- [D38 anchor notes](../research/ufo-video-d38-anchor-notes.md)
+- [PR34/D33 manual track notes](../research/ufo-pr34-d33-manual-track-notes.md)
+- [PR28/D25 phase review notes](../research/ufo-video-pr28-d25-phase-review-notes.md)
+- [PR29/D27 visual alignment](../research/ufo-pr29-d27-visual-alignment.md)
+- [PR27/D23 manual validation notes](../research/ufo-video-pr27-d23-manual-validation-notes.md)
+- [PR34/PR35 phase review notes](../research/ufo-video-pr34-pr35-phase-review-notes.md)
 
 ### Finding 3: Public Videos Do Not Independently Establish Physical Kinematics
 
@@ -119,9 +119,9 @@ This limitation is clearest in `D33/PR34`. Local manual tracking supports multip
 
 Primary support:
 
-- [PR34/D33 geometry feasibility](research/ufo-pr34-d33-geometry-feasibility.md)
-- [D38 geometry feasibility](research/ufo-video-d38-geometry-feasibility.md)
-- [PR29 geometry feasibility](research/ufo-pr29-geometry-feasibility.md)
+- [PR34/D33 geometry feasibility](../research/ufo-pr34-d33-geometry-feasibility.md)
+- [D38 geometry feasibility](../research/ufo-video-d38-geometry-feasibility.md)
+- [PR29 geometry feasibility](../research/ufo-pr29-geometry-feasibility.md)
 
 ### Finding 4: Several Source-Index Conflicts Are Real
 
@@ -135,9 +135,9 @@ Key examples:
 
 Primary support:
 
-- [PR29/D8/D27 reconciliation](research/ufo-pr29-d8-d27-reconciliation.md)
-- [PR28/D25/D7 reconciliation](research/ufo-pr28-d25-d7-reconciliation.md)
-- [Range-fouler official metadata check](research/ufo-range-fouler-official-metadata-check.md)
+- [PR29/D8/D27 reconciliation](../research/ufo-pr29-d8-d27-reconciliation.md)
+- [PR28/D25/D7 reconciliation](../research/ufo-pr28-d25-d7-reconciliation.md)
+- [Range-fouler official metadata check](../research/ufo-range-fouler-official-metadata-check.md)
 
 ### Finding 5: D58 Is the Highest-Value Document-Only Source-Request Target
 
@@ -147,9 +147,9 @@ Those details are operationally important, but they also preserve strong convent
 
 Primary support:
 
-- [D58 evidence packet](research/ufo-d58-evidence-packet.md)
-- [D58 evidence constraints](research/ufo-d58-evidence-constraints.csv)
-- [Range-fouler cluster packet](research/ufo-range-fouler-cluster-packet.md)
+- [D58 evidence packet](../research/ufo-d58-evidence-packet.md)
+- [D58 evidence constraints](../research/ufo-d58-evidence-constraints.csv)
+- [Range-fouler cluster packet](../research/ufo-range-fouler-cluster-packet.md)
 
 ### Finding 6: D28 Is the Best Weapons-Context Document-Only Case
 
@@ -159,9 +159,9 @@ The report is operationally narrow and source-request worthy. The file title/fil
 
 Primary support:
 
-- [D28 source review](research/ufo-d28-source-review.md)
-- [D28 release-index search](research/ufo-d28-release-index-search.md)
-- [D28 evidence packet](research/ufo-d28-evidence-packet.md)
+- [D28 source review](../research/ufo-d28-source-review.md)
+- [D28 release-index search](../research/ufo-d28-release-index-search.md)
+- [D28 evidence packet](../research/ufo-d28-evidence-packet.md)
 
 ### Finding 7: Persian Gulf / Strait 2020 Is a Reporting-Density Pattern, Not a Performance Lane
 
@@ -176,9 +176,9 @@ This lane supports a regional reporting-density finding. It does not support obj
 
 Primary support:
 
-- [Persian Gulf 2020 timeline](research/ufo-persian-gulf-2020-timeline.md)
-- [D61 source review](research/ufo-d61-source-review.md)
-- [D65 source review](research/ufo-d65-source-review.md)
+- [Persian Gulf 2020 timeline](../research/ufo-persian-gulf-2020-timeline.md)
+- [D61 source review](../research/ufo-d61-source-review.md)
+- [D65 source review](../research/ufo-d65-source-review.md)
 
 ### Finding 8: The Corpus Contains Its Own Controls
 
@@ -196,9 +196,9 @@ These controls are scientifically valuable. They show that the release includes 
 
 Primary support:
 
-- [Evidence ladder](research/ufo-evidence-ladder.md)
-- [Report/video correlation matrix](research/ufo-report-video-correlation-matrix.md)
-- [Priority incidents](research/ufo-priority-incidents.md)
+- [Evidence ladder](../research/ufo-evidence-ladder.md)
+- [Report/video correlation matrix](../research/ufo-report-video-correlation-matrix.md)
+- [Priority incidents](../research/ufo-priority-incidents.md)
 
 ### Finding 9: Historical and Static-Image Material Adds Breadth, Not Stronger Physics
 
@@ -212,11 +212,11 @@ The historical/archive PDFs confirm long-running official, military, FBI, diplom
 
 Primary support:
 
-- [NASA/DOS gap triage](research/ufo-nasa-dos-gap-triage.md)
-- [FBI photo gap triage](research/ufo-fbi-photo-gap-triage.md)
-- [FBI photo record index](research/ufo-fbi-photo-record-index.csv)
-- [Historical archive gap triage](research/ufo-historical-archive-gap-triage.md)
-- [Historical archive record index](research/ufo-historical-archive-record-index.csv)
+- [NASA/DOS gap triage](../research/ufo-nasa-dos-gap-triage.md)
+- [FBI photo gap triage](../research/ufo-fbi-photo-gap-triage.md)
+- [FBI photo record index](../research/ufo-fbi-photo-record-index.csv)
+- [Historical archive gap triage](../research/ufo-historical-archive-gap-triage.md)
+- [Historical archive record index](../research/ufo-historical-archive-record-index.csv)
 
 ## Evidence Ranking Summary
 
@@ -300,52 +300,52 @@ The most rigorous path forward is to preserve the evidence ladder, pursue raw da
 
 Core synthesis:
 
-- [Evidence ladder](research/ufo-evidence-ladder.md)
-- [Priority incidents](research/ufo-priority-incidents.md)
-- [Modern event timeline](research/ufo-modern-event-timeline.md)
-- [Report/video correlation matrix](research/ufo-report-video-correlation-matrix.md)
-- [Final report coverage audit](research/ufo-final-report-coverage-audit.md)
-- [Final report consistency check](research/ufo-final-report-consistency-check.md)
-- [Goal completion audit](research/ufo-goal-completion-audit.md)
+- [Evidence ladder](../research/ufo-evidence-ladder.md)
+- [Priority incidents](../research/ufo-priority-incidents.md)
+- [Modern event timeline](../research/ufo-modern-event-timeline.md)
+- [Report/video correlation matrix](../research/ufo-report-video-correlation-matrix.md)
+- [Final report coverage audit](../research/ufo-final-report-coverage-audit.md)
+- [Final report consistency check](../research/ufo-final-report-consistency-check.md)
+- [Goal completion audit](../research/ufo-goal-completion-audit.md)
 
 Case packets and source reviews:
 
-- [D58 evidence packet](research/ufo-d58-evidence-packet.md)
-- [D28 evidence packet](research/ufo-d28-evidence-packet.md)
-- [D74 source review](research/ufo-d74-source-review.md)
-- [D75 source review](research/ufo-d75-source-review.md)
-- [D61 source review](research/ufo-d61-source-review.md)
-- [D65 source review](research/ufo-d65-source-review.md)
-- [D25 source review](research/ufo-d25-source-review.md)
-- [D27 source review](research/ufo-d27-source-review.md)
-- [D33 source review](research/ufo-d33-source-review.md)
-- [D35 source review](research/ufo-d35-source-review.md)
-- [D8 source review](research/ufo-d8-source-review.md)
-- [D54 source review](research/ufo-d54-source-review.md)
+- [D58 evidence packet](../research/ufo-d58-evidence-packet.md)
+- [D28 evidence packet](../research/ufo-d28-evidence-packet.md)
+- [D74 source review](../research/ufo-d74-source-review.md)
+- [D75 source review](../research/ufo-d75-source-review.md)
+- [D61 source review](../research/ufo-d61-source-review.md)
+- [D65 source review](../research/ufo-d65-source-review.md)
+- [D25 source review](../research/ufo-d25-source-review.md)
+- [D27 source review](../research/ufo-d27-source-review.md)
+- [D33 source review](../research/ufo-d33-source-review.md)
+- [D35 source review](../research/ufo-d35-source-review.md)
+- [D8 source review](../research/ufo-d8-source-review.md)
+- [D54 source review](../research/ufo-d54-source-review.md)
 
 Video and geometry reviews:
 
-- [D38 anchor notes](research/ufo-video-d38-anchor-notes.md)
-- [D38 geometry feasibility](research/ufo-video-d38-geometry-feasibility.md)
-- [PR34/D33 manual track notes](research/ufo-pr34-d33-manual-track-notes.md)
-- [PR34/D33 geometry feasibility](research/ufo-pr34-d33-geometry-feasibility.md)
-- [PR27/D23 manual validation notes](research/ufo-video-pr27-d23-manual-validation-notes.md)
-- [PR28/D25 phase review notes](research/ufo-video-pr28-d25-phase-review-notes.md)
-- [PR29/D27 visual alignment](research/ufo-pr29-d27-visual-alignment.md)
-- [PR44 standalone quantitative notes](research/ufo-pr44-standalone-quant-notes.md)
-- [PR47 formation visual notes](research/ufo-pr47-formation-visual-notes.md)
-- [PR45 standalone visual notes](research/ufo-pr45-standalone-visual-notes.md)
+- [D38 anchor notes](../research/ufo-video-d38-anchor-notes.md)
+- [D38 geometry feasibility](../research/ufo-video-d38-geometry-feasibility.md)
+- [PR34/D33 manual track notes](../research/ufo-pr34-d33-manual-track-notes.md)
+- [PR34/D33 geometry feasibility](../research/ufo-pr34-d33-geometry-feasibility.md)
+- [PR27/D23 manual validation notes](../research/ufo-video-pr27-d23-manual-validation-notes.md)
+- [PR28/D25 phase review notes](../research/ufo-video-pr28-d25-phase-review-notes.md)
+- [PR29/D27 visual alignment](../research/ufo-pr29-d27-visual-alignment.md)
+- [PR44 standalone quantitative notes](../research/ufo-pr44-standalone-quant-notes.md)
+- [PR47 formation visual notes](../research/ufo-pr47-formation-visual-notes.md)
+- [PR45 standalone visual notes](../research/ufo-pr45-standalone-visual-notes.md)
 
 Source-index reconciliation:
 
-- [PR29/D8/D27 reconciliation](research/ufo-pr29-d8-d27-reconciliation.md)
-- [PR28/D25/D7 reconciliation](research/ufo-pr28-d25-d7-reconciliation.md)
-- [Range-fouler official metadata check](research/ufo-range-fouler-official-metadata-check.md)
+- [PR29/D8/D27 reconciliation](../research/ufo-pr29-d8-d27-reconciliation.md)
+- [PR28/D25/D7 reconciliation](../research/ufo-pr28-d25-d7-reconciliation.md)
+- [Range-fouler official metadata check](../research/ufo-range-fouler-official-metadata-check.md)
 
 Broader corpus triage:
 
-- [NASA/DOS gap triage](research/ufo-nasa-dos-gap-triage.md)
-- [FBI photo gap triage](research/ufo-fbi-photo-gap-triage.md)
-- [FBI photo record index](research/ufo-fbi-photo-record-index.csv)
-- [Historical archive gap triage](research/ufo-historical-archive-gap-triage.md)
-- [Historical archive record index](research/ufo-historical-archive-record-index.csv)
+- [NASA/DOS gap triage](../research/ufo-nasa-dos-gap-triage.md)
+- [FBI photo gap triage](../research/ufo-fbi-photo-gap-triage.md)
+- [FBI photo record index](../research/ufo-fbi-photo-record-index.csv)
+- [Historical archive gap triage](../research/ufo-historical-archive-gap-triage.md)
+- [Historical archive record index](../research/ufo-historical-archive-record-index.csv)
