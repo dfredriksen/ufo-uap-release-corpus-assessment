@@ -2,9 +2,13 @@
 
 ## Task
 
-Review the paper as a critical scientific and methodological reviewer. Focus on reasoning quality, evidence hierarchy, overclaim risk, missing caveats, and readability.
+Review the polished paper as a critical scientific and methodological reviewer. Focus on reasoning quality, evidence hierarchy, overclaim risk, missing caveats, and readability.
 
-Paper:
+Primary review target:
+
+- https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/review-packets/chatgpt-pro-polished-paper.md
+
+Baseline paper for comparison:
 
 - https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/paper.md
 
@@ -21,6 +25,8 @@ Key support artifacts:
 
 Please identify:
 
+- Any place where the polished draft strengthens a claim beyond the baseline paper or the cited evidence.
+- Any caveat, limitation, or source-quality distinction that was weakened or lost during polishing.
 - Any claim that appears stronger than the cited evidence supports.
 - Any case that should move up or down in the evidence ranking.
 - Any unsupported inference about origin, technology, propulsion, or physical performance.
@@ -34,6 +40,6 @@ Return:
 
 1. Major findings, ordered by severity.
 2. Minor findings and editorial suggestions.
-3. A concise recommended revision plan.
-4. Any proposed wording changes for the abstract, methods, limitations, or conclusion.
-
+3. A baseline-versus-polished risk note: whether the polished draft preserves the evidentiary boundaries of the baseline paper.
+4. A concise recommended revision plan.
+5. Any proposed wording changes for the abstract, methods, limitations, or conclusion.
