@@ -2,6 +2,7 @@
 
 import csv
 import math
+import shutil
 import subprocess
 from dataclasses import dataclass
 from pathlib import Path
@@ -10,11 +11,7 @@ import cv2
 import numpy as np
 
 
-DEFAULT_FFPROBE = Path(
-    r"C:\Users\Dan\AppData\Local\Microsoft\WinGet\Packages"
-    r"\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe"
-    r"\ffmpeg-8.1.1-full_build\bin\ffprobe.exe"
-)
+DEFAULT_FFPROBE = Path(shutil.which("ffprobe") or "ffprobe")
 
 
 @dataclass(frozen=True)
@@ -265,10 +262,13 @@ def write_csv(path: Path, fieldnames: list[str], rows: list[dict]) -> None:
 
 def write_metadata(case: Case, out_path: Path) -> None:
     lines = [f"video={case.video_path}", f"release_id={case.release_id}", f"report_id={case.report_id}"]
-    if DEFAULT_FFPROBE.exists():
+    ffprobe_cmd = shutil.which(str(DEFAULT_FFPROBE)) or (
+        str(DEFAULT_FFPROBE) if DEFAULT_FFPROBE.exists() else None
+    )
+    if ffprobe_cmd:
         result = subprocess.run(
             [
-                str(DEFAULT_FFPROBE),
+                ffprobe_cmd,
                 "-v",
                 "error",
                 "-show_entries",

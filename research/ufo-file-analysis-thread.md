@@ -7,7 +7,7 @@ Status: Open analysis thread
 
 ## Purpose
 
-Create a durable analysis thread for the recent UFO/UAP file releases downloaded into Dan's Google Drive. The goal is to inventory the corpus, separate primary records from duplicates and media, extract the strongest factual claims, and build a traceable findings log.
+Create a durable analysis thread for the recent UFO/UAP file releases collected from public sources. The goal is to inventory the corpus, separate primary records from duplicates and media, extract the strongest factual claims, and build a traceable findings log.
 
 ## Initial Inventory
 
@@ -72,7 +72,7 @@ Tooling available locally:
 - `ffprobe` / `ffmpeg` for video metadata and frame extraction
 - Tesseract for OCR where PDFs or images are scan-only
 
-Folder location confirmed as `source-files-not-included`. No Google Drive app connector was exposed in this Codex session, so analysis is running against the local Drive mount.
+Folder location confirmed as `source-files-not-included`. Analysis ran against the local non-redistributed source corpus.
 
 Generated supporting files:
 

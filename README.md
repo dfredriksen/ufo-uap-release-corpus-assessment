@@ -23,3 +23,5 @@ The corpus contains credible unresolved operational observations. The public evi
 ## Source Data Notice
 
 Original release media and documents are not included here. Some generated files preserve source filenames and public-source metadata so that readers can retrieve the underlying public records independently.
+
+Large derived review artifacts such as frame extracts, contact sheets, and page-render images are also not redistributed. CSV and Markdown records may preserve their intended derived-artifact paths for reproducibility; the publication figures under `figures/` are included in the repository.
