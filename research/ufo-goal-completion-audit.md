@@ -26,7 +26,7 @@ The goal requires all of the following:
 | Images analyzed | NASA/DOS image-related records and FBI photo-set files have targeted source/provenance triage | Pass with caveat | No high-resolution pixel-level or photogrammetric review; recent sketch artifact remains partial. |
 | Entire collection covered | `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-file-coverage-map.csv` maps every manifest row to evidence and coverage status | Pass | Coverage map shows `0` inventory-only files across `170` manifest rows. |
 | Insights extracted | Evidence ladder, priority digest, report/video matrix, source packets, timeline, targeted gap triage files, and final report exist | Pass | None for targeted whole-corpus assessment. |
-| Professional scientific report produced | `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-final-scientific-report.md` | Pass | The report limits strongest claims to the modern operational subset while incorporating broader corpus triage. |
+| Professional scientific report produced | `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/paper.md` | Pass | The report limits strongest claims to the modern operational subset while incorporating broader corpus triage. |
 | Final report support verified | `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-final-report-consistency-check.md`; `50` support references, `0` missing | Pass | None for targeted whole-corpus assessment. |
 | No overclaiming | Final report states unresolved operational observations, not non-human technology or extraordinary physics | Pass | None. |
 

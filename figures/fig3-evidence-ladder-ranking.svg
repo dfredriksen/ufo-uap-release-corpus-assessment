@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="1230" viewBox="0 0 1180 1230" role="img">
+<title>Figure 3. Evidence Ladder Ranking</title>
+<rect x="0.0" y="0.0" width="1180.0" height="1230.0" rx="0.0" fill="#FFFFFF" />
+<text x="40.0" y="46.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="start" fill="#1F2933">Figure 3. Evidence Ladder Ranking</text>
+<text x="40.0" y="74.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#596675">Source: research/ufo-evidence-ladder.csv; ranking measures analytic utility, not strangeness.</text>
+<text x="62.0" y="90.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start" fill="#596675">Rank</text>
+<text x="120.0" y="90.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start" fill="#596675">Case</text>
+<text x="430.0" y="90.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start" fill="#596675">Evidence class</text>
+<text x="785.0" y="90.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start" fill="#596675">Use in report</text>
+<line x1="40.0" y1="102.0" x2="1140.0" y2="102.0" stroke="#D8DDE6" stroke-width="1.2" />
+<rect x="40.0" y="96.0" width="1100.0" height="60.0" rx="0.0" fill="#F6F7F9" />
+<circle cx="62.0" cy="118.0" r="13" fill="#2F5D8C" />
+<text x="62.0" y="123.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#FFFFFF">1</text>
+<text x="120.0" y="123.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1F2933">D38 / PR36 / DOD_111689030.mp4</text>
+<text x="430.0" y="115.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#1F2933">Hard report-video pair</text>
+<text x="785.0" y="115.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#596675">Current anchor; compact point-return behavior validated in</text>
+<text x="785.0" y="130.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#596675">useful interval</text>
+<circle cx="62.0" cy="178.0" r="13" fill="#2F5D8C" />
+<text x="62.0" y="183.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#FFFFFF">2</text>
+<text x="120.0" y="183.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1F2933">D33 / PR34 / DOD_111689011.mp4</text>
+<text x="430.0" y="175.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#1F2933">Hard report-video pair plus manual track</text>
+<text x="785.0" y="175.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#596675">Strongest Greece maneuver lane; source text and manual</text>
+<text x="785.0" y="190.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#596675">track align on apparent sharp heading changes</text>
+<rect x="40.0" y="216.0" width="1100.0" height="60.0" rx="0.0" fill="#F6F7F9" />
+<circle cx="62.0" cy="238.0" r="13" fill="#2F5D8C" />
+<text x="62.0" y="243.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#FFFFFF">3</text>
+<text x="120.0" y="243.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1F2933">D25 / PR28 / DOD_111688954.mp4</text>
+<text x="430.0" y="235.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#1F2933">Hard release identity plus corrected report-</text>
+<text x="430.0" y="250.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#1F2933">content match</text>
+<text x="785.0" y="235.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#596675">Strongest SWIR-only lane; phase review supports</text>
+<text x="785.0" y="250.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#596675">acquisition/loss sequence</text>
+<circle cx="62.0" cy="298.0" r="13" fill="#2F5D8C" />
+<text x="62.0" y="303.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#FFFFFF">4</text>
+<text x="120.0" y="303.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1F2933">D27 / PR29 / DOD_111688964.mp4</text>
+<text x="430.0" y="295.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#1F2933">Hard release identity plus corrected report-</text>
+<text x="430.0" y="310.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#1F2933">content match</text>
+<text x="785.0" y="295.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#596675">Strongest unusual morphology lane: glowing sphere with</text>
+<text x="785.0" y="310.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#596675">pole/bar or possible reflection</text>
+<rect x="40.0" y="336.0" width="1100.0" height="60.0" rx="0.0" fill="#F6F7F9" />
+<circle cx="62.0" cy="358.0" r="13" fill="#2F5D8C" />
+<text x="62.0" y="363.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#FFFFFF">5</text>
+<text x="120.0" y="363.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1F2933">D23 / PR27 / DOD_111688825.mp4</text>
+<text x="430.0" y="355.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#1F2933">Hard report-video pair</text>
+<text x="785.0" y="355.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#596675">Long hard-paired case; manual validation supports repeated</text>
+<text x="785.0" y="370.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#596675">compact-return candidates, strongest from 207.0s-297.0s</text>
+<circle cx="62.0" cy="418.0" r="13" fill="#2F5D8C" />
+<text x="62.0" y="423.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#FFFFFF">6</text>
+<text x="120.0" y="423.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1F2933">D35 / PR35 / DOD_111689022</text>
+<text x="430.0" y="415.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#1F2933">Hard report-video pair</text>
+<text x="785.0" y="415.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#596675">Hard-paired comparison case for ocean-surface/toward-land</text>
+<text x="785.0" y="430.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#596675">sequence</text>
+<rect x="40.0" y="456.0" width="1100.0" height="60.0" rx="0.0" fill="#F6F7F9" />
+<circle cx="62.0" cy="478.0" r="13" fill="#3B7D7A" />
+<text x="62.0" y="483.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#FFFFFF">7</text>
+<text x="120.0" y="483.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1F2933">D58</text>
+<text x="430.0" y="475.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#1F2933">Document-only high-value source-request case</text>
+<text x="785.0" y="475.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#596675">Radar lock, target-pod video, KINGPIN-directed ID, two IR-</text>
+<text x="785.0" y="490.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#596675">significant contacts, red blinking strobes, noise jamming,</text>
+<circle cx="62.0" cy="538.0" r="13" fill="#3B7D7A" />
+<text x="62.0" y="543.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#FFFFFF">8</text>
+<text x="120.0" y="543.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1F2933">D28</text>
+<text x="430.0" y="535.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#1F2933">Document-only high-value source-request case</text>
+<text x="785.0" y="535.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#596675">AGM-176 mission phase; UAP reported between weapon release</text>
+<text x="785.0" y="550.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#596675">and impact; MX-20/MX-25 IR lens-flare language</text>
+<rect x="40.0" y="576.0" width="1100.0" height="60.0" rx="0.0" fill="#F6F7F9" />
+<circle cx="62.0" cy="598.0" r="13" fill="#3B7D7A" />
+<text x="62.0" y="603.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#FFFFFF">9</text>
+<text x="120.0" y="603.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1F2933">D74</text>
+<text x="430.0" y="595.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#1F2933">Document-only readable narrative</text>
+<text x="785.0" y="595.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#596675">Readable seven-minute near-co-altitude pass narrative;</text>
+<text x="785.0" y="610.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#596675">event serial 092153ZNOV2023-CENTCOM; estimated 424KN;</text>
+<circle cx="62.0" cy="658.0" r="13" fill="#3B7D7A" />
+<text x="62.0" y="663.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#FFFFFF">10</text>
+<text x="120.0" y="663.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1F2933">D75</text>
+<text x="430.0" y="655.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#1F2933">Document-only structured fields</text>
+<text x="785.0" y="655.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#596675">FMV primary sensor; event 140517:00ZJUL24; low-</text>
+<text x="785.0" y="670.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#596675">altitude/NW-trajectory fields; followed until distance too</text>
+<rect x="40.0" y="696.0" width="1100.0" height="60.0" rx="0.0" fill="#F6F7F9" />
+<circle cx="62.0" cy="718.0" r="13" fill="#3B7D7A" />
+<text x="62.0" y="723.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#FFFFFF">11</text>
+<text x="120.0" y="723.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1F2933">D44 / D57</text>
+<text x="430.0" y="715.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#1F2933">Document-only range-fouler geometry lane</text>
+<text x="785.0" y="715.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#596675">Round cold IR objects, black-hot context, slant/ground</text>
+<text x="785.0" y="730.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#596675">range fields, sensor depression angles, abrupt direction-</text>
+<circle cx="62.0" cy="778.0" r="13" fill="#3B7D7A" />
+<text x="62.0" y="783.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#FFFFFF">12</text>
+<text x="120.0" y="783.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1F2933">D8</text>
+<text x="430.0" y="775.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#1F2933">Document-only short quantitative lane</text>
+<text x="785.0" y="775.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#596675">Two round white-hot UAPs moving south at about 240 NM/hour</text>
+<text x="785.0" y="790.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#596675">near 35SQT3423692957</text>
+<rect x="40.0" y="816.0" width="1100.0" height="60.0" rx="0.0" fill="#F6F7F9" />
+<circle cx="62.0" cy="838.0" r="13" fill="#3B7D7A" />
+<text x="62.0" y="843.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#FFFFFF">13</text>
+<text x="120.0" y="843.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1F2933">D54</text>
+<text x="430.0" y="835.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#1F2933">Document-only short quantitative lane</text>
+<text x="785.0" y="835.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#596675">Triangular/metallic UAP; coordinate 363453N 0255943E;</text>
+<text x="785.0" y="850.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#596675">24,989FT MSL; 168KTS</text>
+<circle cx="62.0" cy="898.0" r="13" fill="#C49A3A" />
+<text x="62.0" y="903.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#FFFFFF">14</text>
+<text x="120.0" y="903.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1F2933">PR44 / DOD_111689115.mp4</text>
+<text x="430.0" y="895.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#1F2933">Standalone public video with dense local audit</text>
+<text x="785.0" y="895.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#596675">Strongest standalone point-return clip; dense and follow-</text>
+<text x="785.0" y="910.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#596675">on validations support sustained/intermittent compact-</text>
+<rect x="40.0" y="936.0" width="1100.0" height="60.0" rx="0.0" fill="#F6F7F9" />
+<circle cx="62.0" cy="958.0" r="13" fill="#C49A3A" />
+<text x="62.0" y="963.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#FFFFFF">15</text>
+<text x="120.0" y="963.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1F2933">PR47 / DOD_111689142.mp4</text>
+<text x="430.0" y="955.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#1F2933">Standalone public video with full local pass</text>
+<text x="785.0" y="955.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#596675">Three-component groups in 349/598 rows and high/medium</text>
+<text x="785.0" y="970.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#596675">support in 466/598 rows</text>
+<circle cx="62.0" cy="1018.0" r="13" fill="#C49A3A" />
+<text x="62.0" y="1023.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#FFFFFF">16</text>
+<text x="120.0" y="1023.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1F2933">PR45 / DOD_111689123.mp4</text>
+<text x="430.0" y="1015.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#1F2933">Standalone public video with local visual pass</text>
+<text x="785.0" y="1015.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#596675">Central contrast growth and lower-right exit-adjacent</text>
+<text x="785.0" y="1030.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#596675">motion</text>
+<rect x="40.0" y="1056.0" width="1100.0" height="60.0" rx="0.0" fill="#F6F7F9" />
+<circle cx="62.0" cy="1078.0" r="13" fill="#6E5A8A" />
+<text x="62.0" y="1083.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#FFFFFF">17</text>
+<text x="120.0" y="1083.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1F2933">Core D60-D65; adjacent D4/D5 mismatch rows</text>
+<text x="430.0" y="1075.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#1F2933">Pattern cluster</text>
+<text x="785.0" y="1075.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#596675">Repeated sparse FMV/sensor-observed UAP reporting in the</text>
+<text x="785.0" y="1090.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#596675">NAVCENT Gulf/Strait lane, with D65 as densest single</text>
+<circle cx="62.0" cy="1138.0" r="13" fill="#6E5A8A" />
+<text x="62.0" y="1143.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#FFFFFF">18</text>
+<text x="120.0" y="1143.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#1F2933">western_us_event_slides_5.08.2026.pdf</text>
+<text x="430.0" y="1135.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#1F2933">Briefing/slide narrative</text>
+<text x="785.0" y="1135.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#596675">Multiple witness clusters with federal law-enforcement</text>
+<text x="785.0" y="1150.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#596675">observers</text>
+<rect x="40.0" y="1173.0" width="18.0" height="18.0" rx="3.0" fill="#2F5D8C" />
+<text x="66.0" y="1187.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#596675">Tier 1: 6 rows</text>
+<rect x="220.0" y="1173.0" width="18.0" height="18.0" rx="3.0" fill="#3B7D7A" />
+<text x="246.0" y="1187.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#596675">Tier 2: 7 rows</text>
+<rect x="400.0" y="1173.0" width="18.0" height="18.0" rx="3.0" fill="#C49A3A" />
+<text x="426.0" y="1187.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#596675">Tier 3: 3 rows</text>
+<rect x="580.0" y="1173.0" width="18.0" height="18.0" rx="3.0" fill="#6E5A8A" />
+<text x="606.0" y="1187.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#596675">Tier 4: 2 rows</text>
+</svg>

@@ -11,6 +11,7 @@ The repository includes generated analysis artifacts and scripts used during the
 ## Repository Structure
 
 - `paper.md` - publication copy of the final scientific paper.
+- `figures/` - validated publication figures and source CSVs used for theme and priority visualizations.
 - `research/` - supporting notes, evidence tables, triage records, coverage audits, and case packets.
 - `scripts/` - local analysis scripts used for coverage mapping, video review, geometry checks, and extraction attempts.
 - `review-packets/` - packets prepared for external review and editorial improvement through ChatGPT Pro and Claude.
@@ -22,4 +23,3 @@ The corpus contains credible unresolved operational observations. The public evi
 ## Source Data Notice
 
 Original release media and documents are not included here. Some generated files preserve source filenames and public-source metadata so that readers can retrieve the underlying public records independently.
-

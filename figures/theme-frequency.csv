@@ -1,0 +1,8 @@
+theme,evidence_ladder_rows,matching_items,method
+Public video linkage,9,D38 / PR36 / DOD_111689030.mp4; D33 / PR34 / DOD_111689011.mp4; D25 / PR28 / DOD_111688954.mp4; D27 / PR29 / DOD_111688964.mp4; D23 / PR27 / DOD_111688825.mp4; D35 / PR35 / DOD_111689022; PR44 / DOD_111689115.mp4; PR47 / DOD_111689142.mp4; PR45 / DOD_111689123.mp4,tier in Tier 1 or Tier 3
+Document-only evidence,7,D58; D28; D74; D75; D44 / D57; D8; D54,evidence_class contains Document-only
+Kinematic/data limits,15,D38 / PR36 / DOD_111689030.mp4; D33 / PR34 / DOD_111689011.mp4; D25 / PR28 / DOD_111688954.mp4; D27 / PR29 / DOD_111688964.mp4; D23 / PR27 / DOD_111688825.mp4; D35 / PR35 / DOD_111689022; D58; D28; D74; D75; D44 / D57; D8; D54; PR47 / DOD_111689142.mp4; PR45 / DOD_111689123.mp4,row text contains telemetry/FOV/range/physical/kinematic/speed/platform/slant
+Sensor/IR/radar context,9,D25 / PR28 / DOD_111688954.mp4; D58; D28; D75; D44 / D57; D8; D54; Core D60-D65; adjacent D4/D5 mismatch rows; western_us_event_slides_5.08.2026.pdf,row text contains sensor/IR/SWIR/FMV/radar/target-pod/EO/IR
+Source-index conflicts,8,D25 / PR28 / DOD_111688954.mp4; D27 / PR29 / DOD_111688964.mp4; D58; D74; D8; D54; PR45 / DOD_111689123.mp4; Core D60-D65; adjacent D4/D5 mismatch rows,row text contains metadata/label/mismatch/conflict/DVIDS says
+Conventional/confound caveats,3,D27 / PR29 / DOD_111688964.mp4; D35 / PR35 / DOD_111689022; D58,row text contains conventional/possible/glare/bird/aircraft/balloon/reflection/cloud/jamming/EW
+Pattern/narrative lower weight,4,D74; D54; Core D60-D65; adjacent D4/D5 mismatch rows; western_us_event_slides_5.08.2026.pdf,row text contains pattern/cluster/narrative/briefing/slide

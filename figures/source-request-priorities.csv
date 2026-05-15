@@ -1,0 +1,9 @@
+priority,case,requested_material
+1,D58,"Target-pod video, radar tracks, EW/noise-jamming logs, KINGPIN communications, platform identity, unredacted location/bullseye context"
+2,D28,"Raw MX-20/MX-25 imagery, weapon-release and impact timestamps, FOV, range, sensor pointing, platform state"
+3,D38,"Original video, FOV/zoom state, slant range, gimbal pointing, platform motion, track file"
+4,D33,"Original video, telemetry, FOV/zoom, slant range, platform/gimbal motion, target coordinates"
+5,D25,"Raw SWIR/video data, sensor metadata, release-label correction for PR28/D25/D7"
+6,D27,"Raw PR29 video/sensor data, reflection-control evidence, release-label correction for PR29/D27/D8"
+7,D61/D65,"Raw FMV, DGS-1 notes, unredacted grids, platform/sensor metadata, identification follow-up"
+8,D44/D57,"Clearer range-fouler forms, raw IR video, sensor geometry, platform metadata"

@@ -3,25 +3,25 @@
 Owner: Dan Fredriksen
 Draft created: 2026-05-14
 Source files: official public UFO/UAP release files, not redistributed in this repository
-Report status: final-style scientific report, consistency checked; modern operational subset deeply reviewed, broader historical/image subsets covered by targeted triage
+Report status: public release version, consistency checked; modern operational subset deeply reviewed, broader historical/image subsets covered by targeted triage
 
 ## Abstract
 
-This report assesses a local corpus of `170` UFO/UAP-related files totaling about `4.24 GB`, including `91` PDFs, `41` MP4 videos, `34` JPG images, and `4` PNG images. The corpus contains modern DoW/DoD mission reports and range-fouler records, public DoD video releases, recent briefing material, historical FBI/archive PDFs, NASA transcripts and images, State Department cables, and FBI photo sets.
+This report assesses a local corpus of `170` UFO/UAP-related files totaling approximately `4.24 GB`: `91` PDFs, `41` MP4 videos, `34` JPG images, and `4` PNG images. The corpus contains modern DoW/DoD mission reports and range-fouler records, public DoD video releases, recent briefing material, historical FBI/archive PDFs, NASA transcript and image material, State Department cables, and FBI photo sets.
 
-The strongest evidentiary material is the modern operational subset: official mission reports, range-fouler forms, and public DoD video releases. These records support a credible unresolved-operational-observation finding. They do not, on the public evidence available here, establish non-human technology, recovered material, biological claims, or a single unified phenomenon.
+The strongest evidentiary material is the modern operational subset: official mission reports, range-fouler forms, and public DoD video releases. These records support a credible unresolved-operational-observation finding. They do not, on the public evidence reviewed here, establish non-human technology, recovered material, biological claims, a single unified phenomenon, or independently reconstructed extraordinary physics.
 
-The strongest public evidence lanes are hard report/video pairings or strong report-content/video reconciliations, especially `D38/PR36/DOD_111689030.mp4`, `D33/PR34/DOD_111689011.mp4`, `D25/PR28/DOD_111688954.mp4`, `D27/PR29/DOD_111688964.mp4`, `D23/PR27/DOD_111688825.mp4`, and `D35/PR35/DOD_111689022`. The strongest document-only source-request targets include `D58`, `D28`, `D74`, `D75`, `D44/D57`, `D8`, and `D54`. The strongest regional pattern lane is the Persian Gulf / Strait of Hormuz 2020 cluster, with `D61` as the strongest behavior row and `D65` as the densest single mission.
+The strongest public evidence lanes are hard report/video pairings or strong report-content/video reconciliations, especially `D38/PR36/DOD_111689030.mp4`, `D33/PR34/DOD_111689011.mp4`, `D25/PR28/DOD_111688954.mp4`, `D27/PR29/DOD_111688964.mp4`, `D23/PR27/DOD_111688825.mp4`, and `D35/PR35/DOD_111689022`. Among the strongest document-only source-request targets are `D58`, `D28`, `D74`, `D75`, `D44/D57`, `D8`, and `D54`. Within that set, `D58` and `D28` carry the densest operational context. The strongest regional pattern lane is the Persian Gulf / Strait of Hormuz 2020 cluster, with `D61` as the strongest behavior row and `D65` as the densest single mission.
 
-The central scientific limitation is that public videos and redacted reports generally lack raw telemetry, sensor field of view, slant range, platform motion, gimbal pointing, exact coordinates, and frame-level metadata. As a result, reported speeds, altitudes, object shapes, and maneuvers often remain source-reported claims rather than independently reconstructable physics.
+The central scientific limitation is that public videos and redacted reports generally lack raw telemetry, sensor field of view, slant range, platform motion, gimbal pointing, exact coordinates, and frame-level metadata. Reported speeds, altitudes, object shapes, and maneuvers therefore often remain source-reported claims rather than independently reconstructable physical findings.
 
 ## Scope
 
 The full local folder was inventoried. The deepest analysis focused on the modern DoW/DoD operational records and public DoD videos because they preserve the most probative fields: event times, mission context, sensor context, object descriptions, reported behavior, negative controls, and official release metadata.
 
-The historical FBI/archive PDFs, NASA transcript/image material, State Department cables, and FBI photo sets were covered by targeted source-family triage. They were not exhaustively OCR-reviewed, photogrammetrically measured, or interpreted at the same depth as the modern operational subset. They should be treated as lower-priority context unless future source extraction promotes specific records into the main evidence ladder.
+The historical FBI/archive PDFs, NASA transcript and image material, State Department cables, and FBI photo sets were covered by targeted source-family triage. They were not exhaustively OCR-reviewed, photogrammetrically measured, or interpreted at the same depth as the modern operational subset. They should be treated as lower-priority context unless future source extraction promotes specific records into the main evidence ladder.
 
-This distinction matters. The report's strongest findings are about the modern operational subset and the public media releases, not about every historical page or image in the broader folder.
+This distinction is important. The report's strongest findings concern the modern operational subset and public media releases, not every historical page or image in the broader folder.
 
 Primary scope artifacts:
 
@@ -43,9 +43,10 @@ The analysis used a conservative source-first method:
 7. Separate source-reported claims from locally observed public-media behavior.
 8. Rank evidence by provenance, source context, report/video linkage, visual support, and caveats.
 9. Run targeted group-level triage for NASA/DOS, FBI photo, and historical/archive material where local extraction or high-resolution review was blocked by disk/read constraints.
-10. Prepare two publication-stage review packets: one for ChatGPT Pro to improve professional polish without strengthening unsupported claims, and one for Claude to provide critical methodological and evidentiary feedback before any later public revision.
+10. Generate and validate publication figures from the manifest, coverage map, evidence ladder, source-request table, and transparent keyword scans.
+11. Prepare and archive publication-stage review packets and returned outputs: one for ChatGPT Pro to improve professional polish without strengthening unsupported claims, and one for Claude to provide critical methodological and evidentiary feedback before any later public revision.
 
-The video work was intentionally bounded. Local visual review can support statements about image-plane features, compact returns, relative contrast, phase sequence, apparent image-plane turns, or visible release-description alignment. It cannot establish true object speed, altitude, range, physical trajectory, or acceleration without sensor geometry and platform data.
+The video work was intentionally bounded. Local visual review can support statements about image-plane features, compact returns, relative contrast, phase sequence, apparent image-plane turns, and visible release-description alignment. It cannot establish true object speed, altitude, range, physical trajectory, or acceleration without sensor geometry and platform data.
 
 Primary methods artifacts:
 
@@ -57,8 +58,12 @@ Primary methods artifacts:
 - `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-nasa-dos-gap-triage.md`
 - `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-fbi-photo-gap-triage.md`
 - `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-historical-archive-gap-triage.md`
+- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/figures/figure-validation.md`
+- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/generate_publication_figures.py`
 - `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/review-packets/chatgpt-pro-touchup-packet.md`
+- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/review-packets/chatgpt-pro-polished-paper.md`
 - `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/review-packets/claude-review-packet.md`
+- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/review-packets/claude-review-output.md`
 
 ## Evidence Standard
 
@@ -72,6 +77,30 @@ This report uses four practical evidence tiers:
 | Tier 4 | Pattern, narrative, or lower-provenance lanes | Persian Gulf / Strait 2020 cluster, Western U.S. slide deck |
 
 The ranking measures analytic utility, not strangeness. A case ranks higher when it preserves source identity, exact time, location, sensor context, report/video linkage, object behavior, negative controls, and a concrete source-request path. It ranks lower when it is redacted, unpaired, metadata-conflicted, reporter-derived only, visually ambiguous, or conventionally confounded.
+
+## Figures
+
+The figures below are generated from repository artifacts using `scripts/generate_publication_figures.py`. Validation checks are recorded in `figures/figure-validation.md`.
+
+![Figure 1. Corpus Media Composition](figures/fig1-corpus-media-composition.svg)
+
+Figure 1 summarizes the `170` source files by media type: `91` PDFs, `41` MP4 videos, `34` JPG images, and `4` PNG images.
+
+![Figure 2. File-Level Coverage Status](figures/fig2-file-coverage-status.svg)
+
+Figure 2 summarizes review coverage. No manifest row remains inventory-only; the largest bucket is targeted review for broader NASA/DOS, FBI photo, and historical/archive material.
+
+![Figure 3. Evidence Ladder Ranking](figures/fig3-evidence-ladder-ranking.svg)
+
+Figure 3 visualizes the `18` ranked evidence-ladder rows. The ranking measures analytic utility and source quality, not strangeness.
+
+![Figure 4. Source-Request Priorities](figures/fig4-source-request-priorities.svg)
+
+Figure 4 shows the top raw-data/source-request priorities. The first two priorities, `D58` and `D28`, are document-only cases with dense operational context but insufficient public data for physical reconstruction.
+
+![Figure 5. Common Themes In Ranked Evidence Rows](figures/fig5-evidence-ladder-theme-frequency.svg)
+
+Figure 5 is a controlled keyword-frequency visualization across the `18` ranked evidence-ladder rows. It is illustrative only; it should not be read as a real-world prevalence estimate.
 
 ## Principal Findings
 
@@ -95,10 +124,10 @@ The strongest hard anchor is `D38/PR36/DOD_111689030.mp4`. DVIDS explicitly pair
 
 Other strong public lanes include:
 
-- `D33/PR34/DOD_111689011.mp4`: Greece ocean-surface maneuver lane. Manual tracking supports multiple sharp apparent image-plane heading changes, while true physical 90-degree turns and `80 MPH` remain report-derived.
+- `D33/PR34/DOD_111689011.mp4`: Greece ocean-surface maneuver lane. Manual tracking supports multiple sharp apparent image-plane heading changes, including `>=60` degree image-plane heading changes in the reviewed track, while true physical 90-degree turns and `80 MPH` remain report-derived.
 - `D25/PR28/DOD_111688954.mp4`: Greece SWIR-only lane. The public video supports the SWIR acquisition/loss sequence, while `434 KNOTS`, size, altitude, and detailed shape remain report-derived.
 - `D27/PR29/DOD_111688964.mp4`: UAE over-water unusual morphology lane. The public video aligns with the pole/bar or possible-reflection description, but the pole/bar may be a water reflection and the `140 KNOTS` value remains report-derived.
-- `D23/PR27/DOD_111688825.mp4`: long hard-paired visual sequence. Manual validation supports repeated compact-return candidates, especially in the late loss/reacquisition interval, but the public video does not identify which D23 UAP row it depicts.
+- `D23/PR27/DOD_111688825.mp4`: long hard-paired visual sequence. Manual validation supports repeated compact-return candidates, especially in the late loss/reacquisition interval: `144/181` reviewed late-interval frames were validated as compact-return candidates versus `31/146` in the earlier comparison interval. The public video does not identify which D23 UAP row it depicts.
 - `D35/PR35/DOD_111689022`: Greece ocean-surface control/comparison lane. The public clip supports the broad sequence, but clouds, shoreline, terrain, and the report's `NONE` maneuverability field limit its anomaly value.
 
 Primary support:
@@ -115,7 +144,7 @@ Primary support:
 
 The reviewed videos are useful, but they generally do not contain the full sensor metadata needed for physical reconstruction. Public video review can detect or validate image-plane behavior, phase alignment, compact-return candidates, contrast persistence, or formation-like visual structure. It cannot independently convert those observations into real-world speed, altitude, range, acceleration, or physical turn geometry.
 
-This is clearest in `D33/PR34`: local manual tracking supports multiple sharp apparent image-plane heading changes, and geometry scenarios do not falsify the report's `80 MPH` value. But the same work also shows that actual FOV/zoom, slant range, platform motion, gimbal pointing, and telemetry are required before those image-plane turns can be treated as real physical maneuvers.
+This is clearest in `D33/PR34`: local manual tracking supports multiple sharp apparent image-plane heading changes, including `>=60` degree image-plane changes, and geometry scenarios do not falsify the report's `80 MPH` value. But the same work also shows that actual FOV/zoom, slant range, platform motion, gimbal pointing, and telemetry are required before those image-plane turns can be treated as real physical maneuvers.
 
 Primary support:
 
@@ -270,6 +299,8 @@ The following limitations are decisive:
 5. Some apparently unusual visual features have plausible sensor, reflection, shoreline, cloud, water-texture, reticle, or compression explanations.
 6. The historical FBI/NASA/DOS/image subsets have targeted triage coverage, but not exhaustive OCR, photogrammetry, or event-level reconstruction; they should not be used for stronger conclusions than their source quality supports.
 7. Unresolved status is not evidence of extraordinary origin by itself.
+8. The publicly released DVIDS video subset is a non-random selection from a larger operational archive. The frequency of any feature in the public-video subset should not be read as its frequency in the underlying operational corpus.
+9. Public DVIDS clips are lossy-compressed and contain reticle, track-box, zoom, chroma, and luma artifacts. Apparent compact-return persistence, contrast growth, or formation-like structure must be evaluated against a codec-artifact floor before being treated as object behavior.
 
 ## Source-Request Priorities
 
@@ -309,6 +340,7 @@ Core synthesis:
 - `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-final-report-coverage-audit.md`
 - `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-final-report-consistency-check.md`
 - `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-goal-completion-audit.md`
+- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/figures/figure-validation.md`
 
 Case packets and source reviews:
 
@@ -351,3 +383,13 @@ Broader corpus triage:
 - `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-fbi-photo-record-index.csv`
 - `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-historical-archive-gap-triage.md`
 - `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-historical-archive-record-index.csv`
+
+Publication figures:
+
+- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/figures/fig1-corpus-media-composition.svg`
+- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/figures/fig2-file-coverage-status.svg`
+- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/figures/fig3-evidence-ladder-ranking.svg`
+- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/figures/fig4-source-request-priorities.svg`
+- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/figures/fig5-evidence-ladder-theme-frequency.svg`
+- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/figures/theme-frequency.csv`
+- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/figures/source-request-priorities.csv`

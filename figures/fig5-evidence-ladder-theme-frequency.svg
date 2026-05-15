@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="466" viewBox="0 0 1080 466" role="img">
+<title>Figure 5. Common Themes In Ranked Evidence Rows</title>
+<rect x="0.0" y="0.0" width="1080.0" height="466.0" rx="0.0" fill="#FFFFFF" />
+<text x="40.0" y="46.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" text-anchor="start" fill="#1F2933">Figure 5. Common Themes In Ranked Evidence Rows</text>
+<text x="40.0" y="74.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#596675">Source: transparent keyword scan across research/ufo-evidence-ladder.csv; illustrative, not proof of prevalence.</text>
+<line x1="300.0" y1="95.0" x2="300.0" y2="431.0" stroke="#D8DDE6" stroke-width="1.0" />
+<text x="300.0" y="459.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#596675">0</text>
+<line x1="472.5" y1="95.0" x2="472.5" y2="431.0" stroke="#D8DDE6" stroke-width="1.0" />
+<text x="472.5" y="459.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#596675">4</text>
+<line x1="645.0" y1="95.0" x2="645.0" y2="431.0" stroke="#D8DDE6" stroke-width="1.0" />
+<text x="645.0" y="459.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#596675">8</text>
+<line x1="817.5" y1="95.0" x2="817.5" y2="431.0" stroke="#D8DDE6" stroke-width="1.0" />
+<text x="817.5" y="459.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#596675">11</text>
+<line x1="990.0" y1="95.0" x2="990.0" y2="431.0" stroke="#D8DDE6" stroke-width="1.0" />
+<text x="990.0" y="459.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#596675">15</text>
+<text x="40.0" y="122.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#1F2933">Public video linkage</text>
+<rect x="300.0" y="105.0" width="414.0" height="22.0" rx="3.0" fill="#2F5D8C" />
+<text x="724.0" y="122.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#1F2933">9</text>
+<text x="40.0" y="170.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#1F2933">Document-only evidence</text>
+<rect x="300.0" y="153.0" width="322.0" height="22.0" rx="3.0" fill="#3B7D7A" />
+<text x="632.0" y="170.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#1F2933">7</text>
+<text x="40.0" y="218.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#1F2933">Kinematic/data limits</text>
+<rect x="300.0" y="201.0" width="690.0" height="22.0" rx="3.0" fill="#A64E4E" />
+<text x="1000.0" y="218.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#1F2933">15</text>
+<text x="40.0" y="266.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#1F2933">Sensor/IR/radar context</text>
+<rect x="300.0" y="249.0" width="414.0" height="22.0" rx="3.0" fill="#5A7A45" />
+<text x="724.0" y="266.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#1F2933">9</text>
+<text x="40.0" y="314.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#1F2933">Source-index conflicts</text>
+<rect x="300.0" y="297.0" width="368.0" height="22.0" rx="3.0" fill="#6E5A8A" />
+<text x="678.0" y="314.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#1F2933">8</text>
+<text x="40.0" y="362.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#1F2933">Conventional/confound caveats</text>
+<rect x="300.0" y="345.0" width="138.0" height="22.0" rx="3.0" fill="#C49A3A" />
+<text x="448.0" y="362.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#1F2933">3</text>
+<text x="40.0" y="410.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#1F2933">Pattern/narrative lower weight</text>
+<rect x="300.0" y="393.0" width="184.0" height="22.0" rx="3.0" fill="#5E6470" />
+<text x="494.0" y="410.0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#1F2933">4</text>
+</svg>
