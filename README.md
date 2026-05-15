@@ -4,7 +4,7 @@ This repository publishes a paper-oriented assessment of a public UFO/UAP releas
 
 Main paper:
 
-- [Scientific Assessment Of The UFO/UAP Release Corpus](paper.md)
+- [Scientific Assessment of the UFO/UAP Release Corpus](paper.md)
 
 The repository includes generated analysis artifacts and scripts used during the assessment. It does not redistribute the original PDFs, videos, or images from the source corpus. Source files should be obtained from the official public release locations, including the War.gov UFO portal.
 
@@ -18,7 +18,7 @@ The repository includes generated analysis artifacts and scripts used during the
 
 ## Core Conclusion
 
-The corpus contains credible unresolved operational observations. The public evidence reviewed here is insufficient to determine origin, prove non-human technology, or independently reconstruct extraordinary physical performance.
+The corpus contains credible unresolved operational observations. The released evidence reviewed here is insufficient to determine origin, prove non-human technology, or independently reconstruct extraordinary physical performance.
 
 ## Source Data Notice
 
