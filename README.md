@@ -2,6 +2,8 @@
 
 This repository publishes a paper-oriented assessment of a public UFO/UAP release corpus.
 
+![Publication Checks](https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/actions/workflows/publication.yml/badge.svg)
+
 Main paper:
 
 - [Scientific Assessment of the UFO/UAP Release Corpus](paper.md)
@@ -16,7 +18,7 @@ The repository includes generated analysis artifacts and scripts used during the
 - `scripts/` - local analysis scripts used for coverage mapping, video review, geometry checks, and extraction attempts.
 - `review-packets/` - packets prepared for external review and editorial improvement through ChatGPT Pro and Claude.
 - `requirements.txt` - Python dependencies needed to regenerate the scripted outputs.
-- `requirements-lock.txt` - frozen dependency snapshot for the publication build.
+- `requirements-lock.txt` - full transitive dependency snapshot for the publication build.
 - `.github/workflows/` - publication CI that reruns validators and figure generation.
 
 ## Core Conclusion

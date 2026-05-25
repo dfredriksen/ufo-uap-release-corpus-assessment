@@ -45,7 +45,7 @@ The public repo should not contain:
 - Python 3.11 or newer for general reproduction with `requirements.txt`
 - Python 3.14.x for the frozen publication snapshot in `requirements-lock.txt`
 - `python -m pip install -r requirements.txt`
-- `requirements-lock.txt` captures the frozen dependency snapshot verified for the publication run
+- `requirements-lock.txt` captures the full transitive dependency snapshot verified for the publication run
 - Optional: a local `ffprobe` or `ffmpeg` binary for video metadata scripts that call one
 
 The figure generator requires `numpy`, `opencv-python`, `pandas`, and `matplotlib`.
@@ -93,6 +93,7 @@ python scripts/war_gov_ufo_manifest_metadata.py
 python scripts/war_gov_ufo_manifest_metadata.py --release-date 5/22/26 --release-tag release-02
 python scripts/generate_publication_figures.py
 python scripts/validate_publication_paths.py
+python scripts/validate_claim_traceability.py
 ```
 
 If the source files live somewhere other than `I:\My Drive\UFO`, pass the alternate root to the acquisition script with `--source-root`.
