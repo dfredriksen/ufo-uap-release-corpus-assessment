@@ -1,0 +1,32 @@
+name: Publication Checks
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  publication:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+          cache: pip
+
+      - name: Install publication dependencies
+        run: python -m pip install --upgrade pip && python -m pip install -r requirements-lock.txt
+
+      - name: Validate publication paths
+        run: python scripts/validate_publication_paths.py
+
+      - name: Rebuild publication figures
+        run: python scripts/generate_publication_figures.py
+
+      - name: Build acquisition manifest with a missing source root
+        run: python scripts/build_ufo_source_acquisition_manifest.py --source-root /nonexistent

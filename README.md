@@ -16,6 +16,8 @@ The repository includes generated analysis artifacts and scripts used during the
 - `scripts/` - local analysis scripts used for coverage mapping, video review, geometry checks, and extraction attempts.
 - `review-packets/` - packets prepared for external review and editorial improvement through ChatGPT Pro and Claude.
 - `requirements.txt` - Python dependencies needed to regenerate the scripted outputs.
+- `requirements-lock.txt` - frozen dependency snapshot for the publication build.
+- `.github/workflows/` - publication CI that reruns validators and figure generation.
 
 ## Core Conclusion
 
@@ -36,6 +38,7 @@ Key reproducibility artifacts:
 - [Publication reproducibility note](research/ufo-publication-reproducibility.md)
 - [Source acquisition manifest](research/ufo-source-acquisition-manifest.csv)
 - [Source acquisition gap table](research/ufo-source-acquisition-gaps.csv)
+- [Frozen dependency snapshot](requirements-lock.txt)
 
 Official context anchors:
 

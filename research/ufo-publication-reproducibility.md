@@ -12,13 +12,16 @@ The public repo should contain the paper-grade outputs and the artifacts needed 
 - `figures/*.svg` publication figures and the figure validation note
 - `scripts/` repeatable analysis and validation scripts
 - `requirements.txt`
+- `requirements-lock.txt`
 - `CITATION.cff`
+- `.github/workflows/publication.yml`
 - acquisition manifests and gap tables for source material
 
 Suggested publish-set examples from this workspace:
 
 - `README.md`
 - `requirements.txt`
+- `requirements-lock.txt`
 - `scripts/`
 - `figures/`
 - `research/ufo-final-scientific-report.md`
@@ -39,6 +42,7 @@ The public repo should not contain:
 
 - Python 3.11 or newer
 - `python -m pip install -r requirements.txt`
+- `requirements-lock.txt` captures the frozen dependency snapshot verified for the publication run
 - Optional: a local `ffprobe` or `ffmpeg` binary for video metadata scripts that call one
 
 The figure generator requires `numpy`, `opencv-python`, `pandas`, and `matplotlib`.
@@ -61,6 +65,7 @@ The manifest records:
 - the release record IDs and titles that map to the file
 
 The gap table records release assets that are not currently represented as exact local filename matches in the inventory.
+The acquisition gap table is part of the reproducibility boundary because it shows which official release assets still require filename reconciliation even when the local corpus is fully hashed.
 
 ## Rebuild Order
 
@@ -72,6 +77,7 @@ Run the corpus from the bottom up:
 4. Regenerate the publication figures.
 5. Run the path-hygiene validator.
 6. Re-run any targeted video or document review script only if the source file is locally available.
+7. Use `.github/workflows/publication.yml` as the published CI sequence for the basic validation pass.
 
 Representative commands:
 

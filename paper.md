@@ -14,7 +14,7 @@ Executive summary:
 - The best-supported conclusion is unresolved operational observation, not non-human technology or independently reconstructed extraordinary physics.
 - Release 02 broadens the corpus with a second 64-record tranche, but it mostly adds breadth, controls, and provenance structure rather than raising the claim ceiling.
 - The recurring cross-corpus themes are over-water operational lanes, sensor-mode limitation, metadata hygiene, duplicate/control handling, and historical/archive context that strengthens interpretation but not the physics claims.
-- The final draft is internally consistent and ready for external chatbot review.
+- The final draft is internally consistent and ready for external methodological review.
 
 The strongest public evidence lanes are hard report/video pairings or strong report-content/video reconciliations, especially `D38/PR36/DOD_111689030.mp4`, `D33/PR34/DOD_111689011.mp4`, `D25/PR28/DOD_111688954.mp4`, `D27/PR29/DOD_111688964.mp4`, `D23/PR27/DOD_111688825.mp4`, and `D35/PR35/DOD_111689022`. Among the strongest document-only source-request targets are `D58`, `D28`, `D74`, `D75`, `D44/D57`, `D8`, and `D54`. Within that set, `D58` and `D28` carry the densest operational context. The strongest regional pattern lane is the Persian Gulf / Strait of Hormuz 2020 cluster, with `D61` as the strongest behavior row and `D65` as the densest single mission.
 
@@ -39,6 +39,8 @@ The central scientific limitation is that public videos and redacted reports gen
 ## Scope
 
 The full local folder was inventoried. The deepest analysis focused on the modern DoW/DoD operational records and public DoD videos because they preserve the most probative fields: event times, mission context, sensor context, object descriptions, reported behavior, negative controls, and official release metadata.
+
+**Scope box.** This paper distinguishes the local analyzed corpus from the live War.gov release manifest. The local corpus contains `170` files totaling approximately `4.24 GB`. The live War.gov manifest contains `222` release rows after Release 02. Release 02 is reviewed here as a tranche-level update, while the ranked evidence ladder remains anchored in the deeply reviewed local operational subset. The acquisition manifest hashes all `170` local files, but not every official release asset has an exact local filename match; those unmatched release assets are tracked separately in `research/ufo-source-acquisition-gaps.csv`.
 
 The historical FBI/archive PDFs, NASA transcript and image material, State Department cables, and FBI photo sets were covered by targeted source-family triage. They were not exhaustively OCR-reviewed, photogrammetrically measured, or interpreted at the same depth as the modern operational subset. They should be treated as lower-priority context unless future source extraction promotes specific records into the main evidence ladder.
 
