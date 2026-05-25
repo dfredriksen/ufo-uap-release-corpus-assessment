@@ -29,4 +29,12 @@ jobs:
         run: python scripts/generate_publication_figures.py
 
       - name: Build acquisition manifest with a missing source root
-        run: python scripts/build_ufo_source_acquisition_manifest.py --source-root /nonexistent
+        run: |
+          python scripts/build_ufo_source_acquisition_manifest.py \
+            --source-root /nonexistent \
+            --output "$RUNNER_TEMP/ufo-source-acquisition-manifest.csv" \
+            --gaps-output "$RUNNER_TEMP/ufo-source-acquisition-gaps.csv" \
+            --summary-output "$RUNNER_TEMP/ufo-source-acquisition-summary.md"
+
+      - name: Check regenerated publication files are committed
+        run: git diff --exit-code

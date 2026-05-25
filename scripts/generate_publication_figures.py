@@ -9,6 +9,7 @@ from xml.sax.saxutils import escape
 
 import matplotlib
 matplotlib.use("Agg")
+matplotlib.rcParams["svg.hashsalt"] = "ufo-uap-release-corpus-assessment"
 import matplotlib.pyplot as plt
 import pandas as pd
 
@@ -368,7 +369,12 @@ def figure_release_02_theme_summary() -> None:
         ax.text(bar.get_width() + 0.12, bar.get_y() + bar.get_height() / 2, str(int(value)), va="center", fontsize=8)
     fig.tight_layout()
     svg_path = FIGURES / "fig6-release-02-theme-summary.svg"
-    fig.savefig(svg_path, format="svg", bbox_inches="tight")
+    fig.savefig(
+        svg_path,
+        format="svg",
+        bbox_inches="tight",
+        metadata={"Date": "2026-05-15"},
+    )
     svg_text = svg_path.read_text(encoding="utf-8")
     svg_path.write_text("\n".join(line.rstrip() for line in svg_text.splitlines()) + "\n", encoding="utf-8")
     plt.close(fig)

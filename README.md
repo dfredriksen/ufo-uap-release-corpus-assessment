@@ -38,6 +38,7 @@ Key reproducibility artifacts:
 - [Publication reproducibility note](research/ufo-publication-reproducibility.md)
 - [Source acquisition manifest](research/ufo-source-acquisition-manifest.csv)
 - [Source acquisition gap table](research/ufo-source-acquisition-gaps.csv)
+- [Claim traceability table](research/ufo-claim-traceability.csv)
 - [Frozen dependency snapshot](requirements-lock.txt)
 
 Official context anchors:

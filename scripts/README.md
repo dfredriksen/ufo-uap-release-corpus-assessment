@@ -6,7 +6,8 @@ Most scripts expect public-release source videos to exist under `I:\My Drive\UFO
 
 The scripts do not modify source videos. They write derived CSVs and visual artifacts under `research/`.
 
-The publication build uses the pinned dependencies in `requirements.txt` and the frozen snapshot in `requirements-lock.txt`.
+The publication build uses the bounded dependencies in `requirements.txt` and the frozen snapshot in `requirements-lock.txt`.
+Use `requirements.txt` for general reproduction on Python 3.11+ and `requirements-lock.txt` for the publication build on Python 3.14.x.
 
 `scripts/war_gov_ufo_manifest_metadata.py` reads the live combined WAR.GOV feed and can be filtered to a tranche with `--release-date` plus a matching `--release-tag`, for example `--release-date 5/22/26 --release-tag release-02`.
 
@@ -17,4 +18,5 @@ The publication build uses the pinned dependencies in `requirements.txt` and the
 `scripts/generate_publication_figures.py` rebuilds the SVG publication figures from the repo-local CSVs and writes a validation note under `figures/`.
 
 The publication CI workflow in `.github/workflows/publication.yml` reruns the path validator, figure generator, and acquisition-manifest builder with a missing source root to confirm graceful degradation.
+It also ends with `git diff --exit-code` so regenerated publication files must remain committed.
 

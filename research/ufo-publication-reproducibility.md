@@ -15,6 +15,7 @@ The public repo should contain the paper-grade outputs and the artifacts needed 
 - `requirements-lock.txt`
 - `CITATION.cff`
 - `.github/workflows/publication.yml`
+- `research/ufo-claim-traceability.csv`
 - acquisition manifests and gap tables for source material
 
 Suggested publish-set examples from this workspace:
@@ -24,6 +25,7 @@ Suggested publish-set examples from this workspace:
 - `requirements-lock.txt`
 - `scripts/`
 - `figures/`
+- `research/ufo-claim-traceability.csv`
 - `research/ufo-final-scientific-report.md`
 - `research/ufo-final-report-consistency-check.md`
 - `research/ufo-release-02-synthesis.md`
@@ -40,7 +42,8 @@ The public repo should not contain:
 
 ## Required Environment
 
-- Python 3.11 or newer
+- Python 3.11 or newer for general reproduction with `requirements.txt`
+- Python 3.14.x for the frozen publication snapshot in `requirements-lock.txt`
 - `python -m pip install -r requirements.txt`
 - `requirements-lock.txt` captures the frozen dependency snapshot verified for the publication run
 - Optional: a local `ffprobe` or `ffmpeg` binary for video metadata scripts that call one
@@ -66,6 +69,7 @@ The manifest records:
 
 The gap table records release assets that are not currently represented as exact local filename matches in the inventory.
 The acquisition gap table is part of the reproducibility boundary because it shows which official release assets still require filename reconciliation even when the local corpus is fully hashed.
+The claim traceability table records representative claims, supporting artifacts, claim types, and the status of each claim's evidentiary ceiling.
 
 ## Rebuild Order
 
