@@ -2,7 +2,7 @@
 
 Owner: Dan Fredriksen
 Created: 2026-05-10
-Source video: `source-files-not-included/DOD_111689115.mp4`
+Source video: `I:\My Drive\UFO\DOD_111689115.mp4`
 Release identity: `DOW-UAP-PR44`
 
 ## Scope
@@ -30,19 +30,19 @@ The dense pass below focuses on the strongest local one-fps seed interval, `154.
 
 Script:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_pr44_standalone_quant_pass.py`
+- `scripts/ufo_pr44_standalone_quant_pass.py`
 
 Inputs:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-object-position-dod111689115.csv`
-- `source-files-not-included/DOD_111689115.mp4`
+- `research/ufo-video-object-position-dod111689115.csv`
+- `I:\My Drive\UFO\DOD_111689115.mp4`
 
 Outputs:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr44-dense-track-dod111689115.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr44-dense-track-summary.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr44-dense-track-assets.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr44-standalone/DOD_111689115/*`
+- `research/ufo-video-pr44-dense-track-dod111689115.csv`
+- `research/ufo-video-pr44-dense-track-summary.csv`
+- `research/ufo-video-pr44-dense-track-assets.csv`
+- `research/ufo-derived/video-motion-pass/pr44-standalone/DOD_111689115/*`
 
 The script sampled `154.0s-243.0s` at `5 fps`, using the prior one-fps compact-return marks as seeds. For each dense sample, it interpolated the expected seed position and attempted local compact-bright refinement inside the center crop. Rows therefore fall into two classes:
 
@@ -96,16 +96,16 @@ The correct treatment is:
 
 ## Follow-On Validation
 
-Dedicated note: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr44-primary-validation-late-phase-notes.md`
+Dedicated note: `research/ufo-pr44-primary-validation-late-phase-notes.md`
 
 The follow-on pass added:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_pr44_primary_visual_validation.py`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_pr44_late_phase_review.py`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr44-primary-visual-validation-dod111689115.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr44-late-phase-review-dod111689115.csv`
-- Derived artifacts under `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr44-primary-validation/DOD_111689115/*`
-- Derived artifacts under `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr44-late-phase-review/DOD_111689115/*`
+- `scripts/ufo_pr44_primary_visual_validation.py`
+- `scripts/ufo_pr44_late_phase_review.py`
+- `research/ufo-video-pr44-primary-visual-validation-dod111689115.csv`
+- `research/ufo-video-pr44-late-phase-review-dod111689115.csv`
+- Derived artifacts under `research/ufo-derived/video-motion-pass/pr44-primary-validation/DOD_111689115/*`
+- Derived artifacts under `research/ufo-derived/video-motion-pass/pr44-late-phase-review/DOD_111689115/*`
 
 The primary validation reviewed `154.0s-204.8s` and raised the high-or-medium visual subset from `127/255` dense rows to `204/255` validation rows. The remaining `51` low rows are concentrated around `181s-199s`, where the target is hard to separate from reticle/overlay graphics and dark-field texture.
 
@@ -114,3 +114,4 @@ The late-phase review sampled `244s-294s` at one frame per second. It found `26/
 ## Next Work
 
 PR44 is now reasonably complete as a standalone public-release video review. Remaining PR44 work would be marginal: hand-clicking the ambiguous `181s-199s` rows or reviewing the earlier intermittent `123s-153s` pre-primary returns. The better next corpus target is a new standalone clip with distinct evidentiary value, especially PR45 (`DOD_111689123.mp4`) or PR47 (`DOD_111689142.mp4`).
+

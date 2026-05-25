@@ -15,7 +15,7 @@ The public MP4 supports a narrower, defensible claim: a compact SWIR contrast is
 
 | Field | Value |
 |---|---|
-| Local video | `source-files-not-included/DOD_111688954.mp4` |
+| Local video | `I:\My Drive\UFO\DOD_111688954.mp4` |
 | Release identity | `DOW-UAP-PR28` |
 | DVIDS report label | `DoW-UAP-D7` |
 | Working report-content match | `DoW-UAP-D25` |
@@ -44,13 +44,14 @@ The phase pass does not resolve the `D7`/`D25` source-index discrepancy. It does
 
 | Artifact | Path |
 |---|---|
-| Script | `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_pr28_d25_phase_review.py` |
-| Metadata | `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-dod_111688954-metadata.txt` |
-| Phase track CSV | `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-dod_111688954-phase-track.csv` |
-| Phase summary CSV | `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-dod_111688954-phase-summary.csv` |
-| Asset index | `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr28-d25-phase-review-assets.csv` |
-| Contact sheets and patches | `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-hard-pair-phase-review/DOD_111688954/` |
+| Script | `scripts/ufo_pr28_d25_phase_review.py` |
+| Metadata | `research/ufo-video-dod_111688954-metadata.txt` |
+| Phase track CSV | `research/ufo-video-dod_111688954-phase-track.csv` |
+| Phase summary CSV | `research/ufo-video-dod_111688954-phase-summary.csv` |
+| Asset index | `research/ufo-video-pr28-d25-phase-review-assets.csv` |
+| Contact sheets and patches | `research/ufo-derived/video-hard-pair-phase-review/DOD_111688954/` |
 
 ## Next Step
 
 Do not attempt physical speed or trajectory analysis from this clip unless FOV/zoom state, slant range, platform motion, gimbal pointing, target coordinates, or original telemetry become available. The useful next action is corpus-level: reconcile the remaining PR/D-label mismatches and promote only hard report-video pairs into any top-level findings.
+

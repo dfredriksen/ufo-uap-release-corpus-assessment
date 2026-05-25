@@ -1,0 +1,27 @@
+summary_group,summary_key,count
+type,AUD,7
+type,PDF,6
+type,VID,51
+agency,Central Intelligence Agency,1
+agency,Department of Energy,3
+agency,Department of War,52
+agency,NASA,7
+agency,Office of the Director of National Intelligence,1
+agency_type,Central Intelligence Agency | PDF,1
+agency_type,Department of Energy | PDF,3
+agency_type,Department of War | PDF,1
+agency_type,Department of War | VID,51
+agency_type,NASA | AUD,7
+agency_type,Office of the Director of National Intelligence | PDF,1
+department_of_war_family,other,1
+department_of_war_family,video,51
+redaction_flag,(blank),10
+redaction_flag,TRUE,54
+local_asset_exact_match,(no linked asset),58
+local_asset_exact_match,no,6
+manifest,records,64
+manifest,records_with_dvids_video_id,58
+manifest,records_with_asset_url,6
+asset,unique_linked_assets,6
+asset,unique_linked_assets_exact_local_match,0
+asset,unique_linked_assets_no_exact_local_match,6

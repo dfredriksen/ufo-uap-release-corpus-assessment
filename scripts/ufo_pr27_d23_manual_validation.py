@@ -14,9 +14,9 @@ VIDEO_ID = "DOD_111688825"
 VIDEO_NAME = f"{VIDEO_ID}.mp4"
 RELEASE_ID = "DOW-UAP-PR27"
 REPORT_ID = "DoW-UAP-D23"
-DEFAULT_VIDEO = Path(r"source-files-not-included/DOD_111688825.mp4")
-DEFAULT_PHASE_TRACK = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-dod_111688825-phase-track.csv")
-OUT_ROOT = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-hard-pair-manual-validation") / VIDEO_ID
+DEFAULT_VIDEO = Path(r"I:\My Drive\UFO\DOD_111688825.mp4")
+DEFAULT_PHASE_TRACK = Path("research/ufo-video-dod_111688825-phase-track.csv")
+OUT_ROOT = Path("research/ufo-derived/video-hard-pair-manual-validation") / VIDEO_ID
 
 
 CATEGORY_COLORS = {
@@ -352,7 +352,7 @@ def main() -> None:
 
     cap.release()
 
-    validation_csv = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr27-d23-manual-validation-dod111688825.csv")
+    validation_csv = Path("research/ufo-video-pr27-d23-manual-validation-dod111688825.csv")
     write_csv(validation_csv, list(validation_rows[0].keys()), validation_rows)
 
     category_counts = Counter(row["manual_category"] for row in validation_rows)
@@ -383,10 +383,10 @@ def main() -> None:
             }
         )
 
-    summary_csv = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr27-d23-manual-validation-summary.csv")
+    summary_csv = Path("research/ufo-video-pr27-d23-manual-validation-summary.csv")
     write_csv(summary_csv, ["metric", "value", "scope", "note"], summary_rows)
 
-    segments_csv = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr27-d23-compact-return-segments.csv")
+    segments_csv = Path("research/ufo-video-pr27-d23-compact-return-segments.csv")
     write_csv(
         segments_csv,
         ["segment_id", "start_second", "end_second", "duration_seconds", "sample_count", "phase_start", "phase_end", "interpretation"],
@@ -405,7 +405,7 @@ def main() -> None:
         asset_rows.append({"artifact_type": "annotated_contact_sheet", "path": str(path).replace("\\", "/"), "note": "manual-validation annotated frame sheet"})
     for path in patch_sheets:
         asset_rows.append({"artifact_type": "zoom_patch_contact_sheet", "path": str(path).replace("\\", "/"), "note": "manual-validation zoom-patch sheet"})
-    asset_csv = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr27-d23-manual-validation-assets.csv")
+    asset_csv = Path("research/ufo-video-pr27-d23-manual-validation-assets.csv")
     write_csv(asset_csv, ["artifact_type", "path", "note"], asset_rows)
 
     print(f"video={args.video}")
@@ -420,3 +420,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

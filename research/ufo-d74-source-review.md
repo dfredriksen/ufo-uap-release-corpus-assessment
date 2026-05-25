@@ -2,7 +2,7 @@
 
 Owner: Dan Fredriksen
 Created: 2026-05-12
-Source file: `source-files-not-included/dow-uap-d74-mission-report-syria-november-2023.pdf`
+Source file: `I:\My Drive\UFO\dow-uap-d74-mission-report-syria-november-2023.pdf`
 Official URL: `https://www.war.gov/medialink/ufo/release_1/dow-uap-d74-mission-report-syria-november-2023.pdf`
 Status: source review complete; document-only case
 
@@ -88,8 +88,8 @@ The structured description field is still redacted, so the shape claim should be
 
 Generated page renders:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/source-page-renders/D74/d74-page-08.png`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/source-page-renders/D74/d74-page-09.png`
+- `research/ufo-derived/source-page-renders/D74/d74-page-08.png`
+- `research/ufo-derived/source-page-renders/D74/d74-page-09.png`
 
 ## Analytic Treatment
 
@@ -109,3 +109,4 @@ Generated page renders:
 ## Sources
 
 - War.gov D74 PDF: `https://www.war.gov/medialink/ufo/release_1/dow-uap-d74-mission-report-syria-november-2023.pdf`
+

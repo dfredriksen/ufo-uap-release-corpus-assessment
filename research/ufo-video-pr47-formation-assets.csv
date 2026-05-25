@@ -1,62 +1,63 @@
 ﻿artifact_type,path,note
-detail_csv,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr47-formation-review-dod111689142.csv,per-sample formation review
-summary_csv,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr47-formation-summary.csv,phase-level formation summary
-metadata,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-dod_111689142-metadata.txt,OpenCV source video metadata
-annotated_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-00.jpg,annotated center-crop contact sheet
-annotated_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-01.jpg,annotated center-crop contact sheet
-annotated_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-02.jpg,annotated center-crop contact sheet
-annotated_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-03.jpg,annotated center-crop contact sheet
-annotated_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-04.jpg,annotated center-crop contact sheet
-annotated_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-05.jpg,annotated center-crop contact sheet
-annotated_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-06.jpg,annotated center-crop contact sheet
-annotated_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-07.jpg,annotated center-crop contact sheet
-annotated_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-08.jpg,annotated center-crop contact sheet
-annotated_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-09.jpg,annotated center-crop contact sheet
-annotated_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-10.jpg,annotated center-crop contact sheet
-annotated_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-11.jpg,annotated center-crop contact sheet
-annotated_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-12.jpg,annotated center-crop contact sheet
-annotated_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-13.jpg,annotated center-crop contact sheet
-annotated_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-14.jpg,annotated center-crop contact sheet
-annotated_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-15.jpg,annotated center-crop contact sheet
-annotated_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-16.jpg,annotated center-crop contact sheet
-annotated_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-17.jpg,annotated center-crop contact sheet
-annotated_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-18.jpg,annotated center-crop contact sheet
-annotated_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-19.jpg,annotated center-crop contact sheet
-annotated_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-20.jpg,annotated center-crop contact sheet
-annotated_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-21.jpg,annotated center-crop contact sheet
-annotated_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-22.jpg,annotated center-crop contact sheet
-annotated_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-23.jpg,annotated center-crop contact sheet
-annotated_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-24.jpg,annotated center-crop contact sheet
-annotated_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-25.jpg,annotated center-crop contact sheet
-annotated_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-26.jpg,annotated center-crop contact sheet
-annotated_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-27.jpg,annotated center-crop contact sheet
-annotated_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-28.jpg,annotated center-crop contact sheet
-annotated_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-29.jpg,annotated center-crop contact sheet
-annotated_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-30.jpg,annotated center-crop contact sheet
-annotated_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-31.jpg,annotated center-crop contact sheet
-annotated_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-32.jpg,annotated center-crop contact sheet
-patch_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-00.jpg,formation patch sheet
-patch_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-01.jpg,formation patch sheet
-patch_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-02.jpg,formation patch sheet
-patch_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-03.jpg,formation patch sheet
-patch_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-04.jpg,formation patch sheet
-patch_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-05.jpg,formation patch sheet
-patch_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-06.jpg,formation patch sheet
-patch_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-07.jpg,formation patch sheet
-patch_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-08.jpg,formation patch sheet
-patch_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-09.jpg,formation patch sheet
-patch_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-10.jpg,formation patch sheet
-patch_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-11.jpg,formation patch sheet
-patch_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-12.jpg,formation patch sheet
-patch_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-13.jpg,formation patch sheet
-patch_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-14.jpg,formation patch sheet
-patch_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-15.jpg,formation patch sheet
-patch_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-16.jpg,formation patch sheet
-patch_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-17.jpg,formation patch sheet
-patch_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-18.jpg,formation patch sheet
-patch_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-19.jpg,formation patch sheet
-patch_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-20.jpg,formation patch sheet
-patch_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-21.jpg,formation patch sheet
-patch_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-22.jpg,formation patch sheet
-patch_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-23.jpg,formation patch sheet
-patch_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-24.jpg,formation patch sheet
+detail_csv,research/ufo-video-pr47-formation-review-dod111689142.csv,per-sample formation review
+summary_csv,research/ufo-video-pr47-formation-summary.csv,phase-level formation summary
+metadata,research/ufo-video-dod_111689142-metadata.txt,OpenCV source video metadata
+annotated_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-00.jpg,annotated center-crop contact sheet
+annotated_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-01.jpg,annotated center-crop contact sheet
+annotated_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-02.jpg,annotated center-crop contact sheet
+annotated_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-03.jpg,annotated center-crop contact sheet
+annotated_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-04.jpg,annotated center-crop contact sheet
+annotated_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-05.jpg,annotated center-crop contact sheet
+annotated_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-06.jpg,annotated center-crop contact sheet
+annotated_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-07.jpg,annotated center-crop contact sheet
+annotated_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-08.jpg,annotated center-crop contact sheet
+annotated_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-09.jpg,annotated center-crop contact sheet
+annotated_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-10.jpg,annotated center-crop contact sheet
+annotated_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-11.jpg,annotated center-crop contact sheet
+annotated_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-12.jpg,annotated center-crop contact sheet
+annotated_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-13.jpg,annotated center-crop contact sheet
+annotated_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-14.jpg,annotated center-crop contact sheet
+annotated_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-15.jpg,annotated center-crop contact sheet
+annotated_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-16.jpg,annotated center-crop contact sheet
+annotated_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-17.jpg,annotated center-crop contact sheet
+annotated_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-18.jpg,annotated center-crop contact sheet
+annotated_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-19.jpg,annotated center-crop contact sheet
+annotated_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-20.jpg,annotated center-crop contact sheet
+annotated_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-21.jpg,annotated center-crop contact sheet
+annotated_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-22.jpg,annotated center-crop contact sheet
+annotated_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-23.jpg,annotated center-crop contact sheet
+annotated_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-24.jpg,annotated center-crop contact sheet
+annotated_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-25.jpg,annotated center-crop contact sheet
+annotated_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-26.jpg,annotated center-crop contact sheet
+annotated_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-27.jpg,annotated center-crop contact sheet
+annotated_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-28.jpg,annotated center-crop contact sheet
+annotated_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-29.jpg,annotated center-crop contact sheet
+annotated_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-30.jpg,annotated center-crop contact sheet
+annotated_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-31.jpg,annotated center-crop contact sheet
+annotated_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-annotated-32.jpg,annotated center-crop contact sheet
+patch_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-00.jpg,formation patch sheet
+patch_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-01.jpg,formation patch sheet
+patch_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-02.jpg,formation patch sheet
+patch_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-03.jpg,formation patch sheet
+patch_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-04.jpg,formation patch sheet
+patch_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-05.jpg,formation patch sheet
+patch_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-06.jpg,formation patch sheet
+patch_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-07.jpg,formation patch sheet
+patch_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-08.jpg,formation patch sheet
+patch_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-09.jpg,formation patch sheet
+patch_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-10.jpg,formation patch sheet
+patch_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-11.jpg,formation patch sheet
+patch_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-12.jpg,formation patch sheet
+patch_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-13.jpg,formation patch sheet
+patch_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-14.jpg,formation patch sheet
+patch_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-15.jpg,formation patch sheet
+patch_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-16.jpg,formation patch sheet
+patch_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-17.jpg,formation patch sheet
+patch_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-18.jpg,formation patch sheet
+patch_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-19.jpg,formation patch sheet
+patch_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-20.jpg,formation patch sheet
+patch_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-21.jpg,formation patch sheet
+patch_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-22.jpg,formation patch sheet
+patch_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-23.jpg,formation patch sheet
+patch_sheet,research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/sheets/DOD_111689142-patches-24.jpg,formation patch sheet
+

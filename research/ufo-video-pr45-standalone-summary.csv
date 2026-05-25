@@ -3,3 +3,4 @@ initial lock / small contrast,0.0,17.9,90,0,12,62,16,12,52.5,92,4.0,14.0,3.6,13.
 contrast-transition interval,18.0,34.9,85,4,28,48,5,32,47.5,206,5.0,8.0,23.0,34.8,Sensor/background contrast changes while the central area remains near the reticle.
 growth interval,35.0,50.9,80,72,8,0,0,80,204.0,396,23.0,15.5,35.0,50.8,Central contrast area becomes larger and brighter in the public clip.
 late large-return / exit-adjacent interval,51.0,58.5,38,29,2,7,0,31,425.0,2168,37.5,19.0,51.0,57.0,Largest visible central contrast area; clip ends before any independent geometry is recoverable.
+

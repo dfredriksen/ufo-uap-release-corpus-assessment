@@ -2,7 +2,7 @@
 
 Owner: Dan Fredriksen
 Created: 2026-05-14
-Source: `source-files-not-included/dow-uap-d65-mission-report-persian-gulf-july-2020.pdf`
+Source: `I:\My Drive\UFO\dow-uap-d65-mission-report-persian-gulf-july-2020.pdf`
 Status: source review complete from local OCR extraction
 
 ## Bottom Line
@@ -100,3 +100,4 @@ Priority follow-up material:
 ## Current Judgment
 
 D65 is a strong source-reviewed reporting-density row. It should be used to show that the released collection contains repeated operational UAP observations within a single NAVCENT Gulf/Strait mission. It should not be used to claim anomalous speed, acceleration, advanced technology, or a single coherent object track without raw sensor data and telemetry.
+

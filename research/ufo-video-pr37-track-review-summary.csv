@@ -1,0 +1,26 @@
+﻿metric,value,note
+video,DOD_111689044.mp4,local source video
+release_id,DOW-UAP-PR37,DVIDS public release identity
+duration_seconds,9.8,fps=30.0; frames=294
+sample_count,99,10.0 fps full-clip review samples
+event_window_sample_count,21,samples in DVIDS 00:06-00:08 description window
+supported_high_or_medium_rows,15,event-window rows with usable target component
+supported_intervals,6.4s-7.8s,1 ten-fps high/medium interval(s)
+event_lane_track,15,6.4s-7.8s; net=896.143px; path=896.327px; dx=118.300px; dy=-888.300px; upward_displacement=888.300px; path_rate=640.233px/s; median_step_rate=667.636px/s; linearity=1.000
+event_lane_horizontal_delta_px,118.3,end center x minus start center x
+event_lane_vertical_delta_px,-888.3,end center y minus start center y; negative is upward
+event_lane_net_displacement_px,896.143,start-to-end image-plane displacement
+event_lane_path_length_px,896.327,sum of supported row-to-row image-plane steps
+distance_from_expected_lane_px,17.3,median; mean=13.971; stdev=8.437; cv=0.604; supported component distance from PR37 event lane
+component_area,199.0,median; mean=197.933; stdev=37.610; cv=0.190; supported bright component pixel area after overlay/blackout suppression
+bbox_width_px,12.0,median; mean=12.733; stdev=2.120; cv=0.167; supported component bounding-box width
+bbox_height_px,22.0,median; mean=21.800; stdev=2.624; cv=0.120; supported component bounding-box height
+brightness_delta_luma,76.0,median; mean=78.333; stdev=12.720; cv=0.162; component max luma minus local median luma
+max_positive_contrast_luma,87.0,median; mean=85.600; stdev=9.379; cv=0.110; maximum luma over local median-background estimate
+quality_count: high,15,all full-clip review rows
+quality_count: low,3,all full-clip review rows
+quality_count: none,81,all full-clip review rows
+event_quality_count: high,15,DVIDS 00:06-00:08 event rows
+event_quality_count: low,3,DVIDS 00:06-00:08 event rows
+event_quality_count: none,3,DVIDS 00:06-00:08 event rows
+

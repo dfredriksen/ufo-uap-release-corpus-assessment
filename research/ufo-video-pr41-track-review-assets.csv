@@ -1,0 +1,11 @@
+﻿artifact_type,path,note
+track_review_csv,research/ufo-video-pr41-track-review-dod111689083.csv,PR41 one-fps dynamic compact-contrast track table
+summary_csv,research/ufo-video-pr41-track-review-summary.csv,PR41 track review summary
+annotated_contact_sheet,research/ufo-derived/video-motion-pass/pr41-track-review/DOD_111689083/sheets/DOD_111689083-pr41-track-annotated-00.jpg,PR41 annotated frame sheet
+annotated_contact_sheet,research/ufo-derived/video-motion-pass/pr41-track-review/DOD_111689083/sheets/DOD_111689083-pr41-track-annotated-01.jpg,PR41 annotated frame sheet
+annotated_contact_sheet,research/ufo-derived/video-motion-pass/pr41-track-review/DOD_111689083/sheets/DOD_111689083-pr41-track-annotated-02.jpg,PR41 annotated frame sheet
+annotated_contact_sheet,research/ufo-derived/video-motion-pass/pr41-track-review/DOD_111689083/sheets/DOD_111689083-pr41-track-annotated-03.jpg,PR41 annotated frame sheet
+zoom_patch_contact_sheet,research/ufo-derived/video-motion-pass/pr41-track-review/DOD_111689083/sheets/DOD_111689083-pr41-track-patches-00.jpg,PR41 target patch sheet
+zoom_patch_contact_sheet,research/ufo-derived/video-motion-pass/pr41-track-review/DOD_111689083/sheets/DOD_111689083-pr41-track-patches-01.jpg,PR41 target patch sheet
+zoom_patch_contact_sheet,research/ufo-derived/video-motion-pass/pr41-track-review/DOD_111689083/sheets/DOD_111689083-pr41-track-patches-02.jpg,PR41 target patch sheet
+

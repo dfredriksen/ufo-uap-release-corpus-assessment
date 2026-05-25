@@ -2,7 +2,7 @@
 
 Owner: Dan Fredriksen
 Created: 2026-05-14
-Source files: official public UFO/UAP release files, not redistributed in this repository
+Source folder: `I:\My Drive\UFO`
 Status: final-report readiness audit
 
 ## Bottom Line
@@ -30,9 +30,11 @@ The stable scientific takeaway is:
 | D28 weapons-context report | Source review, release-index search, evidence packet complete | Yes | Top document-only source-request case. |
 | D74 later Syria narrative | Source review complete | Yes | Best later readable narrative report. |
 | Persian Gulf / Strait 2020 lane | Timeline plus D61 and D65 source reviews complete | Yes | Use as regional reporting-density pattern. |
-| Western U.S. slide deck | Initial review complete at briefing/witness-summary level | Partial | Use as witness-narrative context only. |
+| Release 02 video tranche review | DVIDS page review complete for all 51 video rows | Yes | Use as a publication-ready release-index summary: 43 unaltered pages, 8 altered pages, one duplicate pair, one same-title non-duplicate pair, and no new hard local report pairing. |
+| Release 02 non-video review | All 13 non-video rows reviewed at publication grade | Yes | Use as the historical/control tranche summary: D017 green-fireball archive, ODNI narrative, DOE image/provenance and historical correspondence, and NASA control audio. |
+| Western U.S. slide deck / composite sketch | Briefing and witness-summary review complete; embedded text and FBI-rendered composite inspected | Partial | Use as witness-narrative context only, not as primary sensor evidence. |
 | Historical FBI/archive PDFs | Inventoried and triaged; large OCR burden remains | No, except scope note | Do not use for strong findings until targeted OCR review. |
-| NASA tranhttps://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/images | Inventoried and triaged; not deeply interpreted | No, except scope note | Do not use for strong findings until exact transcript/image review. |
+| NASA transcripts/images | Inventoried and triaged; not deeply interpreted | No, except scope note | Do not use for strong findings until exact transcript/image review. |
 | DOS cables | Inventoried; not deeply interpreted | No, except scope note | Do not use for strong findings until targeted cable review. |
 | FBI photo/image sets | Inventoried; not deeply analyzed or linked to source records | No | Hold for image provenance review. |
 
@@ -44,9 +46,9 @@ The strongest evidence lanes are official records and public releases with opera
 
 Primary support:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-evidence-ladder.md`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-priority-incidents.md`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-modern-event-timeline.md`
+- `research/ufo-evidence-ladder.md`
+- `research/ufo-priority-incidents.md`
+- `research/ufo-modern-event-timeline.md`
 
 ### Finding 2: Hard Report/Video Pairings Exist, But Public Physics Is Weak
 
@@ -56,11 +58,11 @@ The report should not state that public videos independently prove true speed, a
 
 Primary support:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-report-video-correlation-matrix.md`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-anchor-notes.md`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr34-d33-manual-track-notes.md`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr34-d33-geometry-feasibility.md`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr27-d23-manual-validation-notes.md`
+- `research/ufo-report-video-correlation-matrix.md`
+- `research/ufo-video-d38-anchor-notes.md`
+- `research/ufo-pr34-d33-manual-track-notes.md`
+- `research/ufo-pr34-d33-geometry-feasibility.md`
+- `research/ufo-video-pr27-d23-manual-validation-notes.md`
 
 ### Finding 3: Some Official Release Labels Conflict With Source Content
 
@@ -68,9 +70,9 @@ Several important cases require label discipline. PR29's public description matc
 
 Primary support:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr29-d8-d27-reconciliation.md`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr28-d25-d7-reconciliation.md`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-range-fouler-official-metadata-check.md`
+- `research/ufo-pr29-d8-d27-reconciliation.md`
+- `research/ufo-pr28-d25-d7-reconciliation.md`
+- `research/ufo-range-fouler-official-metadata-check.md`
 
 ### Finding 4: D58 Is The Best Document-Only Source-Request Target
 
@@ -78,8 +80,8 @@ D58 preserves radar lock, target-pod video, KINGPIN-directed identification, two
 
 Primary support:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d58-evidence-packet.md`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d58-evidence-constraints.csv`
+- `research/ufo-d58-evidence-packet.md`
+- `research/ufo-d58-evidence-constraints.csv`
 
 ### Finding 5: Persian Gulf / Strait 2020 Is A Pattern Lane
 
@@ -87,9 +89,9 @@ The core Persian Gulf / Strait of Hormuz 2020 pattern is `D60-D65`, not the broa
 
 Primary support:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-persian-gulf-2020-timeline.md`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d61-source-review.md`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d65-source-review.md`
+- `research/ufo-persian-gulf-2020-timeline.md`
+- `research/ufo-d61-source-review.md`
+- `research/ufo-d65-source-review.md`
 
 ### Finding 6: The Corpus Includes Its Own Controls
 
@@ -97,9 +99,9 @@ The release includes records that point toward mundane or ambiguous explanations
 
 Primary support:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-evidence-ladder.md`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-report-video-correlation-matrix.md`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-priority-incidents.md`
+- `research/ufo-evidence-ladder.md`
+- `research/ufo-report-video-correlation-matrix.md`
+- `research/ufo-priority-incidents.md`
 
 ## Required Caveats
 
@@ -125,4 +127,5 @@ Minimum work before marking the overall UFO-analysis goal complete:
 
 ## Current Judgment
 
-The evidence base is ready for a defensible final-report draft focused on the modern operational records and public videos. It is not ready for a claim that every historical or image file in the 170-file folder has been exhaustively analyzed.
+The evidence base is ready for a defensible final-report draft focused on the modern operational records and public videos, including the fully reviewed Release 02 tranche. It is not ready for a claim that every historical or image file in the 170-file folder has been exhaustively analyzed.
+

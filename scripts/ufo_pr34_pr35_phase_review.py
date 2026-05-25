@@ -2,7 +2,6 @@
 
 import csv
 import math
-import shutil
 import subprocess
 from dataclasses import dataclass
 from pathlib import Path
@@ -11,7 +10,11 @@ import cv2
 import numpy as np
 
 
-DEFAULT_FFPROBE = Path(shutil.which("ffprobe") or "ffprobe")
+DEFAULT_FFPROBE = Path(
+    r"C:\Users\Dan\AppData\Local\Microsoft\WinGet\Packages"
+    r"\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe"
+    r"\ffmpeg-8.1.1-full_build\bin\ffprobe.exe"
+)
 
 
 @dataclass(frozen=True)
@@ -37,7 +40,7 @@ CASES = (
         video_id="DOD_111689011",
         report_id="DoW-UAP-D33",
         release_id="DOW-UAP-PR34",
-        video_path=Path(r"source-files-not-included/DOD_111689011.mp4"),
+        video_path=Path(r"I:\My Drive\UFO\DOD_111689011.mp4"),
         sample_rate=2.0,
         phases=(
             Phase("pre-entry/context", 0.0, 3.9, "Before DVIDS 00:04 entry note"),
@@ -54,7 +57,7 @@ CASES = (
         video_id="DOD_111689022",
         report_id="DoW-UAP-D35",
         release_id="DOW-UAP-PR35",
-        video_path=Path(r"source-files-not-included/DOD_111689022-1920x1080-9000k.mp4"),
+        video_path=Path(r"I:\My Drive\UFO\DOD_111689022-1920x1080-9000k.mp4"),
         sample_rate=2.0,
         phases=(
             Phase("pre-zoom/context", 0.0, 1.9, "Before DVIDS 00:02 zoom note"),
@@ -262,13 +265,10 @@ def write_csv(path: Path, fieldnames: list[str], rows: list[dict]) -> None:
 
 def write_metadata(case: Case, out_path: Path) -> None:
     lines = [f"video={case.video_path}", f"release_id={case.release_id}", f"report_id={case.report_id}"]
-    ffprobe_cmd = shutil.which(str(DEFAULT_FFPROBE)) or (
-        str(DEFAULT_FFPROBE) if DEFAULT_FFPROBE.exists() else None
-    )
-    if ffprobe_cmd:
+    if DEFAULT_FFPROBE.exists():
         result = subprocess.run(
             [
-                ffprobe_cmd,
+                str(DEFAULT_FFPROBE),
                 "-v",
                 "error",
                 "-show_entries",
@@ -498,9 +498,10 @@ def main() -> None:
         ["video", "artifact_type", "path", "note"],
         all_index_rows,
     )
-    print("summary=https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr34-pr35-phase-summary.csv")
-    print("assets=https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr34-pr35-phase-review-assets.csv")
+    print("summary=research/ufo-video-pr34-pr35-phase-summary.csv")
+    print("assets=research/ufo-video-pr34-pr35-phase-review-assets.csv")
 
 
 if __name__ == "__main__":
     main()
+

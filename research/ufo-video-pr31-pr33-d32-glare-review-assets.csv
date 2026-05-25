@@ -1,0 +1,11 @@
+﻿release_id,artifact_type,path,note
+DOW-UAP-PR31,source_video,I:/My Drive/UFO/DOD_111688970.mp4,source video used for DOW-UAP-PR31/D32 review
+DOW-UAP-PR31,annotated_sheet,research/ufo-derived/video-motion-pass/pr31-pr33-d32-glare-review/DOD_111688970/DOD_111688970-d32-glare-annotated.jpg,5 fps full-frame artifact annotations
+DOW-UAP-PR31,patch_sheet,research/ufo-derived/video-motion-pass/pr31-pr33-d32-glare-review/DOD_111688970/DOD_111688970-d32-glare-patches.jpg,top-edge or orange-overlay artifact patches
+DOW-UAP-PR32,source_video,I:/My Drive/UFO/DOD_111688997.mp4,source video used for DOW-UAP-PR32/D32 review
+DOW-UAP-PR32,annotated_sheet,research/ufo-derived/video-motion-pass/pr31-pr33-d32-glare-review/DOD_111688997/DOD_111688997-d32-glare-annotated.jpg,5 fps full-frame artifact annotations
+DOW-UAP-PR32,patch_sheet,research/ufo-derived/video-motion-pass/pr31-pr33-d32-glare-review/DOD_111688997/DOD_111688997-d32-glare-patches.jpg,top-edge or orange-overlay artifact patches
+DOW-UAP-PR33,source_video,I:/My Drive/UFO/DOD_111689005.mp4,source video used for DOW-UAP-PR33/D32 review
+DOW-UAP-PR33,annotated_sheet,research/ufo-derived/video-motion-pass/pr31-pr33-d32-glare-review/DOD_111689005/DOD_111689005-d32-glare-annotated.jpg,5 fps full-frame artifact annotations
+DOW-UAP-PR33,patch_sheet,research/ufo-derived/video-motion-pass/pr31-pr33-d32-glare-review/DOD_111689005/DOD_111689005-d32-glare-patches.jpg,top-edge or orange-overlay artifact patches
+

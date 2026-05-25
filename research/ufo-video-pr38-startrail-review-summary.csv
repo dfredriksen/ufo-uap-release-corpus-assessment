@@ -1,0 +1,31 @@
+﻿metric,value,note
+video,DOD_111689051.mp4,local source video
+release_id,DOW-UAP-PR38,DVIDS public release identity
+duration_seconds,106.433,fps=30.0; frames=3193
+sample_count,107,1.0 fps full-clip samples
+supported_high_or_medium_rows,90,rows with usable dark contrast group
+star_like_proxy_supported_rows,90,supported rows with star-like bbox/fill proxy
+supported_intervals,3.0s-5.0s; 7.0s-10.0s; 12.0s-21.0s; 23.0s-29.0s; 35.0s-54.0s; 60.0s-101.0s; 103.0s-106.0s,7 one-fps supported interval(s)
+star_like_proxy_supported_intervals,3.0s-5.0s; 7.0s-10.0s; 12.0s-21.0s; 23.0s-29.0s; 35.0s-54.0s; 60.0s-101.0s; 103.0s-106.0s,7 one-fps supported interval(s)
+star_like_group_track,90,3.0s-106.0s; net=640.039px; path=14984.312px; path_rate=145.479px/s; median_step_rate=51.219px/s
+component_area,4379.5,median; mean=3716.500; stdev=2020.365; cv=0.544; selected dark star-like group pixel area
+dark_contrast_delta,99.0,median; mean=97.489; stdev=18.928; cv=0.194; local median luma minus selected group min/dark luma proxy
+distance_from_reticle_px,294.735,median; mean=330.617; stdev=174.996; cv=0.529; selected group distance from central reticle
+edge_margin_px,286.635,median; mean=268.788; stdev=121.734; cv=0.453; selected group distance from central ROI edge
+bbox_width_px,163.0,median; mean=158.889; stdev=80.661; cv=0.508; selected group bounding-box width
+bbox_height_px,122.0,median; mean=118.733; stdev=59.810; cv=0.504; selected group bounding-box height
+quality_count: high,77,review quality
+quality_count: low,9,review quality
+quality_count: medium,13,review quality
+quality_count: none,8,review quality
+supported_phase_count: initial star-like contrast,6,supported rows by DVIDS phase
+supported_phase_count: post-cut in-field star-like contrast,63,supported rows by DVIDS phase
+supported_phase_count: star-like movement with trail,17,supported rows by DVIDS phase
+supported_phase_count: top-left exit,3,supported rows by DVIDS phase
+supported_phase_count: zoom-in event,1,supported rows by DVIDS phase
+star_like_phase_count: initial star-like contrast,6,star-like proxy rows by DVIDS phase
+star_like_phase_count: post-cut in-field star-like contrast,63,star-like proxy rows by DVIDS phase
+star_like_phase_count: star-like movement with trail,17,star-like proxy rows by DVIDS phase
+star_like_phase_count: top-left exit,3,star-like proxy rows by DVIDS phase
+star_like_phase_count: zoom-in event,1,star-like proxy rows by DVIDS phase
+

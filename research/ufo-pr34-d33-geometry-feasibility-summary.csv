@@ -7,3 +7,4 @@ phase_all: horizontal back-and-forth tracking,26,7.0,19.5,12.5,252.5,878.5,968.7
 phase_accepted_only: horizontal back-and-forth tracking,23,7.0,19.0,12.0,252.5,878.5,1001.1,530.9,825.365,68.78,2409.611,200.801,183.321,97.232,375.811,410.353,669.601,22,0,phase-specific accepted marks only
 phase_all: generally centered in FOV,79,20.0,59.0,39.0,936.2,503.4,951.4,586.4,84.38,2.164,3463.882,88.817,88.817,67.507,187.397,236.439,249.461,60,18,phase-specific cleaned continuity track
 phase_accepted_only: generally centered in FOV,69,20.0,59.0,39.0,936.2,503.4,951.4,586.4,84.38,2.164,3463.882,88.817,82.835,66.389,187.23,215.242,249.461,68,0,phase-specific accepted marks only
+

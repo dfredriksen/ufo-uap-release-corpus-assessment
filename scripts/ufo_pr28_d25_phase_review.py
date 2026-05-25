@@ -14,7 +14,7 @@ VIDEO_NAME = f"{VIDEO_ID}.mp4"
 RELEASE_ID = "DOW-UAP-PR28"
 REPORT_ID = "DoW-UAP-D25"
 REPORTED_DVIDS_LABEL = "DoW-UAP-D7"
-DEFAULT_VIDEO = Path(r"source-files-not-included/DOD_111688954.mp4")
+DEFAULT_VIDEO = Path(r"I:\My Drive\UFO\DOD_111688954.mp4")
 
 
 @dataclass(frozen=True)
@@ -476,10 +476,11 @@ def main() -> None:
     )
 
     print(f"{VIDEO_ID}: fps={fps:.3f} frames={frame_count} duration={duration:.2f}s phases={len(summary_rows)}")
-    print("summary=https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-dod_111688954-phase-summary.csv")
-    print("track=https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-dod_111688954-phase-track.csv")
-    print("assets=https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr28-d25-phase-review-assets.csv")
+    print("summary=research/ufo-video-dod_111688954-phase-summary.csv")
+    print("track=research/ufo-video-dod_111688954-phase-track.csv")
+    print("assets=research/ufo-video-pr28-d25-phase-review-assets.csv")
 
 
 if __name__ == "__main__":
     main()
+

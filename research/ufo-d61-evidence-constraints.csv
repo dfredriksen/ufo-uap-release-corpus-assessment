@@ -11,3 +11,4 @@
 "loss condition","PID lost in cloud cover; aircrew unable to regain PID","strong caveat","Use as end condition and control against overclaiming","Cloud loss could reflect weather/sensor limitation rather than object behavior","Request weather imagery and sensor video"
 "weather","light cloud coverage prevented continuous tracking of the formation","strong caveat","Use as central confidence limiter","Does not explain initial observation by itself","Compare against weather/cloud imagery"
 "unsupported claims","speed, altitude, range, object count, size, formation spacing, anomalous acceleration, exotic origin","analytic constraint","Prevent overclaiming","Public release does not preserve data needed for these claims","Promote only with raw sensor/telemetry evidence"
+

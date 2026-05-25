@@ -2,8 +2,8 @@
 
 Owner: Dan Fredriksen
 Created: 2026-05-09
-Source files: official public UFO/UAP release files, not redistributed in this repository
-Derived artifacts: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass`
+Source folder: `I:\My Drive\UFO`
+Derived artifacts: `research/ufo-derived/video-motion-pass`
 Status: Motion review of the three strongest videos
 
 ## Method
@@ -16,31 +16,31 @@ The strongest three videos from the second-pass crop review were processed into 
 
 Generated files:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-motion-pass-index.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-motion-segment-sheet-index.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-object-position-dod111689115.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-object-position-dod111689115-ranges.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-source-overlay-dod111689115.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-ffmpeg-metadata-dod111689115.txt`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-point-count-dod111689090.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-point-count-dod111689090-strong.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-point-count-dod111689090-ranges.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-point-count-dod111689090-segment-summary.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-high-rate-review-dod111689090.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-ffmpeg-metadata-dod111689090.txt`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-high-rate-review-dod111688964.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-high-rate-notes-dod111688964.md`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-object-position-dod111688964-fps5.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-manual-track-dod111688964.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-full-frame-stills-dod111688964.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-ffmpeg-metadata-dod111688964.txt`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/one-fps-center-crops/*/*.jpg`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/segment-sheets/*.jpg`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/overlay-crops/DOD_111689115/*.png`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/overlay-crops/DOD_111689115/*_ocr.txt`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/source-overlay/DOD_111689115/*`
+- `research/ufo-video-motion-pass-index.csv`
+- `research/ufo-video-motion-segment-sheet-index.csv`
+- `research/ufo-video-object-position-dod111689115.csv`
+- `research/ufo-video-object-position-dod111689115-ranges.csv`
+- `research/ufo-video-source-overlay-dod111689115.csv`
+- `research/ufo-video-ffmpeg-metadata-dod111689115.txt`
+- `research/ufo-video-point-count-dod111689090.csv`
+- `research/ufo-video-point-count-dod111689090-strong.csv`
+- `research/ufo-video-point-count-dod111689090-ranges.csv`
+- `research/ufo-video-point-count-dod111689090-segment-summary.csv`
+- `research/ufo-video-high-rate-review-dod111689090.csv`
+- `research/ufo-video-ffmpeg-metadata-dod111689090.txt`
+- `research/ufo-video-high-rate-review-dod111688964.csv`
+- `research/ufo-video-high-rate-notes-dod111688964.md`
+- `research/ufo-video-object-position-dod111688964-fps5.csv`
+- `research/ufo-video-manual-track-dod111688964.csv`
+- `research/ufo-video-full-frame-stills-dod111688964.csv`
+- `research/ufo-video-ffmpeg-metadata-dod111688964.txt`
+- `research/ufo-derived/video-motion-pass/one-fps-center-crops/*/*.jpg`
+- `research/ufo-derived/video-motion-pass/segment-sheets/*.jpg`
+- `research/ufo-derived/video-motion-pass/overlay-crops/DOD_111689115/*.png`
+- `research/ufo-derived/video-motion-pass/overlay-crops/DOD_111689115/*_ocr.txt`
+- `research/ufo-derived/video-motion-pass/source-overlay/DOD_111689115/*`
 
-No source files in `source-files-not-included` were modified.
+No source files in `I:\My Drive\UFO` were modified.
 
 ## Top Result
 
@@ -97,12 +97,12 @@ A seeded dense audit was added for the strongest PR44 interval, `154.0s-243.0s`,
 
 Generated files:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_pr44_standalone_quant_pass.py`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr44-standalone-quant-notes.md`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr44-dense-track-dod111689115.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr44-dense-track-summary.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr44-dense-track-assets.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr44-standalone/DOD_111689115/*`
+- `scripts/ufo_pr44_standalone_quant_pass.py`
+- `research/ufo-pr44-standalone-quant-notes.md`
+- `research/ufo-video-pr44-dense-track-dod111689115.csv`
+- `research/ufo-video-pr44-dense-track-summary.csv`
+- `research/ufo-video-pr44-dense-track-assets.csv`
+- `research/ufo-derived/video-motion-pass/pr44-standalone/DOD_111689115/*`
 
 The dense pass produced `446` rows across `89.0s`, with `155 high`, `154 medium`, and `137 low` confidence. The full interval has path length `3651.620 px`, path-average rate `41.029 px/s`, median step rate `36.418 px/s`, and p95 step rate `83.860 px/s`.
 
@@ -112,18 +112,18 @@ Interpretation: `DOD_111689115.mp4` is now stronger as a standalone sustained po
 
 ## PR44 Primary Validation And Late Phase Review
 
-Dedicated note: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr44-primary-validation-late-phase-notes.md`
+Dedicated note: `research/ufo-pr44-primary-validation-late-phase-notes.md`
 
 Generated files:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_pr44_primary_visual_validation.py`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_pr44_late_phase_review.py`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr44-primary-visual-validation-dod111689115.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr44-primary-visual-validation-summary.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr44-late-phase-review-dod111689115.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr44-late-phase-review-summary.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr44-primary-validation/DOD_111689115/*`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr44-late-phase-review/DOD_111689115/*`
+- `scripts/ufo_pr44_primary_visual_validation.py`
+- `scripts/ufo_pr44_late_phase_review.py`
+- `research/ufo-video-pr44-primary-visual-validation-dod111689115.csv`
+- `research/ufo-video-pr44-primary-visual-validation-summary.csv`
+- `research/ufo-video-pr44-late-phase-review-dod111689115.csv`
+- `research/ufo-video-pr44-late-phase-review-summary.csv`
+- `research/ufo-derived/video-motion-pass/pr44-primary-validation/DOD_111689115/*`
+- `research/ufo-derived/video-motion-pass/pr44-late-phase-review/DOD_111689115/*`
 
 The primary validation reviewed `154.0s-204.8s` and classified `121` high, `83` medium, and `51` low visual-quality rows. This raises the supported subset from the dense pass's `127/255` high-or-medium rows to `204/255` validation rows. Remaining lows cluster around `181s-199s`, where reticle/overlay graphics and dark-field texture make the target difficult to separate.
 
@@ -185,6 +185,7 @@ Later DVIDS lookup identified `DOD_111688964.mp4` as `DOW-UAP-PR29` / `DoW-UAP-D
 
 1. Manually validate the `DOD_111689030.mp4` / `D38` audit track, especially the `50-87s` interval.
 2. Resolve the local `D8` mismatch for `DOD_111688964.mp4`.
-3. Review PR38 (`DOD_111689051.mp4`) as the next distinct standalone visual target. PR47 (`DOD_111689142.mp4`) now has a full formation pass; see `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr47-formation-visual-notes.md`.
+3. Review PR38 (`DOD_111689051.mp4`) as the next distinct standalone visual target. PR47 (`DOD_111689142.mp4`) now has a full formation pass; see `research/ufo-pr47-formation-visual-notes.md`.
 4. Optionally hand-click the remaining ambiguous PR44 `181s-199s` rows or the earlier `123s-153s` pre-primary intermittent returns.
 5. Continue using DVIDS release metadata before assigning any MP4 to a specific local `D` report.
+

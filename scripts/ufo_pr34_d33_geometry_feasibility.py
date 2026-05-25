@@ -6,11 +6,11 @@ import statistics
 from pathlib import Path
 
 
-TRACK = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr34-d33-manual-track-dod111689011.csv")
-TURN_EVENTS = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr34-d33-image-plane-turn-events.csv")
-SUMMARY_OUT = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr34-d33-geometry-feasibility-summary.csv")
-RANGE_SCENARIO_OUT = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr34-d33-geometry-feasibility-range-scenarios.csv")
-SPEED_SCENARIO_OUT = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr34-d33-geometry-feasibility-speed-scenarios.csv")
+TRACK = Path("research/ufo-video-pr34-d33-manual-track-dod111689011.csv")
+TURN_EVENTS = Path("research/ufo-pr34-d33-image-plane-turn-events.csv")
+SUMMARY_OUT = Path("research/ufo-pr34-d33-geometry-feasibility-summary.csv")
+RANGE_SCENARIO_OUT = Path("research/ufo-pr34-d33-geometry-feasibility-range-scenarios.csv")
+SPEED_SCENARIO_OUT = Path("research/ufo-pr34-d33-geometry-feasibility-speed-scenarios.csv")
 
 SOURCE_WIDTH_PX = 1920
 MPH_TO_MPS = 0.44704
@@ -296,7 +296,7 @@ def main() -> None:
             }
         )
 
-    turn_out = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr34-d33-geometry-feasibility-turn-radius-scenarios.csv")
+    turn_out = Path("research/ufo-pr34-d33-geometry-feasibility-turn-radius-scenarios.csv")
     write_csv(
         turn_out,
         [
@@ -328,3 +328,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

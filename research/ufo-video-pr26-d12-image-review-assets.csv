@@ -1,0 +1,8 @@
+﻿artifact_type,path,note
+image_review_csv,research/ufo-video-pr26-d12-image-review-dod111688816.csv,PR26/D12 one-fps compact elongated-contrast review table
+summary_csv,research/ufo-video-pr26-d12-image-review-summary.csv,PR26/D12 image-plane review summary
+annotated_contact_sheet,research/ufo-derived/video-motion-pass/pr26-d12-image-review/DOD_111688816/sheets/DOD_111688816-pr26-d12-annotated-01.jpg,PR26/D12 annotated frame sheet
+annotated_contact_sheet,research/ufo-derived/video-motion-pass/pr26-d12-image-review/DOD_111688816/sheets/DOD_111688816-pr26-d12-annotated-02.jpg,PR26/D12 annotated frame sheet
+zoom_patch_contact_sheet,research/ufo-derived/video-motion-pass/pr26-d12-image-review/DOD_111688816/sheets/DOD_111688816-pr26-d12-patches-01.jpg,PR26/D12 target patch sheet
+zoom_patch_contact_sheet,research/ufo-derived/video-motion-pass/pr26-d12-image-review/DOD_111688816/sheets/DOD_111688816-pr26-d12-patches-02.jpg,PR26/D12 target patch sheet
+

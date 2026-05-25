@@ -2,10 +2,10 @@
 
 Owner: Dan Fredriksen
 Created: 2026-05-13
-Source files: official public UFO/UAP release files, not redistributed in this repository
+Source folder: `I:\My Drive\UFO`
 Status: superseded by full PR47 pass
 
-Supersession note: this fallback review was superseded on 2026-05-13 by `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr47-formation-visual-notes.md`, after local disk space recovered enough to open and process the full MP4.
+Supersession note: this fallback review was superseded on 2026-05-13 by `research/ufo-pr47-formation-visual-notes.md`, after local disk space recovered enough to open and process the full MP4.
 
 ## Scope
 
@@ -17,22 +17,22 @@ PR47 is a standalone visual lane, not a hard-paired local `DoW-UAP-D*` report ca
 
 The full Drive-backed MP4 could not be opened during this turn because the local filesystem reported zero free bytes and raw reads from the Drive file failed with `No space left on device`. OpenCV also could not open the MP4. Because of that, this review uses only the eight already-extracted full-frame JPGs from the earlier second-pass frame set:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-second-pass/timed-frames/DOD_111689142/t0000.jpg`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-second-pass/timed-frames/DOD_111689142/t0012.jpg`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-second-pass/timed-frames/DOD_111689142/t0030.jpg`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-second-pass/timed-frames/DOD_111689142/t0048.jpg`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-second-pass/timed-frames/DOD_111689142/t0065.jpg`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-second-pass/timed-frames/DOD_111689142/t0083.jpg`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-second-pass/timed-frames/DOD_111689142/t0101.jpg`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-second-pass/timed-frames/DOD_111689142/t0115.jpg`
+- `research/ufo-derived/video-second-pass/timed-frames/DOD_111689142/t0000.jpg`
+- `research/ufo-derived/video-second-pass/timed-frames/DOD_111689142/t0012.jpg`
+- `research/ufo-derived/video-second-pass/timed-frames/DOD_111689142/t0030.jpg`
+- `research/ufo-derived/video-second-pass/timed-frames/DOD_111689142/t0048.jpg`
+- `research/ufo-derived/video-second-pass/timed-frames/DOD_111689142/t0065.jpg`
+- `research/ufo-derived/video-second-pass/timed-frames/DOD_111689142/t0083.jpg`
+- `research/ufo-derived/video-second-pass/timed-frames/DOD_111689142/t0101.jpg`
+- `research/ufo-derived/video-second-pass/timed-frames/DOD_111689142/t0115.jpg`
 
 Generated fallback files:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_pr47_formation_visual_pass.py`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr47-fallback-frame-review-dod111689142.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr47-fallback-frame-summary.csv`
+- `scripts/ufo_pr47_formation_visual_pass.py`
+- `research/ufo-video-pr47-fallback-frame-review-dod111689142.csv`
+- `research/ufo-video-pr47-fallback-frame-summary.csv`
 
-No source files under `source-files-not-included` were modified.
+No source files under `I:\My Drive\UFO` were modified.
 
 ## Fallback Results
 
@@ -65,4 +65,5 @@ This is not a physical formation-kinematics result. The fallback pass is sparse,
 
 ## Next Step
 
-Free local disk space, then rerun `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_pr47_formation_visual_pass.py` against the full MP4 at `5 fps`. That full pass should generate dense per-frame rows and annotated formation sheets before PR47 is promoted above a fallback finding.
+Free local disk space, then rerun `scripts/ufo_pr47_formation_visual_pass.py` against the full MP4 at `5 fps`. That full pass should generate dense per-frame rows and annotated formation sheets before PR47 is promoted above a fallback finding.
+

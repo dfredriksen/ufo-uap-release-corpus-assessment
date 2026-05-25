@@ -1,0 +1,20 @@
+﻿metric,value,note
+video,DOD_111689759.mp4,local source video
+release_id,DOW-UAP-PR43,DVIDS public release identity
+duration_seconds,11.745,fps=29.97002997002997; frames=352
+sample_count,118,10.0 fps loop-aware review samples
+loop_count,5,detected loop/reset-delimited segments in local file
+detected_loop_duration_seconds,2.936,median; mean=2.903; stdev=0.067; cv=0.023; reset-to-reset duration; final partial tail excluded
+primary_observation_rows,82,cycle_second <= 2.0 rows across all local loops
+primary_medium_rows,5,conservative lane-compatible residual rows; no high-confidence rows assigned
+cycle_supported_intervals,1.8s-1.9s,1 cycle-normalized ten-fps supported interval(s)
+cycle_lane_residual_track,2,"cycle 1.8s-1.9s; repeat_counts=[3, 2]; net=47.247px; path=47.247px; path_rate=472.466px/s; median_step_rate=472.466px/s"
+distance_from_expected_lane_px,44.62,median; mean=41.922; stdev=5.470; cv=0.130; supported residual distance from DVIDS-shaped lane
+max_residual_luma,41.564,median; mean=41.024; stdev=9.579; cv=0.234; supported compact residual max luma after frame compensation
+quality_count: low,16,all local looped-file review rows
+quality_count: medium,5,all local looped-file review rows
+quality_count: none,97,all local looped-file review rows
+primary_quality_count: low,3,cycle_second <= 2.0 rows
+primary_quality_count: medium,5,cycle_second <= 2.0 rows
+primary_quality_count: none,74,cycle_second <= 2.0 rows
+

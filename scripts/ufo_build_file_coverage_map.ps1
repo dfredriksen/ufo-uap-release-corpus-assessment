@@ -77,33 +77,33 @@ if (Test-Path $duplicatePath) {
 
 $deepReviewByName = @{}
 $deepPairs = @(
-    @("dow-uap-d8-mission-report-djibouti-2025.pdf", "https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d8-source-review.md"),
-    @("dow-uap-d25-mission-report-greece-january-2024.pdf", "https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d25-source-review.md"),
-    @("dow-uap-d27-mission-report-united-arab-emirates-october-2023.pdf", "https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d27-source-review.md"),
-    @("dow-uap-d28-mission-report-east-china-sea-2024.pdf", "https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d28-evidence-packet.md"),
-    @("dow-uap-d33-mission-report-greece-october-2023.pdf", "https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d33-source-review.md"),
-    @("dow-uap-d35-mission-report-greece-october-2023.pdf", "https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d35-source-review.md"),
-    @("dow-uap-d38-range-fouler-debrief-middle-east-may-2020.pdf", "https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-anchor-notes.md"),
-    @("dow-uap-d44-range-fouler-arabian-sea-october-2020.pdf", "https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-range-fouler-cluster-packet.md"),
-    @("dow-uap-d54-mission-report-mediterranean-sea-na.pdf", "https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d54-source-review.md"),
-    @("dow-uap-d56-range-fouler-debrief-arabian-sea-august-2020.pdf", "https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-range-fouler-cluster-packet.md"),
-    @("dow-uap-d57-mission-report-gulf-of-aden-september-2020.pdf", "https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-range-fouler-cluster-packet.md"),
-    @("dow-uap-d58-range-fouler-debrief-na-october-2020.pdf", "https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d58-evidence-packet.md"),
-    @("dow-uap-d61-mission-report-persian-gulf-august-2020.pdf", "https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d61-source-review.md"),
-    @("dow-uap-d65-mission-report-persian-gulf-july-2020.pdf", "https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d65-source-review.md"),
-    @("dow-uap-d74-mission-report-syria-november-2023.pdf", "https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d74-source-review.md"),
-    @("dow-uap-d75-mission-report-gulf-of-aden-july-2024.pdf", "https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d75-source-review.md"),
-    @("DOD_111688825.mp4", "https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr27-d23-manual-validation-notes.md"),
-    @("DOD_111688954.mp4", "https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr28-d25-phase-review-notes.md"),
-    @("DOD_111688964.mp4", "https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr29-d27-visual-alignment.md"),
-    @("DOD_111689011.mp4", "https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr34-d33-manual-track-notes.md"),
-    @("DOD_111689022-1920x1080-9000k.mp4", "https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr34-pr35-phase-review-notes.md"),
-    @("DOD_111689030.mp4", "https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-anchor-notes.md"),
-    @("DOD_111689090.mp4", "https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-point-count-notes-dod111689090.md"),
-    @("DOD_111689115.mp4", "https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr44-standalone-quant-notes.md"),
-    @("DOD_111689123.mp4", "https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr45-standalone-visual-notes.md"),
-    @("DOD_111689142.mp4", "https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr47-formation-visual-notes.md"),
-    @("western_us_event_slides_5.08.2026.pdf", "https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-priority-incidents.md")
+    @("dow-uap-d8-mission-report-djibouti-2025.pdf", "research/ufo-d8-source-review.md"),
+    @("dow-uap-d25-mission-report-greece-january-2024.pdf", "research/ufo-d25-source-review.md"),
+    @("dow-uap-d27-mission-report-united-arab-emirates-october-2023.pdf", "research/ufo-d27-source-review.md"),
+    @("dow-uap-d28-mission-report-east-china-sea-2024.pdf", "research/ufo-d28-evidence-packet.md"),
+    @("dow-uap-d33-mission-report-greece-october-2023.pdf", "research/ufo-d33-source-review.md"),
+    @("dow-uap-d35-mission-report-greece-october-2023.pdf", "research/ufo-d35-source-review.md"),
+    @("dow-uap-d38-range-fouler-debrief-middle-east-may-2020.pdf", "research/ufo-video-d38-anchor-notes.md"),
+    @("dow-uap-d44-range-fouler-arabian-sea-october-2020.pdf", "research/ufo-range-fouler-cluster-packet.md"),
+    @("dow-uap-d54-mission-report-mediterranean-sea-na.pdf", "research/ufo-d54-source-review.md"),
+    @("dow-uap-d56-range-fouler-debrief-arabian-sea-august-2020.pdf", "research/ufo-range-fouler-cluster-packet.md"),
+    @("dow-uap-d57-mission-report-gulf-of-aden-september-2020.pdf", "research/ufo-range-fouler-cluster-packet.md"),
+    @("dow-uap-d58-range-fouler-debrief-na-october-2020.pdf", "research/ufo-d58-evidence-packet.md"),
+    @("dow-uap-d61-mission-report-persian-gulf-august-2020.pdf", "research/ufo-d61-source-review.md"),
+    @("dow-uap-d65-mission-report-persian-gulf-july-2020.pdf", "research/ufo-d65-source-review.md"),
+    @("dow-uap-d74-mission-report-syria-november-2023.pdf", "research/ufo-d74-source-review.md"),
+    @("dow-uap-d75-mission-report-gulf-of-aden-july-2024.pdf", "research/ufo-d75-source-review.md"),
+    @("DOD_111688825.mp4", "research/ufo-video-pr27-d23-manual-validation-notes.md"),
+    @("DOD_111688954.mp4", "research/ufo-video-pr28-d25-phase-review-notes.md"),
+    @("DOD_111688964.mp4", "research/ufo-pr29-d27-visual-alignment.md"),
+    @("DOD_111689011.mp4", "research/ufo-pr34-d33-manual-track-notes.md"),
+    @("DOD_111689022-1920x1080-9000k.mp4", "research/ufo-video-pr34-pr35-phase-review-notes.md"),
+    @("DOD_111689030.mp4", "research/ufo-video-d38-anchor-notes.md"),
+    @("DOD_111689090.mp4", "research/ufo-video-point-count-notes-dod111689090.md"),
+    @("DOD_111689115.mp4", "research/ufo-pr44-standalone-quant-notes.md"),
+    @("DOD_111689123.mp4", "research/ufo-pr45-standalone-visual-notes.md"),
+    @("DOD_111689142.mp4", "research/ufo-pr47-formation-visual-notes.md"),
+    @("western_us_event_slides_5.08.2026.pdf", "research/ufo-priority-incidents.md")
 )
 
 foreach ($pair in $deepPairs) {
@@ -112,18 +112,18 @@ foreach ($pair in $deepPairs) {
 }
 
 $groupReviewArtifacts = @{}
-$nasaDosArtifact = "https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-nasa-dos-gap-triage.md"
+$nasaDosArtifact = "research/ufo-nasa-dos-gap-triage.md"
 if (Test-Path (Join-Path $RepoRoot $nasaDosArtifact)) {
     $groupReviewArtifacts["nasa_transcript_or_image"] = $nasaDosArtifact
     $groupReviewArtifacts["state_department_cable"] = $nasaDosArtifact
 }
 
-$fbiPhotoArtifact = "https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-fbi-photo-gap-triage.md"
+$fbiPhotoArtifact = "research/ufo-fbi-photo-gap-triage.md"
 if (Test-Path (Join-Path $RepoRoot $fbiPhotoArtifact)) {
     $groupReviewArtifacts["fbi_photo_set"] = $fbiPhotoArtifact
 }
 
-$historicalArchiveArtifact = "https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-historical-archive-gap-triage.md"
+$historicalArchiveArtifact = "research/ufo-historical-archive-gap-triage.md"
 if (Test-Path (Join-Path $RepoRoot $historicalArchiveArtifact)) {
     $groupReviewArtifacts["historical_archive_pdf"] = $historicalArchiveArtifact
 }
@@ -219,3 +219,4 @@ $rows |
 
 Write-Host "Wrote $outPath"
 Write-Host "Wrote $summaryPath"
+

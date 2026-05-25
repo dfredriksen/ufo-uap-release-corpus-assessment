@@ -9,9 +9,9 @@ import numpy as np
 
 
 VIDEO_ID = "DOD_111689030"
-SOURCE_VIDEO = Path(r"source-files-not-included/DOD_111689030.mp4")
-DETECTOR_CSV = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-object-position-dod111689030.csv")
-OUT_ROOT = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/manual-validation") / VIDEO_ID
+SOURCE_VIDEO = Path(r"I:\My Drive\UFO\DOD_111689030.mp4")
+DETECTOR_CSV = Path("research/ufo-video-object-position-dod111689030.csv")
+OUT_ROOT = Path("research/ufo-derived/video-motion-pass/manual-validation") / VIDEO_ID
 
 
 def ensure_dir(path: Path) -> None:
@@ -145,7 +145,7 @@ def main() -> None:
     raw_sheets = write_contact_sheets(raw_paths, sheet_dir, f"{VIDEO_ID}-manual-raw-onefps", cols=4, thumb_width=480)
     patch_sheets = write_contact_sheets(patch_paths, sheet_dir, f"{VIDEO_ID}-manual-patches-onefps", cols=5, thumb_width=240)
 
-    index_path = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-manual-review-assets.csv")
+    index_path = Path("research/ufo-video-d38-manual-review-assets.csv")
     with index_path.open("w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(
             f,
@@ -170,3 +170,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

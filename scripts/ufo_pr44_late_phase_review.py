@@ -14,9 +14,9 @@ import numpy as np
 VIDEO_ID = "DOD_111689115"
 VIDEO_NAME = f"{VIDEO_ID}.mp4"
 RELEASE_ID = "DOW-UAP-PR44"
-DEFAULT_VIDEO = Path(r"source-files-not-included/DOD_111689115.mp4")
-DEFAULT_SEED_TRACK = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-object-position-dod111689115.csv")
-OUT_ROOT = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr44-late-phase-review") / VIDEO_ID
+DEFAULT_VIDEO = Path(r"I:\My Drive\UFO\DOD_111689115.mp4")
+DEFAULT_SEED_TRACK = Path("research/ufo-video-object-position-dod111689115.csv")
+OUT_ROOT = Path("research/ufo-derived/video-motion-pass/pr44-late-phase-review") / VIDEO_ID
 
 CROP_WIDTH = 960
 CROP_HEIGHT = 540
@@ -262,7 +262,7 @@ def main() -> None:
     annotated_sheets = write_contact_sheets(annotated_paths, sheet_dir, f"{VIDEO_ID}-pr44-late-phase-annotated", cols=5, thumb_width=384)
     patch_sheets = write_contact_sheets(patch_paths, sheet_dir, f"{VIDEO_ID}-pr44-late-phase-patches", cols=8, thumb_width=180)
 
-    review_csv = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr44-late-phase-review-dod111689115.csv")
+    review_csv = Path("research/ufo-video-pr44-late-phase-review-dod111689115.csv")
     write_csv(review_csv, list(rows[0].keys()), rows)
 
     summary_rows: list[dict] = [
@@ -282,7 +282,7 @@ def main() -> None:
     for key, value in sorted(Counter(row["overlay_relation"] for row in rows if row["overlay_relation"]).items()):
         summary_rows.append({"metric": f"overlay_count: {key}", "value": value, "note": "seed relation to colored overlay"})
 
-    summary_csv = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr44-late-phase-review-summary.csv")
+    summary_csv = Path("research/ufo-video-pr44-late-phase-review-summary.csv")
     write_csv(summary_csv, ["metric", "value", "note"], summary_rows)
 
     asset_rows: list[dict] = [
@@ -293,7 +293,7 @@ def main() -> None:
         asset_rows.append({"artifact_type": "annotated_contact_sheet", "path": str(path).replace("\\", "/"), "note": "late phase annotated center-crop sheet"})
     for path in patch_sheets:
         asset_rows.append({"artifact_type": "zoom_patch_contact_sheet", "path": str(path).replace("\\", "/"), "note": "late phase seed zoom-patch sheet"})
-    asset_csv = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr44-late-phase-review-assets.csv")
+    asset_csv = Path("research/ufo-video-pr44-late-phase-review-assets.csv")
     write_csv(asset_csv, ["artifact_type", "path", "note"], asset_rows)
 
     print(f"video={args.video}")
@@ -307,3 +307,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

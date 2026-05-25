@@ -2,7 +2,7 @@
 
 Owner: Dan Fredriksen
 Created: 2026-05-14
-Source: `source-files-not-included/dow-uap-d58-range-fouler-debrief-na-october-2020.pdf`
+Source: `I:\My Drive\UFO\dow-uap-d58-range-fouler-debrief-na-october-2020.pdf`
 Official URL: `https://www.war.gov/medialink/ufo/release_1/dow-uap-d58-range-fouler-debrief-na-october-2020.pdf`
 Status: document-only evidence packet complete from local OCR and range-fouler cluster packet
 
@@ -125,7 +125,8 @@ D58 is the next best unresolved research target because it preserves the most ac
 ## Sources
 
 - Official D58 PDF: `https://www.war.gov/medialink/ufo/release_1/dow-uap-d58-range-fouler-debrief-na-october-2020.pdf`
-- Local OCR text: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/text/dow-uap-d58-range-fouler-debrief-na-october-2020.txt`
-- Range-fouler cluster packet: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-range-fouler-cluster-packet.md`
-- Evidence ladder: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-evidence-ladder.md`
+- Local OCR text: `research/ufo-derived/text/dow-uap-d58-range-fouler-debrief-na-october-2020.txt`
+- Range-fouler cluster packet: `research/ufo-range-fouler-cluster-packet.md`
+- Evidence ladder: `research/ufo-evidence-ladder.md`
+
 

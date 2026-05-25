@@ -1,0 +1,23 @@
+﻿metric,value,note
+video,DOD_111688809.mp4,source video used: I:\My Drive\UFO\DOD_111688809.mp4
+release_id,DOW-UAP-PR23,DVIDS public release identity
+report_id,DoW-UAP-D18,DVIDS-stated accompanying mission report
+duration_seconds,10.733,fps=30.0; frames=322
+sample_count,22,half-second full-clip samples
+supported_high_or_medium_rows,3,rows with usable upper-right diagonal/exit residual candidate
+supported_intervals,4.5s-5.5s,half-second supported interval(s)
+supported_candidate_path,3,4.5s-5.5s; net=3.025px; path=3.317px; path_rate=3.317px/s; median_step_rate=3.317px/s; image-plane residual proxy only
+candidate_x_shift_px,-1.556,image-plane x-shift across supported residual rows
+candidate_y_shift_px,2.594,image-plane y-shift across supported residual rows
+candidate_score,679.117,median; mean=685.532; stdev=17.725; cv=0.026; selected compact residual score
+candidate_area,112.0,median; mean=108.667; stdev=11.671; cv=0.107; selected compact residual area
+candidate_contrast_delta_luma,110.0,median; mean=112.333; stdev=7.134; cv=0.064; selected residual contrast delta
+candidate_line_distance_px,29.509,median; mean=29.006; stdev=0.728; cv=0.025; distance from DVIDS diagonal proxy line
+candidate_expected_distance_px,70.271,median; mean=98.982; stdev=48.916; cv=0.494; distance from six-second linearized diagonal proxy point
+candidate_line_projection_fraction,0.796,median; mean=0.796; stdev=0.001; cv=0.001; fractional position along lower-left to upper-right proxy line
+candidate_center_x,1271.205,median; mean=1271.460; stdev=0.660; cv=0.001; selected residual x-position
+candidate_center_y,224.58,median; mean=225.015; stdev=1.103; cv=0.005; selected residual y-position
+quality_count: low,19,review quality
+quality_count: medium,3,review quality
+supported_phase_count: upper-right exit interval,3,supported rows by DVIDS phase
+

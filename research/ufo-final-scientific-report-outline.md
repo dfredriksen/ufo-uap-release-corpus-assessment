@@ -34,9 +34,9 @@ One-page summary:
 
 Use:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-file-manifest.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-final-report-coverage-audit.md`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-file-analysis-thread.md`
+- `research/ufo-file-manifest.csv`
+- `research/ufo-final-report-coverage-audit.md`
+- `research/ufo-file-analysis-thread.md`
 
 Required language:
 
@@ -62,8 +62,8 @@ Public video analysis cannot recover true object kinematics without FOV/zoom sta
 
 Use the evidence ladder as the main table:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-evidence-ladder.md`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-evidence-ladder.csv`
+- `research/ufo-evidence-ladder.md`
+- `research/ufo-evidence-ladder.csv`
 
 Summarize the tier logic:
 
@@ -106,9 +106,9 @@ Main pattern:
 
 Use:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-persian-gulf-2020-timeline.md`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d61-source-review.md`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d65-source-review.md`
+- `research/ufo-persian-gulf-2020-timeline.md`
+- `research/ufo-d61-source-review.md`
+- `research/ufo-d65-source-review.md`
 
 ### 8. Controls And Alternative Explanations
 
@@ -175,3 +175,4 @@ Suggested appendices:
 - Do not collapse PR labels into D-report labels without official support.
 - Do not infer shape, speed, altitude, range, or origin from redacted or missing fields.
 - State that "unresolved" is not equivalent to "extraordinary."
+

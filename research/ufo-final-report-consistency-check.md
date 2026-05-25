@@ -36,6 +36,7 @@ Status: consistency check complete after publication-figure update
 
 ## Current Judgment
 
-The final scientific report is internally consistent with the current evidence ladder, correlation matrix, source packets, targeted gap triage artifacts, coverage audit, and publication figures. It is ready as a professional targeted assessment of the full 170-file corpus, with strongest claims bounded to the modern operational evidence.
+The final scientific report is internally consistent with the current evidence ladder, correlation matrix, source packets, targeted gap triage artifacts, coverage audit, and publication figures. It is ready as a professional targeted assessment of the full 170-file corpus, ready for external chatbot review, with strongest claims bounded to the modern operational evidence.
 
 The public repository version additionally includes publication-stage review packets and returned outputs for ChatGPT Pro and Claude. Those artifacts are preserved in `review-packets/` so future revisions can be audited rather than silently merged into the paper.
+

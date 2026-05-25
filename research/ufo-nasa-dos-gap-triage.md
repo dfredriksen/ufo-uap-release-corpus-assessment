@@ -2,7 +2,7 @@
 
 Owner: Dan Fredriksen
 Created: 2026-05-14
-Scope: NASA transcript/image files and State Department cable files from the official public UFO/UAP release set
+Scope: NASA transcript/image files and State Department cable files in `I:\My Drive\UFO`
 Status: targeted gap triage complete
 
 ## Why This Pass Was Needed
@@ -91,3 +91,4 @@ This pass adds historical breadth but does not change the final scientific repor
 - Official-source indexed Apollo 11 D4 summary: `https://ufo-files.net/files/141-nasa-uap-d4-apollo-11-technical-crew-debriefing-1969`
 - Official-source indexed Apollo 17 D6 text: `https://uap-watch-flame.vercel.app/document/doc-111`
 - Official-source indexed Apollo 12 VM image summaries: `https://pursueufotracker.com/files/nasa-uap-vm1-apollo-12-1969.html`
+

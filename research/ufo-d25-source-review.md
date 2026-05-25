@@ -2,7 +2,7 @@
 
 Owner: Dan Fredriksen
 Created: 2026-05-12
-Source file: `source-files-not-included/dow-uap-d25-mission-report-greece-january-2024.pdf`
+Source file: `I:\My Drive\UFO\dow-uap-d25-mission-report-greece-january-2024.pdf`
 Official URL: `https://www.war.gov/medialink/ufo/release_1/dow-uap-d25-mission-report-greece-january-2024.pdf`
 Related DVIDS release: `https://www.dvidshub.net/video/1006073/dow-uap-pr28-unresolved-uap-report-greece-january-2024`
 Status: source review complete; PR28 report-content match with D7 label caveat
@@ -31,9 +31,9 @@ The main limit is kinematic. The public report gives approximate `434 KNOTS`, es
 
 Generated page renders:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/source-page-renders/D25/d25-page-5.png`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/source-page-renders/D25/d25-page-6.png`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/source-page-renders/D25/d25-page-7.png`
+- `research/ufo-derived/source-page-renders/D25/d25-page-5.png`
+- `research/ufo-derived/source-page-renders/D25/d25-page-6.png`
+- `research/ufo-derived/source-page-renders/D25/d25-page-7.png`
 
 ## Mission Context
 
@@ -121,3 +121,4 @@ Prior local PR28 phase review already found:
 
 - War.gov D25 PDF: `https://www.war.gov/medialink/ufo/release_1/dow-uap-d25-mission-report-greece-january-2024.pdf`
 - DVIDS PR28: `https://www.dvidshub.net/video/1006073/dow-uap-pr28-unresolved-uap-report-greece-january-2024`
+

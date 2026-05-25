@@ -15,20 +15,20 @@ It still does not prove the report's 140-knot speed, altitude, exact event timin
 
 ## Method
 
-The script `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_pr29_dense_marking_pass.py` sampled the source video at 5 fps from `1.0s` through `21.0s`. It used the existing one-second manual track as control points, interpolated between those marks, and then refined each intermediate sample using a local bright-feature search around the predicted point.
+The script `scripts/ufo_pr29_dense_marking_pass.py` sampled the source video at 5 fps from `1.0s` through `21.0s`. It used the existing one-second manual track as control points, interpolated between those marks, and then refined each intermediate sample using a local bright-feature search around the predicted point.
 
 This is a dense audit track. It is more rigorous than the earlier one-second hand table, but it is not a final hand-click kinematic measurement.
 
 Generated artifacts:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-dense-track-dod111688964.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-dense-track-dod111688964-summary.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-dense-marking-assets-dod111688964.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/dense-marking/DOD_111688964/annotated-crops/*`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/dense-marking/DOD_111688964/object-zoom-patches/*`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/dense-marking/DOD_111688964/sheets/*`
+- `research/ufo-video-dense-track-dod111688964.csv`
+- `research/ufo-video-dense-track-dod111688964-summary.csv`
+- `research/ufo-video-dense-marking-assets-dod111688964.csv`
+- `research/ufo-derived/video-motion-pass/dense-marking/DOD_111688964/annotated-crops/*`
+- `research/ufo-derived/video-motion-pass/dense-marking/DOD_111688964/object-zoom-patches/*`
+- `research/ufo-derived/video-motion-pass/dense-marking/DOD_111688964/sheets/*`
 
-No source files under `source-files-not-included` were modified.
+No source files under `I:\My Drive\UFO` were modified.
 
 ## Results
 
@@ -73,6 +73,7 @@ The dense pass does not support stronger claims about anomalous performance, ori
 
 ## Next Step
 
-Completed next step: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr29-geometry-feasibility.md`
+Completed next step: `research/ufo-pr29-geometry-feasibility.md`
 
 That note keeps the `140 knots` value report-derived. The dense track gives image-plane motion, but speed validation still requires platform motion, slant range, sensor field of view, and frame-level telemetry or equivalent geometry.
+

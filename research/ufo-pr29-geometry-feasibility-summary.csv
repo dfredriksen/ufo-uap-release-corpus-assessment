@@ -1,3 +1,4 @@
 ﻿track,sample_count,start_second,end_second,duration_second,start_x,start_y,end_x,end_y,net_displacement_px,net_rate_px_s,total_path_px,path_average_rate_px_s,step_rate_mean_px_s,step_rate_median_px_s,step_rate_p90_px_s,step_rate_p95_px_s,step_rate_max_px_s
 dense_5fps_audit_track,101,1.0,21.0,20.0,77.2,94.6,469.4,275.0,431.7,21.585,3183.22,159.161,159.161,124.36,348.503,369.186,554.197
 manual_1fps_control_track,21,1.0,21.0,20.0,110.0,95.0,452.0,268.0,383.266,19.163,2712.836,135.642,135.642,122.764,241.868,330.341,360.555
+

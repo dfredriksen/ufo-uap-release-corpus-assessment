@@ -2,7 +2,7 @@
 
 Owner: Dan Fredriksen
 Created: 2026-05-13
-Source file: `source-files-not-included/dow-uap-d35-mission-report-greece-october-2023.pdf`
+Source file: `I:\My Drive\UFO\dow-uap-d35-mission-report-greece-october-2023.pdf`
 Official URL: `https://www.war.gov/medialink/ufo/release_1/dow-uap-d35-mission-report-greece-october-2023.pdf`
 Related DVIDS release: `https://www.dvidshub.net/video/1006082/dow-uap-pr35-unresolved-uap-report-greece-october-2023`
 Status: source review complete; hard PR35 report-video pairing
@@ -30,9 +30,9 @@ The source report says a seemingly circular UAP was spotted just above the ocean
 
 Generated page renders:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/source-page-renders/D35/d35-page-5.png`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/source-page-renders/D35/d35-page-6.png`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/source-page-renders/D35/d35-page-7.png`
+- `research/ufo-derived/source-page-renders/D35/d35-page-5.png`
+- `research/ufo-derived/source-page-renders/D35/d35-page-6.png`
+- `research/ufo-derived/source-page-renders/D35/d35-page-7.png`
 
 ## Mission Context
 
@@ -124,3 +124,4 @@ DVIDS lists `Date Taken: 10.01.2023` and VIRIN `231002-D-D0360-7307`; those publ
 
 - War.gov D35 PDF: `https://www.war.gov/medialink/ufo/release_1/dow-uap-d35-mission-report-greece-october-2023.pdf`
 - DVIDS PR35: `https://www.dvidshub.net/video/1006082/dow-uap-pr35-unresolved-uap-report-greece-october-2023`
+

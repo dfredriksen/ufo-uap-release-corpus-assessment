@@ -1,11 +1,12 @@
 ﻿artifact_type,path,note
-annotated_contact_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/dense-marking/DOD_111688964/sheets/DOD_111688964-dense-annotated-00.jpg,dense 5 fps annotated center-crop sheet
-annotated_contact_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/dense-marking/DOD_111688964/sheets/DOD_111688964-dense-annotated-01.jpg,dense 5 fps annotated center-crop sheet
-annotated_contact_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/dense-marking/DOD_111688964/sheets/DOD_111688964-dense-annotated-02.jpg,dense 5 fps annotated center-crop sheet
-annotated_contact_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/dense-marking/DOD_111688964/sheets/DOD_111688964-dense-annotated-03.jpg,dense 5 fps annotated center-crop sheet
-annotated_contact_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/dense-marking/DOD_111688964/sheets/DOD_111688964-dense-annotated-04.jpg,dense 5 fps annotated center-crop sheet
-zoom_patch_contact_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/dense-marking/DOD_111688964/sheets/DOD_111688964-dense-patches-00.jpg,object-centered zoom-patch sheet
-zoom_patch_contact_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/dense-marking/DOD_111688964/sheets/DOD_111688964-dense-patches-01.jpg,object-centered zoom-patch sheet
-zoom_patch_contact_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/dense-marking/DOD_111688964/sheets/DOD_111688964-dense-patches-02.jpg,object-centered zoom-patch sheet
-dense_track_csv,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-dense-track-dod111688964.csv,0.2-second dense object/overlay mark table
-summary_csv,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-dense-track-dod111688964-summary.csv,dense mark counts and control deltas
+annotated_contact_sheet,research/ufo-derived/video-motion-pass/dense-marking/DOD_111688964/sheets/DOD_111688964-dense-annotated-00.jpg,dense 5 fps annotated center-crop sheet
+annotated_contact_sheet,research/ufo-derived/video-motion-pass/dense-marking/DOD_111688964/sheets/DOD_111688964-dense-annotated-01.jpg,dense 5 fps annotated center-crop sheet
+annotated_contact_sheet,research/ufo-derived/video-motion-pass/dense-marking/DOD_111688964/sheets/DOD_111688964-dense-annotated-02.jpg,dense 5 fps annotated center-crop sheet
+annotated_contact_sheet,research/ufo-derived/video-motion-pass/dense-marking/DOD_111688964/sheets/DOD_111688964-dense-annotated-03.jpg,dense 5 fps annotated center-crop sheet
+annotated_contact_sheet,research/ufo-derived/video-motion-pass/dense-marking/DOD_111688964/sheets/DOD_111688964-dense-annotated-04.jpg,dense 5 fps annotated center-crop sheet
+zoom_patch_contact_sheet,research/ufo-derived/video-motion-pass/dense-marking/DOD_111688964/sheets/DOD_111688964-dense-patches-00.jpg,object-centered zoom-patch sheet
+zoom_patch_contact_sheet,research/ufo-derived/video-motion-pass/dense-marking/DOD_111688964/sheets/DOD_111688964-dense-patches-01.jpg,object-centered zoom-patch sheet
+zoom_patch_contact_sheet,research/ufo-derived/video-motion-pass/dense-marking/DOD_111688964/sheets/DOD_111688964-dense-patches-02.jpg,object-centered zoom-patch sheet
+dense_track_csv,research/ufo-video-dense-track-dod111688964.csv,0.2-second dense object/overlay mark table
+summary_csv,research/ufo-video-dense-track-dod111688964-summary.csv,dense mark counts and control deltas
+

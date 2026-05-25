@@ -15,3 +15,4 @@ seed_confidence_count: none,25,one-fps seed confidence
 overlay_count: intersects colored overlay,1,seed relation to colored overlay
 overlay_count: near colored overlay,2,seed relation to colored overlay
 overlay_count: separate from colored overlay,23,seed relation to colored overlay
+

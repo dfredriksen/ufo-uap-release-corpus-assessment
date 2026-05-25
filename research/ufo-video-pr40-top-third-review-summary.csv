@@ -1,0 +1,29 @@
+﻿metric,value,note
+video,DOD_111689082.mp4,source video used: docs\research\ufo-derived\video-motion-pass\pr40-top-third-review\source\DOD_111689082.mp4
+release_id,DOW-UAP-PR40,DVIDS public release identity
+duration_seconds,63.2,fps=30.0; frames=1896
+sample_count,64,1.0 fps full-clip samples
+supported_high_or_medium_rows,31,annotation-guided or compact contrast rows
+annotation_guided_supported_rows,5,paused reporter annotation interval
+post_resume_top_third_supported_rows,19,post-annotation compact contrast candidates in top-third lane
+supported_intervals,0.0s; 3.0s; 5.0s-15.0s; 17.0s-22.0s; 31.0s; 36.0s; 38.0s-40.0s; 48.0s-50.0s; 52.0s; 54.0s; 60.0s-61.0s,11 one-fps supported interval(s)
+annotation_guided_intervals,10.0s-14.0s,1 one-fps supported interval(s)
+post_resume_top_third_intervals,15.0s; 17.0s-22.0s; 31.0s; 36.0s; 38.0s-40.0s; 48.0s-50.0s; 52.0s; 54.0s; 60.0s-61.0s,9 one-fps supported interval(s)
+post_resume_compact_candidate_track,19,"15.0s-61.0s; net=211.035px; path=2670.876px; path_rate=58.063px/s; median_step_rate=39.140px/s; candidate path only, object identity continuity not asserted"
+component_area,54.0,median; mean=55.484; stdev=31.280; cv=0.564; selected compact contrast candidate pixel area
+contrast_delta_luma,34.0,median; mean=40.548; stdev=15.962; cv=0.394; absolute local contrast against median background
+distance_from_reticle_px,251.22,median; mean=298.368; stdev=160.188; cv=0.537; selected candidate distance from central reticle
+distance_from_annotation_focus_px,186.56,median; mean=194.183; stdev=141.745; cv=0.730; selected candidate distance from PR40 annotation focus
+post_resume_target_center_y,377.0,median; mean=345.132; stdev=98.118; cv=0.284; post-resume selected candidate y; top-third proxy threshold=500.0px
+quality_count: high,10,review quality
+quality_count: low,22,review quality
+quality_count: medium,21,review quality
+quality_count: none,11,review quality
+supported_phase_count: initial brightening,7,supported rows by DVIDS phase
+supported_phase_count: post-annotation top-third tracking,19,supported rows by DVIDS phase
+supported_phase_count: reporter annotation pause,5,supported rows by DVIDS phase
+detection_mode_count: annotation-guided,5,supported rows by detection mode
+detection_mode_count: compact-contrast,26,supported rows by detection mode
+polarity_count: bright,23,supported selected candidate polarity
+polarity_count: dark,8,supported selected candidate polarity
+

@@ -28,11 +28,11 @@ Use PR26 as the official release/video identity and D12 as the matching report-c
 
 Generated support files:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_pr26_d12_still_review.py`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr26-d12-still-review-dod111688816.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr26-d12-still-review-summary.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr26-d12-still-review-assets.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-hard-pair-phase-review/DOD_111688816/DOD_111688816-sample-contact-sheet.jpg`
+- `scripts/ufo_pr26_d12_still_review.py`
+- `research/ufo-video-pr26-d12-still-review-dod111688816.csv`
+- `research/ufo-video-pr26-d12-still-review-summary.csv`
+- `research/ufo-video-pr26-d12-still-review-assets.csv`
+- `research/ufo-derived/video-hard-pair-phase-review/DOD_111688816/DOD_111688816-sample-contact-sheet.jpg`
 
 Local `DOD_111688816.mp4` review results:
 
@@ -58,3 +58,4 @@ Interpretation: the local MP4 is not a single frozen still for all 43 seconds. I
 
 - DVIDS PR26: `https://www.dvidshub.net/video/1006063/dow-uap-pr26-unresolved-uap-report-united-arab-emirates-october-2023`
 - War.gov D12 PDF: `https://www.war.gov/medialink/ufo/release_1/dow-uap-d12-mission-report-iraq-may-2022.pdf`
+

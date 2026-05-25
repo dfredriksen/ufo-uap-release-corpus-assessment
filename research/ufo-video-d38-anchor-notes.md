@@ -3,7 +3,7 @@
 Owner: Dan Fredriksen
 Created: 2026-05-09
 Updated: 2026-05-10
-Source files: official public UFO/UAP release files, not redistributed in this repository
+Source folder: `I:\My Drive\UFO`
 Source video: `DOD_111689030.mp4`
 Status: Quantitative anchor pass complete
 
@@ -15,32 +15,32 @@ The local `DoW-UAP-D38` text independently describes a single solid white object
 
 ## Generated Artifacts
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_d38_anchor_video_pass.py`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_d38_manual_review_assets.py`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-anchor-extraction-index.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-anchor-timeline.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-manual-review-assets.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-manual-validation-notes.md`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-dense-marking-notes.md`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-geometry-feasibility.md`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-ffmpeg-metadata-dod111689030.txt`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-manual-track-dod111689030.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-dense-track-dod111689030.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-dense-track-dod111689030-summary.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-dense-marking-assets-dod111689030.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-geometry-feasibility-summary.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-geometry-feasibility-scenarios.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-object-position-dod111689030.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-object-position-dod111689030-ranges.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-object-position-dod111689030-fps5.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-object-position-dod111689030-fps5-ranges.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/one-fps-center-crops/DOD_111689030/*`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/high-rate/DOD_111689030/fps5-center-crops/*`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/segment-sheets/DOD_111689030/*`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/manual-validation/DOD_111689030/*`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/dense-marking/DOD_111689030/*`
+- `scripts/ufo_d38_anchor_video_pass.py`
+- `scripts/ufo_d38_manual_review_assets.py`
+- `research/ufo-video-d38-anchor-extraction-index.csv`
+- `research/ufo-video-d38-anchor-timeline.csv`
+- `research/ufo-video-d38-manual-review-assets.csv`
+- `research/ufo-video-d38-manual-validation-notes.md`
+- `research/ufo-video-d38-dense-marking-notes.md`
+- `research/ufo-video-d38-geometry-feasibility.md`
+- `research/ufo-video-ffmpeg-metadata-dod111689030.txt`
+- `research/ufo-video-manual-track-dod111689030.csv`
+- `research/ufo-video-d38-dense-track-dod111689030.csv`
+- `research/ufo-video-d38-dense-track-dod111689030-summary.csv`
+- `research/ufo-video-d38-dense-marking-assets-dod111689030.csv`
+- `research/ufo-video-d38-geometry-feasibility-summary.csv`
+- `research/ufo-video-d38-geometry-feasibility-scenarios.csv`
+- `research/ufo-video-object-position-dod111689030.csv`
+- `research/ufo-video-object-position-dod111689030-ranges.csv`
+- `research/ufo-video-object-position-dod111689030-fps5.csv`
+- `research/ufo-video-object-position-dod111689030-fps5-ranges.csv`
+- `research/ufo-derived/video-motion-pass/one-fps-center-crops/DOD_111689030/*`
+- `research/ufo-derived/video-motion-pass/high-rate/DOD_111689030/fps5-center-crops/*`
+- `research/ufo-derived/video-motion-pass/segment-sheets/DOD_111689030/*`
+- `research/ufo-derived/video-motion-pass/manual-validation/DOD_111689030/*`
+- `research/ufo-derived/video-motion-pass/dense-marking/DOD_111689030/*`
 
-No source files in `source-files-not-included` were modified.
+No source files in `I:\My Drive\UFO` were modified.
 
 ## Source Metadata
 
@@ -92,7 +92,7 @@ Result:
 - 7 medium-quality accepted points.
 - 0 rejected points.
 
-The manual track file is `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-manual-track-dod111689030.csv`.
+The manual track file is `research/ufo-video-manual-track-dod111689030.csv`.
 
 This is a manually accepted detector-centered track, not a pixel-perfect independent hand-click track. It is strong enough to treat `50s-87s` as a validated audit interval for the D38 anchor, but later kinematic work should still re-mark the object manually at higher temporal density.
 
@@ -108,7 +108,7 @@ Phase split:
 
 The dense marks stayed very close to the one-second manual controls, with a mean control delta of `1.0 px` and max control delta of `3.17 px`.
 
-Dedicated note: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-dense-marking-notes.md`
+Dedicated note: `research/ufo-video-d38-dense-marking-notes.md`
 
 ## Geometry Feasibility
 
@@ -116,7 +116,7 @@ The D38 dense track is strong image-plane evidence, but it does not recover real
 
 The `50s-75s` and `76s-87s` intervals should be treated separately for geometry because the DVIDS `01:16` zoom/narrow-field event falls between them.
 
-Dedicated note: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-geometry-feasibility.md`
+Dedicated note: `research/ufo-video-d38-geometry-feasibility.md`
 
 ## Phase Assessment
 
@@ -134,7 +134,7 @@ The extracted frames align with the DVIDS sequence:
 - `127-134s`: blue/cyan reticle-style symbology appears; lock is not established.
 - `135-137s`: modality switch / loss endpoint.
 
-See `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-anchor-timeline.csv` for the structured phase table.
+See `research/ufo-video-d38-anchor-timeline.csv` for the structured phase table.
 
 ## Caveats
 
@@ -149,3 +149,4 @@ Confidence is high that `DOD_111689030.mp4` is the video paired with `DoW-UAP-D3
 Confidence is high that the local extraction supports the DVIDS-described timeline.
 
 Confidence is high that the accepted one-fps coordinates and the new 5 fps dense marks represent the visible object/contrast candidate throughout `50-87s`. They should be treated as validated audit tracks, not final kinematics.
+

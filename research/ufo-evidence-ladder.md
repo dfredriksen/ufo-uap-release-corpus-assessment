@@ -2,7 +2,7 @@
 
 Owner: Dan Fredriksen
 Created: 2026-05-14
-Source files: official public UFO/UAP release files, not redistributed in this repository
+Source folder: `I:\My Drive\UFO`
 Status: synthesis artifact from current local review notes
 
 ## Bottom Line
@@ -63,7 +63,7 @@ A case stays lower when it has no report pairing, only reporter-derived kinemati
 | Rank | Case | Current treatment | Why it matters | Main caveat | Next action |
 |---:|---|---|---|---|---|
 | 17 | Persian Gulf / Strait of Hormuz 2020 cluster: core `D60-D65`; adjacent `D4/D5` mismatch rows | Pattern cluster. | Multiple sparse FMV/sensor-observed UAP reports in the NAVCENT Gulf/Strait lane; `D61` is source-reviewed as the strongest individual row and `D65` as the densest mission. | Records are short, redacted, and not correlated to specific public videos. `D4/D5` grids decode outside the Gulf lane despite Arabian Gulf filenames. | Use as regional pattern support in the final report and source-request queue. |
-| 18 | `western_us_event_slides_5.08.2026.pdf` | Witness-narrative lane. | Unusual multi-witness narrative clusters, including federal law-enforcement observers. | Slide/briefing artifact rather than primary sensor data or mission report. | Hold until primary reports, imagery, or instrument data are located. |
+| 18 | `western_us_event_slides_5.08.2026.pdf` | Witness-narrative lane. | Summarizes four Western U.S. clusters: orange objects reportedly launching smaller red objects, a large fiery orange object near a rock pinnacle, a low dark-kite object with red/white lights, and a later transparent-kite object seen by some witnesses with NVGs or naked eye. | Slide/briefing artifact rather than primary sensor data or mission report. | Hold until primary reports, imagery, or instrument data are located. |
 
 ## Control And Caveat Set
 
@@ -82,8 +82,11 @@ Use these cases to keep the ladder honest:
 
 1. Use the D58 packet to drive source requests for radar, target-pod video, jamming indications, KINGPIN communications, and platform identity constraints.
 2. Use the D61/D65 reviews to represent the Persian Gulf / Strait of Hormuz 2020 lane as a reporting-density pattern.
-3. Decide whether to accept the final report as scoped to the modern operational evidence or run targeted historical/NASA/FBI image review before calling the whole 170-file corpus exhausted.
+3. Fold the Release 02 video review into the final report and keep `PR050-PR099` framed as a standalone release family with one duplicate pair, one same-title non-duplicate pair, several altered/control lanes, and no confirmed hard local report pairings.
+4. Keep `ODNI-UAP-D001` and `DOE-UAP-D001` in the high-value narrative/image lanes; they are reviewed but not promoted above narrative/image-triage status without additional source material.
+5. Decide whether to accept the final report as scoped to the modern operational evidence or run targeted historical/NASA/FBI image review before calling the whole 170-file corpus exhausted.
 
 ## Current Judgment
 
 The corpus supports a strong unresolved-operational-observation claim. The best cases are not proof of exotic technology. They are source-rich operational reports and public media releases that preserve enough context to justify follow-up requests for raw sensor data, telemetry, and release-index corrections.
+

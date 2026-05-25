@@ -1,0 +1,36 @@
+summary_group,summary_key,count
+type,AUD,1
+type,IMG,14
+type,PDF,116
+type,VID,27
+agency,Department of State,7
+agency,Department of War,79
+agency,FBI,57
+agency,NASA,15
+agency_type,Department of State | PDF,7
+agency_type,Department of War | PDF,52
+agency_type,Department of War | VID,27
+agency_type,FBI | IMG,8
+agency_type,FBI | PDF,49
+agency_type,NASA | AUD,1
+agency_type,NASA | IMG,6
+agency_type,NASA | PDF,8
+department_of_war_family,air force report,1
+department_of_war_family,email correspondence,3
+department_of_war_family,historical archive file,4
+department_of_war_family,launch summary,1
+department_of_war_family,mission report,30
+department_of_war_family,other,7
+department_of_war_family,public-release video,27
+department_of_war_family,range fouler,6
+redaction_flag,(blank),53
+redaction_flag,TRUE,105
+local_asset_exact_match,(no linked asset),16
+local_asset_exact_match,no,32
+local_asset_exact_match,yes,110
+manifest,records,158
+manifest,records_with_dvids_video_id,38
+manifest,records_with_asset_url,142
+asset,unique_linked_assets,130
+asset,unique_linked_assets_exact_local_match,98
+asset,unique_linked_assets_no_exact_local_match,32

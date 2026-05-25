@@ -1,0 +1,7 @@
+﻿loop_index,start_frame,start_second,end_frame_exclusive,end_second,loop_duration_seconds,start_reset_mean_absdiff
+0,0,0.0,88,2.936,2.936,
+1,88,2.936,176,5.873,2.936,6.189808
+2,176,5.873,264,8.809,2.936,6.185789
+3,264,8.809,348,11.612,2.803,6.22647
+4,348,11.612,352,11.745,0.133,2.709683
+

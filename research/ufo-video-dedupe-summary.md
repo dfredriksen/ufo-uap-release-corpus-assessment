@@ -2,7 +2,7 @@
 
 Owner: Dan Fredriksen
 Created: 2026-05-09
-Source files: official public UFO/UAP release files, not redistributed in this repository
+Source folder: `I:\My Drive\UFO`
 Status: Targeted duplicate hash pass complete
 
 ## Result
@@ -11,8 +11,8 @@ The same-size duplicate candidates were hashed with SHA-256. Every candidate gro
 
 Generated files:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-targeted-duplicate-hashes.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-targeted-duplicate-summary.csv`
+- `research/ufo-targeted-duplicate-hashes.csv`
+- `research/ufo-targeted-duplicate-summary.csv`
 
 ## Video Count
 
@@ -50,10 +50,10 @@ Frame extraction is now partially complete. Local `ffmpeg.exe` and `ffprobe.exe`
 
 Generated files:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-unique-video-review-list.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-contact-sheet-index.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-contact-sheets/*.jpg`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-contact-sheet-notes.md`
+- `research/ufo-unique-video-review-list.csv`
+- `research/ufo-video-contact-sheet-index.csv`
+- `research/ufo-derived/video-contact-sheets/*.jpg`
+- `research/ufo-video-contact-sheet-notes.md`
 
 Practical next options:
 
@@ -62,3 +62,4 @@ Practical next options:
 3. Use another local media tool if already installed outside PATH.
 
 Until video overlays or release metadata are tied to report rows, the videos remain deduped media assets, not correlated report evidence.
+

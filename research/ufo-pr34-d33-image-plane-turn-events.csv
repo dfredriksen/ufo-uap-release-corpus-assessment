@@ -6,3 +6,4 @@ PR34-T04,32.5,generally centered in FOV,-160.1,8.5,168.6,3.0,166.7,41.4,sharp im
 PR34-T05,35.5,generally centered in FOV,66.8,159.2,92.3,3.0,119.5,199.3,sharp image-plane heading change; not a real-world turn without sensor geometry
 PR34-T06,39.0,generally centered in FOV,-174.7,103.7,81.6,3.0,161.7,57.4,sharp image-plane heading change; not a real-world turn without sensor geometry
 PR34-T07,42.5,generally centered in FOV,68.3,6.8,61.5,3.0,106.3,88.6,sharp image-plane heading change; not a real-world turn without sensor geometry
+

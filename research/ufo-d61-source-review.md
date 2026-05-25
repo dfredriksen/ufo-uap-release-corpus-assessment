@@ -2,7 +2,7 @@
 
 Owner: Dan Fredriksen
 Created: 2026-05-14
-Source: `source-files-not-included/dow-uap-d61-mission-report-persian-gulf-august-2020.pdf`
+Source: `I:\My Drive\UFO\dow-uap-d61-mission-report-persian-gulf-august-2020.pdf`
 Status: source review complete from local text extraction
 
 ## Bottom Line
@@ -96,4 +96,5 @@ Priority follow-up material:
 ## Current Judgment
 
 D61 is a strong source-reviewed regional pattern row. It should be used to show that the released collection contains repeated structured operational reports of unresolved aerial/sensor observations. It should not be used to claim anomalous performance, exotic technology, or independent physical formation dynamics without raw sensor data.
+
 

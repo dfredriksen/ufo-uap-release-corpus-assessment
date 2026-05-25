@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import csv
 import re
@@ -6,6 +6,11 @@ from collections import Counter, OrderedDict
 from pathlib import Path
 from textwrap import wrap
 from xml.sax.saxutils import escape
+
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
+import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -298,6 +303,15 @@ def theme_counts(ladder: list[dict[str, str]]) -> list[dict[str, object]]:
     return rows
 
 
+def count_themes(texts: pd.Series, theme_rules: dict[str, list[str]]) -> pd.Series:
+    joined = texts.fillna("").astype(str).str.lower()
+    counts = {}
+    for theme, patterns in theme_rules.items():
+        regex = re.compile("|".join(patterns), re.I)
+        counts[theme] = int(joined.apply(lambda value: bool(regex.search(value))).sum())
+    return pd.Series(counts).sort_values(ascending=False)
+
+
 def figure_themes(theme_rows: list[dict[str, object]]) -> None:
     rows = [(str(r["theme"]), int(r["evidence_ladder_rows"]), color) for r, color in zip(
         theme_rows,
@@ -311,6 +325,50 @@ def figure_themes(theme_rows: list[dict[str, object]]) -> None:
         width=1080,
         left=300,
     )
+
+
+def figure_release_02_theme_summary() -> None:
+    files = [
+        RESEARCH / "ufo-release-02-synthesis.md",
+        RESEARCH / "ufo-release-02-source-review.md",
+        RESEARCH / "ufo-release-02-nonvideo-review.md",
+        RESEARCH / "ufo-release-02-video-review.md",
+    ]
+    texts = []
+    for path in files:
+        if path.exists():
+            texts.append(path.read_text(encoding="utf-8"))
+    joined = pd.Series(texts)
+
+    theme_rules = {
+        "Standalone release family": [r"standalone release family", r"second tranche", r"broadens the release landscape"],
+        "Over-water / modern sensor lanes": [r"over-water", r"sensor", r"flir", r"swir", r"formation", r"multi-contact"],
+        "Historical / archive material": [r"historical", r"sandia", r"green fireball", r"archive", r"cia"],
+        "Narrative / provenance lanes": [r"narrative", r"provenance", r"image/provenance"],
+        "Control / caveat material": [r"control", r"caveat", r"control-oriented", r"no new hard pairings"],
+        "Duplicate / altered / same-title": [r"duplicate", r"same-title", r"digitally altered"],
+        "Source-index / label hygiene": [r"mismatch", r"label", r"source-index", r"corrected report-content match"],
+        "No claim-ceiling change": [r"claim ceiling", r"does not raise", r"broadens breadth"],
+    }
+    counts = count_themes(joined, theme_rules).sort_values(ascending=False)
+
+    fig, ax = plt.subplots(figsize=(11.5, 6.6))
+    bars = ax.barh(list(range(len(counts)))[::-1], counts.values, color="#edc948")
+    ax.set_title("Supplemental Figure 6. Release 02 Theme Summary", pad=12, weight="bold")
+    ax.set_xlabel("Review notes containing theme")
+    ax.set_yticks(list(range(len(counts)))[::-1])
+    ax.set_yticklabels(["\n".join(wrap(label, 32)) for label in counts.index], fontsize=9)
+    ax.set_xlim(0, max(counts.values) * 1.25 if len(counts) else 1)
+    ax.grid(axis="x", alpha=0.2)
+    ax.spines["top"].set_visible(False)
+    ax.spines["right"].set_visible(False)
+    ax.spines["left"].set_visible(False)
+    ax.tick_params(axis="y", length=0)
+    for bar, value in zip(bars, counts.values):
+        ax.text(bar.get_width() + 0.12, bar.get_y() + bar.get_height() / 2, str(int(value)), va="center", fontsize=8)
+    fig.tight_layout()
+    fig.savefig(FIGURES / "fig6-release-02-theme-summary.svg", format="svg", bbox_inches="tight")
+    plt.close(fig)
 
 
 def validation_note(summary: dict[str, object]) -> str:
@@ -329,6 +387,7 @@ This note records the source data and validation checks for the publication figu
 | Figure 3 | `figures/fig3-evidence-ladder-ranking.svg` | `research/ufo-evidence-ladder.csv` | Evidence ladder contains `{summary['ladder_total']}` ranked rows. |
 | Figure 4 | `figures/fig4-source-request-priorities.svg` | `paper.md` Source-Request Priorities table | Parsed `{summary['source_request_total']}` priority rows from the paper. |
 | Figure 5 | `figures/fig5-evidence-ladder-theme-frequency.svg` | `research/ufo-evidence-ladder.csv` | Theme counts are reproducible in `figures/theme-frequency.csv`. |
+| Figure 6 | `figures/fig6-release-02-theme-summary.svg` | `research/ufo-release-02-synthesis.md`, `research/ufo-release-02-source-review.md`, `research/ufo-release-02-nonvideo-review.md`, `research/ufo-release-02-video-review.md` | Release 02 theme summary generated from tranche review notes. |
 
 ## Checked Counts
 
@@ -347,6 +406,8 @@ Evidence tiers:
 ## Caveat On Theme Frequency
 
 Figure 5 is a controlled keyword-frequency visualization across the `18` ranked evidence-ladder rows. It is included to show recurrent analytic themes, not to estimate real-world UAP prevalence or object frequency.
+
+Supplemental Figure 6 summarizes recurring themes in the Release 02 synthesis and review notes without changing the report's claim ceiling.
 """
 
 
@@ -365,6 +426,7 @@ def main() -> None:
     theme_rows = theme_counts(ladder)
     write_csv(FIGURES / "theme-frequency.csv", theme_rows)
     figure_themes(theme_rows)
+    figure_release_02_theme_summary()
     write_csv(FIGURES / "source-request-priorities.csv", source_requests)
 
     assert sum(media.values()) == len(manifest), "media counts do not sum to manifest rows"
@@ -386,3 +448,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

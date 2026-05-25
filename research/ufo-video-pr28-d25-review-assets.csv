@@ -1,0 +1,26 @@
+﻿artifact_type,path,note
+full_review_csv,research/ufo-video-pr28-d25-review-dod111688954.csv,PR28/D25 one-fps full-clip review table
+dense_review_csv,research/ufo-video-pr28-d25-review-dense.csv,PR28/D25 five-fps SWIR-track review table
+summary_csv,research/ufo-video-pr28-d25-review-summary.csv,PR28/D25 visual review summary
+full_annotated_contact_sheet,research/ufo-derived/video-motion-pass/pr28-d25-review/DOD_111688954/sheets/DOD_111688954-pr28-full-annotated-00.jpg,PR28/D25 full-pass annotated sheet
+full_annotated_contact_sheet,research/ufo-derived/video-motion-pass/pr28-d25-review/DOD_111688954/sheets/DOD_111688954-pr28-full-annotated-01.jpg,PR28/D25 full-pass annotated sheet
+full_annotated_contact_sheet,research/ufo-derived/video-motion-pass/pr28-d25-review/DOD_111688954/sheets/DOD_111688954-pr28-full-annotated-02.jpg,PR28/D25 full-pass annotated sheet
+full_patch_contact_sheet,research/ufo-derived/video-motion-pass/pr28-d25-review/DOD_111688954/sheets/DOD_111688954-pr28-full-patches-00.jpg,PR28/D25 full-pass target patch sheet
+full_patch_contact_sheet,research/ufo-derived/video-motion-pass/pr28-d25-review/DOD_111688954/sheets/DOD_111688954-pr28-full-patches-01.jpg,PR28/D25 full-pass target patch sheet
+dense_annotated_contact_sheet,research/ufo-derived/video-motion-pass/pr28-d25-review/DOD_111688954/sheets/DOD_111688954-pr28-dense-annotated-00.jpg,PR28/D25 dense-pass annotated sheet
+dense_annotated_contact_sheet,research/ufo-derived/video-motion-pass/pr28-d25-review/DOD_111688954/sheets/DOD_111688954-pr28-dense-annotated-01.jpg,PR28/D25 dense-pass annotated sheet
+dense_annotated_contact_sheet,research/ufo-derived/video-motion-pass/pr28-d25-review/DOD_111688954/sheets/DOD_111688954-pr28-dense-annotated-02.jpg,PR28/D25 dense-pass annotated sheet
+dense_annotated_contact_sheet,research/ufo-derived/video-motion-pass/pr28-d25-review/DOD_111688954/sheets/DOD_111688954-pr28-dense-annotated-03.jpg,PR28/D25 dense-pass annotated sheet
+dense_annotated_contact_sheet,research/ufo-derived/video-motion-pass/pr28-d25-review/DOD_111688954/sheets/DOD_111688954-pr28-dense-annotated-04.jpg,PR28/D25 dense-pass annotated sheet
+dense_annotated_contact_sheet,research/ufo-derived/video-motion-pass/pr28-d25-review/DOD_111688954/sheets/DOD_111688954-pr28-dense-annotated-05.jpg,PR28/D25 dense-pass annotated sheet
+dense_annotated_contact_sheet,research/ufo-derived/video-motion-pass/pr28-d25-review/DOD_111688954/sheets/DOD_111688954-pr28-dense-annotated-06.jpg,PR28/D25 dense-pass annotated sheet
+dense_annotated_contact_sheet,research/ufo-derived/video-motion-pass/pr28-d25-review/DOD_111688954/sheets/DOD_111688954-pr28-dense-annotated-07.jpg,PR28/D25 dense-pass annotated sheet
+dense_annotated_contact_sheet,research/ufo-derived/video-motion-pass/pr28-d25-review/DOD_111688954/sheets/DOD_111688954-pr28-dense-annotated-08.jpg,PR28/D25 dense-pass annotated sheet
+dense_annotated_contact_sheet,research/ufo-derived/video-motion-pass/pr28-d25-review/DOD_111688954/sheets/DOD_111688954-pr28-dense-annotated-09.jpg,PR28/D25 dense-pass annotated sheet
+dense_patch_contact_sheet,research/ufo-derived/video-motion-pass/pr28-d25-review/DOD_111688954/sheets/DOD_111688954-pr28-dense-patches-00.jpg,PR28/D25 dense-pass target patch sheet
+dense_patch_contact_sheet,research/ufo-derived/video-motion-pass/pr28-d25-review/DOD_111688954/sheets/DOD_111688954-pr28-dense-patches-01.jpg,PR28/D25 dense-pass target patch sheet
+dense_patch_contact_sheet,research/ufo-derived/video-motion-pass/pr28-d25-review/DOD_111688954/sheets/DOD_111688954-pr28-dense-patches-02.jpg,PR28/D25 dense-pass target patch sheet
+dense_patch_contact_sheet,research/ufo-derived/video-motion-pass/pr28-d25-review/DOD_111688954/sheets/DOD_111688954-pr28-dense-patches-03.jpg,PR28/D25 dense-pass target patch sheet
+dense_patch_contact_sheet,research/ufo-derived/video-motion-pass/pr28-d25-review/DOD_111688954/sheets/DOD_111688954-pr28-dense-patches-04.jpg,PR28/D25 dense-pass target patch sheet
+dense_patch_contact_sheet,research/ufo-derived/video-motion-pass/pr28-d25-review/DOD_111688954/sheets/DOD_111688954-pr28-dense-patches-05.jpg,PR28/D25 dense-pass target patch sheet
+

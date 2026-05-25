@@ -37,3 +37,4 @@
 "85.0","2550","accepted","high","738","401","-222","-139","strong","post-zoom sustained interval","detector-centered coordinate accepted after visual review of raw one-fps crop and zoom patch","accepted; compact bright object/contrast is visible in raw crop and zoom patch"
 "86.0","2580","accepted","medium","782","469","-178","-71","strong","post-zoom sustained interval","detector-centered coordinate accepted after visual review of raw one-fps crop and zoom patch","accepted, but coordinate confidence reduced by nearby overlay/redaction edge, zoom texture, or partial field context"
 "87.0","2610","accepted","medium","608","685","-352","145","strong","post-zoom sustained interval","detector-centered coordinate accepted after visual review of raw one-fps crop and zoom patch","accepted, but coordinate confidence reduced by nearby overlay/redaction edge, zoom texture, or partial field context"
+

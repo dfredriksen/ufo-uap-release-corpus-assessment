@@ -9,3 +9,4 @@
 "date","Filename/title uses NA and public text does not preserve full incident date","not preserved","Timeline should retain unknown date until a better official source appears."
 "sensor/video","No sensor name, raw video, frame stills, FOV, range, or platform telemetry is public; no embedded files or image objects in PDF","no public media evidence","Keep D54 document-only unless a hard official media pairing appears."
 "video pairing","No public/local PR or DVIDS pairing found for D54, coordinate 363453N 0255943E, 168KTS, or triangular/metallic anchors","no hard pair","Do not infer a video pairing from the Greece/Eastern Mediterranean cluster alone."
+

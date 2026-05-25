@@ -1,0 +1,19 @@
+﻿metric,value,note
+video,DOD_111689083.mp4,local source video
+release_id,DOW-UAP-PR41,DVIDS public release identity
+duration_seconds,94.533,fps=30.0; frames=2836
+sample_count,95,1.0 fps review samples
+supported_high_or_medium_rows,61,rows with usable compact contrast candidate
+supported_intervals,2.0s; 20.0s-36.0s; 39.0s-40.0s; 42.0s-50.0s; 60.0s-78.0s; 81.0s; 83.0s-94.0s,7 one-fps contiguous supported interval(s)
+target_center_track,61,2.0s-94.0s; net=129.752px; path=2631.144px; path_rate=28.599px/s; median_step_rate=32.212px/s
+component_area,56.0,median; mean=66.770; stdev=46.068; cv=0.690; tracked compact contrast-component pixel area
+contrast_delta_luma,82.0,median; mean=84.959; stdev=23.080; cv=0.272; max bright/dark local contrast delta
+distance_from_reticle_px,252.38,median; mean=272.801; stdev=101.307; cv=0.371; distance from central reticle to tracked candidate
+step_from_previous_supported_px,39.498,median; mean=43.849; stdev=27.557; cv=0.628; one-second image-plane step between supported rows
+quality_count: high,55,review quality
+quality_count: low,34,review quality
+quality_count: medium,6,review quality
+supported_phase_count: sensor pan/tracking,61,supported rows by DVIDS phase
+polarity_count: bright,61,tracked candidate polarity
+overlay_count: separate from colored overlay,95,candidate relation to colored overlay
+

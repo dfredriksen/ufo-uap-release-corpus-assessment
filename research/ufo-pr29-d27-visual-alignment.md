@@ -13,12 +13,12 @@ The support is bounded: the clip shows one persistent bright object/contrast fea
 
 ## Review Inputs
 
-- Source video: `source-files-not-included/DOD_111688964.mp4`
-- Existing high-rate sheets: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/high-rate/DOD_111688964/fps5-s000-059-sheet.jpg` and `fps5-s060-109-sheet.jpg`
-- Existing manual one-second track: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-manual-track-dod111688964.csv`
-- Existing full-frame still index: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-full-frame-stills-dod111688964.csv`
-- Reconciliation note: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr29-d8-d27-reconciliation.md`
-- Dense marking note: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr29-d27-dense-marking-notes.md`
+- Source video: `I:\My Drive\UFO\DOD_111688964.mp4`
+- Existing high-rate sheets: `research/ufo-derived/video-motion-pass/high-rate/DOD_111688964/fps5-s000-059-sheet.jpg` and `fps5-s060-109-sheet.jpg`
+- Existing manual one-second track: `research/ufo-video-manual-track-dod111688964.csv`
+- Existing full-frame still index: `research/ufo-video-full-frame-stills-dod111688964.csv`
+- Reconciliation note: `research/ufo-pr29-d8-d27-reconciliation.md`
+- Dense marking note: `research/ufo-pr29-d27-dense-marking-notes.md`
 
 ## Visual Findings
 
@@ -32,7 +32,7 @@ A 2026-05-10 dense pass sampled `1.0s` through `21.0s` at 5 fps, producing 101 d
 
 The dense pass also found 40 samples where the marked feature was inside, intersecting, or near colored track-box symbology. The vertical-feature flag was `yes` or `possible` in 95 samples, which is consistent with the PR29/D27 pole-bar/reflection description but should not be treated as proof of a rigid physical appendage.
 
-Dedicated note: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr29-d27-dense-marking-notes.md`
+Dedicated note: `research/ufo-pr29-d27-dense-marking-notes.md`
 
 Key alignment frames:
 
@@ -56,3 +56,4 @@ Key alignment frames:
 ## Working Assessment
 
 `DOD_111688964.mp4` should remain a high-priority, hard `PR29` visual item. For report-text correlation, the strongest written lane is local/War.gov `D27`, with the `D8` label discrepancy documented separately.
+

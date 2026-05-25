@@ -1,0 +1,5 @@
+﻿artifact_type,path,note
+source_video,I:/My Drive/UFO/DOD_111688723.mp4,source video used for PR19/D10 review
+patch_sheet,research/ufo-derived/video-motion-pass/pr19-d10-bottom-third-review/DOD_111688723/DOD_111688723-pr19-d10-bottom-third-patches.jpg,lower-third dense event window with detections
+annotated_sheet,research/ufo-derived/video-motion-pass/pr19-d10-bottom-third-review/DOD_111688723/DOD_111688723-pr19-d10-bottom-third-annotated.jpg,full-frame ROI and candidate annotations
+

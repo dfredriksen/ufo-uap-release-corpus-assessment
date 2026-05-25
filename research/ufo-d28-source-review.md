@@ -2,7 +2,7 @@
 
 Owner: Dan Fredriksen
 Created: 2026-05-12
-Source file: `source-files-not-included/dow-uap-d28-mission-report-east-china-sea-2024.pdf`
+Source file: `I:\My Drive\UFO\dow-uap-d28-mission-report-east-china-sea-2024.pdf`
 Official URL: `https://www.war.gov/medialink/ufo/release_1/dow-uap-d28-mission-report-east-china-sea-2024.pdf`
 Status: Focused source review
 
@@ -69,9 +69,9 @@ The most important evidentiary feature is the dual-sensor IR/lens-flare claim. T
 
 ## Evidence Packet Addendum
 
-Dedicated packet: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d28-evidence-packet.md`
+Dedicated packet: `research/ufo-d28-evidence-packet.md`
 
-Constraint table: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d28-evidence-constraints.csv`
+Constraint table: `research/ufo-d28-evidence-constraints.csv`
 
 The evidence-packet pass keeps D28 high in the document-only lane and narrows what can be claimed. The official PDF preserves a strong event anchor, `202027:59ZSEP24`, and a dual-sensor IR/lens-flare claim involving `MX-20` and `MX-25`, but it does not preserve the raw imagery, release/impact timestamps, FOV, range, sensor pointing, object size, altitude, speed, or trajectory needed for physical-performance analysis.
 
@@ -79,8 +79,9 @@ A local corpus scan for D28's unique anchors (`AGM-176`, `MX-20`, `MX-25`, `2020
 
 ## Release-Index Search Addendum
 
-Dedicated note: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d28-release-index-search.md`
+Dedicated note: `research/ufo-d28-release-index-search.md`
 
 The release-index search found no hard public PR/video pairing for D28. `DOW-UAP-PR28` is a Greece case tied by DVIDS to filename `DOD_111688954` and accompanying report `DoW-UAP-D7`; `DOW-UAP-PR46` is an INDOPACOM/East China Sea standalone video tied by DVIDS to filename `DOD_111689133` with no oral or written reporter description. Neither official DVIDS page mentions D28, `202027ZSEP2024-CENTCOM`, AGM-176, MX-20/MX-25, or Ayn Al Asad.
 
 D28 therefore remains document-only in the current correlation matrix. The next similar reconciliation target is PR28, because DVIDS's `DoW-UAP-D7` label conflicts with the local text lane where the SWIR-only diamond / 434-knot language appears in `D25`.
+

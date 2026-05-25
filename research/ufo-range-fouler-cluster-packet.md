@@ -84,3 +84,4 @@ Use the range-fouler cluster as a structured evidence lane, not as proof of exot
 - War.gov D58 PDF: `https://www.war.gov/medialink/ufo/release_1/dow-uap-d58-range-fouler-debrief-na-october-2020.pdf`
 - DVIDS PR36 / D38 anchor: `https://www.dvidshub.net/video/1006083/dow-uap-pr36-unresolved-uap-report-middle-east-may-2020`
 - DVIDS PR44 standalone caution: `https://www.dvidshub.net/video/1006104/dow-uap-pr44-unresolved-uap-report-middle-east-2020`
+

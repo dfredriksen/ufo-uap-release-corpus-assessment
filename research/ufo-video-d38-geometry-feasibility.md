@@ -47,8 +47,8 @@ Changing assumed FOV or range changes the implied speed proportionally. That sen
 
 Full tables:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-geometry-feasibility-summary.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-geometry-feasibility-scenarios.csv`
+- `research/ufo-video-d38-geometry-feasibility-summary.csv`
+- `research/ufo-video-d38-geometry-feasibility-scenarios.csv`
 
 ## What Would Be Needed
 
@@ -66,3 +66,4 @@ To convert the dense D38 track into a real-world motion estimate, we would need 
 The dense D38 track is strong evidence for report-video correlation and phase alignment. It is not enough for real-world speed or trajectory reconstruction.
 
 D38 should remain the corpus gold-standard anchor, but its kinematic claims should stay limited to image-plane motion unless source telemetry appears.
+

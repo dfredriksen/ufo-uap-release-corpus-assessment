@@ -12,9 +12,9 @@ import numpy as np
 
 
 VIDEO_ID = "DOD_111689030"
-DEFAULT_SOURCE = Path(r"source-files-not-included/DOD_111689030.mp4")
-DEFAULT_MANUAL_TRACK = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-manual-track-dod111689030.csv")
-OUT_ROOT = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/dense-marking") / VIDEO_ID
+DEFAULT_SOURCE = Path(r"I:\My Drive\UFO\DOD_111689030.mp4")
+DEFAULT_MANUAL_TRACK = Path("research/ufo-video-manual-track-dod111689030.csv")
+OUT_ROOT = Path("research/ufo-derived/video-motion-pass/dense-marking") / VIDEO_ID
 
 
 @dataclass
@@ -408,7 +408,7 @@ def main() -> None:
         "annotated_frame_path",
         "zoom_patch_path",
     ]
-    dense_csv = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-dense-track-dod111689030.csv")
+    dense_csv = Path("research/ufo-video-d38-dense-track-dod111689030.csv")
     write_csv(dense_csv, fieldnames, rows)
 
     confidence_counts = Counter(row["review_confidence"] for row in rows)
@@ -435,7 +435,7 @@ def main() -> None:
     for relation, count in sorted(overlay_counts.items()):
         summary_rows.append({"metric": f"overlay_count: {relation}", "value": count, "note": "colored overlay relation"})
 
-    summary_csv = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-dense-track-dod111689030-summary.csv")
+    summary_csv = Path("research/ufo-video-d38-dense-track-dod111689030-summary.csv")
     write_csv(summary_csv, ["metric", "value", "note"], summary_rows)
 
     index_rows: list[dict] = []
@@ -445,7 +445,7 @@ def main() -> None:
         index_rows.append({"artifact_type": "zoom_patch_contact_sheet", "path": str(path).replace("\\", "/"), "note": "object-centered zoom-patch sheet"})
     index_rows.append({"artifact_type": "dense_track_csv", "path": str(dense_csv).replace("\\", "/"), "note": "0.2-second dense D38 track table"})
     index_rows.append({"artifact_type": "summary_csv", "path": str(summary_csv).replace("\\", "/"), "note": "dense mark counts and control deltas"})
-    index_csv = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-dense-marking-assets-dod111689030.csv")
+    index_csv = Path("research/ufo-video-d38-dense-marking-assets-dod111689030.csv")
     write_csv(index_csv, ["artifact_type", "path", "note"], index_rows)
 
     print(f"video={args.video}")
@@ -461,3 +461,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

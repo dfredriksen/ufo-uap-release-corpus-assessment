@@ -1,0 +1,19 @@
+﻿metric,value,note
+video,DOD_111689142.mp4,local source video
+release_id,DOW-UAP-PR47,DVIDS public release identity
+duration_seconds,119.667,fps=30.0; frames=3590
+sample_count,120,1.0 fps review samples
+supported_high_or_medium_rows,110,rows with usable compact bright formation candidate
+triple_subcluster_supported_rows,110,supported rows modeled as three visual subclusters
+formation_center_track,110,9.0s-119.0s; net=92.635px; path=8963.384px; path_rate=81.485px/s; median_step_rate=62.585px/s
+left_right_spacing_px,47.162,median; mean=41.240; stdev=15.367; cv=0.373; scale-dependent image-plane formation width
+left_middle_to_middle_right_ratio,1.059,median; mean=1.115; stdev=0.296; cv=0.265; scale-normalized subcluster spacing ratio
+formation_angle_deg,1.149,median; mean=2.959; stdev=19.730; cv=6.668; image-plane orientation of left-to-right subcluster axis
+middle_offset_from_axis_px,6.675,median; mean=8.752; stdev=5.523; cv=0.631; middle subcluster offset from left-right line
+quality_count: high,107,review quality
+quality_count: low,10,review quality
+quality_count: medium,3,review quality
+overlay_count: intersects colored overlay,3,cluster relation to colored overlay
+overlay_count: near colored overlay,59,cluster relation to colored overlay
+overlay_count: separate from colored overlay,58,cluster relation to colored overlay
+

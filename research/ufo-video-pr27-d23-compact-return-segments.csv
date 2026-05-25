@@ -17,3 +17,4 @@ PR27-C15,215.50,228.00,12.5,23,sensor-motion loss and reacquisition,sensor-motio
 PR27-C16,235.00,266.00,31.0,62,sensor-motion loss and reacquisition,sensor-motion loss and reacquisition,consecutive validated compact-return candidates; not a physical track without telemetry
 PR27-C17,269.50,284.50,15.0,31,sensor-motion loss and reacquisition,sensor-motion loss and reacquisition,consecutive validated compact-return candidates; not a physical track without telemetry
 PR27-C18,287.50,297.00,9.5,20,sensor-motion loss and reacquisition,sensor-motion loss and reacquisition,consecutive validated compact-return candidates; not a physical track without telemetry
+

@@ -43,3 +43,4 @@ Return:
 3. A baseline-versus-polished risk note: whether the polished draft preserves the evidentiary boundaries of the baseline paper.
 4. A concise recommended revision plan.
 5. Any proposed wording changes for the abstract, methods, limitations, or conclusion.
+

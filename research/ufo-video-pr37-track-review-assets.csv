@@ -1,0 +1,9 @@
+﻿artifact_type,path,note
+track_review_csv,research/ufo-video-pr37-track-review-dod111689044.csv,PR37 ten-fps full-clip event-lane review table
+summary_csv,research/ufo-video-pr37-track-review-summary.csv,PR37 event-lane review summary
+annotated_contact_sheet,research/ufo-derived/video-motion-pass/pr37-track-review/DOD_111689044/sheets/DOD_111689044-pr37-annotated_00.jpg,PR37 annotated event-lane sheet
+annotated_contact_sheet,research/ufo-derived/video-motion-pass/pr37-track-review/DOD_111689044/sheets/DOD_111689044-pr37-annotated_01.jpg,PR37 annotated event-lane sheet
+annotated_contact_sheet,research/ufo-derived/video-motion-pass/pr37-track-review/DOD_111689044/sheets/DOD_111689044-pr37-annotated_02.jpg,PR37 annotated event-lane sheet
+zoom_patch_contact_sheet,research/ufo-derived/video-motion-pass/pr37-track-review/DOD_111689044/sheets/DOD_111689044-pr37-patches_00.jpg,PR37 target patch sheet
+zoom_patch_contact_sheet,research/ufo-derived/video-motion-pass/pr37-track-review/DOD_111689044/sheets/DOD_111689044-pr37-patches_01.jpg,PR37 target patch sheet
+

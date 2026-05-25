@@ -62,7 +62,7 @@ The table below asks: if the image motion represented `140 knots`, what slant ra
 
 This is the core reason the speed cannot be resolved from the MP4 alone. A narrow FOV or use of net displacement pushes the implied range outward. A wider FOV or use of local step motion pushes the implied range inward. Without actual sensor FOV and range, both families of answers are just scenarios.
 
-Full scenario table: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr29-geometry-feasibility-scenarios.csv`
+Full scenario table: `research/ufo-pr29-geometry-feasibility-scenarios.csv`
 
 ## What Would Be Needed To Test `140 Knots`
 
@@ -82,3 +82,4 @@ The current evidence supports this statement:
 `DOD_111688964.mp4` visually supports the PR29/D27 object-description lane and provides a strong image-plane track, but it does not independently verify the D27 report's `140 knots` estimate.
 
 The speed claim should remain report-derived unless better geometry or source telemetry appears.
+

@@ -64,3 +64,4 @@ if (Test-Path $logPath) {
 
 @($existing + $log) | Export-Csv -Path $logPath -NoTypeInformation
 $log | Format-Table -AutoSize
+

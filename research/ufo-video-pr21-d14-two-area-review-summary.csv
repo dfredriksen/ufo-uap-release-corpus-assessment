@@ -1,0 +1,19 @@
+﻿metric,value,note
+video,DOD_111688762.mp4,source video used: I:\My Drive\UFO\DOD_111688762.mp4
+release_id,DOW-UAP-PR21,DVIDS public release identity
+report_id,DoW-UAP-D14,DVIDS-stated accompanying mission report
+duration_seconds,10.267,fps=30.0; frames=308
+sample_count,11,one-fps full-clip samples
+supported_high_or_medium_rows,9,rows with usable central two-area proxy
+supported_intervals,0.0s-8.0s,one-fps supported interval(s)
+supported_pair_center_path,9,"0.0s-8.0s; net=147.083px; path=1532.912px; path_rate=191.614px/s; two-area proxy only, terrain/texture confounded"
+pair_score,409.35,median; mean=540.622; stdev=201.076; cv=0.372; selected two-area pair score
+pair_separation_px,106.072,median; mean=104.889; stdev=27.319; cv=0.260; distance between selected two areas
+pair_center_distance_from_reticle_px,170.538,median; mean=151.642; stdev=34.002; cv=0.224; selected pair-center distance from central reticle
+pair_center_x,1067.032,median; mean=1033.101; stdev=89.994; cv=0.087; selected pair-center x-position
+pair_center_y,504.011,median; mean=552.759; stdev=102.694; cv=0.186; selected pair-center y-position
+quality_count: high,4,review quality
+quality_count: low,2,review quality
+quality_count: medium,5,review quality
+supported_phase_count: central two-area runtime,9,supported rows by DVIDS phase
+

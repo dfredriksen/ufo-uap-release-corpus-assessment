@@ -1,0 +1,3 @@
+﻿video,release_id,fps,frames,width,height,duration_s,sample_rate_fps,rows,high,medium,low,none,high_or_medium,supported_start_s,supported_end_s,median_aggregate_area,median_oriented_aspect,median_component_count,median_projection_proxy_count,median_max_abs_contrast,median_center_x,median_center_y,analysis_note
+DOD_111689133.mp4,DOW-UAP-PR46,30.000,296,1920,1080,9.867,2.000,20,20,0,0,0,20,0.000,9.500,1741.000,1.575,13.000,3.000,176.000,991.614,520.157,"Full-clip morphology audit for the DVIDS football-shaped PR46 visual description; image-plane only, no telemetry-derived physical inference."
+

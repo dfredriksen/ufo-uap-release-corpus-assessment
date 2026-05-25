@@ -1,0 +1,5 @@
+﻿artifact_type,path,note
+source_video,I:/My Drive/UFO/DOD_111688762.mp4,source video used for PR21/D14 review
+patch_sheet,research/ufo-derived/video-motion-pass/pr21-d14-two-area-review/DOD_111688762/DOD_111688762-pr21-d14-two-area-patches.jpg,central two-area proxy patches
+annotated_sheet,research/ufo-derived/video-motion-pass/pr21-d14-two-area-review/DOD_111688762/DOD_111688762-pr21-d14-two-area-annotated.jpg,full-frame central ROI and pair annotations
+

@@ -2,7 +2,7 @@
 
 Owner: Dan Fredriksen
 Created: 2026-05-12
-Source file: `source-files-not-included/dow-uap-d33-mission-report-greece-october-2023.pdf`
+Source file: `I:\My Drive\UFO\dow-uap-d33-mission-report-greece-october-2023.pdf`
 Official URL: `https://www.war.gov/medialink/ufo/release_1/dow-uap-d33-mission-report-greece-october-2023.pdf`
 Related DVIDS release: `https://www.dvidshub.net/video/1006080/dow-uap-pr34-unresolved-uap-report-greece-october-2023`
 Status: source review complete; hard PR34 report-video pairing
@@ -29,9 +29,9 @@ The source review confirms D33 should stay high priority, but it should remain b
 
 Generated page renders:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/source-page-renders/D33/d33-page-5.png`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/source-page-renders/D33/d33-page-6.png`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/source-page-renders/D33/d33-page-7.png`
+- `research/ufo-derived/source-page-renders/D33/d33-page-5.png`
+- `research/ufo-derived/source-page-renders/D33/d33-page-6.png`
+- `research/ufo-derived/source-page-renders/D33/d33-page-7.png`
 
 ## Mission Context
 
@@ -121,3 +121,4 @@ Prior local PR34/D33 work already found:
 
 - War.gov D33 PDF: `https://www.war.gov/medialink/ufo/release_1/dow-uap-d33-mission-report-greece-october-2023.pdf`
 - DVIDS PR34: `https://www.dvidshub.net/video/1006080/dow-uap-pr34-unresolved-uap-report-greece-october-2023`
+

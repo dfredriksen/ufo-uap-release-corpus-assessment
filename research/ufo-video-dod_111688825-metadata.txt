@@ -1,9 +1,10 @@
 ﻿video=DOD_111688825.mp4
 release_id=DOW-UAP-PR27
 report_id=DoW-UAP-D23
-path=source-files-not-included/DOD_111688825.mp4
+path=I:\My Drive\UFO\DOD_111688825.mp4
 fps=30.0
 frame_count=8920
 width=1920
 height=1080
 duration_seconds=297.3333333333333
+

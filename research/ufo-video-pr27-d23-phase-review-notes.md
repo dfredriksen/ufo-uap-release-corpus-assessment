@@ -15,7 +15,7 @@ The public MP4 does not independently validate the D23 report's estimated `320 M
 
 | Field | Value |
 |---|---|
-| Local video | `source-files-not-included/DOD_111688825.mp4` |
+| Local video | `I:\My Drive\UFO\DOD_111688825.mp4` |
 | Release identity | `DOW-UAP-PR27` |
 | Written report | `DoW-UAP-D23` |
 | Video metadata | `1920x1080`, `30.0 fps`, `8920` frames, `297.33s` |
@@ -50,7 +50,7 @@ The phase review is not a clean kinematic track. The detector can be misled by s
 
 ## Manual Validation Addendum
 
-Dedicated note: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr27-d23-manual-validation-notes.md`
+Dedicated note: `research/ufo-video-pr27-d23-manual-validation-notes.md`
 
 The follow-on validation layer reviewed `327` active rows from `134.0s-297.0s` and classified each row by visual category. It found `175` true compact-return candidates, `88` reticle/overlay artifacts, `27` frame-edge artifacts, `23` water-texture artifacts, `3` shoreline/terrain artifacts, `10` uncertain rows, and `1` no-candidate row.
 
@@ -60,16 +60,17 @@ The validation narrows the result: the late `207.0s-297.0s` loss/reacquisition p
 
 | Artifact | Path |
 |---|---|
-| Script | `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_pr27_d23_phase_review.py` |
-| Metadata | `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-dod_111688825-metadata.txt` |
-| Phase track CSV | `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-dod_111688825-phase-track.csv` |
-| Phase summary CSV | `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-dod_111688825-phase-summary.csv` |
-| Asset index | `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr27-d23-phase-review-assets.csv` |
-| Contact sheets and patches | `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-hard-pair-phase-review/DOD_111688825/` |
-| Manual validation table | `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr27-d23-manual-validation-dod111688825.csv` |
-| Manual validation summary | `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr27-d23-manual-validation-summary.csv` |
-| Manual validation assets | `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr27-d23-manual-validation-assets.csv` |
+| Script | `scripts/ufo_pr27_d23_phase_review.py` |
+| Metadata | `research/ufo-video-dod_111688825-metadata.txt` |
+| Phase track CSV | `research/ufo-video-dod_111688825-phase-track.csv` |
+| Phase summary CSV | `research/ufo-video-dod_111688825-phase-summary.csv` |
+| Asset index | `research/ufo-video-pr27-d23-phase-review-assets.csv` |
+| Contact sheets and patches | `research/ufo-derived/video-hard-pair-phase-review/DOD_111688825/` |
+| Manual validation table | `research/ufo-video-pr27-d23-manual-validation-dod111688825.csv` |
+| Manual validation summary | `research/ufo-video-pr27-d23-manual-validation-summary.csv` |
+| Manual validation assets | `research/ufo-video-pr27-d23-manual-validation-assets.csv` |
 
 ## Next Step
 
 If PR27/D23 is developed further, the next useful work is a manual validation pass on `134.0s-297.0s`, separating true compact-return candidates from reticle and water-texture artifacts. Do not run physical kinematics unless FOV/zoom state, slant range, platform motion, target coordinates, or original telemetry become available.
+

@@ -13,3 +13,4 @@
 "negative controls","Observer assessment benign; no observer engagement; no effects on persons/equipment; no recovered material; under intelligent control marked NO; signatures NONE","useful controls","Supports unresolved benign observation lane; does not close sensor/platform explanations."
 "public video support","Phase review supports the DVIDS zoom/ocean-background/land-transition sequence, but detector often selects cloud, shoreline, or terrain features","visual support for sequence only","Use public MP4 for release/report alignment, not object-level kinematics."
 "kinematic limits","Public report/video lack source FOV, slant range, platform/gimbal motion, raw telemetry, size, and exact track data","public data insufficient","Keep 30 MPH and trajectory report-derived unless source telemetry appears."
+

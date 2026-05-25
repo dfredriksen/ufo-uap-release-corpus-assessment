@@ -22,3 +22,4 @@ phase_category_count: zoom and centered track / uncertain_no_candidate,1,manual 
 phase_category_count: zoom and centered track / water_texture_artifact,23,manual validation,category count by phase
 compact_return_segments,18,manual validation,validated compact-return runs with <=1.0s gaps
 longest_compact_return_segment,PR27-C16 235.00-266.00s (62 samples),manual validation,not a physical track without telemetry
+

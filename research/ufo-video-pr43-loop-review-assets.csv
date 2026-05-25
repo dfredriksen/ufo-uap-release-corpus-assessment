@@ -1,0 +1,15 @@
+﻿artifact_type,path,note
+loop_review_csv,research/ufo-video-pr43-loop-review-dod111689759.csv,PR43 ten-fps loop-aware residual review table
+loop_summary_csv,research/ufo-video-pr43-loop-review-loop-summary.csv,Detected loop/reset boundaries
+summary_csv,research/ufo-video-pr43-loop-review-summary.csv,PR43 loop-aware review summary
+annotated_contact_sheet,research/ufo-derived/video-motion-pass/pr43-loop-review/DOD_111689759/sheets/DOD_111689759-pr43-loop-annotated-01.jpg,PR43 annotated lane/residual sheet
+annotated_contact_sheet,research/ufo-derived/video-motion-pass/pr43-loop-review/DOD_111689759/sheets/DOD_111689759-pr43-loop-annotated-02.jpg,PR43 annotated lane/residual sheet
+annotated_contact_sheet,research/ufo-derived/video-motion-pass/pr43-loop-review/DOD_111689759/sheets/DOD_111689759-pr43-loop-annotated-03.jpg,PR43 annotated lane/residual sheet
+annotated_contact_sheet,research/ufo-derived/video-motion-pass/pr43-loop-review/DOD_111689759/sheets/DOD_111689759-pr43-loop-annotated-04.jpg,PR43 annotated lane/residual sheet
+annotated_contact_sheet,research/ufo-derived/video-motion-pass/pr43-loop-review/DOD_111689759/sheets/DOD_111689759-pr43-loop-annotated-05.jpg,PR43 annotated lane/residual sheet
+annotated_contact_sheet,research/ufo-derived/video-motion-pass/pr43-loop-review/DOD_111689759/sheets/DOD_111689759-pr43-loop-annotated-06.jpg,PR43 annotated lane/residual sheet
+zoom_patch_contact_sheet,research/ufo-derived/video-motion-pass/pr43-loop-review/DOD_111689759/sheets/DOD_111689759-pr43-loop-patches-01.jpg,PR43 lane/residual patch sheet
+zoom_patch_contact_sheet,research/ufo-derived/video-motion-pass/pr43-loop-review/DOD_111689759/sheets/DOD_111689759-pr43-loop-patches-02.jpg,PR43 lane/residual patch sheet
+zoom_patch_contact_sheet,research/ufo-derived/video-motion-pass/pr43-loop-review/DOD_111689759/sheets/DOD_111689759-pr43-loop-patches-03.jpg,PR43 lane/residual patch sheet
+zoom_patch_contact_sheet,research/ufo-derived/video-motion-pass/pr43-loop-review/DOD_111689759/sheets/DOD_111689759-pr43-loop-patches-04.jpg,PR43 lane/residual patch sheet
+

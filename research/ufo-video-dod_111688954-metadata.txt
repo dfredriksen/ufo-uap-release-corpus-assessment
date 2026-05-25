@@ -2,9 +2,10 @@
 release_id=DOW-UAP-PR28
 working_report_id=DoW-UAP-D25
 dvids_report_label=DoW-UAP-D7
-path=source-files-not-included/DOD_111688954.mp4
+path=I:\My Drive\UFO\DOD_111688954.mp4
 fps=30.0
 frame_count=1980
 width=1920
 height=1080
 duration_seconds=66.0
+

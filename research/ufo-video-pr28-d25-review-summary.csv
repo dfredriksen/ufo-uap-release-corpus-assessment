@@ -1,0 +1,32 @@
+﻿metric,value,note
+video,DOD_111688954.mp4,local source video
+release_id,DOW-UAP-PR28,DVIDS public release identity
+dvids_stated_report_id,DoW-UAP-D7,DVIDS page label; retained as source-label discrepancy
+content_report_id,DoW-UAP-D25,matching War.gov/local written-report content lane
+duration_seconds,66.0,fps=30.0; frames=1980
+full_sample_count,67,1.0 fps full-clip samples
+full_supported_high_or_medium_rows,47,full pass rows with usable compact contrast candidate before modality-loss cutoff
+full_supported_intervals,9.0s-55.0s,1 contiguous supported interval(s)
+dense_sample_count,231,5.0 fps samples from 10s to 56s
+dense_supported_high_or_medium_rows,217,dense SWIR rows with usable compact contrast candidate
+dense_supported_intervals,10.0s-10.4s; 11.0s-11.4s; 12.8s-17.2s; 17.8s-25.0s; 25.8s-55.8s,5 contiguous supported interval(s)
+full_target_center_track,47,9.0s-55.0s; net=305.317px; path=2984.705px; path_rate=64.885px/s; median_step_rate=43.073px/s
+dense_target_center_track,217,10.0s-55.8s; net=146.452px; path=3304.070px; path_rate=72.141px/s; median_step_rate=45.768px/s
+component_area,162.5,median; mean=129.330; stdev=71.587; cv=0.554; tracked compact bright component pixel area
+contrast_delta_luma,81.0,median; mean=95.527; stdev=30.391; cv=0.318; component max luma minus local median
+distance_from_expected_px,106.49,median; mean=113.677; stdev=59.766; cv=0.526; distance from phase-specific expected target lane
+distance_from_reticle_px,120.75,median; mean=119.973; stdev=40.246; cv=0.335; distance from central reticle
+dense_step_from_previous_supported_px,9.263,median; mean=15.296; stdev=22.822; cv=1.492; 0.2-second image-plane step between dense supported rows
+full_quality_count: high,37,full pass review quality
+full_quality_count: low,16,full pass review quality
+full_quality_count: medium,10,full pass review quality
+full_quality_count: none,4,full pass review quality
+dense_quality_count: high,185,dense pass review quality
+dense_quality_count: low,14,dense pass review quality
+dense_quality_count: medium,32,dense pass review quality
+full_supported_phase_count: full-screen SWIR track,45,full pass supported rows by DVIDS phase
+full_supported_phase_count: late SWIR teardrop view,1,full pass supported rows by DVIDS phase
+full_supported_phase_count: split-view initial contrast,1,full pass supported rows by DVIDS phase
+dense_supported_phase_count: full-screen SWIR track,212,dense pass supported rows by DVIDS phase
+dense_supported_phase_count: late SWIR teardrop view,5,dense pass supported rows by DVIDS phase
+

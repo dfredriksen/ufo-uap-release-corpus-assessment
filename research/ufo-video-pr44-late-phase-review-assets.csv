@@ -1,7 +1,8 @@
 ﻿artifact_type,path,note
-late_phase_review_csv,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr44-late-phase-review-dod111689115.csv,PR44 one-fps late phase review
-summary_csv,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr44-late-phase-review-summary.csv,PR44 late phase summary
-annotated_contact_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr44-late-phase-review/DOD_111689115/sheets/DOD_111689115-pr44-late-phase-annotated-00.jpg,late phase annotated center-crop sheet
-annotated_contact_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr44-late-phase-review/DOD_111689115/sheets/DOD_111689115-pr44-late-phase-annotated-01.jpg,late phase annotated center-crop sheet
-annotated_contact_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr44-late-phase-review/DOD_111689115/sheets/DOD_111689115-pr44-late-phase-annotated-02.jpg,late phase annotated center-crop sheet
-zoom_patch_contact_sheet,https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr44-late-phase-review/DOD_111689115/sheets/DOD_111689115-pr44-late-phase-patches-00.jpg,late phase seed zoom-patch sheet
+late_phase_review_csv,research/ufo-video-pr44-late-phase-review-dod111689115.csv,PR44 one-fps late phase review
+summary_csv,research/ufo-video-pr44-late-phase-review-summary.csv,PR44 late phase summary
+annotated_contact_sheet,research/ufo-derived/video-motion-pass/pr44-late-phase-review/DOD_111689115/sheets/DOD_111689115-pr44-late-phase-annotated-00.jpg,late phase annotated center-crop sheet
+annotated_contact_sheet,research/ufo-derived/video-motion-pass/pr44-late-phase-review/DOD_111689115/sheets/DOD_111689115-pr44-late-phase-annotated-01.jpg,late phase annotated center-crop sheet
+annotated_contact_sheet,research/ufo-derived/video-motion-pass/pr44-late-phase-review/DOD_111689115/sheets/DOD_111689115-pr44-late-phase-annotated-02.jpg,late phase annotated center-crop sheet
+zoom_patch_contact_sheet,research/ufo-derived/video-motion-pass/pr44-late-phase-review/DOD_111689115/sheets/DOD_111689115-pr44-late-phase-patches-00.jpg,late phase seed zoom-patch sheet
+

@@ -1,4 +1,4 @@
-﻿source_video=source-files-not-included/DOD_111689142.mp4
+﻿source_video=I:\My Drive\UFO\DOD_111689142.mp4
 video_id=DOD_111689142
 release_id=DOW-UAP-PR47
 fps=30.0
@@ -10,3 +10,4 @@ sample_rate=5.0
 review_start=0.0
 review_end=119.5
 note=OpenCV source video metadata and local review settings; not incident metadata.
+

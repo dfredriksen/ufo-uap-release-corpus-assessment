@@ -2,7 +2,7 @@
 
 Owner: Dan Fredriksen
 Created: 2026-05-10
-Source video: `source-files-not-included/DOD_111689030.mp4`
+Source video: `I:\My Drive\UFO\DOD_111689030.mp4`
 Status: Manual validation of `50s-87s` anchor interval
 
 ## Purpose
@@ -11,14 +11,14 @@ The 2026-05-10 quantitative pass identified `50s-87s` as the strongest local aud
 
 ## Generated Artifacts
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_d38_manual_review_assets.py`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-manual-review-assets.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-manual-track-dod111689030.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/manual-validation/DOD_111689030/raw-onefps/*`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/manual-validation/DOD_111689030/candidate-patches-onefps/*`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/manual-validation/DOD_111689030/sheets/*`
+- `scripts/ufo_d38_manual_review_assets.py`
+- `research/ufo-video-d38-manual-review-assets.csv`
+- `research/ufo-video-manual-track-dod111689030.csv`
+- `research/ufo-derived/video-motion-pass/manual-validation/DOD_111689030/raw-onefps/*`
+- `research/ufo-derived/video-motion-pass/manual-validation/DOD_111689030/candidate-patches-onefps/*`
+- `research/ufo-derived/video-motion-pass/manual-validation/DOD_111689030/sheets/*`
 
-No source files in `source-files-not-included` were modified.
+No source files in `I:\My Drive\UFO` were modified.
 
 ## Method
 
@@ -56,3 +56,4 @@ The track is still not final kinematics. The candidate moves relative to the ret
 Medium-quality points were accepted but flagged where the candidate is close to overlay/redaction edges, zoomed water texture, or partial field context.
 
 The review does not establish object origin. It strengthens the report-video correlation and gives a defensible interval for later manual kinematic work.
+

@@ -2,7 +2,7 @@
 
 Owner: Dan Fredriksen
 Created: 2026-05-12
-Source file: `source-files-not-included/dow-uap-d75-mission-report-gulf-of-aden-july-2024.pdf`
+Source file: `I:\My Drive\UFO\dow-uap-d75-mission-report-gulf-of-aden-july-2024.pdf`
 Official URL: `https://www.war.gov/medialink/ufo/release_1/dow-uap-d75-mission-report-gulf-of-aden-july-2024.pdf`
 Status: source review complete; document-only case
 
@@ -84,8 +84,8 @@ The PDF metadata title/subject says `DoW-UAP-D43`, which conflicts with the D75 
 
 Generated page renders:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/source-page-renders/D75/d75-page-7.png`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/source-page-renders/D75/d75-page-8.png`
+- `research/ufo-derived/source-page-renders/D75/d75-page-7.png`
+- `research/ufo-derived/source-page-renders/D75/d75-page-8.png`
 
 The page-8 render confirms the free-text section is visibly redacted:
 
@@ -112,3 +112,4 @@ This means the earlier "truncated description" is not recoverable by better OCR 
 ## Sources
 
 - War.gov D75 PDF: `https://www.war.gov/medialink/ufo/release_1/dow-uap-d75-mission-report-gulf-of-aden-july-2024.pdf`
+

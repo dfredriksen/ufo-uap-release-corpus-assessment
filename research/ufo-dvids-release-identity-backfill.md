@@ -44,15 +44,15 @@ This backfill increases source discipline more than it increases evidentiary str
 
 The exception is `DOD_111688825.mp4` / PR27 / D23. It is long enough and officially paired enough to deserve phase review.
 
-Dedicated PR26/D12 reconciliation note: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr26-d12-reconciliation.md`
+Dedicated PR26/D12 reconciliation note: `research/ufo-pr26-d12-reconciliation.md`
 
 The PR26/D12 pass narrows that caveat. DVIDS PR26 names `DoW-UAP-D12`, and its body text matches local/War.gov D12's north-to-northeast/no-positive-ID description. The unresolved problem is the DVIDS PR26 title/date/location against D12's Iraq / May 2022 mission metadata. Local review of `DOD_111688816.mp4` found a 43.167-second video derivative with frame changes and no sampled red/orange overlay pixels, so PR26/D12 remains a provenance-control case rather than a physical-performance case.
 
-Dedicated phase-review note: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr27-d23-phase-review-notes.md`
+Dedicated phase-review note: `research/ufo-video-pr27-d23-phase-review-notes.md`
 
 The phase review supports the DVIDS acquisition/zoom/center-track/loss-reacquisition sequence, with strong caveats for shoreline, reticle, and water-texture artifacts. It does not validate physical velocity, range, or assignment to either of D23's two UAP lines.
 
-Dedicated manual-validation note: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr27-d23-manual-validation-notes.md`
+Dedicated manual-validation note: `research/ufo-video-pr27-d23-manual-validation-notes.md`
 
 The validation layer narrows the claim: `175/327` active rows validate as compact-return candidates, with the strongest support in the `207.0s-297.0s` loss/reacquisition interval.
 
@@ -76,3 +76,4 @@ The validation layer narrows the claim: `175/327` active rows validate as compac
 - DVIDS PR46: `https://www.dvidshub.net/video/1006106/dow-uap-pr46-unresolved-uap-report-indopacom-2024`
 - DVIDS PR48: `https://www.dvidshub.net/video/1006110/dow-uap-pr48-unresolved-uap-report-indopacom-2024`
 - DVIDS PR49: `https://www.dvidshub.net/video/1006111/dow-uap-pr49-unresolved-uap-report-department-army-2026`
+

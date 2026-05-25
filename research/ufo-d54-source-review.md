@@ -2,7 +2,7 @@
 
 Owner: Dan Fredriksen
 Created: 2026-05-12
-Source file: `source-files-not-included/dow-uap-d54-mission-report-mediterranean-sea-na.pdf`
+Source file: `I:\My Drive\UFO\dow-uap-d54-mission-report-mediterranean-sea-na.pdf`
 Official URL: `https://www.war.gov/medialink/ufo/release_1/dow-uap-d54-mission-report-mediterranean-sea-na.pdf`
 Status: source review complete; heavily redacted document-only case
 
@@ -30,7 +30,7 @@ The embedded PDF title/subject says `DoW-UAP-D31`, which conflicts with the D54 
 
 Generated page render:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/source-page-renders/D54/d54-page-7.png`
+- `research/ufo-derived/source-page-renders/D54/d54-page-7.png`
 
 ## Preserved UAP Text
 
@@ -70,3 +70,4 @@ This fits the broader Greece / Eastern Mediterranean lane better than it fits an
 ## Sources
 
 - War.gov D54 PDF: `https://www.war.gov/medialink/ufo/release_1/dow-uap-d54-mission-report-mediterranean-sea-na.pdf`
+

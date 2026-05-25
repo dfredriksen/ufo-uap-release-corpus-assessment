@@ -2,7 +2,7 @@
 
 Owner: Dan Fredriksen
 Created: 2026-05-09
-Source files: official public UFO/UAP release files, not redistributed in this repository
+Source folder: `I:\My Drive\UFO`
 Status: External DVIDS release-index reconciliation plus local text/video comparison
 
 ## Bottom Line
@@ -52,6 +52,35 @@ A 2026-05-10 phase review also confirms the PR34/D33 and PR35/D35 Greece hard-pa
 | `DOD_111689083.mp4` | `DOW-UAP-PR41`, Middle East, 2020 | Standalone single tracked contrast clip. |
 | `DOD_111689759.mp4` | `DOW-UAP-PR43`, Africa, 2025 | Standalone looped two-second event in an 11-second file; no reporter oral/written description. |
 
+## Release 02 Tranche Extension
+
+Release 02 adds a second modern video tranche, but the row-level page review shows that it is a standalone release family rather than a tranche of new hard report/video pairings to local D-report files. The tranche contains eight digitally altered clips, one explicit duplicate pair (`PR057a` / `PR057b`), and one explicit non-duplicate same-title pair (`PR093` / `PR095`). The goal here is to preserve the best tranche-aware triage targets without collapsing them into the hard-pairing table above.
+
+| Release row | DVIDS ID | Candidate lane | Why it matters now |
+|---|---|---|---|
+| `PR050` | `PR050` | Iran / over-water formation | Explicit formation wording and over-water context make it a natural follow-on to the Persian Gulf and formation review lanes. |
+| `PR051` | `PR051` | Syrian instant acceleration | Strong motion wording, useful as a title-level motion candidate only. |
+| `PR053` | `PR053` | Cigar-shaped / fast spherical clip | Shape-and-speed wording suggests a useful object-description lane. |
+| `PR054` | `PR054` | Erratic movement | Obvious motion-review candidate. |
+| `PR055` | `PR055` | Afghanistan in-and-out-of-clouds | Weather-limited / control-style lane. |
+| `PR056` | `PR056` | Spherical over water | Over-water sensor lane, potentially useful for maritime comparison. |
+| `PR057a` / `PR057b` | `PR057A` / `PR057B` | Shared DVIDS identity / East China Sea family | Shared identity and title pairing suggest a close release family rather than isolated rows. |
+| `PR065` / `PR066` | `PR065` / `PR066` | USCG C-144 Tyndall / TIC TAC IR hot | Strong modern sensor lane with paired assets and clear operational context. |
+| `PR067` | `PR067` | Submarine / in-and-out-of-water USO | Distinct USO wording and a useful over-water/in-water boundary case. |
+| `PR068` | `PR068` | Fifth-generation aircraft capture | High-value sensor-context clip, likely an operational case. |
+| `PR069` | `PR069` | F/A-18 FLIR | Strong sensor-context comparator. |
+| `PR070` | `PR070` | Eglin AFB aircrew observation | Likely an aircrew-observed operational lane. |
+| `PR071` | `PR071` | Lake Huron shootdown | Strong event-specific comparator with conventional explanation space. |
+| `PR072` | `PR072` | Kazakhstan airport revision | Administrative revision lane with explicit location. |
+| `PR073` | `PR073` | Columbus, Ohio multi-UAP | Distinct domestic multiple-contact lane. |
+| `PR077` / `PR078` | `PR077` / `PR078` | 2 Nov 2020 tracked pair | Clear two-part tracking set that may map to one incident family. |
+| `PR079` | `PR079` | 29 Oct 2020 three fast-moving UAPs | Strong multi-object review candidate. |
+| `PR091` | `PR091` | Persian Gulf | Explicit regional wording that may map into the existing Gulf pattern lane. |
+| `PR093` / `PR095` | `PR093` / `PR095` | Gulf of Arabia dual UAP | Duplicate-style paired titles, likely a closely related or repeated asset lane. |
+| `PR098` | `PR098` | Formation over Persian Gulf | Likely a regional pattern lane rather than a single isolated clip. |
+
+The candidate lane file for this tranche is `research/ufo-release-02-video-correlation-candidates.md`, and the deeper review note is `research/ufo-release-02-video-review.md`. Nothing in Release 02 yet displaces the existing hard pairings; it mainly adds a broader tranche of follow-on video review targets and internal controls.
+
 ## Key Report Rows
 
 | Report | Local extracted content | Video status |
@@ -78,53 +107,53 @@ The release is now less speculative than the previous local-only pass because se
 
 The 2026-05-12 release-identity backfill adds multiple hard but lower-priority pairings and standalone identities. Most backfilled report-video pairs are controls or ambiguity lanes: possible missile/birds (`PR19/D10`), probable aircraft (`PR21/D14`), possible UAP/UAV (`PR23/D18`), and glare/halo artifacts (`PR31-PR33/D32`). `DOD_111688825.mp4` / `PR27` / `D23` is now phase-reviewed and remains useful as a long hard-paired video, but not as a public kinematics source. `DOD_111688816.mp4` / `PR26` / `D12` is now reconciled as a hard video identity and strong D12 content match with conflicting official release title/date/location metadata.
 
-Dedicated PR27/D23 phase-review note: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr27-d23-phase-review-notes.md`
+Dedicated PR27/D23 phase-review note: `research/ufo-video-pr27-d23-phase-review-notes.md`
 
-Dedicated PR27/D23 manual-validation note: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr27-d23-manual-validation-notes.md`
+Dedicated PR27/D23 manual-validation note: `research/ufo-video-pr27-d23-manual-validation-notes.md`
 
 The PR27/D23 manual-validation pass reviewed `327` active rows from `134.0s-297.0s`. It classified `175` as true compact-return candidates, `88` as reticle/overlay artifacts, `27` as frame-edge artifacts, `23` as water-texture artifacts, `3` as shoreline/terrain artifacts, `10` as uncertain, and `1` as no-candidate. The support is strongest in the late loss/reacquisition interval: `144/181` rows from `207.0s-297.0s` validated as compact-return candidates, compared with `31/146` in the `134.0s-206.5s` zoom/centered-track interval.
 
-Dedicated PR26/D12 reconciliation note: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr26-d12-reconciliation.md`
+Dedicated PR26/D12 reconciliation note: `research/ufo-pr26-d12-reconciliation.md`
 
 The PR26/D12 reconciliation resolves the main question as a metadata conflict rather than a content conflict. DVIDS PR26 names `DoW-UAP-D12`, and its body text matches D12's north-to-northeast/no-positive-ID description. The conflict is that DVIDS PR26 is titled United Arab Emirates / October 2023 while D12 is Iraq / May 2022. Local `DOD_111688816.mp4` review shows a 43.167-second video derivative with frame changes and no sampled red/orange overlay pixels; it should not be used for speed, range, or trajectory estimates.
 
-Dedicated D28 evidence packet: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d28-evidence-packet.md`
+Dedicated D28 evidence packet: `research/ufo-d28-evidence-packet.md`
 
 The D28 evidence-packet pass keeps D28 high in the document-only lane while narrowing the claim. The report preserves `202027:59ZSEP24`, `202027ZSEP2024-CENTCOM`, an AGM-176 weapons-employment context, and MX-20/MX-25 IR/lens-flare language. It does not preserve raw imagery, release/impact timestamps, FOV, range, sensor pointing, object speed, altitude, size, or trajectory. A local corpus scan found D28's unique anchors only in D28 and derived notes, so no hidden sibling report was identified.
 
-Dedicated range-fouler cluster packet: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-range-fouler-cluster-packet.md`
+Dedicated range-fouler cluster packet: `research/ufo-range-fouler-cluster-packet.md`
 
 The range-fouler packet separates the cluster into lanes rather than treating it as one phenomenon. D44/D57 form a Gulf of Aden IR/black-hot geometry pair; D56 is a three-contact North Arabian Sea ambiguity lane; D58 is the radar-lock / target-pod / noise-jamming lane and the highest-value unresolved follow-up target. D58's red strobes and jamming language are important but also preserve strong conventional-platform confounds.
 
-Dedicated D75 source review: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d75-source-review.md`
+Dedicated D75 source review: `research/ufo-d75-source-review.md`
 
 The D75 source review resolves the prior "truncated description" caveat. Page rendering confirms the released PDF itself redacts the useful free-text: the visible UAP description stops at `UAP HAD`, and the `Gentext` box is redacted. The structured fields remain useful: event `140517:00ZJUL24`, FMV primary sensor, estimated low altitude, estimated NW trajectory, and "followed until distance became too far." D75 should not be used for shape or absolute-speed claims without new source material.
 
-Dedicated D74 source review: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d74-source-review.md`
+Dedicated D74 source review: `research/ufo-d74-source-review.md`
 
 The D74 source review promotes D74 within the document-only lane. It preserves MISREP `9381202`, Operation `INHERENT RESOLVE`, initial contact `092153:00ZNOV23`, event serial `092153ZNOV2023-CENTCOM`, a readable seven-minute near-co-altitude pass narrative, estimated `424KN`, and useful negative controls. It does not have a hard video pairing, and the PDF metadata title/subject says `DoW-UAP-D42`, so D74 remains a high-priority report-derived case rather than a public kinematics case.
 
-Dedicated D8 source review: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d8-source-review.md`
+Dedicated D8 source review: `research/ufo-d8-source-review.md`
 
 The D8 source review keeps D8 high priority but narrows the claim. The visible source text preserves only a compact UAP gentext line: `1653Z`, `2X ROUND WHITE HOT UAPS`, dynamic south, approximately `240NM/HOUR`, near `35SQT3423692957`. That grid decodes locally to roughly `34.2514N, 29.5437E`, so D8 now carries a Djibouti-title / Eastern-Mediterranean-grid mismatch. The full date, platform, sensor, event serial, raw imagery, and video pairing are not public.
 
-Dedicated D54 source review: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d54-source-review.md`
+Dedicated D54 source review: `research/ufo-d54-source-review.md`
 
 The D54 source review adds a sparse but useful Aegean/Eastern Mediterranean document-only row. The visible source text preserves `1319Z`, one triangular and metallic UAP, coordinate `363453N 0255943E`, `24,989FT MSL`, and `168KTS`. The coordinate converts to approximately `36.58138889N, 25.99527778E`. The full date, sensor, event serial, raw imagery, and video pairing are not public, and the PDF metadata title/subject says `DoW-UAP-D31`.
 
-Dedicated D27 source review: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d27-source-review.md`
+Dedicated D27 source review: `research/ufo-d27-source-review.md`
 
 The D27 source review promotes D27 as the strongest written-report content match for PR29 while preserving its caveats. D27 gives initial contact `070457:00ZJUN24`, event serial `060457ZJUN2024-CENTCOM`, target pod `AN/DAS-1`, FMV-supported NIB context, first accuracy precise, estimated UAP kinetic velocity `140 KNOTS`, and the distinctive glowing-spherical pole/bar or possible water-reflection description. The PR29 MP4 visually aligns with the description, but the DVIDS page labels the report as D8 and the public data still cannot validate physical speed, altitude, range, or the pole/bar as a real appendage.
 
-Dedicated D25 source review: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d25-source-review.md`
+Dedicated D25 source review: `research/ufo-d25-source-review.md`
 
 The D25 source review promotes PR28/D25 as the strongest SWIR-only media-plus-report lane. D25 preserves `250509:00ZJAN24`, event serial `250509ZJAN2024-CENTCOM 001`, `AN/DAS-4`, `SWIR WHT`, a round/diamond shape with a straight non-maneuverable tail/probe, and a gentext speed of approximately `434 KNOTS`. The public PR28 phase review supports the SWIR acquisition/loss sequence, but speed, altitude, range, size, and detailed physical shape remain report-derived. DVIDS still labels the report as `D7`, which conflicts with local/War.gov D7.
 
-Dedicated D33 source review: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d33-source-review.md`
+Dedicated D33 source review: `research/ufo-d33-source-review.md`
 
 The D33 source review promotes PR34/D33 as the strongest Greece ocean-surface hard-paired maneuver lane. D33 preserves `270035:12ZOCT23`, `80 MPH`, a seemingly circular object just above ocean water, multiple reported 90-degree turns, feed loss around `0038Z`, and useful negative controls. DVIDS `PR34` hard-pairs the report with `DOD_111689011`. Prior manual tracking supports multiple sharp image-plane heading changes, but not true physical turn geometry or speed without source telemetry.
 
-Dedicated D35 source review: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d35-source-review.md`
+Dedicated D35 source review: `research/ufo-d35-source-review.md`
 
 The D35 source review keeps PR35/D35 in the hard-paired Greece ocean-surface lane but below D33 for anomaly strength. D35 preserves `290811:00ZOCT23`, estimated `30 MPH`, a seemingly circular object just above ocean water toward land, feed loss at `0811Z`, `NONE` maneuverability observations, and useful negative controls. DVIDS `PR35` hard-pairs the report with filename `DOD_111689022`; the local suffixed MP4 export matches the filename stem and duration, and all local copies hash identically. The public clip supports the zoom/ocean-background/land-transition sequence, not independent speed, range, altitude, or trajectory validation.
 
@@ -134,7 +163,7 @@ The D35 source review keeps PR35/D35 in the hard-paired Greece ocean-surface lan
 
 ## Anchor Review Added
 
-Dedicated note: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-anchor-notes.md`
+Dedicated note: `research/ufo-video-d38-anchor-notes.md`
 
 That note now records the quantitative extraction pass and manual validation for `DOD_111689030`. A working decoder generated 138 one-fps samples and 687 five-fps samples. The strongest local anchor is `50-87s`, with `50-75s` falling inside DVIDS's `00:20-01:15` generally-in-field interval and `76-87s` immediately following the DVIDS `01:16` zoom/narrow-field event. A manual review of raw one-fps crops and zoom patches accepted all 38 one-second points in that interval, with 31 high-quality and 7 medium-quality accepted points.
 
@@ -149,19 +178,19 @@ Local `DoW-UAP-D8` remains the exception. The local `d8` text describes two roun
 
 Follow-up reconciliation on 2026-05-10 found that official War.gov/local `DoW-UAP-D27` contains the UAE pole/bar/reflection language summarized by DVIDS `PR29`. The best current treatment is: `DOD_111688964.mp4` is hard `PR29`; `D27` is the matching report text; `D8` is a separate Djibouti 2025 report; the PR29 `D8` label remains an official-source discrepancy unless corrected.
 
-Dedicated reconciliation note: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr29-d8-d27-reconciliation.md`
+Dedicated reconciliation note: `research/ufo-pr29-d8-d27-reconciliation.md`
 
 Follow-up reconciliation on 2026-05-12 found the same source-index pattern in `PR28`: DVIDS names `DoW-UAP-D7`, but local/War.gov `D7` is an Arabian Gulf 2020 balloon-like/TFLIR case. Local/War.gov `D25` contains the Greece SWIR-only diamond/probe and `434 knots` language summarized by DVIDS `PR28`. The best current treatment is: `DOD_111688954.mp4` is hard `PR28`; `D25` is the matching report text; `D7` is a separate Arabian Gulf 2020 report; the PR28 `D7` label remains an official-source discrepancy unless corrected.
 
-Dedicated reconciliation note: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr28-d25-d7-reconciliation.md`
+Dedicated reconciliation note: `research/ufo-pr28-d25-d7-reconciliation.md`
 
-Dedicated phase-review note: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr28-d25-phase-review-notes.md`
+Dedicated phase-review note: `research/ufo-video-pr28-d25-phase-review-notes.md`
 
 The PR28/D25 phase pass sampled `DOD_111688954.mp4` at two frames per second through `65.5s`. It found `86/92` high-or-medium detections in the full-screen SWIR tracking interval from `10.0s-55.9s`, then `0/18` high-or-medium detections in the `57.0s-65.5s` SWIR black-hot non-reacquisition interval. This supports the DVIDS visual sequence and the `D25` SWIR-only lane, but does not independently validate `434 knots`, range, altitude, size, or physical shape.
 
 ## PR34 / PR35 Phase Review
 
-Dedicated note: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr34-pr35-phase-review-notes.md`
+Dedicated note: `research/ufo-video-pr34-pr35-phase-review-notes.md`
 
 The 2026-05-10 phase pass sampled `DOD_111689011.mp4` and `DOD_111689022-1920x1080-9000k.mp4` at two frames per second using DVIDS's time-coded descriptions as phase anchors.
 
@@ -171,7 +200,7 @@ For PR35/D35, the local suffixed file is a strong export match to DVIDS filename
 
 ## PR34 Manual-Review Track
 
-Dedicated note: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr34-d33-manual-track-notes.md`
+Dedicated note: `research/ufo-pr34-d33-manual-track-notes.md`
 
 The PR34/D33 manual-review pass sampled `DOD_111689011.mp4` from `4.0s-59.0s` at two frames per second. It retained `97` accepted detector-centered marks, interpolated `14` bounded detector dropouts caused by a recurring top-edge false detection, and produced a cleaned track table plus turn-event CSV.
 
@@ -181,7 +210,7 @@ This supports the narrow claim that the public MP4 contains multiple sharp appar
 
 ## PR34 Geometry Feasibility
 
-Dedicated note: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr34-d33-geometry-feasibility.md`
+Dedicated note: `research/ufo-pr34-d33-geometry-feasibility.md`
 
 The PR34/D33 geometry pass tested the D33 `80 MPH` report value against the cleaned `4.0s-59.0s` manual-review track. The all-row cleaned track has net rate `8.455 px/s`, path-average rate `118.837 px/s`, and median step rate `84.039 px/s`.
 
@@ -193,8 +222,8 @@ The public MP4 therefore does not falsify `80 MPH`, but it also cannot validate 
 
 Dedicated notes:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr44-standalone-quant-notes.md`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr44-primary-validation-late-phase-notes.md`
+- `research/ufo-pr44-standalone-quant-notes.md`
+- `research/ufo-pr44-primary-validation-late-phase-notes.md`
 
 The PR44 standalone pass sampled `DOD_111689115.mp4` from `154.0s-243.0s` at `5 fps`, using the prior one-fps compact-return table as seeds. It produced `446` rows across `89.0s`: `155 high`, `154 medium`, and `137 low` confidence. `320` rows had local compact-bright refinement and `126` rows remained seed-only/interpolated.
 
@@ -239,3 +268,4 @@ This strengthens PR44 as standalone video evidence for sustained and then interm
 - DVIDS `DOW-UAP-PR47`: `https://www.dvidshub.net/video/1006107/dow-uap-pr47-unresolved-uap-report-indopacom-2023`
 - DVIDS `DOW-UAP-PR48`: `https://www.dvidshub.net/video/1006110/dow-uap-pr48-unresolved-uap-report-indopacom-2024`
 - DVIDS `DOW-UAP-PR49`: `https://www.dvidshub.net/video/1006111/dow-uap-pr49-unresolved-uap-report-department-army-2026`
+

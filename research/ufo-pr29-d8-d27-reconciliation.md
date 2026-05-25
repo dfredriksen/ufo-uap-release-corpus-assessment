@@ -13,7 +13,7 @@ The official War.gov/local file named `dow-uap-d27-mission-report-united-arab-em
 
 Working conclusion: treat `DOD_111688964.mp4` as a hard `PR29` video identity, treat the written-report content match as `D27`, and treat the DVIDS `DoW-UAP-D8` accompanying-report label as an unresolved release-index or report-label discrepancy.
 
-Follow-on source review: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d27-source-review.md`
+Follow-on source review: `research/ufo-d27-source-review.md`
 
 That review confirms D27 as the report-content match while adding two provenance constraints: D27's filename/title says October 2023 while the report body is June 2024, and the event serial is printed as `060457ZJUN2024-CENTCOM` while the initial contact/acquisition fields are `070457:00ZJUN24`.
 
@@ -30,18 +30,19 @@ That review confirms D27 as the report-content match while adding two provenance
 
 | Local source file | Size | SHA256 |
 |---|---:|---|
-| `source-files-not-included/dow-uap-d27-mission-report-united-arab-emirates-october-2023.pdf` | `689226` bytes | `86275421F64583566FCC32B7422C5D991B35DD7D3700E01D3FCF24B279FFF243` |
-| `source-files-not-included/dow-uap-d8-mission-report-djibouti-2025.pdf` | `29154` bytes | `0A8548A845C3B45F90EE512BDFD8EAC1AF073072228E7E4D24E779D12025886C` |
+| `I:\My Drive\UFO\dow-uap-d27-mission-report-united-arab-emirates-october-2023.pdf` | `689226` bytes | `86275421F64583566FCC32B7422C5D991B35DD7D3700E01D3FCF24B279FFF243` |
+| `I:\My Drive\UFO\dow-uap-d8-mission-report-djibouti-2025.pdf` | `29154` bytes | `0A8548A845C3B45F90EE512BDFD8EAC1AF073072228E7E4D24E779D12025886C` |
 
 ## Caveats
 
 - The DVIDS page lists date taken `06.01.2024`; the D27 report content has initial contact `070457:00ZJUN24`. This is a metadata/date discrepancy, not a content mismatch.
 - The local/War.gov D27 filename says `united-arab-emirates-october-2023`, but the extracted event timing in the report is June 2024. Treat filename dates cautiously across this release set.
 - The local/War.gov D8 filename/title says Djibouti, 2025, but the visible MGRS grid decodes to approximately `34.2514N, 29.5437E` in the Eastern Mediterranean. This strengthens the conclusion that D8 is not the PR29/D27 UAE pole/bar case, while also adding a separate D8 source-label caveat.
-- PowerShell `HEAD` requests to War.gov returned `403 Forbidden`, but the PDF URLs were accessible through normal document retrieval and were also present locally under `source-files-not-included`.
+- PowerShell `HEAD` requests to War.gov returned `403 Forbidden`, but the PDF URLs were accessible through normal document retrieval and were also present locally under `I:\My Drive\UFO`.
 
 ## Sources
 
 - DVIDS `DOW-UAP-PR29`: `https://www.dvidshub.net/video/1006074/dow-uap-pr29-unresolved-uap-report-united-arab-emirates-june-2024`
 - War.gov `DoW-UAP-D27` PDF: `https://www.war.gov/medialink/ufo/release_1/dow-uap-d27-mission-report-united-arab-emirates-october-2023.pdf`
 - War.gov `DoW-UAP-D8` PDF: `https://www.war.gov/medialink/ufo/release_1/dow-uap-d8-mission-report-djibouti-2025.pdf`
+

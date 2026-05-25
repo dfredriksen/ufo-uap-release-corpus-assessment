@@ -3,7 +3,6 @@
 import argparse
 import csv
 import math
-import shutil
 import subprocess
 from dataclasses import dataclass
 from pathlib import Path
@@ -13,8 +12,12 @@ import numpy as np
 
 
 VIDEO_ID = "DOD_111689030"
-DEFAULT_SOURCE = Path(r"source-files-not-included/DOD_111689030.mp4")
-DEFAULT_FFPROBE = Path(shutil.which("ffprobe") or "ffprobe")
+DEFAULT_SOURCE = Path(r"I:\My Drive\UFO\DOD_111689030.mp4")
+DEFAULT_FFPROBE = Path(
+    r"C:\Users\Dan\AppData\Local\Microsoft\WinGet\Packages"
+    r"\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe"
+    r"\ffmpeg-8.1.1-full_build\bin\ffprobe.exe"
+)
 
 
 @dataclass
@@ -352,13 +355,10 @@ def write_metadata(path: Path, video_path: Path, ffprobe: Path | None, fps: floa
         f"opencv_frame_count={total_frames}",
         f"opencv_duration_seconds={total_frames / fps if fps else ''}",
     ]
-    ffprobe_cmd = None
-    if ffprobe:
-        ffprobe_cmd = shutil.which(str(ffprobe)) or (str(ffprobe) if ffprobe.exists() else None)
-    if ffprobe_cmd:
+    if ffprobe and ffprobe.exists():
         result = subprocess.run(
             [
-                ffprobe_cmd,
+                str(ffprobe),
                 "-v",
                 "error",
                 "-show_entries",
@@ -435,14 +435,14 @@ def main() -> None:
         writer.writerow(
             {
                 "artifact_type": "one_fps_csv",
-                "path": "https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-object-position-dod111689030.csv",
+                "path": "research/ufo-video-object-position-dod111689030.csv",
                 "note": "1 fps compact bright-candidate audit table",
             }
         )
         writer.writerow(
             {
                 "artifact_type": "fps5_csv",
-                "path": "https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-object-position-dod111689030-fps5.csv",
+                "path": "research/ufo-video-object-position-dod111689030-fps5.csv",
                 "note": "5 fps compact bright-candidate audit table",
             }
         )
@@ -459,3 +459,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

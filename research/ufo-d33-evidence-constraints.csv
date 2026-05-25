@@ -12,3 +12,4 @@
 "negative controls","Observer assessment benign; no observer engagement; no effects on persons/equipment; no recovered material; under intelligent control marked NO","useful controls","Supports unresolved benign observation lane; does not close sensor/platform explanations."
 "public video support","Local manual review retained 97 accepted marks from 4.0s-59.0s and identified seven smoothed image-plane heading changes >=60 deg","visual support for image-plane maneuvers","Supports apparent maneuvering in the public MP4; not proof of physical 90-degree turns."
 "kinematic limits","Public report/video lack source FOV, slant range, platform/gimbal motion, raw telemetry, size, and exact track data","public data insufficient","Keep 80 MPH and true turn geometry report-derived unless source telemetry appears."
+

@@ -1,4 +1,4 @@
-# Critical Review — `chatgpt-pro-polished-paper.md`
+﻿# Critical Review â€” `chatgpt-pro-polished-paper.md`
 
 **Reviewer:** Claude (Opus 4.7)
 **Date:** 2026-05-15
@@ -18,7 +18,7 @@ This is the only finding I would call publication-blocking, and it is concrete a
 - The baseline paper's links are written as `/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/...`.
 - The artifacts themselves live at the **baseline** path. I verified this by successfully fetching `research/ufo-evidence-ladder.md` and `research/ufo-report-video-correlation-matrix.md` from the `/research/` root. A `review-packets/research/` directory is not the canonical location of the cited evidence.
 
-Effect: every "Primary support" link in Findings 1–9, every link in the "Supporting Artifacts" block, and the Scope/Method link lists in the polished paper would 404 against the live repo as written. A reviewer or external reader following any citation would conclude the support is missing.
+Effect: every "Primary support" link in Findings 1â€“9, every link in the "Supporting Artifacts" block, and the Scope/Method link lists in the polished paper would 404 against the live repo as written. A reviewer or external reader following any citation would conclude the support is missing.
 
 This is most likely a relative-path rewrite artifact (the polished paper sits inside `/review-packets/`, so a tool resolved `../research/` incorrectly), not an evidentiary issue, but the fix has to happen before this draft is presented as a "final-style scientific report."
 
@@ -29,8 +29,8 @@ This is most likely a relative-path rewrite artifact (the polished paper sits in
 
 Two small lexical shifts here, and they compound:
 
-1. "include" → "are" converts an open enumeration to a closed set. The evidence ladder explicitly flags that historical/FBI/NASA/DOS material received only **targeted triage** and that "future source extraction" could promote specific records into the main ladder. Closing the set in the abstract conflicts with that hedge.
-2. "strongest" → "highest-value" is a soft promotion: "strongest" is comparative within the document-only tier; "highest-value" is absolute. Within Tier 2 itself, the evidence ladder visibly grades the cases (`D58` and `D28` are the highest, then `D74`/`D75`, then `D44/D57`, then `D8` and `D54`). Calling the whole list "highest-value" flattens that internal gradient, even though the ranking table later in the same paper preserves it.
+1. "include" â†’ "are" converts an open enumeration to a closed set. The evidence ladder explicitly flags that historical/FBI/NASA/DOS material received only **targeted triage** and that "future source extraction" could promote specific records into the main ladder. Closing the set in the abstract conflicts with that hedge.
+2. "strongest" â†’ "highest-value" is a soft promotion: "strongest" is comparative within the document-only tier; "highest-value" is absolute. Within Tier 2 itself, the evidence ladder visibly grades the cases (`D58` and `D28` are the highest, then `D74`/`D75`, then `D44/D57`, then `D8` and `D54`). Calling the whole list "highest-value" flattens that internal gradient, even though the ranking table later in the same paper preserves it.
 
 This is minor in isolation but it lives in the abstract, which is the part most readers will quote.
 
@@ -39,7 +39,7 @@ This is minor in isolation but it lives in the abstract, which is the part most 
 - **Baseline:** "These conflicts **must** be preserved rather than smoothed over."
 - **Polished:** "These conflicts **should** be preserved rather than smoothed over."
 
-The PR28/D25/D7 and PR29/D27/D8 reconciliations are some of the most defensible original contributions of this corpus — they show that DVIDS's stated accompanying-report labels do not match the War.gov report content in at least two hard-pair cases. "Must" is the right register here precisely because the rest of the literature is going to be tempted to silently pick a "true" label and move on. "Should" reads like polish; it functionally lowers the bar.
+The PR28/D25/D7 and PR29/D27/D8 reconciliations are some of the most defensible original contributions of this corpus â€” they show that DVIDS's stated accompanying-report labels do not match the War.gov report content in at least two hard-pair cases. "Must" is the right register here precisely because the rest of the literature is going to be tempted to silently pick a "true" label and move on. "Should" reads like polish; it functionally lowers the bar.
 
 I would restore "must."
 
@@ -61,7 +61,7 @@ This is a transparency loss, not an evidentiary one. For a paper whose method se
 
 This is a *strengthening of the limitation*, i.e., the polished version disclaims more than the baseline. Keep it.
 
-### Minor: "Physics" → "physical findings" in the abstract
+### Minor: "Physics" â†’ "physical findings" in the abstract
 
 - **Baseline:** "...source-reported claims rather than independently reconstructable physics."
 - **Polished:** "...source-reported claims rather than independently reconstructable physical findings."
@@ -70,7 +70,7 @@ Modest improvement in precision. Keep.
 
 ### Minor: Finding 6 sentence-split is benign
 
-The polished version moves "The report is operationally narrow and source-request worthy" from the end of paragraph 1 to imply it across paragraphs 2–3. Meaning is preserved.
+The polished version moves "The report is operationally narrow and source-request worthy" from the end of paragraph 1 to imply it across paragraphs 2â€“3. Meaning is preserved.
 
 ### Minor: Findings 8 list formatting
 
@@ -78,17 +78,17 @@ The polished version adds semicolons to bullet items. Cosmetic.
 
 ### Editorial: Two claims that I'd recommend tightening for a publication audience
 
-These are not violations — they are present in **both** baseline and polished — but a journal reviewer is likely to flag them:
+These are not violations â€” they are present in **both** baseline and polished â€” but a journal reviewer is likely to flag them:
 
-1. **Finding 2, D33/PR34:** "Manual tracking supports multiple sharp apparent image-plane heading changes, while true physical 90-degree turns and `80 MPH` remain report-derived." The correlation matrix backs this: 7 smoothed image-plane heading changes ≥60° were identified across `12.0–42.5 s`, **not** physical 90° turns. The phrase "sharp apparent image-plane heading changes" is correct; consider explicitly stating "≥60° in image-plane heading," which is what the geometry feasibility note actually demonstrates. As written, a casual reader could still infer that the image-plane evidence is closer to "90-degree turn-like" than it is.
+1. **Finding 2, D33/PR34:** "Manual tracking supports multiple sharp apparent image-plane heading changes, while true physical 90-degree turns and `80 MPH` remain report-derived." The correlation matrix backs this: 7 smoothed image-plane heading changes â‰¥60Â° were identified across `12.0â€“42.5 s`, **not** physical 90Â° turns. The phrase "sharp apparent image-plane heading changes" is correct; consider explicitly stating "â‰¥60Â° in image-plane heading," which is what the geometry feasibility note actually demonstrates. As written, a casual reader could still infer that the image-plane evidence is closer to "90-degree turn-like" than it is.
 
-2. **Finding 2, D23/PR27:** "Manual validation supports repeated compact-return candidates, especially in the late loss/reacquisition interval." The matrix's actual numbers — `144/181` validated as compact-return candidates in `207–297 s` vs. `31/146` in `134–206.5 s` — should appear at least in a footnote. "Repeated" without the ratios is weaker than the evidence allows but also less inspectable.
+2. **Finding 2, D23/PR27:** "Manual validation supports repeated compact-return candidates, especially in the late loss/reacquisition interval." The matrix's actual numbers â€” `144/181` validated as compact-return candidates in `207â€“297 s` vs. `31/146` in `134â€“206.5 s` â€” should appear at least in a footnote. "Repeated" without the ratios is weaker than the evidence allows but also less inspectable.
 
 ### Editorial: Limitations section is good but could be expanded with two corpus-level points
 
 Both versions list seven limitations. Two additional ones are implied by the support artifacts but not stated:
 
-- **Selection bias in DVIDS public release.** The public DOD MP4s are a non-random subset of the underlying operational video archive (the matrix's standalone-video lane shows this — many `PR##` videos have no accompanying written-report disclosure). "Public-corpus prevalence does not reflect operational prevalence" belongs in the limitations.
+- **Selection bias in DVIDS public release.** The public DOD MP4s are a non-random subset of the underlying operational video archive (the matrix's standalone-video lane shows this â€” many `PR##` videos have no accompanying written-report disclosure). "Public-corpus prevalence does not reflect operational prevalence" belongs in the limitations.
 - **Codec/compression artifact floor.** Limitation 5 mentions "compression explanations" in passing. The PR44/PR47/D38 standalone-video pages document reticle cycling, zoom changes, and chroma/luma artifacts that can mimic point-return behavior. A one-line explicit limitation on codec floor would close a foreseeable reviewer objection.
 
 ### Editorial: Title-case is inconsistent across sections in the polished paper
@@ -103,11 +103,11 @@ The polished version uses Title Case ("Public Videos Do Not Independently Establ
 
 What is preserved verbatim or near-verbatim across both versions:
 - The four-tier evidence standard and the case assignments to each tier.
-- The ranking table (ranks 1–18 are identical).
+- The ranking table (ranks 1â€“18 are identical).
 - The interpretation block-quote ("The release contains multiple official operational records...").
 - The conclusion block-quote ("There are credible unresolved observations...").
 - The Source-Request Priorities table.
-- The Limitations list (items 1–7).
+- The Limitations list (items 1â€“7).
 - All Finding 2 caveats that flag specific kinematic values (`80 MPH`, `434 KNOTS`, `140 KNOTS`, `320/440 MPH`) as report-derived rather than independently reconstructed.
 - The Finding 3 statement that "public videos do not independently establish physical kinematics."
 - The D58 disclaimer that conventional military / drone / EW platforms remain in the explanation space.
@@ -115,14 +115,14 @@ What is preserved verbatim or near-verbatim across both versions:
 - The Finding 9 distinction between historical/static-image breadth and physics weight.
 
 What drifted, summarized:
-- "include" → "are" (M2)
-- "strongest" → "highest-value" (M2)
-- "must" → "should" (M3)
+- "include" â†’ "are" (M2)
+- "strongest" â†’ "highest-value" (M2)
+- "must" â†’ "should" (M3)
 - Named reviewer attribution removed (M4)
 - Inline link prefix changed in a way that breaks every link (M1)
 - Net addition of one disclaimer in the abstract (minor, positive)
 
-No claim in the polished paper crosses from the baseline's "reported / source-derived / unresolved" register into territory of origin, propulsion, exotic physics, recovered material, or biology. The paper's central scientific posture — that the corpus justifies source requests, not extraordinary conclusions — is intact.
+No claim in the polished paper crosses from the baseline's "reported / source-derived / unresolved" register into territory of origin, propulsion, exotic physics, recovered material, or biology. The paper's central scientific posture â€” that the corpus justifies source requests, not extraordinary conclusions â€” is intact.
 
 ---
 
@@ -132,12 +132,12 @@ In dependency order:
 
 1. **Fix all support links.** Replace `/review-packets/research/` with `/research/` throughout. This is the only change that must happen before publication-stage handoff.
 2. **Restore "must" in Finding 4.** One word, protects the paper's most original integrity finding.
-3. **Re-open the document-only set in the abstract.** Either revert "are" → "include" or change to "Among the strongest document-only source-request targets are…" — the latter preserves the polished cadence without closing the set.
+3. **Re-open the document-only set in the abstract.** Either revert "are" â†’ "include" or change to "Among the strongest document-only source-request targets areâ€¦" â€” the latter preserves the polished cadence without closing the set.
 4. **Replace "highest-value" with "strongest" in the abstract.** Keeps the abstract aligned with the ladder's internal gradient and with the ranking table downstream.
 5. **Either name the two review-packet tools in Methods, or remove the sentence entirely and reference an appendix.** Do not silently genericize.
 6. **Add two limitations:** DVIDS selection bias and codec/compression artifact floor.
 7. **Optional, publication-only:** consider an IMRaD-style reorganization. Scope and Method merge into Materials and Methods; Evidence Standard becomes a Methods subsection; Principal Findings split into Results (per-case findings) and Discussion (interpretation, controls, pattern lanes). The current structure is readable for a technical reader but unconventional for a scientific venue.
-8. **Optional polish:** add the `144/181` vs. `31/146` D23/PR27 ratios and the explicit "≥60° image-plane heading change" framing for D33/PR34 in Finding 2.
+8. **Optional polish:** add the `144/181` vs. `31/146` D23/PR27 ratios and the explicit "â‰¥60Â° image-plane heading change" framing for D33/PR34 in Finding 2.
 
 ---
 
@@ -149,7 +149,7 @@ In dependency order:
 
 ### Method (add a final sentence to the review-packet step)
 
-> 10. Prepare two publication-stage review packets — one focused on professional polish without strengthening unsupported claims, and one focused on critical methodological and evidentiary review — before any later public revision. **The named tools used to produce each packet are recorded in the methods appendix.**
+> 10. Prepare two publication-stage review packets â€” one focused on professional polish without strengthening unsupported claims, and one focused on critical methodological and evidentiary review â€” before any later public revision. **The named tools used to produce each packet are recorded in the methods appendix.**
 
 (Or simply re-state the original sentence with named tools.)
 
@@ -176,4 +176,5 @@ The conclusion is well-calibrated and matches the evidence ladder. Keep as is.
 - I did not find any of the D58 conventional-explanation caveats (military aircraft, drones, EW) removed or weakened in polish.
 - I did not find the source-index discrepancies (PR28/D25/D7, PR29/D27/D8, D56/D57/D58 PDF metadata) collapsed or harmonized in polish.
 
-The polished draft is, on the substance, a faithful copy with a few small drifts and one bad path rewrite. It is close to publication-ready once items 1–4 of the revision plan are applied.
+The polished draft is, on the substance, a faithful copy with a few small drifts and one bad path rewrite. It is close to publication-ready once items 1â€“4 of the revision plan are applied.
+

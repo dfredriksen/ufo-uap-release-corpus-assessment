@@ -13,6 +13,7 @@ This note records the source data and validation checks for the publication figu
 | Figure 3 | `figures/fig3-evidence-ladder-ranking.svg` | `research/ufo-evidence-ladder.csv` | Evidence ladder contains `18` ranked rows. |
 | Figure 4 | `figures/fig4-source-request-priorities.svg` | `paper.md` Source-Request Priorities table | Parsed `8` priority rows from the paper. |
 | Figure 5 | `figures/fig5-evidence-ladder-theme-frequency.svg` | `research/ufo-evidence-ladder.csv` | Theme counts are reproducible in `figures/theme-frequency.csv`. |
+| Figure 6 | `figures/fig6-release-02-theme-summary.svg` | `research/ufo-release-02-synthesis.md`, `research/ufo-release-02-source-review.md`, `research/ufo-release-02-nonvideo-review.md`, `research/ufo-release-02-video-review.md` | Release 02 theme summary generated from tranche review notes. |
 
 ## Checked Counts
 
@@ -41,3 +42,5 @@ Evidence tiers:
 ## Caveat On Theme Frequency
 
 Figure 5 is a controlled keyword-frequency visualization across the `18` ranked evidence-ladder rows. It is included to show recurrent analytic themes, not to estimate real-world UAP prevalence or object frequency.
+
+Supplemental Figure 6 summarizes recurring themes in the Release 02 synthesis and review notes without changing the report's claim ceiling.

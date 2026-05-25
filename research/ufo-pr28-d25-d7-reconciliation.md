@@ -20,7 +20,7 @@ Use this working treatment:
 
 This is structurally similar to the PR29 discrepancy, where DVIDS says `D8` but the matching written-report content is in local/War.gov `D27`.
 
-Follow-on source review: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d25-source-review.md`
+Follow-on source review: `research/ufo-d25-source-review.md`
 
 That review confirms D25 as the report-content match while adding stricter constraints: the structured kinetic-velocity field is blank, the `434 KNOTS` value appears in the gentext, the kinetic altitude is estimated `FL200`, and the public PR28 video supports the SWIR sequence rather than independent physical kinematics.
 
@@ -73,7 +73,7 @@ PR28 should be treated as a hard video identity and a strong D25 report-content 
 
 ## Phase Review
 
-Dedicated note: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr28-d25-phase-review-notes.md`
+Dedicated note: `research/ufo-video-pr28-d25-phase-review-notes.md`
 
 The bounded PR28/D25 phase review of `DOD_111688954.mp4` confirms the DVIDS visual sequence:
 
@@ -88,3 +88,4 @@ This supports the public-release visual sequence and the `D25` content lane, but
 ## Next Step
 
 Do not run physical kinematics on PR28 from the public MP4 alone. Keep PR28 as a hard video identity plus strong `D25` report-content match, and continue corpus-level source reconciliation on the remaining PR/D-label mismatches.
+

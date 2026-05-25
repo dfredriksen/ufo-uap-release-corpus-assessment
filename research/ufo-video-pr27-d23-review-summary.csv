@@ -1,0 +1,32 @@
+﻿metric,value,note
+video,DOD_111688825.mp4,local source video
+release_id,DOW-UAP-PR27,DVIDS public release identity
+report_id,DoW-UAP-D23,DVIDS accompanying mission report
+duration_seconds,297.333,fps=30.0; frames=8920
+sample_count,182,1.0 fps review samples from 116.0s to 297.333s
+supported_high_or_medium_rows,158,rows with usable compact contrast candidate
+supported_intervals,130.0s-132.0s; 134.0s-178.0s; 181.0s-184.0s; 186.0s-212.0s; 214.0s-227.0s; 230.0s; 234.0s-297.0s,7 contiguous supported interval(s)
+target_center_track,158,130.0s-297.0s; net=6.801px; path=18267.318px; path_rate=109.385px/s; median_step_rate=69.909px/s
+component_area,38.5,median; mean=42.399; stdev=27.710; cv=0.654; tracked contrast-component pixel area
+contrast_delta_luma,136.5,median; mean=129.089; stdev=31.116; cv=0.241; max bright/dark local contrast delta
+distance_from_expected_px,92.09,median; mean=166.791; stdev=119.134; cv=0.714; distance from DVIDS-phase expected lane
+distance_from_reticle_px,92.09,median; mean=166.791; stdev=119.134; cv=0.714; distance from central reticle
+step_from_previous_supported_px,70.343,median; mean=116.355; stdev=119.877; cv=1.030; one-second image-plane step between supported rows
+quality_count: high,98,review quality
+quality_count: low,24,review quality
+quality_count: medium,60,review quality
+phase_count: erratic sensor motion and reacquisition,91,all sampled rows by DVIDS phase
+phase_count: field-of-view narrows,1,all sampled rows by DVIDS phase
+phase_count: generally centered track,72,all sampled rows by DVIDS phase
+phase_count: right-side acquisition,8,all sampled rows by DVIDS phase
+phase_count: sensor pans to center,10,all sampled rows by DVIDS phase
+supported_phase_count: erratic sensor motion and reacquisition,85,supported rows by DVIDS phase
+supported_phase_count: field-of-view narrows,1,supported rows by DVIDS phase
+supported_phase_count: generally centered track,69,supported rows by DVIDS phase
+supported_phase_count: sensor pans to center,3,supported rows by DVIDS phase
+polarity_count: bright,78,supported candidate polarity
+polarity_count: dark,80,supported candidate polarity
+overlay_count: intersects colored overlay,1,candidate relation to colored overlay
+overlay_count: near colored overlay,36,candidate relation to colored overlay
+overlay_count: separate from colored overlay,145,candidate relation to colored overlay
+

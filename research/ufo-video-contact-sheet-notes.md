@@ -2,8 +2,8 @@
 
 Owner: Dan Fredriksen
 Created: 2026-05-09
-Source files: official public UFO/UAP release files, not redistributed in this repository
-Derived sheets: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-contact-sheets`
+Source folder: `I:\My Drive\UFO`
+Derived sheets: `research/ufo-derived/video-contact-sheets`
 Status: First visual triage
 
 ## Method
@@ -12,9 +12,9 @@ The 41 MP4 files were reduced to 28 unique videos after exact duplicate hashing.
 
 Generated files:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-unique-video-review-list.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-contact-sheet-index.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-contact-sheets/*.jpg`
+- `research/ufo-unique-video-review-list.csv`
+- `research/ufo-video-contact-sheet-index.csv`
+- `research/ufo-derived/video-contact-sheets/*.jpg`
 
 ## First Visual Triage
 
@@ -69,3 +69,4 @@ The videos are a mixed media pool, not a clean set of UAP clips. The first visua
 3. Non-UAP or administrative media: NASA-logo video and likely contextual material.
 
 The next useful step is to pull higher-resolution frame sequences from the high-priority videos and compare visible overlays, scene geography, and object behavior against the event timeline.
+

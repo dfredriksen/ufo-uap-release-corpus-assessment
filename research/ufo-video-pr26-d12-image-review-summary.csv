@@ -1,0 +1,22 @@
+﻿metric,value,note
+video,DOD_111688816.mp4,source video used: docs\research\ufo-derived\video-motion-pass\pr26-d12-image-review\source\DOD_111688816.mp4
+release_id,DOW-UAP-PR26,DVIDS public release identity
+report_id,DoW-UAP-D12,DVIDS-stated accompanying mission report
+duration_seconds,43.167,fps=30.0; frames=1295
+sample_count,44,1.0 fps full-clip samples
+supported_high_or_medium_rows,27,rows with usable left-field compact bright candidate
+supported_intervals,0.0s-16.0s; 20.0s-29.0s,2 one-fps supported interval(s)
+supported_candidate_track,27,"0.0s-29.0s; net=130.593px; path=1176.957px; path_rate=40.585px/s; median_step_rate=34.562px/s; image-plane candidate path only, not a physical north-to-northeast validation"
+component_area,166.0,median; mean=168.074; stdev=24.746; cv=0.147; selected compact/elongated bright candidate pixel area
+contrast_delta_luma,98.0,median; mean=106.000; stdev=26.414; cv=0.249; selected candidate max luma minus local median
+aspect_ratio,1.267,median; mean=1.271; stdev=0.211; cv=0.166; selected candidate bounding-box elongation proxy
+distance_from_reticle_px,560.86,median; mean=560.091; stdev=50.200; cv=0.090; selected candidate distance from central reticle
+target_center_x,406.4,median; mean=407.793; stdev=49.903; cv=0.122; selected candidate x-position
+target_center_y,460.6,median; mean=477.489; stdev=71.320; cv=0.149; selected candidate y-position
+quality_count: high,26,review quality
+quality_count: low,1,review quality
+quality_count: medium,1,review quality
+quality_count: none,16,review quality
+supported_phase_count: intermittent left-field contrast,10,supported rows by local review phase
+supported_phase_count: primary visible left-field contrast,17,supported rows by local review phase
+

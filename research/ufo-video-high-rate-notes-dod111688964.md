@@ -2,7 +2,7 @@
 
 Owner: Dan Fredriksen
 Created: 2026-05-09
-Source files: official public UFO/UAP release files, not redistributed in this repository
+Source folder: `I:\My Drive\UFO`
 Source video: `DOD_111688964.mp4`
 Status: Full-clip high-rate review
 
@@ -12,15 +12,15 @@ The full 21.8-second clip was extracted at 5 fps using center crops. This produc
 
 Generated files:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-high-rate-review-dod111688964.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-object-position-dod111688964-fps5.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-manual-track-dod111688964.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-full-frame-stills-dod111688964.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-ffmpeg-metadata-dod111688964.txt`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/high-rate/DOD_111688964/*`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/full-frame-stills/DOD_111688964/*`
+- `research/ufo-video-high-rate-review-dod111688964.csv`
+- `research/ufo-video-object-position-dod111688964-fps5.csv`
+- `research/ufo-video-manual-track-dod111688964.csv`
+- `research/ufo-video-full-frame-stills-dod111688964.csv`
+- `research/ufo-video-ffmpeg-metadata-dod111688964.txt`
+- `research/ufo-derived/video-motion-pass/high-rate/DOD_111688964/*`
+- `research/ufo-derived/video-motion-pass/full-frame-stills/DOD_111688964/*`
 
-No source files in `source-files-not-included` were modified.
+No source files in `I:\My Drive\UFO` were modified.
 
 ## Visual Result
 
@@ -80,11 +80,11 @@ Local/War.gov `dow-uap-d27-mission-report-united-arab-emirates-october-2023.pdf`
 
 Treat DVIDS as authoritative for the MP4 identity, treat `D27` as the written-report content match, and keep the DVIDS `D8` accompanying-report label as an official-source discrepancy unless corrected.
 
-Dedicated reconciliation note: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr29-d8-d27-reconciliation.md`
+Dedicated reconciliation note: `research/ufo-pr29-d8-d27-reconciliation.md`
 
-Dedicated visual alignment note: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr29-d27-visual-alignment.md`
+Dedicated visual alignment note: `research/ufo-pr29-d27-visual-alignment.md`
 
-Dedicated dense marking note: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr29-d27-dense-marking-notes.md`
+Dedicated dense marking note: `research/ufo-pr29-d27-dense-marking-notes.md`
 
 ## Dense Marking Pass
 
@@ -94,11 +94,11 @@ The dense pass strengthens the visual-summary alignment to PR29/D27: the object 
 
 Generated files:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_pr29_dense_marking_pass.py`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-dense-track-dod111688964.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-dense-track-dod111688964-summary.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-dense-marking-assets-dod111688964.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/dense-marking/DOD_111688964/*`
+- `scripts/ufo_pr29_dense_marking_pass.py`
+- `research/ufo-video-dense-track-dod111688964.csv`
+- `research/ufo-video-dense-track-dod111688964-summary.csv`
+- `research/ufo-video-dense-marking-assets-dod111688964.csv`
+- `research/ufo-derived/video-motion-pass/dense-marking/DOD_111688964/*`
 
 This is still an audit track, not a final speed/trajectory product.
 
@@ -118,3 +118,4 @@ This appears to be file/transcode metadata rather than incident metadata.
 1. Watch for any official correction to the PR29 `D8` label.
 2. Keep `DOD_111689030.mp4` / `D38` as the hard report-video anchor; treat `DOD_111688964.mp4` / `PR29` / `D27` as the strongest second visual-report lane, with label caveat.
 3. If more PR29 source material appears, look specifically for telemetry, FOV/zoom state, slant range, or platform/gimbal data. The current speed-geometry note keeps `140 knots` report-derived.
+

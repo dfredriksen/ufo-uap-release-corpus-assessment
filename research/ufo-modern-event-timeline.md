@@ -2,12 +2,12 @@
 
 Owner: Dan Fredriksen
 Created: 2026-05-09
-Source files: official public UFO/UAP release files, not redistributed in this repository
+Source folder: `I:\My Drive\UFO`
 Status: Working timeline
 
 This timeline normalizes the modern UAP/UFO report subset into event rows. It is intentionally conservative: a row means "the released document reports this," not "the event is independently confirmed."
 
-The machine-readable companion file is `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-modern-event-timeline.csv`.
+The machine-readable companion file is `research/ufo-modern-event-timeline.csv`.
 
 ## Timeline Takeaways
 
@@ -52,3 +52,4 @@ The next useful move is to map `DOD_*.mp4` files against high-priority event DTG
 - or exact matching from DoD release packaging.
 
 Until that link is made, the MP4s remain a media pool rather than evidence tied to specific report rows.
+

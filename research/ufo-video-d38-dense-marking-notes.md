@@ -15,19 +15,19 @@ This makes D38 the best current methodological anchor in the corpus. It has the 
 
 ## Method
 
-The script `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_d38_dense_marking_pass.py` sampled the source video at 5 fps from `50.0s` through `87.0s`.
+The script `scripts/ufo_d38_dense_marking_pass.py` sampled the source video at 5 fps from `50.0s` through `87.0s`.
 
 It used the manually accepted one-second D38 track as control points, interpolated between those points, and refined each dense sample with a local bright-feature search around the predicted full-frame coordinate.
 
 Generated artifacts:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_d38_dense_marking_pass.py`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-dense-track-dod111689030.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-dense-track-dod111689030-summary.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-dense-marking-assets-dod111689030.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/dense-marking/DOD_111689030/*`
+- `scripts/ufo_d38_dense_marking_pass.py`
+- `research/ufo-video-d38-dense-track-dod111689030.csv`
+- `research/ufo-video-d38-dense-track-dod111689030-summary.csv`
+- `research/ufo-video-d38-dense-marking-assets-dod111689030.csv`
+- `research/ufo-derived/video-motion-pass/dense-marking/DOD_111689030/*`
 
-No source files under `source-files-not-included` were modified.
+No source files under `I:\My Drive\UFO` were modified.
 
 ## Results
 
@@ -73,3 +73,4 @@ The dense pass supports these bounded claims:
 4. The `76s-87s` post-zoom interval remains usable, but should not be merged with `50s-75s` for geometry without accounting for the zoom/FOV change.
 
 The dense pass does not establish object origin or real-world speed.
+

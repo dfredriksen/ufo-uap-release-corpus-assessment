@@ -14,9 +14,9 @@ import numpy as np
 VIDEO_ID = "DOD_111689115"
 VIDEO_NAME = f"{VIDEO_ID}.mp4"
 RELEASE_ID = "DOW-UAP-PR44"
-DEFAULT_VIDEO = Path(r"source-files-not-included/DOD_111689115.mp4")
-DEFAULT_DENSE_TRACK = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr44-dense-track-dod111689115.csv")
-OUT_ROOT = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr44-primary-validation") / VIDEO_ID
+DEFAULT_VIDEO = Path(r"I:\My Drive\UFO\DOD_111689115.mp4")
+DEFAULT_DENSE_TRACK = Path("research/ufo-video-pr44-dense-track-dod111689115.csv")
+OUT_ROOT = Path("research/ufo-derived/video-motion-pass/pr44-primary-validation") / VIDEO_ID
 
 CROP_WIDTH = 960
 CROP_HEIGHT = 540
@@ -480,7 +480,7 @@ def main() -> None:
     trajectory_path = sheet_dir / f"{VIDEO_ID}-pr44-primary-validation-trajectory.jpg"
     draw_trajectory(rows, trajectory_path)
 
-    validation_csv = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr44-primary-visual-validation-dod111689115.csv")
+    validation_csv = Path("research/ufo-video-pr44-primary-visual-validation-dod111689115.csv")
     write_csv(validation_csv, list(rows[0].keys()), rows)
 
     high_medium = [row for row in rows if row["visual_quality"] in {"high", "medium"}]
@@ -500,7 +500,7 @@ def main() -> None:
     for key, value in sorted(Counter(row["dense_review_confidence"] for row in rows).items()):
         summary_rows.append({"track": f"source_dense_confidence_count: {key}", "sample_count": value})
 
-    summary_csv = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr44-primary-visual-validation-summary.csv")
+    summary_csv = Path("research/ufo-video-pr44-primary-visual-validation-summary.csv")
     write_csv(
         summary_csv,
         [
@@ -529,7 +529,7 @@ def main() -> None:
         asset_rows.append({"artifact_type": "annotated_contact_sheet", "path": str(path).replace("\\", "/"), "note": "primary validation annotated center-crop sheet"})
     for path in patch_sheets:
         asset_rows.append({"artifact_type": "zoom_patch_contact_sheet", "path": str(path).replace("\\", "/"), "note": "primary validation zoom-patch sheet"})
-    asset_csv = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr44-primary-visual-validation-assets.csv")
+    asset_csv = Path("research/ufo-video-pr44-primary-visual-validation-assets.csv")
     write_csv(asset_csv, ["artifact_type", "path", "note"], asset_rows)
 
     print(f"video={args.video}")
@@ -544,3 +544,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

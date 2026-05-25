@@ -2,7 +2,7 @@
 
 Owner: Dan Fredriksen
 Created: 2026-05-12
-Source: `source-files-not-included/dow-uap-d28-mission-report-east-china-sea-2024.pdf`
+Source: `I:\My Drive\UFO\dow-uap-d28-mission-report-east-china-sea-2024.pdf`
 Official URL: `https://www.war.gov/medialink/ufo/release_1/dow-uap-d28-mission-report-east-china-sea-2024.pdf`
 Status: document-only evidence packet complete
 
@@ -130,3 +130,4 @@ D28 is one of the best document-only records because it preserves mission contex
 - Official D28 PDF: `https://www.war.gov/medialink/ufo/release_1/dow-uap-d28-mission-report-east-china-sea-2024.pdf`
 - DVIDS PR46 false-positive check: `https://www.dvidshub.net/video/1006106/dow-uap-pr46-unresolved-uap-report-indopacom-2024`
 - WARUFO D28 mirror/index cross-check: `https://www.warufo.com/document/46`
+

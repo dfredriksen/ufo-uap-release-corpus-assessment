@@ -2,8 +2,8 @@
 
 Owner: Dan Fredriksen
 Created: 2026-05-09
-Source files: official public UFO/UAP release files, not redistributed in this repository
-Derived artifacts: `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-second-pass`
+Source folder: `I:\My Drive\UFO`
+Derived artifacts: `research/ufo-derived/video-second-pass`
 Status: Second visual triage
 
 ## Method
@@ -12,11 +12,11 @@ The ten highest-priority MP4s from the first contact-sheet pass were processed a
 
 Generated files:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-second-pass-index.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-second-pass/center-crop-sheets/*.jpg`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-second-pass/timed-frames/*/*.jpg`
+- `research/ufo-video-second-pass-index.csv`
+- `research/ufo-derived/video-second-pass/center-crop-sheets/*.jpg`
+- `research/ufo-derived/video-second-pass/timed-frames/*/*.jpg`
 
-No source files in `source-files-not-included` were modified.
+No source files in `I:\My Drive\UFO` were modified.
 
 ## Priority Changes
 
@@ -59,6 +59,7 @@ Motion extraction has now been completed for the strongest three clips:
 2. `DOD_111689090.mp4`
 3. `DOD_111688964.mp4`
 
-See `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-motion-pass-notes.md` for the follow-up results. The short version: `DOD_111689115.mp4` is now the strongest media candidate; `DOD_111689090.mp4` remains the best multi-contact candidate; `DOD_111688964.mp4` is a clean short over-water candidate.
+See `research/ufo-video-motion-pass-notes.md` for the follow-up results. The short version: `DOD_111689115.mp4` is now the strongest media candidate; `DOD_111689090.mp4` remains the best multi-contact candidate; `DOD_111688964.mp4` is a clean short over-water candidate.
 
-Later update: `DOD_111689030.mp4` has since been promoted to the hard report-video anchor after DVIDS pairing and a 2026-05-10 quantitative D38 pass. See `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-anchor-notes.md`.
+Later update: `DOD_111689030.mp4` has since been promoted to the hard report-video anchor after DVIDS pairing and a 2026-05-10 quantitative D38 pass. See `research/ufo-video-d38-anchor-notes.md`.
+

@@ -29,7 +29,7 @@ The local folder has `33` FBI photo-set rows, but those correspond to `32` offic
 
 Machine-readable index:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-fbi-photo-record-index.csv`
+- `research/ufo-fbi-photo-record-index.csv`
 
 ## Common Provenance Pattern
 
@@ -80,6 +80,21 @@ Initial takeaway:
 - The best interpretation is unresolved low-context imagery, not independent evidence for anomalous propulsion, non-human technology, or extraordinary kinematics.
 - `B5`, `B6`, and `B7` should be retained as the most useful internal controls/examples for any later image appendix: `B5` because no distinct central object is visible, `B6` because it is visually structured, and `B7` because it supplies a likely conventional aircraft comparison.
 
+## Sampled Visual Addendum
+
+I assembled and inspected a full contact sheet of the 33 FBI photo rows. That pass reinforced the earlier source-level triage:
+
+- The A-series stills are low-context monochrome reticle images, with small dark or light objects near the reticle and heavy masking/redaction around the frame edges.
+- `A2`, `A3`, and `A6` remain the cleanest centered circular-object examples.
+- `A7` still stands out as the only clearly light-colored object in the set.
+- The B-series remains a mixed set of low-context military stills over mountain/cloud backgrounds or flat sky, mostly showing one small dark object near the reticle.
+- `B5` remains a near-control frame with no distinct central object.
+- `B6` and `B7` are the most visually diagnostic stills in the set; the full-contact-sheet pass is consistent with the earlier conclusion that `B7` is the strongest conventional-aircraft comparison and that `B6` is the most structured non-control still.
+- `B13` through `B18` and `B20` through `B24` are mostly one-to-two-object frames that broaden the still-image family but do not add kinematics.
+
+The contact sheet did not reveal a new high-confidence anomalous-motion case. It did, however, make the family-level pattern clearer: the FBI photo set is a set of redacted, single-still or near-single-still image contexts, not an image-sequence corpus capable of demonstrating speed or maneuvering.
+
 Recommended report treatment:
 
 Add a short appendix note stating that the FBI photo records were reviewed at source/provenance level and remain low-weight single-still evidence. They should not be placed above D38/PR36, D33/PR34, D25/PR28, D27/PR29, D58, D28, D61, or D65.
+

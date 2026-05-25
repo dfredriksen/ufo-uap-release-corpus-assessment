@@ -1,0 +1,30 @@
+﻿metric,value,note
+video,DOD_111689168.mp4,local source video
+release_id,DOW-UAP-PR49,DVIDS public release identity
+duration_seconds,109.2,fps=30.0; frames=3276
+sample_count,110,1.0 fps full-clip samples
+supported_high_or_medium_rows,98,rows with usable compact bright group
+two_area_proxy_supported_rows,81,supported rows with explicit or merged two-area proxy
+supported_intervals,0.0s; 2.0s-3.0s; 5.0s-16.0s; 18.0s-34.0s; 37.0s-43.0s; 45.0s-53.0s; 55.0s; 57.0s-63.0s; 65.0s-91.0s; 94.0s-97.0s; 99.0s-109.0s,11 one-fps supported interval(s)
+two_area_proxy_supported_intervals,9.0s-16.0s; 18.0s-27.0s; 29.0s-34.0s; 39.0s-43.0s; 46.0s-53.0s; 55.0s; 57.0s-63.0s; 65.0s-73.0s; 75.0s-83.0s; 88.0s-91.0s; 94.0s-97.0s; 99.0s-105.0s; 107.0s-109.0s,13 one-fps supported interval(s)
+two_area_group_track,81,9.0s-109.0s; net=341.127px; path=3720.333px; path_rate=37.203px/s; median_step_rate=14.619px/s
+component_area,216.5,median; mean=246.827; stdev=136.938; cv=0.555; selected bright group pixel area
+contrast_delta_luma,236.0,median; mean=225.327; stdev=36.655; cv=0.163; selected group max luma minus local median
+distance_from_reticle_px,86.085,median; mean=120.331; stdev=144.437; cv=1.200; selected group distance from central reticle
+max_component_separation_px,22.61,median; mean=33.667; stdev=30.438; cv=0.904; two-area proxy component/group separation
+quality_count: high,54,review quality
+quality_count: low,7,review quality
+quality_count: medium,44,review quality
+quality_count: none,5,review quality
+supported_phase_count: initial area of interest,7,supported rows by DVIDS phase
+supported_phase_count: late two-area tracking,38,supported rows by DVIDS phase
+supported_phase_count: rapid zoom cycling,4,supported rows by DVIDS phase
+supported_phase_count: two-area acquisition and zoom-in,8,supported rows by DVIDS phase
+supported_phase_count: zoomed-out two-area tracking,41,supported rows by DVIDS phase
+two_area_phase_count: late two-area tracking,32,two-area proxy rows by DVIDS phase
+two_area_phase_count: rapid zoom cycling,4,two-area proxy rows by DVIDS phase
+two_area_phase_count: two-area acquisition and zoom-in,8,two-area proxy rows by DVIDS phase
+two_area_phase_count: zoomed-out two-area tracking,37,two-area proxy rows by DVIDS phase
+detection_mode_count: overlay-suppressed,68,supported rows by detection mode
+detection_mode_count: reticle-adjacent-fallback,30,supported rows by detection mode
+

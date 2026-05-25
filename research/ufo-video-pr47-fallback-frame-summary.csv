@@ -1,2 +1,3 @@
 ﻿sampled_frames,high,medium,low,none,three_component_rows,first_three_component_second,last_three_component_second,notes
 8,5,1,1,1,5,12,115,Fallback review uses 8 existing second-pass frames because disk is full and Drive-backed MP4 cannot be hydrated/opened.
+

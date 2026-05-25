@@ -1,0 +1,33 @@
+﻿metric,value,note
+video,DOD_111689123.mp4,local source video
+release_id,DOW-UAP-PR45,DVIDS public release identity
+duration_seconds,58.767,fps=30.0; frames=1763
+sample_count,59,1.0 fps full-clip review samples
+supported_high_or_medium_rows,50,rows with usable contrast component
+exit_window_sample_count,24,5.0 fps review samples from 54s to video end
+exit_window_supported_rows,19,usable contrast component during exit-window pass
+exit_window_supported_interval,54.0s-58.2s,last dense supported target interval before disappearance or occlusion
+target_center_track,50,3.0s-58.0s; net=258.344px; path=874.028px; path_rate=15.891px/s; median_step_rate=9.552px/s
+component_area_change,0.674,median near 4s=181.000; median near 30s=122.000; ratio=end/start
+component_area_change,2.836,median near 32s=122.000; median near 56s=346.000; ratio=end/start
+component_area_change,1.912,median near 4s=181.000; median near 56s=346.000; ratio=end/start
+component_area,175.5,median; mean=205.960; stdev=87.625; cv=0.425; detected contrast-component pixel area after overlay/line suppression
+bbox_width_px,20.0,median; mean=19.440; stdev=7.304; cv=0.376; detected component bounding-box width
+bbox_height_px,19.5,median; mean=19.540; stdev=7.166; cv=0.367; detected component bounding-box height
+brightness_delta_luma,137.0,median; mean=138.140; stdev=16.901; cv=0.122; component max luma minus local median
+distance_from_prediction_px,16.07,median; mean=17.781; stdev=11.147; cv=0.627; distance from the phase-specific expected target lane
+quality_count: high,48,full-clip review quality
+quality_count: low,9,full-clip review quality
+quality_count: medium,2,full-clip review quality
+exit_quality_count: high,16,exit-window review quality
+exit_quality_count: low,5,exit-window review quality
+exit_quality_count: medium,3,exit-window review quality
+overlay_count: intersects colored overlay,5,full-clip target relation to colored overlay
+overlay_count: near colored overlay,46,full-clip target relation to colored overlay
+overlay_count: separate from colored overlay,8,full-clip target relation to colored overlay
+supported_phase_count: exit from field of view,2,full-clip supported rows by DVIDS phase
+supported_phase_count: field-of-view narrows,1,full-clip supported rows by DVIDS phase
+supported_phase_count: increasing distinctiveness pre-zoom,22,full-clip supported rows by DVIDS phase
+supported_phase_count: post-zoom apparent size increase,24,full-clip supported rows by DVIDS phase
+supported_phase_count: reticle-lock acquisition,1,full-clip supported rows by DVIDS phase
+

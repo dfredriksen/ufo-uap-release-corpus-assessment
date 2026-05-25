@@ -16,8 +16,8 @@ import numpy as np
 VIDEO_ID = "DOD_111689142"
 VIDEO_NAME = f"{VIDEO_ID}.mp4"
 RELEASE_ID = "DOW-UAP-PR47"
-DEFAULT_VIDEO = Path(r"source-files-not-included/DOD_111689142.mp4")
-OUT_ROOT = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone") / VIDEO_ID
+DEFAULT_VIDEO = Path(r"I:\My Drive\UFO\DOD_111689142.mp4")
+OUT_ROOT = Path("research/ufo-derived/video-motion-pass/pr47-standalone") / VIDEO_ID
 
 CROP_WIDTH = 960
 CROP_HEIGHT = 540
@@ -540,10 +540,10 @@ def main() -> None:
 
     cap.release()
 
-    detail_path = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr47-formation-review-dod111689142.csv")
-    summary_path = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr47-formation-summary.csv")
-    metadata_path = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-dod_111689142-metadata.txt")
-    assets_path = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr47-formation-assets.csv")
+    detail_path = Path("research/ufo-video-pr47-formation-review-dod111689142.csv")
+    summary_path = Path("research/ufo-video-pr47-formation-summary.csv")
+    metadata_path = Path("research/ufo-video-dod_111689142-metadata.txt")
+    assets_path = Path("research/ufo-video-pr47-formation-assets.csv")
 
     fieldnames = [
         "video",
@@ -655,3 +655,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

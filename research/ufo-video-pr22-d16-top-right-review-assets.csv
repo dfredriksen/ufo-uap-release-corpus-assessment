@@ -1,0 +1,5 @@
+﻿artifact_type,path,note
+source_video,I:/My Drive/UFO/DOD_111688775.mp4,source video used for PR22/D16 review
+patch_sheet,research/ufo-derived/video-motion-pass/pr22-d16-top-right-review/DOD_111688775/DOD_111688775-pr22-d16-upper-field-patches.jpg,upper-field dark elongated candidate patches
+annotated_sheet,research/ufo-derived/video-motion-pass/pr22-d16-top-right-review/DOD_111688775/DOD_111688775-pr22-d16-upper-field-annotated.jpg,full-frame ROI and candidate annotations
+

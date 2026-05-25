@@ -2,7 +2,7 @@
 
 Owner: Dan Fredriksen
 Created: 2026-05-12
-Source file: `source-files-not-included/dow-uap-d8-mission-report-djibouti-2025.pdf`
+Source file: `I:\My Drive\UFO\dow-uap-d8-mission-report-djibouti-2025.pdf`
 Official URL: `https://www.war.gov/medialink/ufo/release_1/dow-uap-d8-mission-report-djibouti-2025.pdf`
 Status: source review complete; heavily redacted document-only case
 
@@ -29,7 +29,7 @@ Most pages contain only redaction markers in public text extraction. The usable 
 
 Generated page render:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/source-page-renders/D8/d8-page-7.png`
+- `research/ufo-derived/source-page-renders/D8/d8-page-7.png`
 
 ## Preserved UAP Text
 
@@ -79,3 +79,4 @@ This is an analytic conversion from the released grid string, not a separate off
 
 - War.gov D8 PDF: `https://www.war.gov/medialink/ufo/release_1/dow-uap-d8-mission-report-djibouti-2025.pdf`
 - War.gov PURSUE release page: `https://www.war.gov/UFO/`
+

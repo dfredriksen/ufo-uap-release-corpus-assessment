@@ -1,0 +1,29 @@
+﻿metric,release_id,video,value,note
+report_id,ALL,,DoW-UAP-D32,D32 report describes light/glare and halo effects; aircrew assessed benign/no mission impact
+video,DOW-UAP-PR31,DOD_111688970.mp4,DOD_111688970.mp4,source video used: I:\My Drive\UFO\DOD_111688970.mp4
+duration_seconds,DOW-UAP-PR31,DOD_111688970.mp4,5.133,fps=30.0; frames=154
+sample_count,DOW-UAP-PR31,DOD_111688970.mp4,26,5 fps full-clip samples
+supported_high_or_medium_rows,DOW-UAP-PR31,DOD_111688970.mp4,2,"artifact-support rows, not object-track rows"
+supported_intervals,DOW-UAP-PR31,DOD_111688970.mp4,0.6s-0.6s; 1.0s-1.0s,5 fps supported artifact interval(s)
+top_warm_area_px,DOW-UAP-PR31,DOD_111688970.mp4,198.5,median; mean=198.500; stdev=72.500; top-edge warm-color artifact area
+quality_count: low,DOW-UAP-PR31,DOD_111688970.mp4,24,review quality
+quality_count: medium,DOW-UAP-PR31,DOD_111688970.mp4,2,review quality
+video,DOW-UAP-PR32,DOD_111688997.mp4,DOD_111688997.mp4,source video used: I:\My Drive\UFO\DOD_111688997.mp4
+duration_seconds,DOW-UAP-PR32,DOD_111688997.mp4,6.6,fps=30.0; frames=198
+sample_count,DOW-UAP-PR32,DOD_111688997.mp4,34,5 fps full-clip samples
+supported_high_or_medium_rows,DOW-UAP-PR32,DOD_111688997.mp4,6,"artifact-support rows, not object-track rows"
+supported_intervals,DOW-UAP-PR32,DOD_111688997.mp4,2.0s-2.6s; 3.2s-3.2s; 4.0s-4.0s,5 fps supported artifact interval(s)
+top_residual_component_area_px,DOW-UAP-PR32,DOD_111688997.mp4,10160.5,median; mean=10869.667; stdev=2474.229; broad top-edge residual component area
+top_residual_component_w_px,DOW-UAP-PR32,DOD_111688997.mp4,347.5,median; mean=386.833; stdev=153.891; broad top-edge residual component width
+quality_count: low,DOW-UAP-PR32,DOD_111688997.mp4,28,review quality
+quality_count: medium,DOW-UAP-PR32,DOD_111688997.mp4,6,review quality
+video,DOW-UAP-PR33,DOD_111689005.mp4,DOD_111689005.mp4,source video used: I:\My Drive\UFO\DOD_111689005.mp4
+duration_seconds,DOW-UAP-PR33,DOD_111689005.mp4,5.033,fps=30.0; frames=151
+sample_count,DOW-UAP-PR33,DOD_111689005.mp4,26,5 fps full-clip samples
+supported_high_or_medium_rows,DOW-UAP-PR33,DOD_111689005.mp4,14,"artifact-support rows, not object-track rows"
+supported_intervals,DOW-UAP-PR33,DOD_111689005.mp4,0.0s-2.6s,5 fps supported artifact interval(s)
+orange_area_px,DOW-UAP-PR33,DOD_111689005.mp4,36764.0,median; mean=35569.214; stdev=4274.331; saturated orange overlay area
+orange_component_area_px,DOW-UAP-PR33,DOD_111689005.mp4,36784.0,median; mean=35600.643; stdev=4244.481; largest orange overlay component area
+quality_count: high,DOW-UAP-PR33,DOD_111689005.mp4,14,review quality
+quality_count: low,DOW-UAP-PR33,DOD_111689005.mp4,12,review quality
+

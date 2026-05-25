@@ -15,9 +15,9 @@ VIDEO_ID = "DOD_111689011"
 VIDEO_NAME = f"{VIDEO_ID}.mp4"
 RELEASE_ID = "DOW-UAP-PR34"
 REPORT_ID = "DoW-UAP-D33"
-DEFAULT_VIDEO = Path(r"source-files-not-included/DOD_111689011.mp4")
-DEFAULT_PHASE_TRACK = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-dod_111689011-phase-track.csv")
-OUT_ROOT = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr34-d33-manual-track") / VIDEO_ID
+DEFAULT_VIDEO = Path(r"I:\My Drive\UFO\DOD_111689011.mp4")
+DEFAULT_PHASE_TRACK = Path("research/ufo-video-dod_111689011-phase-track.csv")
+OUT_ROOT = Path("research/ufo-derived/video-motion-pass/pr34-d33-manual-track") / VIDEO_ID
 
 
 @dataclass
@@ -439,11 +439,11 @@ def main() -> None:
             }
         )
 
-    track_csv = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr34-d33-manual-track-dod111689011.csv")
+    track_csv = Path("research/ufo-video-pr34-d33-manual-track-dod111689011.csv")
     track_fields = list(track_rows[0].keys())
     write_csv(track_csv, track_fields, track_rows)
 
-    turn_csv = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr34-d33-image-plane-turn-events.csv")
+    turn_csv = Path("research/ufo-pr34-d33-image-plane-turn-events.csv")
     write_csv(
         turn_csv,
         [
@@ -489,7 +489,7 @@ def main() -> None:
     for key, value in sorted(quality_counts.items()):
         summary_rows.append({"metric": f"manual_quality: {key}", "value": value, "note": "track row quality"})
 
-    summary_csv = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr34-d33-manual-track-summary.csv")
+    summary_csv = Path("research/ufo-pr34-d33-manual-track-summary.csv")
     write_csv(summary_csv, ["metric", "value", "note"], summary_rows)
 
     asset_rows: list[dict] = [
@@ -503,7 +503,7 @@ def main() -> None:
     for path in patch_sheets:
         asset_rows.append({"artifact_type": "zoom_patch_contact_sheet", "path": str(path).replace("\\", "/"), "note": "manual-review zoom-patch sheet"})
 
-    asset_csv = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr34-d33-manual-track-assets.csv")
+    asset_csv = Path("research/ufo-video-pr34-d33-manual-track-assets.csv")
     write_csv(asset_csv, ["artifact_type", "path", "note"], asset_rows)
 
     print(f"video={args.video}")
@@ -518,3 +518,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

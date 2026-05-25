@@ -1,0 +1,23 @@
+﻿metric,value,note
+video,DOD_111689167.mp4,local source video
+release_id,DOW-UAP-PR48,DVIDS public release identity
+duration_seconds,99.367,fps=30.0; frames=2981
+sample_count,100,1.0 fps full-clip samples
+supported_high_or_medium_rows,100,rows with usable compact bright central-field candidate
+supported_intervals,0.0s-99.0s,1 one-fps supported interval(s)
+target_center_track,100,0.0s-99.0s; net=116.302px; path=6240.009px; path_rate=63.030px/s; median_step_rate=55.261px/s
+component_area,71.0,median; mean=79.640; stdev=30.948; cv=0.389; tracked compact bright component pixel area
+contrast_delta_luma,135.0,median; mean=133.200; stdev=22.719; cv=0.171; component max luma minus local median
+distance_from_reticle_px,158.365,median; mean=178.721; stdev=103.885; cv=0.581; distance from central reticle to candidate
+edge_margin_px,281.535,median; mean=267.777; stdev=78.328; cv=0.293; minimum distance from candidate center to central ROI boundary
+nearest_dark_structure_px,97.935,median; mean=106.062; stdev=86.962; cv=0.820; distance from candidate to dark wind-turbine/structure mask
+quality_count: high,88,review quality
+quality_count: medium,12,review quality
+supported_phase_count: initial centered track,18,supported rows by local scene phase
+supported_phase_count: late centered track,24,supported rows by local scene phase
+supported_phase_count: open-water centered track,24,supported rows by local scene phase
+supported_phase_count: wind-farm crossing,34,supported rows by local scene phase
+dark_structure_relation_count: adjacent to dark structure,10,supported candidate relation to dark structure mask
+dark_structure_relation_count: near dark structure,20,supported candidate relation to dark structure mask
+dark_structure_relation_count: separate from dark structure,70,supported candidate relation to dark structure mask
+

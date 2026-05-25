@@ -1,0 +1,22 @@
+﻿metric,value,note
+video,DOD_111688775.mp4,source video used: I:\My Drive\UFO\DOD_111688775.mp4
+release_id,DOW-UAP-PR22,DVIDS public release identity
+report_id,DoW-UAP-D16,DVIDS-stated accompanying mission report
+duration_seconds,14.2,fps=30.0; frames=426
+sample_count,15,one-fps full-clip samples
+supported_high_or_medium_rows,8,rows with usable upper-field dark elongated candidate
+supported_intervals,1.0s-8.0s,one-fps supported interval(s)
+supported_candidate_path,8,1.0s-8.0s; net=40.164px; path=41.342px; path_rate=5.906px/s; image-plane candidate only
+candidate_x_shift_px,31.386,positive x-shift in image coordinates; does not independently validate DVIDS right-to-left wording
+candidate_y_shift_px,25.061,image-plane y-shift; not a physical north-south validation
+candidate_score,1560.728,median; mean=1561.275; stdev=18.536; cv=0.012; selected dark elongated candidate score
+candidate_area,520.0,median; mean=520.375; stdev=5.851; cv=0.011; selected candidate component area
+candidate_contrast_delta_luma,147.0,median; mean=146.000; stdev=4.123; cv=0.028; selected candidate dark contrast delta
+candidate_aspect_ratio,2.111,median; mean=2.154; stdev=0.113; cv=0.053; selected candidate aspect ratio
+candidate_center_x,390.607,median; mean=390.450; stdev=9.965; cv=0.026; selected candidate x-position
+candidate_center_y,344.669,median; mean=344.224; stdev=7.297; cv=0.021; selected candidate y-position
+quality_count: high,8,review quality
+quality_count: low,1,review quality
+quality_count: none,6,review quality
+supported_phase_count: upper-field dark-contrast interval,8,supported rows by DVIDS phase
+

@@ -2,12 +2,12 @@
 
 Owner: Dan Fredriksen
 Started: 2026-05-09
-Source files: official public UFO/UAP release files, not redistributed in this repository
+Source folder: `I:\My Drive\UFO`
 Status: Open analysis thread
 
 ## Purpose
 
-Create a durable analysis thread for the recent UFO/UAP file releases collected from public sources. The goal is to inventory the corpus, separate primary records from duplicates and media, extract the strongest factual claims, and build a traceable findings log.
+Create a durable analysis thread for the recent UFO/UAP file releases downloaded into Dan's Google Drive. The goal is to inventory the corpus, separate primary records from duplicates and media, extract the strongest factual claims, and build a traceable findings log.
 
 ## Initial Inventory
 
@@ -72,19 +72,19 @@ Tooling available locally:
 - `ffprobe` / `ffmpeg` for video metadata and frame extraction
 - Tesseract for OCR where PDFs or images are scan-only
 
-Folder location confirmed as `source-files-not-included`. Analysis ran against the local non-redistributed source corpus.
+Folder location confirmed as `I:\My Drive\UFO`. No Google Drive app connector was exposed in this Codex session, so analysis is running against the local Drive mount.
 
 Generated supporting files:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-file-manifest.csv`: lightweight metadata manifest for all 170 files.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-duplicate-candidates.csv`: duplicate candidates grouped by identical byte size.
+- `research/ufo-file-manifest.csv`: lightweight metadata manifest for all 170 files.
+- `research/ufo-duplicate-candidates.csv`: duplicate candidates grouped by identical byte size.
 
 Full SHA-256 hashing was started but stopped because the Drive-mounted corpus was slow to hydrate/read. Use targeted hashing later on duplicate candidates and high-value files.
 
 First extraction notes:
 
 - `western_us_event_slides_5.08.2026.pdf` has readable embedded text. It summarizes four Western U.S. sighting clusters: orange objects reportedly launching smaller red objects, a large orange object near a rock pinnacle, a low "dark kite" object with red/white lights, and a later "transparent kite" object seen by some witnesses with NVGs or naked eye.
-- `2024-04-30-composite-sketch.pdf` yielded no useful text through `pdftotext`; treat as image-only and send to image/OCR review.
+- `2024-04-30-composite-sketch.pdf` is an image-only FBI Lab rendering, not a raw sensor frame. The graphic shows a bronze/metallic ellipsoid-like object above a field with a bright light source beneath it, consistent with a witness-artifact composite rather than a calibrated photograph.
 - `dow-uap-d8-mission-report-djibouti-2025.pdf` has a readable UAP line: two round white-hot UAPs moving south at about 240 nautical miles per hour, with location/observer details partly redacted.
 - `dow-uap-d50-email-correspondence-indopacom-april-2025.pdf` records that two INDOPACOM UAP tearlines were approved at the unclassified level. The reported observations were 12 seconds and 23 seconds, altitude/speed unknown, no interference noted.
 - `dow-uap-d4-mission-report-arabian-gulf-2020.pdf` has a concise readable UAP line: a possible UAP near a redacted location, altitude not estimated, velocity estimated around 321 knots, with speed increase and eastward direction change.
@@ -108,8 +108,8 @@ Triage implications:
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/ocr/`: OCR outputs and page images for the three encrypted/no-copy modern reports that `pdftotext` could not extract.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-priority-incidents.md`: ranked digest of the strongest modern records and control/caveat records.
+- `research/ufo-derived/ocr/`: OCR outputs and page images for the three encrypted/no-copy modern reports that `pdftotext` could not extract.
+- `research/ufo-priority-incidents.md`: ranked digest of the strongest modern records and control/caveat records.
 
 Extraction updates:
 
@@ -135,8 +135,8 @@ The material supports a serious unresolved-observation thesis: official records 
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-modern-event-timeline.csv`: normalized event rows for the modern UAP/UFO subset.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-modern-event-timeline.md`: narrative summary of the emerging timeline and correlation gaps.
+- `research/ufo-modern-event-timeline.csv`: normalized event rows for the modern UAP/UFO subset.
+- `research/ufo-modern-event-timeline.md`: narrative summary of the emerging timeline and correlation gaps.
 
 Timeline findings:
 
@@ -150,9 +150,9 @@ Timeline findings:
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-targeted-duplicate-hashes.csv`: SHA-256 hashes for same-size duplicate candidates only.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-targeted-duplicate-summary.csv`: group-level duplicate summary.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-dedupe-summary.md`: narrative duplicate-media summary.
+- `research/ufo-targeted-duplicate-hashes.csv`: SHA-256 hashes for same-size duplicate candidates only.
+- `research/ufo-targeted-duplicate-summary.csv`: group-level duplicate summary.
+- `research/ufo-video-dedupe-summary.md`: narrative duplicate-media summary.
 
 Duplicate findings:
 
@@ -171,10 +171,10 @@ Frame extraction status:
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-unique-video-review-list.csv`: 28-video canonical review list after dedupe.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-contact-sheet-index.csv`: contact sheet path and sample interval for each unique video.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-contact-sheets/*.jpg`: derived contact sheets.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-contact-sheet-notes.md`: first visual triage of the media pool.
+- `research/ufo-unique-video-review-list.csv`: 28-video canonical review list after dedupe.
+- `research/ufo-video-contact-sheet-index.csv`: contact sheet path and sample interval for each unique video.
+- `research/ufo-derived/video-contact-sheets/*.jpg`: derived contact sheets.
+- `research/ufo-video-contact-sheet-notes.md`: first visual triage of the media pool.
 
 Media findings:
 
@@ -187,11 +187,11 @@ Media findings:
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-second-pass-index.csv`: index of second-pass center-crop sheets and timed frame directories.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-second-pass/center-crop-sheets/*.jpg`: higher-resolution center-crop sheets for ten priority videos.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-second-pass/timed-frames/*/*.jpg`: representative timed full frames.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-second-pass-notes.md`: second-pass visual triage.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-report-correlation-candidates.csv`: tentative video-to-report-lane candidate map.
+- `research/ufo-video-second-pass-index.csv`: index of second-pass center-crop sheets and timed frame directories.
+- `research/ufo-derived/video-second-pass/center-crop-sheets/*.jpg`: higher-resolution center-crop sheets for ten priority videos.
+- `research/ufo-derived/video-second-pass/timed-frames/*/*.jpg`: representative timed full frames.
+- `research/ufo-video-second-pass-notes.md`: second-pass visual triage.
+- `research/ufo-video-report-correlation-candidates.csv`: tentative video-to-report-lane candidate map.
 
 Second-pass media findings:
 
@@ -210,30 +210,30 @@ No hard report-to-video match is established yet. The best current correlation i
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-motion-pass-index.csv`: one-frame-per-second extraction index for the strongest three videos.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-motion-segment-sheet-index.csv`: segment contact-sheet index.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-object-position-dod111689115.csv`: first compact-return table for the strongest clip.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-object-position-dod111689115-ranges.csv`: grouped detection intervals for the strongest clip.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-source-overlay-dod111689115.csv`: source-resolution overlay crop/OCR index for the strongest clip.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-ffmpeg-metadata-dod111689115.txt`: source MP4 container metadata for the strongest clip.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-point-count-dod111689090.csv`: raw compact-point table for the multi-contact candidate.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-point-count-dod111689090-strong.csv`: stricter bright-point count table for the multi-contact candidate.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-point-count-dod111689090-ranges.csv`: grouped bright-point detection intervals.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-point-count-dod111689090-segment-summary.csv`: segment-level point-count summary.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-point-count-notes-dod111689090.md`: dedicated `DOD_111689090` point-count analysis.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-high-rate-review-dod111689090.csv`: high-rate review index for the two-candidate windows.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-ffmpeg-metadata-dod111689090.txt`: source MP4 container metadata for the multi-contact candidate.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-high-rate-review-dod111688964.csv`: high-rate review index for the full short clip.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-high-rate-notes-dod111688964.md`: dedicated high-rate analysis for the short over-water clip.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-object-position-dod111688964-fps5.csv`: preliminary bright-blob table for the short over-water clip.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-manual-track-dod111688964.csv`: selected-frame manual track for the short over-water clip.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-full-frame-stills-dod111688964.csv`: full-frame still index for key track-box moments.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-ffmpeg-metadata-dod111688964.txt`: source MP4 container metadata for the short over-water clip.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/one-fps-center-crops/*/*.jpg`: one-frame-per-second center crops.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/segment-sheets/*.jpg`: segmented motion sheets.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/overlay-crops/DOD_111689115/*`: cropped/zoomed overlay images and OCR outputs.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/source-overlay/DOD_111689115/*`: source-resolution overlay full frames, crops, and OCR outputs.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-motion-pass-notes.md`: motion-pass findings.
+- `research/ufo-video-motion-pass-index.csv`: one-frame-per-second extraction index for the strongest three videos.
+- `research/ufo-video-motion-segment-sheet-index.csv`: segment contact-sheet index.
+- `research/ufo-video-object-position-dod111689115.csv`: first compact-return table for the strongest clip.
+- `research/ufo-video-object-position-dod111689115-ranges.csv`: grouped detection intervals for the strongest clip.
+- `research/ufo-video-source-overlay-dod111689115.csv`: source-resolution overlay crop/OCR index for the strongest clip.
+- `research/ufo-video-ffmpeg-metadata-dod111689115.txt`: source MP4 container metadata for the strongest clip.
+- `research/ufo-video-point-count-dod111689090.csv`: raw compact-point table for the multi-contact candidate.
+- `research/ufo-video-point-count-dod111689090-strong.csv`: stricter bright-point count table for the multi-contact candidate.
+- `research/ufo-video-point-count-dod111689090-ranges.csv`: grouped bright-point detection intervals.
+- `research/ufo-video-point-count-dod111689090-segment-summary.csv`: segment-level point-count summary.
+- `research/ufo-video-point-count-notes-dod111689090.md`: dedicated `DOD_111689090` point-count analysis.
+- `research/ufo-video-high-rate-review-dod111689090.csv`: high-rate review index for the two-candidate windows.
+- `research/ufo-video-ffmpeg-metadata-dod111689090.txt`: source MP4 container metadata for the multi-contact candidate.
+- `research/ufo-video-high-rate-review-dod111688964.csv`: high-rate review index for the full short clip.
+- `research/ufo-video-high-rate-notes-dod111688964.md`: dedicated high-rate analysis for the short over-water clip.
+- `research/ufo-video-object-position-dod111688964-fps5.csv`: preliminary bright-blob table for the short over-water clip.
+- `research/ufo-video-manual-track-dod111688964.csv`: selected-frame manual track for the short over-water clip.
+- `research/ufo-video-full-frame-stills-dod111688964.csv`: full-frame still index for key track-box moments.
+- `research/ufo-video-ffmpeg-metadata-dod111688964.txt`: source MP4 container metadata for the short over-water clip.
+- `research/ufo-derived/video-motion-pass/one-fps-center-crops/*/*.jpg`: one-frame-per-second center crops.
+- `research/ufo-derived/video-motion-pass/segment-sheets/*.jpg`: segmented motion sheets.
+- `research/ufo-derived/video-motion-pass/overlay-crops/DOD_111689115/*`: cropped/zoomed overlay images and OCR outputs.
+- `research/ufo-derived/video-motion-pass/source-overlay/DOD_111689115/*`: source-resolution overlay full frames, crops, and OCR outputs.
+- `research/ufo-video-motion-pass-notes.md`: motion-pass findings.
 
 Motion-pass findings:
 
@@ -260,11 +260,11 @@ The media pool now gives the modern report set stronger visual context, especial
 
 Generated supporting files added or updated in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-report-video-correlation-matrix.csv`: structured matrix of local reports, local videos, DVIDS release identities, and confidence levels.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-report-video-correlation-matrix.md`: narrative report-video correlation summary.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-anchor-notes.md`: first dedicated anchor note for the hard `DOD_111689030` / `DoW-UAP-D38` pair.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-report-correlation-candidates.csv`: updated candidate map with hard DVIDS pairings and corrected `PR` versus `D` nomenclature.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-high-rate-notes-dod111688964.md`: updated `DOD_111688964` notes with the official `PR29` / `D8` pairing and local `D8` mismatch.
+- `research/ufo-report-video-correlation-matrix.csv`: structured matrix of local reports, local videos, DVIDS release identities, and confidence levels.
+- `research/ufo-report-video-correlation-matrix.md`: narrative report-video correlation summary.
+- `research/ufo-video-d38-anchor-notes.md`: first dedicated anchor note for the hard `DOD_111689030` / `DoW-UAP-D38` pair.
+- `research/ufo-video-report-correlation-candidates.csv`: updated candidate map with hard DVIDS pairings and corrected `PR` versus `D` nomenclature.
+- `research/ufo-video-high-rate-notes-dod111688964.md`: updated `DOD_111688964` notes with the official `PR29` / `D8` pairing and local `D8` mismatch.
 
 Release-index findings:
 
@@ -285,17 +285,17 @@ The corpus now has at least one hard report-video pair (`DOD_111689030` with `Do
 
 Generated supporting files added or updated in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_d38_anchor_video_pass.py`: repeatable OpenCV/FFprobe extraction and compact bright-candidate detector.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-anchor-extraction-index.csv`: extraction artifact index.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-anchor-timeline.csv`: structured DVIDS/local phase alignment table.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-ffmpeg-metadata-dod111689030.txt`: source metadata for `DOD_111689030.mp4`.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-object-position-dod111689030.csv`: one-fps compact bright-candidate table.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-object-position-dod111689030-ranges.csv`: one-fps detector-active ranges.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-object-position-dod111689030-fps5.csv`: five-fps compact bright-candidate table.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-object-position-dod111689030-fps5-ranges.csv`: five-fps detector-active ranges.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/one-fps-center-crops/DOD_111689030/*`: one-fps center-crop frames.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/high-rate/DOD_111689030/fps5-center-crops/*`: five-fps center-crop frames.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/segment-sheets/DOD_111689030/*`: one-fps and five-fps contact sheets.
+- `scripts/ufo_d38_anchor_video_pass.py`: repeatable OpenCV/FFprobe extraction and compact bright-candidate detector.
+- `research/ufo-video-d38-anchor-extraction-index.csv`: extraction artifact index.
+- `research/ufo-video-d38-anchor-timeline.csv`: structured DVIDS/local phase alignment table.
+- `research/ufo-video-ffmpeg-metadata-dod111689030.txt`: source metadata for `DOD_111689030.mp4`.
+- `research/ufo-video-object-position-dod111689030.csv`: one-fps compact bright-candidate table.
+- `research/ufo-video-object-position-dod111689030-ranges.csv`: one-fps detector-active ranges.
+- `research/ufo-video-object-position-dod111689030-fps5.csv`: five-fps compact bright-candidate table.
+- `research/ufo-video-object-position-dod111689030-fps5-ranges.csv`: five-fps detector-active ranges.
+- `research/ufo-derived/video-motion-pass/one-fps-center-crops/DOD_111689030/*`: one-fps center-crop frames.
+- `research/ufo-derived/video-motion-pass/high-rate/DOD_111689030/fps5-center-crops/*`: five-fps center-crop frames.
+- `research/ufo-derived/video-motion-pass/segment-sheets/DOD_111689030/*`: one-fps and five-fps contact sheets.
 
 Quantitative findings:
 
@@ -313,11 +313,11 @@ Updated D38 judgment:
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_d38_manual_review_assets.py`: exports raw one-fps crops and zoomed candidate patches for manual review.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-manual-review-assets.csv`: index of manual-review frames and candidate patches.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-manual-track-dod111689030.csv`: manually accepted one-fps track table for `50s-87s`.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-manual-validation-notes.md`: manual validation memo.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/manual-validation/DOD_111689030/*`: raw crops, candidate patches, and review sheets.
+- `scripts/ufo_d38_manual_review_assets.py`: exports raw one-fps crops and zoomed candidate patches for manual review.
+- `research/ufo-video-d38-manual-review-assets.csv`: index of manual-review frames and candidate patches.
+- `research/ufo-video-manual-track-dod111689030.csv`: manually accepted one-fps track table for `50s-87s`.
+- `research/ufo-video-d38-manual-validation-notes.md`: manual validation memo.
+- `research/ufo-derived/video-motion-pass/manual-validation/DOD_111689030/*`: raw crops, candidate patches, and review sheets.
 
 Manual validation findings:
 
@@ -334,15 +334,15 @@ The manual table is not a final hand-click kinematic track. It accepts detector-
 
 Generated supporting files added or updated in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr29-d8-d27-reconciliation.md`: focused reconciliation memo for `DOD_111688964`, DVIDS `PR29`, local/War.gov `D8`, and local/War.gov `D27`.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr29-d8-d27-reconciliation.csv`: structured evidence table for the same mismatch.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr29-d27-visual-alignment.md`: visual-summary alignment note comparing the existing `DOD_111688964` high-rate frames to the PR29/D27 description.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr29-d27-visual-alignment.csv`: structured key-frame alignment table.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-report-video-correlation-matrix.md`: updated matrix narrative with the resolved PR29/D8/D27 treatment.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-report-video-correlation-matrix.csv`: added `D27` as the PR29 report-content match and separated local/War.gov `D8` as Djibouti 2025.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-high-rate-notes-dod111688964.md`: updated the correlation assessment for the PR29 clip.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-report-correlation-candidates.csv`: updated the candidate lane for `DOD_111688964.mp4`.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-modern-event-timeline.md` and `.csv`: annotated the D27 timeline row with the PR29 content match and D8 label discrepancy.
+- `research/ufo-pr29-d8-d27-reconciliation.md`: focused reconciliation memo for `DOD_111688964`, DVIDS `PR29`, local/War.gov `D8`, and local/War.gov `D27`.
+- `research/ufo-pr29-d8-d27-reconciliation.csv`: structured evidence table for the same mismatch.
+- `research/ufo-pr29-d27-visual-alignment.md`: visual-summary alignment note comparing the existing `DOD_111688964` high-rate frames to the PR29/D27 description.
+- `research/ufo-pr29-d27-visual-alignment.csv`: structured key-frame alignment table.
+- `research/ufo-report-video-correlation-matrix.md`: updated matrix narrative with the resolved PR29/D8/D27 treatment.
+- `research/ufo-report-video-correlation-matrix.csv`: added `D27` as the PR29 report-content match and separated local/War.gov `D8` as Djibouti 2025.
+- `research/ufo-video-high-rate-notes-dod111688964.md`: updated the correlation assessment for the PR29 clip.
+- `research/ufo-video-report-correlation-candidates.csv`: updated the candidate lane for `DOD_111688964.mp4`.
+- `research/ufo-modern-event-timeline.md` and `.csv`: annotated the D27 timeline row with the PR29 content match and D8 label discrepancy.
 
 Reconciliation findings:
 
@@ -356,12 +356,12 @@ Reconciliation findings:
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_pr29_dense_marking_pass.py`: repeatable dense sampling and marking script for `DOD_111688964.mp4`.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-dense-track-dod111688964.csv`: 101-row 5 fps dense object/overlay mark table for `1.0s-21.0s`.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-dense-track-dod111688964-summary.csv`: confidence, vertical-feature, overlay-relation, and manual-control summary.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-dense-marking-assets-dod111688964.csv`: generated artifact index.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr29-d27-dense-marking-notes.md`: dense marking memo.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/dense-marking/DOD_111688964/*`: annotated crops, zoom patches, and contact sheets.
+- `scripts/ufo_pr29_dense_marking_pass.py`: repeatable dense sampling and marking script for `DOD_111688964.mp4`.
+- `research/ufo-video-dense-track-dod111688964.csv`: 101-row 5 fps dense object/overlay mark table for `1.0s-21.0s`.
+- `research/ufo-video-dense-track-dod111688964-summary.csv`: confidence, vertical-feature, overlay-relation, and manual-control summary.
+- `research/ufo-video-dense-marking-assets-dod111688964.csv`: generated artifact index.
+- `research/ufo-pr29-d27-dense-marking-notes.md`: dense marking memo.
+- `research/ufo-derived/video-motion-pass/dense-marking/DOD_111688964/*`: annotated crops, zoom patches, and contact sheets.
 
 Dense marking findings:
 
@@ -380,10 +380,10 @@ Updated PR29/D27 judgment:
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_pr29_geometry_feasibility.py`: reproducible pixel-rate and FOV/range scenario calculation.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr29-geometry-feasibility.md`: feasibility memo for the D27 `140 knots` value.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr29-geometry-feasibility-summary.csv`: dense/manual pixel-rate summary.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr29-geometry-feasibility-scenarios.csv`: implied slant-range scenarios for `140 knots` under assumed full-frame horizontal FOV values.
+- `scripts/ufo_pr29_geometry_feasibility.py`: reproducible pixel-rate and FOV/range scenario calculation.
+- `research/ufo-pr29-geometry-feasibility.md`: feasibility memo for the D27 `140 knots` value.
+- `research/ufo-pr29-geometry-feasibility-summary.csv`: dense/manual pixel-rate summary.
+- `research/ufo-pr29-geometry-feasibility-scenarios.csv`: implied slant-range scenarios for `140 knots` under assumed full-frame horizontal FOV values.
 
 Feasibility findings:
 
@@ -401,16 +401,16 @@ The MP4 does not falsify the D27 `140 knots` value, but it also cannot validate 
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_d38_dense_marking_pass.py`: repeatable dense sampling and marking script for the validated D38 anchor interval.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_d38_geometry_feasibility.py`: D38 image-plane rate and FOV/range scenario calculator.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-dense-track-dod111689030.csv`: 186-row 5 fps dense mark table for `50.0s-87.0s`.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-dense-track-dod111689030-summary.csv`: dense confidence, phase, overlay, and control-delta summary.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-dense-marking-assets-dod111689030.csv`: generated dense artifact index.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-dense-marking-notes.md`: dense audit-track memo.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-geometry-feasibility.md`: D38 motion-geometry feasibility memo.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-geometry-feasibility-summary.csv`: phase-specific image-plane rates.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-d38-geometry-feasibility-scenarios.csv`: illustrative FOV/range-to-speed scenarios.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/dense-marking/DOD_111689030/*`: dense annotated frames, zoom patches, and contact sheets.
+- `scripts/ufo_d38_dense_marking_pass.py`: repeatable dense sampling and marking script for the validated D38 anchor interval.
+- `scripts/ufo_d38_geometry_feasibility.py`: D38 image-plane rate and FOV/range scenario calculator.
+- `research/ufo-video-d38-dense-track-dod111689030.csv`: 186-row 5 fps dense mark table for `50.0s-87.0s`.
+- `research/ufo-video-d38-dense-track-dod111689030-summary.csv`: dense confidence, phase, overlay, and control-delta summary.
+- `research/ufo-video-d38-dense-marking-assets-dod111689030.csv`: generated dense artifact index.
+- `research/ufo-video-d38-dense-marking-notes.md`: dense audit-track memo.
+- `research/ufo-video-d38-geometry-feasibility.md`: D38 motion-geometry feasibility memo.
+- `research/ufo-video-d38-geometry-feasibility-summary.csv`: phase-specific image-plane rates.
+- `research/ufo-video-d38-geometry-feasibility-scenarios.csv`: illustrative FOV/range-to-speed scenarios.
+- `research/ufo-derived/video-motion-pass/dense-marking/DOD_111689030/*`: dense annotated frames, zoom patches, and contact sheets.
 
 Dense marking findings:
 
@@ -440,12 +440,12 @@ This is not a claim that the PR29 video has been independently proven to show th
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_pr34_pr35_phase_review.py`: repeatable phase-aligned sampling script for `DOD_111689011.mp4` and `DOD_111689022-1920x1080-9000k.mp4`.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr34-pr35-phase-review-notes.md`: focused phase-review memo.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr34-pr35-phase-summary.csv`: combined phase-summary table.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-dod_111689011-phase-track.csv` and `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-dod_111689022-phase-track.csv`: two-fps phase-aligned sample tables.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr34-pr35-phase-review-assets.csv`: generated artifact index.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-hard-pair-phase-review/*`: annotated frames, zoom patches, and contact sheets.
+- `scripts/ufo_pr34_pr35_phase_review.py`: repeatable phase-aligned sampling script for `DOD_111689011.mp4` and `DOD_111689022-1920x1080-9000k.mp4`.
+- `research/ufo-video-pr34-pr35-phase-review-notes.md`: focused phase-review memo.
+- `research/ufo-video-pr34-pr35-phase-summary.csv`: combined phase-summary table.
+- `research/ufo-video-dod_111689011-phase-track.csv` and `research/ufo-video-dod_111689022-phase-track.csv`: two-fps phase-aligned sample tables.
+- `research/ufo-video-pr34-pr35-phase-review-assets.csv`: generated artifact index.
+- `research/ufo-derived/video-hard-pair-phase-review/*`: annotated frames, zoom patches, and contact sheets.
 
 Phase-review findings:
 
@@ -464,13 +464,13 @@ PR34/D33 is the better next manual-review target. Use a bounded independent manu
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_pr34_d33_manual_track_pass.py`: bounded pre-reticle manual-review track script for `DOD_111689011.mp4`.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr34-d33-manual-track-notes.md`: focused PR34/D33 manual-review memo.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr34-d33-manual-track-dod111689011.csv`: cleaned two-fps track table for `4.0s-59.0s`.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr34-d33-manual-track-summary.csv`: summary counts and image-plane motion metrics.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr34-d33-image-plane-turn-events.csv`: smoothed heading-change event table.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr34-d33-manual-track-assets.csv`: generated artifact index.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr34-d33-manual-track/DOD_111689011/*`: annotated frames, zoom patches, contact sheets, and trajectory plot.
+- `scripts/ufo_pr34_d33_manual_track_pass.py`: bounded pre-reticle manual-review track script for `DOD_111689011.mp4`.
+- `research/ufo-pr34-d33-manual-track-notes.md`: focused PR34/D33 manual-review memo.
+- `research/ufo-video-pr34-d33-manual-track-dod111689011.csv`: cleaned two-fps track table for `4.0s-59.0s`.
+- `research/ufo-pr34-d33-manual-track-summary.csv`: summary counts and image-plane motion metrics.
+- `research/ufo-pr34-d33-image-plane-turn-events.csv`: smoothed heading-change event table.
+- `research/ufo-video-pr34-d33-manual-track-assets.csv`: generated artifact index.
+- `research/ufo-derived/video-motion-pass/pr34-d33-manual-track/DOD_111689011/*`: annotated frames, zoom patches, contact sheets, and trajectory plot.
 
 Manual-review findings:
 
@@ -489,12 +489,12 @@ The PR34/D33 clip now supports a narrow maneuver-level conclusion: the public MP
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_pr34_d33_geometry_feasibility.py`: D33 image-plane rate and `80 MPH` scenario calculator.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr34-d33-geometry-feasibility.md`: feasibility memo.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr34-d33-geometry-feasibility-summary.csv`: track and phase-level image-plane rate summary.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr34-d33-geometry-feasibility-range-scenarios.csv`: implied slant ranges if `80 MPH` is true.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr34-d33-geometry-feasibility-speed-scenarios.csv`: implied speeds under assumed FOV/range combinations.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr34-d33-geometry-feasibility-turn-radius-scenarios.csv`: illustrative turn-radius values if image-plane heading changes were physical turns.
+- `scripts/ufo_pr34_d33_geometry_feasibility.py`: D33 image-plane rate and `80 MPH` scenario calculator.
+- `research/ufo-pr34-d33-geometry-feasibility.md`: feasibility memo.
+- `research/ufo-pr34-d33-geometry-feasibility-summary.csv`: track and phase-level image-plane rate summary.
+- `research/ufo-pr34-d33-geometry-feasibility-range-scenarios.csv`: implied slant ranges if `80 MPH` is true.
+- `research/ufo-pr34-d33-geometry-feasibility-speed-scenarios.csv`: implied speeds under assumed FOV/range combinations.
+- `research/ufo-pr34-d33-geometry-feasibility-turn-radius-scenarios.csv`: illustrative turn-radius values if image-plane heading changes were physical turns.
 
 Geometry findings:
 
@@ -512,12 +512,12 @@ The public PR34/D33 MP4 does not falsify the D33 `80 MPH` report value, but it c
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_pr44_standalone_quant_pass.py`: seeded dense-track audit for `DOD_111689115.mp4` / `DOW-UAP-PR44`.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr44-standalone-quant-notes.md`: focused PR44 standalone memo.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr44-dense-track-dod111689115.csv`: 5 fps seeded dense table for `154.0s-243.0s`.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr44-dense-track-summary.csv`: image-plane rate, path, confidence, and overlay summary.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr44-dense-track-assets.csv`: generated artifact index.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr44-standalone/DOD_111689115/*`: annotated frames, zoom patches, contact sheets, and trajectory plot.
+- `scripts/ufo_pr44_standalone_quant_pass.py`: seeded dense-track audit for `DOD_111689115.mp4` / `DOW-UAP-PR44`.
+- `research/ufo-pr44-standalone-quant-notes.md`: focused PR44 standalone memo.
+- `research/ufo-video-pr44-dense-track-dod111689115.csv`: 5 fps seeded dense table for `154.0s-243.0s`.
+- `research/ufo-video-pr44-dense-track-summary.csv`: image-plane rate, path, confidence, and overlay summary.
+- `research/ufo-video-pr44-dense-track-assets.csv`: generated artifact index.
+- `research/ufo-derived/video-motion-pass/pr44-standalone/DOD_111689115/*`: annotated frames, zoom patches, contact sheets, and trajectory plot.
 
 PR44 findings:
 
@@ -536,15 +536,15 @@ Updated PR44 judgment:
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_pr44_primary_visual_validation.py`: expanded-window validation pass for the weaker `154.0s-204.8s` primary PR44 rows.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_pr44_late_phase_review.py`: one-fps qualitative review for `244s-294s`.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr44-primary-validation-late-phase-notes.md`: follow-on PR44 validation memo.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr44-primary-visual-validation-dod111689115.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr44-primary-visual-validation-summary.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr44-late-phase-review-dod111689115.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr44-late-phase-review-summary.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr44-primary-validation/DOD_111689115/*`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr44-late-phase-review/DOD_111689115/*`
+- `scripts/ufo_pr44_primary_visual_validation.py`: expanded-window validation pass for the weaker `154.0s-204.8s` primary PR44 rows.
+- `scripts/ufo_pr44_late_phase_review.py`: one-fps qualitative review for `244s-294s`.
+- `research/ufo-pr44-primary-validation-late-phase-notes.md`: follow-on PR44 validation memo.
+- `research/ufo-video-pr44-primary-visual-validation-dod111689115.csv`
+- `research/ufo-video-pr44-primary-visual-validation-summary.csv`
+- `research/ufo-video-pr44-late-phase-review-dod111689115.csv`
+- `research/ufo-video-pr44-late-phase-review-summary.csv`
+- `research/ufo-derived/video-motion-pass/pr44-primary-validation/DOD_111689115/*`
+- `research/ufo-derived/video-motion-pass/pr44-late-phase-review/DOD_111689115/*`
 
 Primary validation findings:
 
@@ -570,7 +570,7 @@ PR44 is now reasonably complete as a standalone public-release video case. The d
 
 Generated supporting file added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d28-source-review.md`: focused source review for `dow-uap-d28-mission-report-east-china-sea-2024.pdf`.
+- `research/ufo-d28-source-review.md`: focused source review for `dow-uap-d28-mission-report-east-china-sea-2024.pdf`.
 
 D28 findings:
 
@@ -588,7 +588,7 @@ Updated D28 judgment:
 
 Generated supporting file added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d28-release-index-search.md`: source-index search for a D28 PR/video pairing.
+- `research/ufo-d28-release-index-search.md`: source-index search for a D28 PR/video pairing.
 
 Release-index findings:
 
@@ -605,7 +605,7 @@ Updated D28 video judgment:
 
 Generated supporting file added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr28-d25-d7-reconciliation.md`: focused reconciliation memo for `DOD_111688954`, DVIDS `PR28`, local/War.gov `D25`, and local/War.gov `D7`.
+- `research/ufo-pr28-d25-d7-reconciliation.md`: focused reconciliation memo for `DOD_111688954`, DVIDS `PR28`, local/War.gov `D25`, and local/War.gov `D7`.
 
 Reconciliation findings:
 
@@ -622,13 +622,13 @@ Use `DOD_111688954.mp4` for the hard PR28 video identity, use `D25` for the matc
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_pr28_d25_phase_review.py`: phase-aligned sampler for `DOD_111688954.mp4` / PR28 using local `D25` as the working report-content match.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr28-d25-phase-review-notes.md`: focused PR28/D25 phase memo.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-dod_111688954-metadata.txt`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-dod_111688954-phase-track.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-dod_111688954-phase-summary.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr28-d25-phase-review-assets.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-hard-pair-phase-review/DOD_111688954/*`
+- `scripts/ufo_pr28_d25_phase_review.py`: phase-aligned sampler for `DOD_111688954.mp4` / PR28 using local `D25` as the working report-content match.
+- `research/ufo-video-pr28-d25-phase-review-notes.md`: focused PR28/D25 phase memo.
+- `research/ufo-video-dod_111688954-metadata.txt`
+- `research/ufo-video-dod_111688954-phase-track.csv`
+- `research/ufo-video-dod_111688954-phase-summary.csv`
+- `research/ufo-video-pr28-d25-phase-review-assets.csv`
+- `research/ufo-derived/video-hard-pair-phase-review/DOD_111688954/*`
 
 Phase-review findings:
 
@@ -646,7 +646,7 @@ The local phase review supports PR28 as a hard video identity and strengthens th
 
 Generated supporting file added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-dvids-release-identity-backfill.md`: source-index backfill for local MP4s not yet represented in the main matrix.
+- `research/ufo-dvids-release-identity-backfill.md`: source-index backfill for local MP4s not yet represented in the main matrix.
 
 Backfill findings:
 
@@ -664,13 +664,13 @@ Run a bounded PR27/D23 phase review of `DOD_111688825.mp4` using DVIDS time anch
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_pr27_d23_phase_review.py`: DVIDS-anchor phase sampler for `DOD_111688825.mp4` / PR27 / D23.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr27-d23-phase-review-notes.md`: focused PR27/D23 phase memo.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-dod_111688825-metadata.txt`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-dod_111688825-phase-track.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-dod_111688825-phase-summary.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr27-d23-phase-review-assets.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-hard-pair-phase-review/DOD_111688825/*`
+- `scripts/ufo_pr27_d23_phase_review.py`: DVIDS-anchor phase sampler for `DOD_111688825.mp4` / PR27 / D23.
+- `research/ufo-video-pr27-d23-phase-review-notes.md`: focused PR27/D23 phase memo.
+- `research/ufo-video-dod_111688825-metadata.txt`
+- `research/ufo-video-dod_111688825-phase-track.csv`
+- `research/ufo-video-dod_111688825-phase-summary.csv`
+- `research/ufo-video-pr27-d23-phase-review-assets.csv`
+- `research/ufo-derived/video-hard-pair-phase-review/DOD_111688825/*`
 
 Phase-review findings:
 
@@ -690,13 +690,13 @@ PR27/D23 is a long hard-paired visual-sequence case, but it is not a public kine
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_pr27_d23_manual_validation.py`: category validation layer for active PR27/D23 phase-track rows.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr27-d23-manual-validation-notes.md`: focused PR27/D23 validation memo.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr27-d23-manual-validation-dod111688825.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr27-d23-manual-validation-summary.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr27-d23-compact-return-segments.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr27-d23-manual-validation-assets.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-hard-pair-manual-validation/DOD_111688825/*`
+- `scripts/ufo_pr27_d23_manual_validation.py`: category validation layer for active PR27/D23 phase-track rows.
+- `research/ufo-video-pr27-d23-manual-validation-notes.md`: focused PR27/D23 validation memo.
+- `research/ufo-video-pr27-d23-manual-validation-dod111688825.csv`
+- `research/ufo-video-pr27-d23-manual-validation-summary.csv`
+- `research/ufo-video-pr27-d23-compact-return-segments.csv`
+- `research/ufo-video-pr27-d23-manual-validation-assets.csv`
+- `research/ufo-derived/video-hard-pair-manual-validation/DOD_111688825/*`
 
 Manual-validation findings:
 
@@ -715,12 +715,12 @@ PR27/D23 remains promoted as a long hard-paired visual-sequence case, but the su
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_pr26_d12_still_review.py`: sampled-frame review for `DOD_111688816.mp4` / PR26 / D12.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr26-d12-reconciliation.md`: focused source reconciliation memo.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr26-d12-still-review-dod111688816.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr26-d12-still-review-summary.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr26-d12-still-review-assets.csv`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-hard-pair-phase-review/DOD_111688816/*`
+- `scripts/ufo_pr26_d12_still_review.py`: sampled-frame review for `DOD_111688816.mp4` / PR26 / D12.
+- `research/ufo-pr26-d12-reconciliation.md`: focused source reconciliation memo.
+- `research/ufo-video-pr26-d12-still-review-dod111688816.csv`
+- `research/ufo-video-pr26-d12-still-review-summary.csv`
+- `research/ufo-video-pr26-d12-still-review-assets.csv`
+- `research/ufo-derived/video-hard-pair-phase-review/DOD_111688816/*`
 
 Reconciliation findings:
 
@@ -739,8 +739,8 @@ Treat PR26/D12 as a hard video identity and D12 content match with a release-tit
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d28-evidence-packet.md`: document-only evidence packet for D28.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d28-evidence-constraints.csv`: machine-readable constraint table.
+- `research/ufo-d28-evidence-packet.md`: document-only evidence packet for D28.
+- `research/ufo-d28-evidence-constraints.csv`: machine-readable constraint table.
 
 D28 packet findings:
 
@@ -758,8 +758,8 @@ Keep D28 near the top of document-only priorities, but stop spending correlation
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-range-fouler-cluster-packet.md`: focused packet for `D38`, `D44`, `D56`, `D57`, and `D58`.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-range-fouler-cluster-constraints.csv`: machine-readable cluster constraint table.
+- `research/ufo-range-fouler-cluster-packet.md`: focused packet for `D38`, `D44`, `D56`, `D57`, and `D58`.
+- `research/ufo-range-fouler-cluster-constraints.csv`: machine-readable cluster constraint table.
 
 Cluster findings:
 
@@ -779,10 +779,10 @@ Keep D44/D57 as a geometry-rich Gulf of Aden IR pair, D56 as a multi-contact amb
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d75-source-review.md`: source review for `dow-uap-d75-mission-report-gulf-of-aden-july-2024.pdf`.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d75-evidence-constraints.csv`: machine-readable D75 constraints.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/source-page-renders/D75/d75-page-7.png`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/source-page-renders/D75/d75-page-8.png`
+- `research/ufo-d75-source-review.md`: source review for `dow-uap-d75-mission-report-gulf-of-aden-july-2024.pdf`.
+- `research/ufo-d75-evidence-constraints.csv`: machine-readable D75 constraints.
+- `research/ufo-derived/source-page-renders/D75/d75-page-7.png`
+- `research/ufo-derived/source-page-renders/D75/d75-page-8.png`
 
 D75 findings:
 
@@ -801,10 +801,10 @@ Keep D75 high-priority in the document-only Gulf of Aden lane, but remove the pr
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d74-source-review.md`: source review for `dow-uap-d74-mission-report-syria-november-2023.pdf`.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d74-evidence-constraints.csv`: machine-readable D74 constraints.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/source-page-renders/D74/d74-page-08.png`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/source-page-renders/D74/d74-page-09.png`
+- `research/ufo-d74-source-review.md`: source review for `dow-uap-d74-mission-report-syria-november-2023.pdf`.
+- `research/ufo-d74-evidence-constraints.csv`: machine-readable D74 constraints.
+- `research/ufo-derived/source-page-renders/D74/d74-page-08.png`
+- `research/ufo-derived/source-page-renders/D74/d74-page-09.png`
 
 D74 findings:
 
@@ -824,9 +824,9 @@ Keep D74 high-priority in the document-only lane. It is now the best readable la
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d8-source-review.md`: source review for `dow-uap-d8-mission-report-djibouti-2025.pdf`.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d8-evidence-constraints.csv`: machine-readable D8 constraints.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/source-page-renders/D8/d8-page-7.png`
+- `research/ufo-d8-source-review.md`: source review for `dow-uap-d8-mission-report-djibouti-2025.pdf`.
+- `research/ufo-d8-evidence-constraints.csv`: machine-readable D8 constraints.
+- `research/ufo-derived/source-page-renders/D8/d8-page-7.png`
 
 D8 findings:
 
@@ -844,9 +844,9 @@ Keep D8 high-priority as a quantitative, heavily redacted document-only case. Us
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d54-source-review.md`: source review for `dow-uap-d54-mission-report-mediterranean-sea-na.pdf`.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d54-evidence-constraints.csv`: machine-readable D54 constraints.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/source-page-renders/D54/d54-page-7.png`
+- `research/ufo-d54-source-review.md`: source review for `dow-uap-d54-mission-report-mediterranean-sea-na.pdf`.
+- `research/ufo-d54-evidence-constraints.csv`: machine-readable D54 constraints.
+- `research/ufo-derived/source-page-renders/D54/d54-page-7.png`
 
 D54 findings:
 
@@ -865,11 +865,11 @@ Keep D54 in the Greece / Eastern Mediterranean document-only cluster, below the 
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d27-source-review.md`: source review for `dow-uap-d27-mission-report-united-arab-emirates-october-2023.pdf`.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d27-evidence-constraints.csv`: machine-readable D27 constraints.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/source-page-renders/D27/d27-page-5.png`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/source-page-renders/D27/d27-page-6.png`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/source-page-renders/D27/d27-page-7.png`
+- `research/ufo-d27-source-review.md`: source review for `dow-uap-d27-mission-report-united-arab-emirates-october-2023.pdf`.
+- `research/ufo-d27-evidence-constraints.csv`: machine-readable D27 constraints.
+- `research/ufo-derived/source-page-renders/D27/d27-page-5.png`
+- `research/ufo-derived/source-page-renders/D27/d27-page-6.png`
+- `research/ufo-derived/source-page-renders/D27/d27-page-7.png`
 
 D27 findings:
 
@@ -888,11 +888,11 @@ Keep `DOD_111688964.mp4` as hard `PR29` media, keep D27 as the written-report co
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d25-source-review.md`: source review for `dow-uap-d25-mission-report-greece-january-2024.pdf`.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d25-evidence-constraints.csv`: machine-readable D25 constraints.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/source-page-renders/D25/d25-page-5.png`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/source-page-renders/D25/d25-page-6.png`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/source-page-renders/D25/d25-page-7.png`
+- `research/ufo-d25-source-review.md`: source review for `dow-uap-d25-mission-report-greece-january-2024.pdf`.
+- `research/ufo-d25-evidence-constraints.csv`: machine-readable D25 constraints.
+- `research/ufo-derived/source-page-renders/D25/d25-page-5.png`
+- `research/ufo-derived/source-page-renders/D25/d25-page-6.png`
+- `research/ufo-derived/source-page-renders/D25/d25-page-7.png`
 
 D25 findings:
 
@@ -911,11 +911,11 @@ Keep PR28/D25 as a high-priority hard media-plus-report-content lane. It support
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d33-source-review.md`: source review for `dow-uap-d33-mission-report-greece-october-2023.pdf`.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d33-evidence-constraints.csv`: machine-readable D33 constraints.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/source-page-renders/D33/d33-page-5.png`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/source-page-renders/D33/d33-page-6.png`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/source-page-renders/D33/d33-page-7.png`
+- `research/ufo-d33-source-review.md`: source review for `dow-uap-d33-mission-report-greece-october-2023.pdf`.
+- `research/ufo-d33-evidence-constraints.csv`: machine-readable D33 constraints.
+- `research/ufo-derived/source-page-renders/D33/d33-page-5.png`
+- `research/ufo-derived/source-page-renders/D33/d33-page-6.png`
+- `research/ufo-derived/source-page-renders/D33/d33-page-7.png`
 
 D33 findings:
 
@@ -932,15 +932,15 @@ Keep D33/PR34 as the strongest Greece ocean-surface hard-paired case. It is a pu
 
 ### 2026-05-13 D35 Source Review
 
-Completed source review for `source-files-not-included/dow-uap-d35-mission-report-greece-october-2023.pdf` and reconciled it against DVIDS `DOW-UAP-PR35`.
+Completed source review for `I:\My Drive\UFO\dow-uap-d35-mission-report-greece-october-2023.pdf` and reconciled it against DVIDS `DOW-UAP-PR35`.
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d35-source-review.md`: source review for `dow-uap-d35-mission-report-greece-october-2023.pdf`.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d35-evidence-constraints.csv`: machine-readable D35 constraints.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/source-page-renders/D35/d35-page-5.png`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/source-page-renders/D35/d35-page-6.png`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/source-page-renders/D35/d35-page-7.png`
+- `research/ufo-d35-source-review.md`: source review for `dow-uap-d35-mission-report-greece-october-2023.pdf`.
+- `research/ufo-d35-evidence-constraints.csv`: machine-readable D35 constraints.
+- `research/ufo-derived/source-page-renders/D35/d35-page-5.png`
+- `research/ufo-derived/source-page-renders/D35/d35-page-6.png`
+- `research/ufo-derived/source-page-renders/D35/d35-page-7.png`
 
 D35 findings:
 
@@ -960,13 +960,13 @@ Keep D35/PR35 as a hard-paired Greece ocean-surface completeness case, below D33
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_pr45_standalone_visual_pass.py`: PR45 standalone central-contrast review script.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr45-standalone-visual-notes.md`: dedicated PR45 note.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr45-standalone-review-dod111689123.csv`: per-sample review rows.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr45-standalone-summary.csv`: phase summary.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr45-standalone-assets.csv`: generated asset index.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-dod_111689123-metadata.txt`: OpenCV source metadata and review settings.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr45-standalone/DOD_111689123/*`: annotated crops, contrast patches, and contact sheets.
+- `scripts/ufo_pr45_standalone_visual_pass.py`: PR45 standalone central-contrast review script.
+- `research/ufo-pr45-standalone-visual-notes.md`: dedicated PR45 note.
+- `research/ufo-video-pr45-standalone-review-dod111689123.csv`: per-sample review rows.
+- `research/ufo-video-pr45-standalone-summary.csv`: phase summary.
+- `research/ufo-video-pr45-standalone-assets.csv`: generated asset index.
+- `research/ufo-video-dod_111689123-metadata.txt`: OpenCV source metadata and review settings.
+- `research/ufo-derived/video-motion-pass/pr45-standalone/DOD_111689123/*`: annotated crops, contrast patches, and contact sheets.
 
 PR45 findings:
 
@@ -988,15 +988,15 @@ Attempted the next standalone visual target, `DOD_111689142.mp4` / DVIDS `DOW-UA
 Blocker:
 
 - The full Drive-backed MP4 could not be opened because the local filesystem reported zero free bytes.
-- Raw reads from `source-files-not-included/DOD_111689142.mp4` failed with `No space left on device`.
+- Raw reads from `I:\My Drive\UFO\DOD_111689142.mp4` failed with `No space left on device`.
 - OpenCV could not open the PR47 MP4, so a dense full-video pass could not run in this turn.
 
 Generated supporting files added in this fallback pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_pr47_formation_visual_pass.py`: PR47 full-video formation-pass script, ready to run once disk space is available.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr47-formation-fallback-notes.md`: fallback note.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr47-fallback-frame-review-dod111689142.csv`: eight-frame fallback rows from existing extracted frames.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr47-fallback-frame-summary.csv`: fallback summary.
+- `scripts/ufo_pr47_formation_visual_pass.py`: PR47 full-video formation-pass script, ready to run once disk space is available.
+- `research/ufo-pr47-formation-fallback-notes.md`: fallback note.
+- `research/ufo-video-pr47-fallback-frame-review-dod111689142.csv`: eight-frame fallback rows from existing extracted frames.
+- `research/ufo-video-pr47-fallback-frame-summary.csv`: fallback summary.
 
 Fallback findings:
 
@@ -1016,12 +1016,12 @@ The full PR47 MP4 pass completed after local disk availability recovered.
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr47-formation-visual-notes.md`: full PR47 formation note.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr47-formation-review-dod111689142.csv`: per-sample full-video formation rows.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr47-formation-summary.csv`: phase summary.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr47-formation-assets.csv`: generated asset index.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-dod_111689142-metadata.txt`: OpenCV source metadata and review settings.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/*`: annotated crops, formation patches, and contact sheets.
+- `research/ufo-pr47-formation-visual-notes.md`: full PR47 formation note.
+- `research/ufo-video-pr47-formation-review-dod111689142.csv`: per-sample full-video formation rows.
+- `research/ufo-video-pr47-formation-summary.csv`: phase summary.
+- `research/ufo-video-pr47-formation-assets.csv`: generated asset index.
+- `research/ufo-video-dod_111689142-metadata.txt`: OpenCV source metadata and review settings.
+- `research/ufo-derived/video-motion-pass/pr47-standalone/DOD_111689142/*`: annotated crops, formation patches, and contact sheets.
 
 PR47 full-pass findings:
 
@@ -1039,8 +1039,8 @@ Promote PR47 to the strongest standalone multi-object/formation visual lane in t
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-evidence-ladder.md`: ranked synthesis of hard paired cases, document-only cases, standalone video lanes, pattern lanes, controls, and next work queue.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-evidence-ladder.csv`: machine-readable evidence ladder with rank, tier, evidence class, pairing status, confidence, caveat, and next action fields.
+- `research/ufo-evidence-ladder.md`: ranked synthesis of hard paired cases, document-only cases, standalone video lanes, pattern lanes, controls, and next work queue.
+- `research/ufo-evidence-ladder.csv`: machine-readable evidence ladder with rank, tier, evidence class, pairing status, confidence, caveat, and next action fields.
 
 Evidence ladder findings:
 
@@ -1059,8 +1059,8 @@ Use the evidence ladder as the active triage map. The next work item is a dedica
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d58-evidence-packet.md`: dedicated D58 evidence packet and source-request checklist.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d58-evidence-constraints.csv`: machine-readable D58 constraints.
+- `research/ufo-d58-evidence-packet.md`: dedicated D58 evidence packet and source-request checklist.
+- `research/ufo-d58-evidence-constraints.csv`: machine-readable D58 constraints.
 
 D58 findings:
 
@@ -1079,8 +1079,8 @@ Keep D58 as a source-request target, not a public kinematics case. The required 
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-range-fouler-official-metadata-check.md`: live official-source check for `D44`, `D56`, `D57`, and `D58`.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-range-fouler-official-metadata-check.csv`: machine-readable official-source check rows.
+- `research/ufo-range-fouler-official-metadata-check.md`: live official-source check for `D44`, `D56`, `D57`, and `D58`.
+- `research/ufo-range-fouler-official-metadata-check.csv`: machine-readable official-source check rows.
 
 Metadata check findings:
 
@@ -1098,8 +1098,8 @@ The range-fouler source posture is stable: no public video pairing should be ass
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-persian-gulf-2020-timeline.md`: focused timeline and pattern assessment for `D4`, `D5`, and `D60-D65`.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-persian-gulf-2020-timeline.csv`: machine-readable timeline rows.
+- `research/ufo-persian-gulf-2020-timeline.md`: focused timeline and pattern assessment for `D4`, `D5`, and `D60-D65`.
+- `research/ufo-persian-gulf-2020-timeline.csv`: machine-readable timeline rows.
 
 Timeline findings:
 
@@ -1118,8 +1118,8 @@ Keep `D60-D65` in Tier 4 as a regional reporting-density pattern, not a physical
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d61-source-review.md`: focused source review for the strongest Persian Gulf / Strait of Hormuz 2020 row.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d61-evidence-constraints.csv`: machine-readable D61 constraints.
+- `research/ufo-d61-source-review.md`: focused source review for the strongest Persian Gulf / Strait of Hormuz 2020 row.
+- `research/ufo-d61-evidence-constraints.csv`: machine-readable D61 constraints.
 
 D61 findings:
 
@@ -1137,8 +1137,8 @@ Use D61 as a source-reviewed regional pattern row, not a performance case. The n
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d65-source-review.md`: focused source review for the densest Persian Gulf / Strait of Hormuz 2020 mission.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-d65-evidence-constraints.csv`: machine-readable D65 constraints.
+- `research/ufo-d65-source-review.md`: focused source review for the densest Persian Gulf / Strait of Hormuz 2020 mission.
+- `research/ufo-d65-evidence-constraints.csv`: machine-readable D65 constraints.
 
 D65 findings:
 
@@ -1160,9 +1160,9 @@ Use D65 as the strongest reporting-density row in the Gulf/Strait cluster. Pair 
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-final-report-coverage-audit.md`: final-report readiness audit across the full local corpus and evidence lanes.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-final-report-coverage-audit.csv`: machine-readable coverage status by corpus area.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-final-scientific-report-outline.md`: final scientific report scaffold.
+- `research/ufo-final-report-coverage-audit.md`: final-report readiness audit across the full local corpus and evidence lanes.
+- `research/ufo-final-report-coverage-audit.csv`: machine-readable coverage status by corpus area.
+- `research/ufo-final-scientific-report-outline.md`: final scientific report scaffold.
 
 Coverage findings:
 
@@ -1180,14 +1180,14 @@ Use the coverage audit and scaffold as the bridge into the final report. The nex
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-final-scientific-report.md`: professional scientific report draft for the UFO/UAP release corpus.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-final-report-consistency-check.md`: consistency check for report references, evidence-ladder alignment, source-index handling, scope language, origin claims, and kinematics claims.
+- `research/ufo-final-scientific-report.md`: professional scientific report draft for the UFO/UAP release corpus.
+- `research/ufo-final-report-consistency-check.md`: consistency check for report references, evidence-ladder alignment, source-index handling, scope language, origin claims, and kinematics claims.
 
 Final report findings:
 
 - The report assesses the full local folder inventory but explicitly scopes the strongest conclusions to the deeply reviewed modern DoW/DoD operational subset and public DoD media.
 - The stable conclusion is that the corpus supports credible unresolved operational observations, not non-human technology, recovered material, or independent public reconstruction of extraordinary physical performance.
-- The evidence ranking has `18` rows and aligns with `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-evidence-ladder.csv`.
+- The evidence ranking has `18` rows and aligns with `research/ufo-evidence-ladder.csv`.
 - The report preserves D38/PR36 as the hard calibration anchor, D33/PR34 as the image-plane maneuver benchmark, D25/PR28 and D27/PR29 as source-index-corrected report/video lanes, D58 and D28 as the top document-only source-request targets, and D61/D65 as the Persian Gulf / Strait 2020 pattern lane.
 - The consistency check found `43` unique local support-file references in the report and `0` missing referenced files.
 - The report keeps historical FBI/NASA/DOS/archive/image material as inventoried and triaged context, not as an exhausted basis for strong scientific claims.
@@ -1200,10 +1200,10 @@ The final report draft is ready for review as a professional scientific report f
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_build_file_coverage_map.ps1`: repeatable file-level coverage mapper.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-file-coverage-map.csv`: file-level coverage map for all `170` manifest rows.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-file-coverage-summary.csv`: grouped coverage summary.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-goal-completion-audit.md`: prompt-to-artifact completion audit for the active UFO-analysis goal.
+- `scripts/ufo_build_file_coverage_map.ps1`: repeatable file-level coverage mapper.
+- `research/ufo-file-coverage-map.csv`: file-level coverage map for all `170` manifest rows.
+- `research/ufo-file-coverage-summary.csv`: grouped coverage summary.
+- `research/ufo-goal-completion-audit.md`: prompt-to-artifact completion audit for the active UFO-analysis goal.
 
 Audit findings:
 
@@ -1221,9 +1221,9 @@ Keep the active goal open. The next concrete work is a whole-corpus gap pass foc
 
 Generated supporting files added in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_extract_pdf_text_for_groups.ps1`: attempted local PDF extraction for NASA/DOS groups.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pdf-text-extraction-log.csv`: extraction log showing local extraction blocked by disk/read errors.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-nasa-dos-gap-triage.md`: targeted NASA/DOS gap triage using official War.gov sources and official-source indexed mirrors.
+- `scripts/ufo_extract_pdf_text_for_groups.ps1`: attempted local PDF extraction for NASA/DOS groups.
+- `research/ufo-pdf-text-extraction-log.csv`: extraction log showing local extraction blocked by disk/read errors.
+- `research/ufo-nasa-dos-gap-triage.md`: targeted NASA/DOS gap triage using official War.gov sources and official-source indexed mirrors.
 
 NASA/DOS findings:
 
@@ -1245,14 +1245,14 @@ Promote NASA/DOS from inventory-only to targeted triage. This adds historical br
 
 Generated supporting files updated in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_build_file_coverage_map.ps1`: now recognizes group-level targeted review artifacts for NASA transcript/image files and DOS cables.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-file-coverage-map.csv`: regenerated file-level coverage map.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-file-coverage-summary.csv`: regenerated grouped coverage summary.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-goal-completion-audit.md`: revised audit counts and remaining-gap table.
+- `scripts/ufo_build_file_coverage_map.ps1`: now recognizes group-level targeted review artifacts for NASA transcript/image files and DOS cables.
+- `research/ufo-file-coverage-map.csv`: regenerated file-level coverage map.
+- `research/ufo-file-coverage-summary.csv`: regenerated grouped coverage summary.
+- `research/ufo-goal-completion-audit.md`: revised audit counts and remaining-gap table.
 
 Coverage refresh findings:
 
-- NASA transcript/image files and DOS cables are no longer inventory-only; they are now counted as `targeted_review` based on `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-nasa-dos-gap-triage.md`.
+- NASA transcript/image files and DOS cables are no longer inventory-only; they are now counted as `targeted_review` based on `research/ufo-nasa-dos-gap-triage.md`.
 - Current file-level coverage: `32` deep-review files, `26` structured-triage PDFs, `15` targeted-review NASA/DOS files, `26` visual-triage videos, `1` partial-review file, and `70` inventory-only files.
 - The remaining inventory-only groups are now narrowed to `37` historical FBI/archive PDFs and `33` FBI photo-set files.
 
@@ -1264,12 +1264,12 @@ The next highest-value gap is the FBI photo-set lane, because it is image-heavy 
 
 Generated supporting files added or updated in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-fbi-photo-gap-triage.md`: targeted source/provenance triage for the FBI photo set.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-fbi-photo-record-index.csv`: machine-readable mapping from local FBI photo files to official War.gov records.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_build_file_coverage_map.ps1`: now recognizes the FBI photo triage as a group-level targeted review artifact.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-file-coverage-map.csv`: regenerated file-level coverage map.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-file-coverage-summary.csv`: regenerated grouped coverage summary.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-goal-completion-audit.md`: revised audit counts and remaining-gap table.
+- `research/ufo-fbi-photo-gap-triage.md`: targeted source/provenance triage for the FBI photo set.
+- `research/ufo-fbi-photo-record-index.csv`: machine-readable mapping from local FBI photo files to official War.gov records.
+- `scripts/ufo_build_file_coverage_map.ps1`: now recognizes the FBI photo triage as a group-level targeted review artifact.
+- `research/ufo-file-coverage-map.csv`: regenerated file-level coverage map.
+- `research/ufo-file-coverage-summary.csv`: regenerated grouped coverage summary.
+- `research/ufo-goal-completion-audit.md`: revised audit counts and remaining-gap table.
 
 FBI photo findings:
 
@@ -1294,14 +1294,14 @@ Use the FBI photo set as a low-weight static-image appendix in the final report.
 
 Generated supporting files added or updated in this pass:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-historical-archive-gap-triage.md`: targeted source-family triage for the remaining historical/archive PDF group.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-historical-archive-record-index.csv`: machine-readable mapping for all `36` historical/archive rows after moving the Gemini 7 transcript into NASA coverage.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_build_file_coverage_map.ps1`: now classifies `255_t_763_r1b_transcripts.pdf` as NASA material and recognizes the historical archive triage artifact.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-file-coverage-map.csv`: regenerated file-level coverage map.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-file-coverage-summary.csv`: regenerated grouped coverage summary.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-final-scientific-report.md`: updated with broader-corpus Finding 9.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-final-report-consistency-check.md`: refreshed after final report update.
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-goal-completion-audit.md`: updated to show `0` inventory-only files.
+- `research/ufo-historical-archive-gap-triage.md`: targeted source-family triage for the remaining historical/archive PDF group.
+- `research/ufo-historical-archive-record-index.csv`: machine-readable mapping for all `36` historical/archive rows after moving the Gemini 7 transcript into NASA coverage.
+- `scripts/ufo_build_file_coverage_map.ps1`: now classifies `255_t_763_r1b_transcripts.pdf` as NASA material and recognizes the historical archive triage artifact.
+- `research/ufo-file-coverage-map.csv`: regenerated file-level coverage map.
+- `research/ufo-file-coverage-summary.csv`: regenerated grouped coverage summary.
+- `research/ufo-final-scientific-report.md`: updated with broader-corpus Finding 9.
+- `research/ufo-final-report-consistency-check.md`: refreshed after final report update.
+- `research/ufo-goal-completion-audit.md`: updated to show `0` inventory-only files.
 
 Historical archive findings:
 
@@ -1313,9 +1313,29 @@ Historical archive findings:
 
 Updated coverage:
 
-- Current file-level coverage: `32` deep-review files, `26` structured-triage PDFs, `85` targeted-review files, `26` visual-triage videos, `1` partial-review file, and `0` inventory-only files.
+- Current file-level coverage: `33` deep-review files, `26` structured-triage PDFs, `85` targeted-review files, `26` visual-triage videos, and `0` partial-review files or inventory-only files.
 - The final report now states that historical and static-image material adds breadth but does not change the main conclusion.
 
 Updated treatment:
 
 The active UFO analysis is now complete as a targeted whole-corpus scientific assessment. It remains non-exhaustive in the forensic sense: future work can still deepen OCR, photogrammetry, raw-video reconstruction, and source requests, but no unreviewed file family remains.
+
+### 2026-05-15 Public Paper Repository
+
+Published repository:
+
+- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment`
+
+Publication actions:
+
+- Created a separate paper-oriented public repository under `dfredriksen` rather than publishing the broader planning workspace.
+- Published `paper.md`, top-level generated research artifacts, UFO analysis scripts, citation metadata, and review packets.
+- Excluded original source media/documents and the large derived cache.
+- Rewrote final-paper references to point at specific GitHub files in the public repository.
+- Added review packets for ChatGPT Pro editorial touch-up and Claude critical review.
+- Added the ChatGPT Pro / Claude review workflow to the paper's methods section as a publication-stage quality-control step.
+
+Updated treatment:
+
+Use the public repository as the canonical publication location for the paper and supporting artifacts. Future ChatGPT Pro or Claude review outputs should be committed as separate review artifacts before any revisions are merged into `paper.md`.
+

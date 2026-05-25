@@ -16,3 +16,4 @@ The intended workflow is:
 5. Accept only changes that preserve the paper's evidence boundaries.
 
 This process is included in the paper's method section as a publication-stage quality-control step.
+

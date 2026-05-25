@@ -2,7 +2,7 @@
 
 Owner: Dan Fredriksen
 Created: 2026-05-12
-Source file: `source-files-not-included/dow-uap-d27-mission-report-united-arab-emirates-october-2023.pdf`
+Source file: `I:\My Drive\UFO\dow-uap-d27-mission-report-united-arab-emirates-october-2023.pdf`
 Official URL: `https://www.war.gov/medialink/ufo/release_1/dow-uap-d27-mission-report-united-arab-emirates-october-2023.pdf`
 Related DVIDS release: `https://www.dvidshub.net/video/1006074/dow-uap-pr29-unresolved-uap-report-united-arab-emirates-june-2024`
 Status: source review complete; PR29 report-content match with label caveat
@@ -33,9 +33,9 @@ The filename/title says United Arab Emirates / October 2023, but the mission tim
 
 Generated page renders:
 
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/source-page-renders/D27/d27-page-5.png`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/source-page-renders/D27/d27-page-6.png`
-- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/source-page-renders/D27/d27-page-7.png`
+- `research/ufo-derived/source-page-renders/D27/d27-page-5.png`
+- `research/ufo-derived/source-page-renders/D27/d27-page-6.png`
+- `research/ufo-derived/source-page-renders/D27/d27-page-7.png`
 
 ## Mission Context
 
@@ -118,3 +118,4 @@ Prior local PR29 review already found:
 
 - War.gov D27 PDF: `https://www.war.gov/medialink/ufo/release_1/dow-uap-d27-mission-report-united-arab-emirates-october-2023.pdf`
 - DVIDS PR29: `https://www.dvidshub.net/video/1006074/dow-uap-pr29-unresolved-uap-report-united-arab-emirates-june-2024`
+

@@ -2,7 +2,7 @@
 
 Owner: Dan Fredriksen
 Created: 2026-05-09
-Source files: official public UFO/UAP release files, not redistributed in this repository
+Source folder: `I:\My Drive\UFO`
 Status: Working digest
 
 ## Current Takeaway
@@ -151,3 +151,4 @@ Priority media tasks:
 ## Working Bottom Line
 
 The strongest initial case is not "aliens in the files." It is "official U.S. reporting contains multiple structured, operationally contextualized aerial/sensor events that remained unresolved in the released records." The next proof step is correlation: match reports to videos, de-duplicate media, OCR the remaining image-only artifacts, and build a timeline by date, region, sensor, object description, and stated caveats.
+

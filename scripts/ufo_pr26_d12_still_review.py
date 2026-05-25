@@ -12,7 +12,7 @@ VIDEO_ID = "DOD_111688816"
 VIDEO_NAME = f"{VIDEO_ID}.mp4"
 RELEASE_ID = "DOW-UAP-PR26"
 REPORT_ID = "DoW-UAP-D12"
-DEFAULT_VIDEO = Path(r"source-files-not-included/DOD_111688816.mp4")
+DEFAULT_VIDEO = Path(r"I:\My Drive\UFO\DOD_111688816.mp4")
 
 
 def ensure_dir(path: Path) -> None:
@@ -184,3 +184,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

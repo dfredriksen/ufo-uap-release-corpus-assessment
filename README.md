@@ -15,6 +15,7 @@ The repository includes generated analysis artifacts and scripts used during the
 - `research/` - supporting notes, evidence tables, triage records, coverage audits, and case packets.
 - `scripts/` - local analysis scripts used for coverage mapping, video review, geometry checks, and extraction attempts.
 - `review-packets/` - packets prepared for external review and editorial improvement through ChatGPT Pro and Claude.
+- `requirements.txt` - Python dependencies needed to regenerate the scripted outputs.
 
 ## Core Conclusion
 
@@ -25,3 +26,22 @@ The corpus contains credible unresolved operational observations. The released e
 Original release media and documents are not included here. Some generated files preserve source filenames and public-source metadata so that readers can retrieve the underlying public records independently.
 
 Large derived review artifacts such as frame extracts, contact sheets, and page-render images are also not redistributed. CSV and Markdown records may preserve their intended derived-artifact paths for reproducibility; the publication figures under `figures/` are included in the repository.
+
+## Publication Boundary
+
+The public repo is curated rather than a raw mirror of the working analysis tree. It includes the paper, supporting research notes, figures, scripts, review packets, and reproducibility helpers needed to audit the publication.
+
+Key reproducibility artifacts:
+
+- [Publication reproducibility note](research/ufo-publication-reproducibility.md)
+- [Source acquisition manifest](research/ufo-source-acquisition-manifest.csv)
+- [Source acquisition gap table](research/ufo-source-acquisition-gaps.csv)
+
+Official context anchors:
+
+- WAR.GOV UFO Release 01 and Release 02
+- AARO UAP records
+- NASA UAP terminology and FAQ pages
+
+The release files and the public corpus should be interpreted as source evidence, not as proof of origin, non-human technology, or independently reconstructed physical performance.
+

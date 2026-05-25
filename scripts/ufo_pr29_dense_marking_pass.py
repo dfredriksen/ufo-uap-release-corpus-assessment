@@ -12,9 +12,9 @@ import numpy as np
 
 
 VIDEO_ID = "DOD_111688964"
-DEFAULT_SOURCE = Path(r"source-files-not-included/DOD_111688964.mp4")
-DEFAULT_MANUAL_TRACK = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-manual-track-dod111688964.csv")
-OUT_ROOT = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-motion-pass/dense-marking") / VIDEO_ID
+DEFAULT_SOURCE = Path(r"I:\My Drive\UFO\DOD_111688964.mp4")
+DEFAULT_MANUAL_TRACK = Path("research/ufo-video-manual-track-dod111688964.csv")
+OUT_ROOT = Path("research/ufo-derived/video-motion-pass/dense-marking") / VIDEO_ID
 
 
 @dataclass
@@ -479,7 +479,7 @@ def main() -> None:
         "annotated_crop_path",
         "zoom_patch_path",
     ]
-    dense_csv = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-dense-track-dod111688964.csv")
+    dense_csv = Path("research/ufo-video-dense-track-dod111688964.csv")
     write_csv(dense_csv, fieldnames, rows)
 
     confidence_counts = Counter(row["review_confidence"] for row in rows)
@@ -507,10 +507,10 @@ def main() -> None:
     for relation, count in sorted(relation_counts.items()):
         summary_rows.append({"metric": f"relation_count: {relation}", "value": count, "note": "colored overlay relation"})
 
-    summary_csv = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-dense-track-dod111688964-summary.csv")
+    summary_csv = Path("research/ufo-video-dense-track-dod111688964-summary.csv")
     write_csv(summary_csv, ["metric", "value", "note"], summary_rows)
 
-    index_csv = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-dense-marking-assets-dod111688964.csv")
+    index_csv = Path("research/ufo-video-dense-marking-assets-dod111688964.csv")
     index_rows: list[dict] = []
     for path in annotated_sheets:
         index_rows.append({"artifact_type": "annotated_contact_sheet", "path": str(path).replace("\\", "/"), "note": "dense 5 fps annotated center-crop sheet"})
@@ -533,3 +533,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

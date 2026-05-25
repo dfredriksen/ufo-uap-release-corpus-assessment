@@ -1,0 +1,19 @@
+﻿metric,value,note
+video,DOD_111688723.mp4,source video used: I:\My Drive\UFO\DOD_111688723.mp4
+release_id,DOW-UAP-PR19,DVIDS public release identity
+report_id,DoW-UAP-D10,DVIDS-stated accompanying mission report
+duration_seconds,5.4,fps=30.0; frames=162
+dense_frame_count,162,all decoded frames reviewed
+supported_high_or_medium_frames,5,frames with usable bottom-third dark elongated candidate
+supported_intervals,2.500s-2.633s,dense-frame supported interval(s)
+supported_candidate_track,5,"2.500s-2.633s; dx=478.880px; dy=10.579px; net=478.997px; path=479.005px; path_rate=3601.543px/s; median_step_rate=3597.704px/s; image-plane only, not physical speed validation"
+component_area,1284.0,median; mean=1300.800; stdev=63.133; cv=0.049; selected bottom-third candidate pixel area
+dark_contrast_delta_luma,91.0,median; mean=87.000; stdev=17.821; cv=0.205; local background minus candidate minimum/mean dark contrast proxy
+aspect_ratio,6.0,median; mean=6.149; stdev=0.697; cv=0.113; selected candidate horizontal elongation proxy
+target_center_x,458.685,median; mean=455.929; stdev=169.610; cv=0.372; selected candidate x-position
+target_center_y,779.394,median; mean=779.451; stdev=3.655; cv=0.005; selected candidate y-position
+supported_center_span_seconds,0.133,frame-center span; inclusive frame coverage is 0.167s
+quality_count: high,5,review quality
+quality_count: none,157,review quality
+supported_phase_count: bottom-third crossing,5,supported rows by DVIDS phase
+

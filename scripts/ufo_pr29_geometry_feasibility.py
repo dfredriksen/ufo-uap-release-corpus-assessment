@@ -6,10 +6,10 @@ import statistics
 from pathlib import Path
 
 
-DENSE_TRACK = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-dense-track-dod111688964.csv")
-MANUAL_TRACK = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-manual-track-dod111688964.csv")
-SUMMARY_OUT = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr29-geometry-feasibility-summary.csv")
-SCENARIO_OUT = Path("https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-pr29-geometry-feasibility-scenarios.csv")
+DENSE_TRACK = Path("research/ufo-video-dense-track-dod111688964.csv")
+MANUAL_TRACK = Path("research/ufo-video-manual-track-dod111688964.csv")
+SUMMARY_OUT = Path("research/ufo-pr29-geometry-feasibility-summary.csv")
+SCENARIO_OUT = Path("research/ufo-pr29-geometry-feasibility-scenarios.csv")
 
 SOURCE_WIDTH_PX = 1920
 KNOT_TO_MPS = 0.514444
@@ -182,3 +182,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

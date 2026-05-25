@@ -1,0 +1,28 @@
+﻿metric,value,note
+video,DOD_111689057.mp4,local source video
+release_id,DOW-UAP-PR39,DVIDS public release identity
+duration_seconds,5.833,fps=30.0; frames=175
+sample_count,60,10.0 fps full-clip review samples
+event_window_sample_count,21,samples in DVIDS 00:03-00:05 description window
+supported_high_or_medium_rows,10,event-window rows with usable lower-corner component
+supported_intervals,3.6s-4.5s,1 ten-fps high/medium interval(s)
+event_lane_track,10,3.6s-4.5s; net=508.769px; path=509.041px; dx=-487.400px; dy=145.900px; downrange_displacement=145.900px; path_rate=565.601px/s; median_step_rate=627.458px/s; linearity=0.999
+event_lane_horizontal_delta_px,-487.4,end center x minus start center x; negative is leftward
+event_lane_vertical_delta_px,145.9,end center y minus start center y; positive is downward
+event_lane_net_displacement_px,508.769,start-to-end image-plane displacement
+event_lane_path_length_px,509.041,sum of supported row-to-row image-plane steps
+distance_from_expected_lane_px,12.435,median; mean=19.918; stdev=21.170; cv=1.063; supported component distance from PR39 corner-exit lane
+component_area,62.0,median; mean=63.700; stdev=34.364; cv=0.539; supported component pixel area after overlay/blackout suppression
+bbox_width_px,12.5,median; mean=11.000; stdev=4.807; cv=0.437; supported component bounding-box width
+bbox_height_px,7.5,median; mean=7.300; stdev=2.541; cv=0.348; supported component bounding-box height
+max_abs_contrast_luma,16.0,median; mean=15.400; stdev=6.041; cv=0.392; maximum local absolute luma contrast
+mean_signed_contrast_luma,10.364,median; mean=9.751; stdev=2.210; cv=0.227; signed local contrast; positive is brighter than local median background
+quality_count: high,8,all full-clip review rows
+quality_count: low,4,all full-clip review rows
+quality_count: medium,2,all full-clip review rows
+quality_count: none,46,all full-clip review rows
+event_quality_count: high,8,DVIDS 00:03-00:05 event rows
+event_quality_count: low,4,DVIDS 00:03-00:05 event rows
+event_quality_count: medium,2,DVIDS 00:03-00:05 event rows
+event_quality_count: none,7,DVIDS 00:03-00:05 event rows
+

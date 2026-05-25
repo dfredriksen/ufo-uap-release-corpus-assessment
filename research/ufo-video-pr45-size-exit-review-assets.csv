@@ -1,0 +1,12 @@
+﻿artifact_type,path,note
+size_exit_review_csv,research/ufo-video-pr45-size-exit-review-dod111689123.csv,PR45 one-fps full-clip size/exit review table
+exit_window_csv,research/ufo-video-pr45-size-exit-review-exit-window.csv,PR45 five-fps exit-window review table
+summary_csv,research/ufo-video-pr45-size-exit-review-summary.csv,PR45 size/exit review summary
+full_annotated_contact_sheet,research/ufo-derived/video-motion-pass/pr45-size-exit-review/DOD_111689123/sheets/DOD_111689123-pr45-full-annotated-00.jpg,PR45 full-clip annotated frame sheet
+full_annotated_contact_sheet,research/ufo-derived/video-motion-pass/pr45-size-exit-review/DOD_111689123/sheets/DOD_111689123-pr45-full-annotated-01.jpg,PR45 full-clip annotated frame sheet
+full_annotated_contact_sheet,research/ufo-derived/video-motion-pass/pr45-size-exit-review/DOD_111689123/sheets/DOD_111689123-pr45-full-annotated-02.jpg,PR45 full-clip annotated frame sheet
+full_patch_contact_sheet,research/ufo-derived/video-motion-pass/pr45-size-exit-review/DOD_111689123/sheets/DOD_111689123-pr45-full-patches-00.jpg,PR45 full-clip target patch sheet
+full_patch_contact_sheet,research/ufo-derived/video-motion-pass/pr45-size-exit-review/DOD_111689123/sheets/DOD_111689123-pr45-full-patches-01.jpg,PR45 full-clip target patch sheet
+exit_annotated_contact_sheet,research/ufo-derived/video-motion-pass/pr45-size-exit-review/DOD_111689123/sheets/DOD_111689123-pr45-exit-annotated-00.jpg,PR45 dense exit-window annotated sheet
+exit_patch_contact_sheet,research/ufo-derived/video-motion-pass/pr45-size-exit-review/DOD_111689123/sheets/DOD_111689123-pr45-exit-patches-00.jpg,PR45 dense exit-window patch sheet
+

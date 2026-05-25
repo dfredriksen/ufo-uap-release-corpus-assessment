@@ -15,7 +15,7 @@ This strengthens PR27/D23 as a long hard-paired visual-sequence case, but it rem
 
 ## Validation Method
 
-The validation pass reviewed the active interval from `134.0s-297.0s` using the phase-track rows generated from `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_pr27_d23_phase_review.py`.
+The validation pass reviewed the active interval from `134.0s-297.0s` using the phase-track rows generated from `scripts/ufo_pr27_d23_phase_review.py`.
 
 Each row was assigned one category:
 
@@ -74,13 +74,14 @@ PR27/D23 should remain promoted as a hard-paired visual-sequence case, with a re
 
 | Artifact | Path |
 |---|---|
-| Script | `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/ufo_pr27_d23_manual_validation.py` |
-| Validation CSV | `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr27-d23-manual-validation-dod111688825.csv` |
-| Summary CSV | `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr27-d23-manual-validation-summary.csv` |
-| Segment CSV | `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr27-d23-compact-return-segments.csv` |
-| Asset index | `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-video-pr27-d23-manual-validation-assets.csv` |
-| Contact sheets and patches | `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-derived/video-hard-pair-manual-validation/DOD_111688825/` |
+| Script | `scripts/ufo_pr27_d23_manual_validation.py` |
+| Validation CSV | `research/ufo-video-pr27-d23-manual-validation-dod111688825.csv` |
+| Summary CSV | `research/ufo-video-pr27-d23-manual-validation-summary.csv` |
+| Segment CSV | `research/ufo-video-pr27-d23-compact-return-segments.csv` |
+| Asset index | `research/ufo-video-pr27-d23-manual-validation-assets.csv` |
+| Contact sheets and patches | `research/ufo-derived/video-hard-pair-manual-validation/DOD_111688825/` |
 
 ## Next Step
 
 PR27/D23 is now sufficiently reviewed for corpus ranking. The next better corpus action is source reconciliation, especially the `PR26/D12` date/location/report mismatch, before spending more time on standalone clips.
+
