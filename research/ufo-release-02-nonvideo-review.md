@@ -62,6 +62,8 @@ This is the strongest new non-video narrative record. It is a first-hand account
 
 The narrative is unusually detailed and operationally rich, but it still lacks the raw sensor metadata needed for independent public kinematics.
 
+The linked Phase 1 bundle is analyzed in `research/ufo-release-02-phase1-linkage-analysis.md`. That note treats the earlier USPER statement and FBI photo set as corroborating narrative-plus-stills evidence, not as a sensor package that would move the case into kinematics.
+
 ### DOE-UAP-D001
 
 This is a 2-page Pantex incident report packet with:

@@ -15,6 +15,8 @@ The follow-on DVIDS page review confirms that the tranche is still a standalone 
 
 The non-video review confirms that the remaining Release 02 files are primarily historical or control-oriented: D017 is the strongest historical archive packet, ODNI-UAP-D001 is the strongest narrative lane, DOE-UAP-D001 is the strongest image/provenance lane, and the NASA audio rows are control/caveat material rather than new anomaly proof.
 
+ODNI-UAP-D001 is especially important because it explicitly bundles Release 01 evidence. The linked USPER statement and FBI photo set corroborate the narrative bundle, but they remain still-image / witness evidence rather than a sensor package that would raise the claim ceiling.
+
 ## What Changed
 
 Release 02 introduces:

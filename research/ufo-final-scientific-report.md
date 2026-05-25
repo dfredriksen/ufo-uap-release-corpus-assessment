@@ -24,6 +24,8 @@ The Release 02 video tranche has now been page-reviewed as a standalone release 
 
 The remaining Release 02 non-video files have also been reviewed as a tranche. D017 is a historical green-fireball archive packet, ODNI-UAP-D001 is the strongest new narrative lane, DOE-UAP-D001 is the strongest image/provenance packet, DOE-UAP-D002 and DOE-UAP-D003 are historical context, and NASA-UAP-D008 through NASA-UAP-D014 are control/caveat material rather than new anomaly proof.
 
+ODNI-UAP-D001 is the only Release 02 row that explicitly bundles Release 01 evidence. The linked USPER statement and FBI photo set corroborate the narrative bundle, but they remain still-image / witness evidence rather than a sensor package capable of independent kinematic reconstruction.
+
 The historical archive PDFs and FBI photo set were additionally deep-sampled with OCR and contact-sheet review. That deeper pass confirmed the historical files preserve structured case language and the photo set remains low-context still imagery rather than an analyzable motion sequence.
 
 The Western U.S. witness-summary lane adds narrative context rather than sensor proof: the slide deck summarizes four clusters, and the FBI composite sketch is a rendered witness-artifact composite rather than a raw photo. Taken together, they strengthen the witness-context side of the corpus without changing the physics ceiling.
