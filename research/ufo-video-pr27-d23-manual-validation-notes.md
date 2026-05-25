@@ -41,12 +41,18 @@ Each row was assigned one category:
 | Uncertain/no candidate | `1` |
 | Total reviewed | `327` |
 
+The category labels above were assigned with a conservative single-analyst rubric: accept only compact candidates that stay separable from frame-edge, reticle/overlay, shoreline, terrain, or water-texture clutter across the local crop. The counts below are descriptive acceptance counts, not inferential statistics or inter-rater results.
+
 By phase:
 
 | Phase | True compact-return candidates | Main caveat |
 |---|---:|---|
 | Zoom and centered track, `134.0s-206.5s` | `31/146` | `86` reticle/overlay artifacts and `23` water-texture artifacts |
 | Sensor-motion loss and reacquisition, `207.0s-297.0s` | `144/181` | `27` frame-edge artifacts and `8` uncertain rows |
+
+## Control Comparison
+
+`research/ufo-pr21-d14-two-area-review-notes.md` serves as the conventional-control comparator for the same compact-candidate logic. Its summary shows `9/11` supported one-fps rows, but the lane remains terrain/texture-confounded and conventionally bounded.
 
 ## Validated Compact-Return Segments
 
@@ -84,4 +90,3 @@ PR27/D23 should remain promoted as a hard-paired visual-sequence case, with a re
 ## Next Step
 
 PR27/D23 is now sufficiently reviewed for corpus ranking. The next better corpus action is source reconciliation, especially the `PR26/D12` date/location/report mismatch, before spending more time on standalone clips.
-

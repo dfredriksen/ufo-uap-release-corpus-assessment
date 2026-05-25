@@ -6,7 +6,7 @@ This repository publishes a paper-oriented assessment of a public UFO/UAP releas
 
 Main paper:
 
-- [Scientific Assessment of the UFO/UAP Release Corpus](paper.md)
+- [Source-First Structured Assessment of the UFO/UAP Release Corpus](paper.md)
 
 The repository includes generated analysis artifacts and scripts used during the assessment. It does not redistribute the original PDFs, videos, or images from the source corpus. Source files should be obtained from the official public release locations, including the War.gov UFO portal.
 
@@ -50,4 +50,3 @@ Official context anchors:
 - NASA UAP terminology and FAQ pages
 
 The release files and the public corpus should be interpreted as source evidence, not as proof of origin, non-human technology, or independently reconstructed physical performance.
-

@@ -76,7 +76,10 @@ PR21 has moderate image-plane support for DVIDS's narrow visual description: the
 
 The public MP4 does not validate the D14 `SU-27/35` observation, the D14 UAP north-to-northeast movement language, physical speed, range, altitude, trajectory, object identity, or whether the two image-plane contrast areas correspond to one aircraft, two aircraft, sensor/terrain effects, or another source.
 
+## Control Value
+
+This note serves as the repository's conventional-control comparator for compact-candidate review. The same central two-area logic remains terrain/texture-confounded, which is useful for sanity-checking the acceptance threshold in a likely conventional lane rather than for anomaly proof. The `9/11` supported-row summary is a calibration cue, not evidence of anomaly.
+
 ## Current Judgment
 
 Treat `DOD_111688762.mp4` as a hard `PR21` / `D14` report-video pair with moderate central two-area visual support. Keep the D14 report-text caveat visible: D14 contains both a separate probable `SU-27/35` observation line and a UAP line with no positive ID.
-

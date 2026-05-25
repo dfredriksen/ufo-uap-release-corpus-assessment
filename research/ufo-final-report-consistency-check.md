@@ -21,6 +21,8 @@ Status: consistency check complete after publication-figure and coverage refresh
 | Figure validation | `figures/figure-validation.md` records source files and count checks, including the current `33` deep_review / `0` partial_review coverage summary |
 | Claim traceability | `research/ufo-claim-traceability.csv` maps representative claims to support artifacts, claim types, and evidentiary status |
 | Publication review packets | ChatGPT Pro touch-up packet, polished draft, Claude review packet, and Claude output are present |
+| Manual review protocol | D33 manual track and D23 validation use a documented compact-candidate rubric; PR21/D14 serves as the conventional comparator |
+| Editorial QA disclosure | ChatGPT Pro and Claude were used for editorial QA only, not as evidence sources |
 | D61/D65 treatment | Present as Persian Gulf / Strait 2020 pattern lane, not kinematics lane |
 | D58 treatment | Present as top document-only source-request case with conventional-confound caveat |
 | D28 treatment | Present as weapons-context document-only source-request case; no false PR46 pairing |
@@ -33,12 +35,11 @@ Status: consistency check complete after publication-figure and coverage refresh
 
 - The final report is strong for the modern DoW/DoD operational subset and public DoD media, but it is not an exhaustive page-by-page historical archive OCR analysis.
 - FBI photo and NASA/DOS image-related records received targeted source/provenance triage, not photogrammetry.
-- Figure 5 is an illustrative keyword-frequency chart across evidence-ladder rows, not a prevalence estimate.
+- Figure 5 is an author-curated keyword-frequency diagnostic across evidence-ladder rows, not a prevalence estimate.
 - Source-request rankings may change if raw FMV, telemetry, unredacted grids, or official release-index corrections are obtained.
 
 ## Current Judgment
 
-The final scientific report is internally consistent with the current evidence ladder, correlation matrix, source packets, targeted gap triage artifacts, claim traceability table, coverage audit, and publication figures. It is ready as a professional targeted assessment of the full 170-file corpus, ready for external methodological review, with strongest claims bounded to the modern operational evidence.
+The final scientific report is internally consistent with the current evidence ladder, correlation matrix, source packets, targeted gap triage artifacts, claim traceability table, coverage audit, and publication figures. It is ready as a professional targeted assessment of the full 170-file corpus, ready for external methodological review, with strongest claims bounded to the modern operational evidence and with the manual-review rubric and editorial-review disclosures explicitly documented.
 
 The public repository version additionally includes publication-stage review packets and returned outputs for ChatGPT Pro and Claude. Those artifacts are preserved in `review-packets/` so future revisions can be audited rather than silently merged into the paper.
-

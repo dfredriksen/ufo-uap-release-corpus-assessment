@@ -1,4 +1,4 @@
-﻿# Scientific Assessment Of The UFO/UAP Release Corpus
+﻿# Source-First Structured Assessment Of The UFO/UAP Release Corpus
 
 Owner: Dan Fredriksen
 Draft created: 2026-05-14
@@ -14,7 +14,7 @@ Executive summary:
 - The best-supported conclusion is unresolved operational observation, not non-human technology or independently reconstructed extraordinary physics.
 - Release 02 broadens the corpus with a second 64-record tranche, but it mostly adds breadth, controls, and provenance structure rather than raising the claim ceiling.
 - The recurring cross-corpus themes are over-water operational lanes, sensor-mode limitation, metadata hygiene, duplicate/control handling, and historical/archive context that strengthens interpretation but not the physics claims.
-- The final draft is internally consistent and ready for external methodological review.
+- The final draft is internally consistent and ready for external methodological review, with manual-review counts documented as descriptive acceptance counts rather than inferential statistics.
 
 The strongest public evidence lanes are hard report/video pairings or strong report-content/video reconciliations, especially `D38/PR36/DOD_111689030.mp4`, `D33/PR34/DOD_111689011.mp4`, `D25/PR28/DOD_111688954.mp4`, `D27/PR29/DOD_111688964.mp4`, `D23/PR27/DOD_111688825.mp4`, and `D35/PR35/DOD_111689022`. Among the strongest document-only source-request targets are `D58`, `D28`, `D74`, `D75`, `D44/D57`, `D8`, and `D54`. Within that set, `D58` and `D28` carry the densest operational context. The strongest regional pattern lane is the Persian Gulf / Strait of Hormuz 2020 cluster, with `D61` as the strongest behavior row and `D65` as the densest single mission.
 
@@ -85,9 +85,18 @@ The analysis used a conservative source-first method:
 8. Rank evidence by provenance, source context, report/video linkage, visual support, and caveats.
 9. Run targeted group-level triage for NASA/DOS, FBI photo, and historical/archive material where local extraction or high-resolution review was blocked by disk/read constraints.
 10. Generate and validate publication figures from the manifest, coverage map, evidence ladder, source-request table, and transparent keyword scans.
-11. Prepare and archive publication-stage review packets and returned outputs: one for ChatGPT Pro to improve professional polish without strengthening unsupported claims, and one for Claude to provide critical methodological and evidentiary feedback before any later public revision.
+11. Prepare and archive publication-stage review packets and returned outputs: one for ChatGPT Pro to improve professional polish and consistency without strengthening unsupported claims, and one for Claude to provide critical methodological and evidentiary feedback. Both review passes are editorial QA, not independent evidence review.
 
 The video work was intentionally bounded. Local visual review can support statements about image-plane features, compact returns, relative contrast, phase sequence, apparent image-plane turns, and visible release-description alignment. It cannot establish true object speed, altitude, range, physical trajectory, or acceleration without sensor geometry and platform data.
+
+### Manual Review Protocol
+
+The frame-level review used a conservative detector-centered rubric:
+
+- A frame is accepted only when the candidate remains compact, visually separable from frame-edge, reticle, overlay, shoreline, terrain, or water-texture clutter, and remains usable across the local sampling step.
+- The reported counts are descriptive acceptance counts from a single-analyst, unblinded pass, not inferential statistics or inter-rater estimates.
+- The PR21/D14 two-area review is retained as a conventional comparator for the same compact-candidate logic; it stays terrain/texture-confounded and does not convert the comparator lane into anomaly proof.
+- The PR27/D23 counts below should be read with the same rubric in mind: they are acceptance counts, not a significance test.
 
 Primary methods artifacts:
 
@@ -154,9 +163,9 @@ Figure 3 visualizes the `18` ranked evidence-ladder rows. The ranking measures a
 
 Figure 4 shows the top raw-data/source-request priorities. The first two priorities, `D58` and `D28`, are document-only cases with dense operational context but insufficient public data for physical reconstruction.
 
-![Figure 5. Common Themes In Ranked Evidence Rows](figures/fig5-evidence-ladder-theme-frequency.svg)
+![Figure 5. Author-Curated Diagnostic Themes In Ranked Evidence Rows](figures/fig5-evidence-ladder-theme-frequency.svg)
 
-Figure 5 is a controlled keyword-frequency visualization across the `18` ranked evidence-ladder rows. It is illustrative only; it should not be read as a real-world prevalence estimate.
+Figure 5 is an author-curated keyword-frequency diagnostic across the `18` ranked evidence-ladder rows. It is retained as a theme audit, not as a prevalence estimate or real-world frequency measure.
 
 A supplemental Release 02 theme summary is also generated in `figures/fig6-release-02-theme-summary.svg`. It emphasizes the second tranche's recurring over-water, historical/archive, control, duplicate-handling, and source-index hygiene themes without changing the report's claim ceiling.
 
@@ -185,7 +194,7 @@ Other strong public lanes include:
 - `D33/PR34/DOD_111689011.mp4`: Greece ocean-surface maneuver lane. Manual tracking supports multiple sharp apparent image-plane heading changes, including `>=60` degree image-plane heading changes in the reviewed track, while true physical 90-degree turns and `80 MPH` remain report-derived.
 - `D25/PR28/DOD_111688954.mp4`: Greece SWIR-only lane. The public video supports the SWIR acquisition/loss sequence, while `434 KNOTS`, size, altitude, and detailed shape remain report-derived.
 - `D27/PR29/DOD_111688964.mp4`: UAE over-water unusual morphology lane. The public video aligns with the pole/bar or possible-reflection description, but the pole/bar may be a water reflection and the `140 KNOTS` value remains report-derived.
-- `D23/PR27/DOD_111688825.mp4`: long hard-paired visual sequence. Manual validation supports repeated compact-return candidates, especially in the late loss/reacquisition interval: `144/181` reviewed late-interval frames were validated as compact-return candidates versus `31/146` in the earlier comparison interval. The public video does not identify which D23 UAP row it depicts.
+- `D23/PR27/DOD_111688825.mp4`: long hard-paired visual sequence. Manual validation supports repeated compact-return candidates, especially in the late loss/reacquisition interval: `144/181` reviewed late-interval frames were accepted as compact-return candidates versus `31/146` in the earlier comparison interval, using the conservative manual-validation rubric described above. These are descriptive counts, not significance-tested evidence of physical kinematics. The public video does not identify which D23 UAP row it depicts.
 - `D35/PR35/DOD_111689022`: Greece ocean-surface control/comparison lane. The public clip supports the broad sequence, but clouds, shoreline, terrain, and the report's `NONE` maneuverability field limit its anomaly value.
 
 Primary support:
@@ -409,6 +418,12 @@ The following limitations are decisive:
 7. Unresolved status is not evidence of extraordinary origin by itself.
 8. The publicly released DVIDS video subset is a non-random selection from a larger operational archive. The frequency of any feature in the public-video subset should not be read as its frequency in the underlying operational corpus.
 9. Public DVIDS clips are lossy-compressed and contain reticle, track-box, zoom, chroma, and luma artifacts. Apparent compact-return persistence, contrast growth, or formation-like structure must be evaluated against a codec-artifact floor before being treated as object behavior.
+10. Manual video review is a single-analyst, unblinded process with no inter-rater reliability estimate or blinded control study. The counts reported for D33/D23 are descriptive acceptance counts, not inferential statistics.
+11. ChatGPT Pro and Claude were used for editorial QA and methodological critique only. Their feedback improved wording, consistency, and limitation framing; it was not used as evidence and any suggestion that would strengthen unsupported claims was rejected.
+
+## Competing Interests
+
+Independent analysis. No funding. No affiliation with USG, AARO, or commercial UAP research organizations.
 
 ## Source-Request Priorities
 
@@ -501,4 +516,3 @@ Publication figures:
 - `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/figures/fig5-evidence-ladder-theme-frequency.svg`
 - `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/figures/theme-frequency.csv`
 - `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/figures/source-request-priorities.csv`
-
