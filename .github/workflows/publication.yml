@@ -25,6 +25,9 @@ jobs:
       - name: Validate publication paths
         run: python scripts/validate_publication_paths.py
 
+      - name: Validate claim traceability table
+        run: python scripts/validate_claim_traceability.py
+
       - name: Rebuild publication figures
         run: python scripts/generate_publication_figures.py
 

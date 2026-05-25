@@ -15,6 +15,8 @@ Use `requirements.txt` for general reproduction on Python 3.11+ and `requirement
 
 `scripts/validate_publication_paths.py` checks for accidental GitHub URLs embedded inside filesystem path constructors in Python and PowerShell scripts.
 
+`scripts/validate_claim_traceability.py` validates the machine-readable claim traceability table used by the paper and consistency check.
+
 `scripts/generate_publication_figures.py` rebuilds the SVG publication figures from the repo-local CSVs and writes a validation note under `figures/`.
 
 The publication CI workflow in `.github/workflows/publication.yml` reruns the path validator, figure generator, and acquisition-manifest builder with a missing source root to confirm graceful degradation.

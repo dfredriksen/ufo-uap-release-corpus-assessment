@@ -80,8 +80,9 @@ Run the corpus from the bottom up:
 3. Refresh the release metadata tables for Release 01 and Release 02.
 4. Regenerate the publication figures.
 5. Run the path-hygiene validator.
-6. Re-run any targeted video or document review script only if the source file is locally available.
-7. Use `.github/workflows/publication.yml` as the published CI sequence for the basic validation pass.
+6. Run the claim-traceability validator.
+7. Re-run any targeted video or document review script only if the source file is locally available.
+8. Use `.github/workflows/publication.yml` as the published CI sequence for the basic validation pass.
 
 Representative commands:
 
