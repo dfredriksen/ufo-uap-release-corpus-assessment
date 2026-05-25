@@ -49,6 +49,8 @@ Current treatment:
 - Stronger than the CIA entry because it is contemporaneous, multi-sensor, and explicitly tied to related imagery
 - Still not enough for a physical kinematics claim without the associated imagery, telemetry, and source metadata
 
+This is also the only Release 02 row that explicitly bundles Release 01 evidence. The linked Phase 1 set is inventoried in `research/ufo-release-02-phase1-linkage-inventory.csv` and consists of the `USPER Statement about UAP Sighting` narrative plus FBI Photo A001-A008 and FBI Photo B001-B024.
+
 ### DOE-UAP-D001 - Pantex imagery
 
 This is an enhanced image package from a ground surveillance radar tower with Sandia National Labs enhanced images of the object. The file is visually important but still needs proper OCR, image extraction, and provenance review.
