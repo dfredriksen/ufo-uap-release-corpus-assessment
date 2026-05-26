@@ -1,0 +1,191 @@
+from __future__ import annotations
+
+import argparse
+import csv
+import hashlib
+from pathlib import Path
+
+import cv2
+
+
+ROOT = Path(__file__).resolve().parents[1]
+DOCS = ROOT / "research"
+DEFAULT_PREFLIGHT = DOCS / "ufo-overlay-measurement-p2-source-preflight.csv"
+DEFAULT_OUTPUT = DOCS / "ufo-overlay-measurement-p2-source-acquisition.csv"
+DEFAULT_SUMMARY = DOCS / "ufo-overlay-measurement-p2-source-acquisition.md"
+DEFAULT_SOURCE_ROOT = ROOT / "source-files-not-included"
+
+FIELDNAMES = [
+    "record_id",
+    "release_tag",
+    "dvids_id",
+    "dvids_url",
+    "matched_terms",
+    "source_video",
+    "source_url",
+    "local_path_not_redistributed",
+    "source_exists_at_run",
+    "source_bytes",
+    "expected_bytes",
+    "sha256",
+    "opencv_width",
+    "opencv_height",
+    "opencv_fps",
+    "opencv_frames",
+    "opencv_duration_seconds",
+    "source_media_boundary",
+]
+
+
+def public_source_hint(path: Path) -> str:
+    return f"source-files-not-included/{path.name}"
+
+
+def clean(value: object) -> str:
+    return "" if value is None else str(value).strip()
+
+
+def read_csv(path: Path) -> list[dict[str, str]]:
+    with path.open("r", encoding="utf-8-sig", newline="") as handle:
+        return list(csv.DictReader(handle))
+
+
+def sha256(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
+def cv2_metadata(path: Path) -> dict[str, str]:
+    cap = cv2.VideoCapture(str(path))
+    if not cap.isOpened():
+        raise SystemExit(f"Could not open source video: {path}")
+    fps = cap.get(cv2.CAP_PROP_FPS) or 0.0
+    frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT) or 0)
+    width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH) or 0)
+    height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT) or 0)
+    cap.release()
+    duration = frames / fps if fps else 0.0
+    return {
+        "opencv_width": str(width),
+        "opencv_height": str(height),
+        "opencv_fps": f"{fps:.3f}",
+        "opencv_frames": str(frames),
+        "opencv_duration_seconds": f"{duration:.3f}",
+    }
+
+
+def build_rows(preflight: Path, source_root: Path) -> list[dict[str, str]]:
+    rows: list[dict[str, str]] = []
+    hash_cache: dict[Path, str] = {}
+    metadata_cache: dict[Path, dict[str, str]] = {}
+    for row in read_csv(preflight):
+        source_video = f"{clean(row.get('dvids_filename'))}.mp4"
+        source_path = source_root / source_video
+        source_exists = source_path.exists()
+        source_bytes = str(source_path.stat().st_size) if source_exists else ""
+        digest = ""
+        metadata = {
+            "opencv_width": "",
+            "opencv_height": "",
+            "opencv_fps": "",
+            "opencv_frames": "",
+            "opencv_duration_seconds": "",
+        }
+        if source_exists:
+            digest = hash_cache.setdefault(source_path, sha256(source_path))
+            if source_path not in metadata_cache:
+                metadata_cache[source_path] = cv2_metadata(source_path)
+            metadata = metadata_cache[source_path]
+        rows.append(
+            {
+                "record_id": clean(row.get("record_id")),
+                "release_tag": clean(row.get("release_tag")),
+                "dvids_id": clean(row.get("dvids_id")),
+                "dvids_url": clean(row.get("dvids_url")),
+                "matched_terms": clean(row.get("matched_terms")),
+                "source_video": source_video,
+                "source_url": clean(row.get("embedded_public_mp4_url")),
+                "local_path_not_redistributed": public_source_hint(source_path),
+                "source_exists_at_run": "yes" if source_exists else "no",
+                "source_bytes": source_bytes,
+                "expected_bytes": clean(row.get("mp4_content_length")),
+                "sha256": digest,
+                **metadata,
+                "source_media_boundary": "source MP4 retained outside Git; manifest only committed",
+            }
+        )
+    return rows
+
+
+def write_csv(path: Path, rows: list[dict[str, str]]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=FIELDNAMES, lineterminator="\n")
+        writer.writeheader()
+        writer.writerows(rows)
+
+
+def write_summary(path: Path, rows: list[dict[str, str]]) -> None:
+    acquired = [row for row in rows if row["source_exists_at_run"] == "yes"]
+    unique_bytes = {
+        row["source_video"]: int(row["source_bytes"])
+        for row in acquired
+        if row["source_bytes"].isdigit()
+    }
+    record_counted_bytes = sum(int(row["source_bytes"]) for row in acquired if row["source_bytes"].isdigit())
+    unique_total_bytes = sum(unique_bytes.values())
+    lines = [
+        "# Overlay Measurement P2 Source Acquisition",
+        "",
+        "Owner: Dan Fredriksen",
+        "Generated by: `scripts/build_ufo_overlay_p2_source_acquisition.py`",
+        "Scope: preflighted P2 Release 02 overlay source assets acquired outside Git",
+        "",
+        "## Purpose",
+        "",
+        "This manifest records the local, non-redistributed source MP4s acquired for the remaining P2 overlay queue. It commits filenames, hashes, sizes, and OpenCV metadata, not source media.",
+        "",
+        "## Summary",
+        "",
+        f"- P2 records in manifest: `{len(rows)}`",
+        f"- Records with source present: `{len(acquired)}`",
+        f"- Unique source MP4s present: `{len(unique_bytes)}`",
+        f"- Total unique local bytes: `{unique_total_bytes}`",
+        f"- Total unique local size: `{unique_total_bytes / (1024 * 1024):.2f} MB`",
+        f"- Total record-counted local size: `{record_counted_bytes / (1024 * 1024):.2f} MB`",
+        "",
+        "## Boundary",
+        "",
+        "Source MP4s are retained outside the repository. This manifest proves acquisition and hashing only; it is not an overlay finding.",
+        "",
+        "Supporting table:",
+        "",
+        "- `research/ufo-overlay-measurement-p2-source-acquisition.csv`",
+    ]
+    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Build P2 source acquisition manifest from preflighted source pages.")
+    parser.add_argument("--preflight", type=Path, default=DEFAULT_PREFLIGHT)
+    parser.add_argument("--source-root", type=Path, default=DEFAULT_SOURCE_ROOT)
+    parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
+    parser.add_argument("--summary-output", type=Path, default=DEFAULT_SUMMARY)
+    return parser.parse_args()
+
+
+def main() -> int:
+    args = parse_args()
+    rows = build_rows(args.preflight, args.source_root)
+    write_csv(args.output, rows)
+    write_summary(args.summary_output, rows)
+    print(f"Wrote {len(rows)} P2 acquisition rows to {args.output}")
+    print(f"Wrote summary to {args.summary_output}")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

@@ -1,0 +1,6 @@
+case,video,record_id,start_second,end_second,label_text_observed,manual_read_confidence,reticle_box_visible,relationship_to_reticle,semantics_status,notes
+PR44,DOD_111689115.mp4,DOW-UAP-PR44,202,203,ambiguous edge display value,low,partial/edge,near right-side display/reticle geometry,unresolved,Contact sheet shows large/edge display geometry with partial meter-like values before the standard centered reticle-box label interval; do not use for value sequence claims.
+PR44,DOD_111689115.mp4,DOW-UAP-PR44,204,206,12M,high,yes,right of reticle/track box,unresolved,First stable standard reticle-associated meter-like label interval in one-second survey.
+PR44,DOD_111689115.mp4,DOW-UAP-PR44,207,233,11M,high,yes,right of reticle/track box,unresolved,Stable reticle-associated meter-like label interval; frame-level transition follow-up places the end at frame 7000.
+PR44,DOD_111689115.mp4,DOW-UAP-PR44,234,264,10M,high,yes,right of reticle/track box,unresolved,Stable reticle-associated meter-like label interval after the frame 7000/7001 transition.
+PR44,DOD_111689115.mp4,DOW-UAP-PR44,265,266,9M,medium,yes,right of reticle/track box near crop edge,unresolved,Manual contact-sheet read shows a short final 9M-like interval; automated detector undercounts it because the label is near the right edge of the analysis crop.

@@ -18,7 +18,7 @@ DEFAULT_RELEASE_MANIFESTS = [
 DEFAULT_OUTPUT = RESEARCH / "ufo-source-acquisition-manifest.csv"
 DEFAULT_GAPS = RESEARCH / "ufo-source-acquisition-gaps.csv"
 DEFAULT_SUMMARY = RESEARCH / "ufo-source-acquisition-summary.md"
-DEFAULT_SOURCE_ROOT = Path(r"I:\My Drive\UFO")
+DEFAULT_SOURCE_ROOT = ROOT / "source-files-not-included"
 
 
 def clean(value: object) -> str:
@@ -47,8 +47,8 @@ def sha256_file(path: Path) -> str:
     return digest.hexdigest()
 
 
-def resolve_source_path(recorded_path: str, source_root: Path | None) -> Path | None:
-    if recorded_path:
+def resolve_source_path(recorded_path: str, source_root: Path | None, use_recorded_paths: bool) -> Path | None:
+    if use_recorded_paths and recorded_path:
         candidate = Path(recorded_path)
         if candidate.exists():
             return candidate
@@ -179,7 +179,17 @@ def main() -> int:
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--gaps-output", type=Path, default=DEFAULT_GAPS)
     parser.add_argument("--summary-output", type=Path, default=DEFAULT_SUMMARY)
-    parser.add_argument("--source-root", type=Path, default=DEFAULT_SOURCE_ROOT)
+    parser.add_argument(
+        "--source-root",
+        type=Path,
+        default=None,
+        help="Directory containing source files by basename. Omit for manifest-only missing-file audit.",
+    )
+    parser.add_argument(
+        "--use-recorded-paths",
+        action="store_true",
+        help="Also honor absolute source_path values recorded in the local inventory.",
+    )
     args = parser.parse_args()
 
     release_manifests = args.release_manifest or [(tag, path) for tag, path in DEFAULT_RELEASE_MANIFESTS]
@@ -203,7 +213,7 @@ def main() -> int:
         extension = clean(row.get("extension"))
         recorded_path = clean(row.get("source_path"))
         inventory_bytes = parse_int(row.get("bytes"))
-        filesystem_path = resolve_source_path(recorded_path, args.source_root)
+        filesystem_path = resolve_source_path(recorded_path, args.source_root, args.use_recorded_paths)
         file_exists = filesystem_path is not None
         filesystem_bytes = filesystem_path.stat().st_size if filesystem_path else None
         file_hash = sha256_file(filesystem_path) if filesystem_path else ""

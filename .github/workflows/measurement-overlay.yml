@@ -1,0 +1,109 @@
+name: Measurement Overlay Checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  no-media-overlay-checks:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Compile overlay scripts
+        run: |
+          python -m py_compile \
+            scripts/build_ufo_overlay_measurement_audit.py \
+            scripts/ufo_pr44_overlay_label_survey.py \
+            scripts/ufo_pr44_overlay_motion_compare.py \
+            scripts/ufo_pr44_overlay_transition_pass.py \
+            scripts/ufo_pr051_interval_sheets.py \
+            scripts/build_ufo_overlay_residual_scan_plan.py \
+            scripts/validate_overlay_residual_scan_plan.py \
+            scripts/build_ufo_overlay_p1_source_preflight.py \
+            scripts/validate_overlay_p1_source_preflight.py \
+            scripts/build_ufo_overlay_p2_source_preflight.py \
+            scripts/validate_overlay_p2_source_preflight.py \
+            scripts/build_ufo_overlay_p2_source_acquisition.py \
+            scripts/ufo_overlay_p2_acquired_ocr_probe.py \
+            scripts/validate_overlay_p2_acquired_review.py \
+            scripts/build_ufo_overlay_residual_source_preflight.py \
+            scripts/validate_overlay_residual_source_preflight.py \
+            scripts/ufo_overlay_residual_local_ocr_probe.py \
+            scripts/validate_overlay_residual_local_review.py \
+            scripts/ufo_overlay_residual_remote_ocr_probe.py \
+            scripts/build_ufo_overlay_residual_remote_review.py \
+            scripts/validate_overlay_residual_remote_review.py \
+            scripts/ufo_overlay_p1_quicklook.py \
+            scripts/ufo_overlay_p1_ocr_probe.py \
+            scripts/ufo_pr059_overlay_label_survey.py \
+            scripts/validate_overlay_p1_review.py \
+            scripts/ufo_overlay_p2_local_ocr_probe.py \
+            scripts/validate_overlay_p2_local_ocr_probe.py \
+            scripts/validate_overlay_measurement_classification.py
+
+      - name: Validate overlay classification matrix
+        run: python scripts/validate_overlay_measurement_classification.py
+
+      - name: Validate residual scan plan
+        run: python scripts/validate_overlay_residual_scan_plan.py
+
+      - name: Validate P1 source preflight
+        run: python scripts/validate_overlay_p1_source_preflight.py
+
+      - name: Validate P2 source preflight
+        run: python scripts/validate_overlay_p2_source_preflight.py
+
+      - name: Validate P1 quicklook review
+        run: python scripts/validate_overlay_p1_review.py
+
+      - name: Validate P2 local OCR probe
+        run: python scripts/validate_overlay_p2_local_ocr_probe.py
+
+      - name: Validate P2 acquired review
+        run: python scripts/validate_overlay_p2_acquired_review.py
+
+      - name: Validate residual source preflight
+        run: python scripts/validate_overlay_residual_source_preflight.py
+
+      - name: Validate residual local OCR review
+        run: python scripts/validate_overlay_residual_local_review.py
+
+      - name: Validate residual remote OCR review
+        run: python scripts/validate_overlay_residual_remote_review.py
+
+      - name: Validate script path hygiene
+        run: python scripts/validate_publication_paths.py
+
+      - name: Rebuild overlay audit to temporary outputs
+        run: |
+          python scripts/build_ufo_overlay_measurement_audit.py \
+            --output /tmp/ufo-overlay-measurement-audit.csv \
+            --summary-output /tmp/ufo-overlay-measurement-audit.md
+
+      - name: Rebuild residual scan plan to temporary outputs
+        run: |
+          python scripts/build_ufo_overlay_residual_scan_plan.py \
+            --output /tmp/ufo-overlay-measurement-residual-scan-plan.csv \
+            --summary-output /tmp/ufo-overlay-measurement-residual-scan-plan.md
+
+      - name: Check committed generated overlay outputs
+        run: |
+          python scripts/build_ufo_overlay_measurement_audit.py
+          python scripts/build_ufo_overlay_residual_remote_review.py
+          python scripts/build_ufo_overlay_residual_scan_plan.py
+          git diff --exit-code -- \
+            research/ufo-overlay-measurement-audit.csv \
+            research/ufo-overlay-measurement-audit.md \
+            research/ufo-overlay-measurement-residual-remote-review.csv \
+            research/ufo-overlay-measurement-residual-remote-review.md \
+            research/ufo-overlay-measurement-residual-scan-plan.csv \
+            research/ufo-overlay-measurement-residual-scan-plan.md

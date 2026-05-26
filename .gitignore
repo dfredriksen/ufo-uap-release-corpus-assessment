@@ -1,10 +1,28 @@
 # Original source media/documents are intentionally not redistributed here.
 source-files-not-included/
 ufo-derived/
+research/ufo-derived/
+docs/research/ufo-derived/
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wmv
+*.m4v
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+*.zip
+*.db
+*.sqlite
+*.sqlite3
 
 # Local/editor noise.
 .DS_Store
 Thumbs.db
 *.tmp
 *.log
-
+__pycache__/
+*.py[cod]

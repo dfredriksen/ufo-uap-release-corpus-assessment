@@ -1,4 +1,4 @@
-﻿# Publication Figure Validation
+# Publication Figure Validation
 
 Generated: 2026-05-15
 
@@ -40,6 +40,6 @@ Evidence tiers:
 
 ## Caveat On Theme Frequency
 
-Figure 5 is an author-curated keyword-frequency diagnostic across the `18` ranked evidence-ladder rows. It is included to show recurrent analytic themes, not to estimate real-world UAP prevalence or object frequency.
+Figure 5 is a controlled keyword-frequency visualization across the `18` ranked evidence-ladder rows. It is included to show recurrent analytic themes, not to estimate real-world UAP prevalence or object frequency.
 
 Supplemental Figure 6 summarizes recurring themes in the Release 02 synthesis and review notes without changing the report's claim ceiling.

@@ -1,0 +1,7 @@
+case,video,record_id,second,frame_index,reticle_box_present,label_candidate_present,object_candidate_present,reticle_box_cx,reticle_box_cy,reticle_box_w,reticle_box_h,label_cx,label_cy,label_w,label_h,label_dx_from_reticle,label_dy_from_reticle,object_cx,object_cy,object_dx_from_reticle,object_dy_from_reticle,manual_label_text,manual_review_status,notes
+PR31,DOD_111688970.mp4,DOW-UAP-PR31,0,0,no,no,no,,,,,,,,,,,,,,,,not_applicable,No reticle-associated label component detected by survey.
+PR31,DOD_111688970.mp4,DOW-UAP-PR31,1,30,no,no,no,,,,,,,,,,,,,,,,not_applicable,No reticle-associated label component detected by survey.
+PR31,DOD_111688970.mp4,DOW-UAP-PR31,2,60,no,no,no,,,,,,,,,,,,,,,,not_applicable,No reticle-associated label component detected by survey.
+PR31,DOD_111688970.mp4,DOW-UAP-PR31,3,90,no,no,no,,,,,,,,,,,,,,,,not_applicable,No reticle-associated label component detected by survey.
+PR31,DOD_111688970.mp4,DOW-UAP-PR31,4,120,no,no,no,,,,,,,,,,,,,,,,not_applicable,No reticle-associated label component detected by survey.
+PR31,DOD_111688970.mp4,DOW-UAP-PR31,5,150,no,no,no,,,,,,,,,,,,,,,,not_applicable,No reticle-associated label component detected by survey.

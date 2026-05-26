@@ -1,0 +1,2 @@
+case,video,record_id,start_second,end_second,duration_seconds,label_candidate_present,notes
+PR36,DOD_111689030.mp4,DOW-UAP-PR36,0,137,138,no,Continuous one-second survey interval; label text requires manual review.

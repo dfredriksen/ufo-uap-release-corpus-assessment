@@ -16,6 +16,8 @@ ALLOWED_CLAIM_TYPES = {
     "Pattern / narrative synthesis",
     "Methodological limitation",
     "Tranche-level synthesis",
+    "Display-overlay observation",
+    "Bounded OCR triage",
 }
 ALLOWED_STATUSES = {
     "Not physical kinematics",
@@ -25,6 +27,9 @@ ALLOWED_STATUSES = {
     "Not kinematics",
     "Telemetry and platform data required",
     "No hard new pairing",
+    "Not physical measurement",
+    "No residual promotion under bounded triage",
+    "Falsifiable with source docs/raw telemetry",
 }
 
 

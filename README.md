@@ -3,6 +3,7 @@
 This repository publishes a paper-oriented assessment of a public UFO/UAP release corpus.
 
 ![Publication Checks](https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/actions/workflows/publication.yml/badge.svg)
+![Measurement Overlay Checks](https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/actions/workflows/measurement-overlay.yml/badge.svg)
 
 Main paper:
 
@@ -25,6 +26,8 @@ The repository includes generated analysis artifacts and scripts used during the
 
 The corpus contains credible unresolved operational observations. The released evidence reviewed here is insufficient to determine origin, prove non-human technology, or independently reconstruct extraordinary physical performance.
 
+The repository also includes a bounded measurement-overlay exploitation lane. It identifies `PR44`, `PR051`, and `PR059` as positive meter-like display-annotation cases, compares them against selected controls and residual OCR triage, and explicitly does not promote any overlay to a physical size, range, speed, or acceleration claim.
+
 ## Source Data Notice
 
 Original release media and documents are not included here. Some generated files preserve source filenames and public-source metadata so that readers can retrieve the underlying public records independently.
@@ -41,6 +44,8 @@ Key reproducibility artifacts:
 - [Source acquisition manifest](research/ufo-source-acquisition-manifest.csv)
 - [Source acquisition gap table](research/ufo-source-acquisition-gaps.csv)
 - [Claim traceability table](research/ufo-claim-traceability.csv)
+- [Measurement overlay completion audit](research/ufo-overlay-measurement-completion-audit.md)
+- [Measurement overlay classification matrix](research/ufo-overlay-measurement-classification.md)
 - [Frozen dependency snapshot](requirements-lock.txt)
 
 Official context anchors:

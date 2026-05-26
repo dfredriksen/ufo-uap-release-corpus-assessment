@@ -87,7 +87,7 @@ Run the corpus from the bottom up:
 Representative commands:
 
 ```powershell
-python scripts/build_ufo_source_acquisition_manifest.py
+python scripts/build_ufo_source_acquisition_manifest.py --source-root "source-files-not-included"
 powershell -ExecutionPolicy Bypass -File scripts/ufo_build_file_coverage_map.ps1
 python scripts/war_gov_ufo_manifest_metadata.py
 python scripts/war_gov_ufo_manifest_metadata.py --release-date 5/22/26 --release-tag release-02
@@ -96,7 +96,7 @@ python scripts/validate_publication_paths.py
 python scripts/validate_claim_traceability.py
 ```
 
-If the source files live somewhere other than `I:\My Drive\UFO`, pass the alternate root to the acquisition script with `--source-root`.
+The acquisition script resolves source files by basename under `--source-root`. To reuse absolute paths already recorded in `research/ufo-file-manifest.csv`, pass `--use-recorded-paths` explicitly. The CI smoke test intentionally uses a missing `--source-root` and temporary outputs so a fresh public clone reports missing source files rather than hashing non-redistributed media.
 
 ## Validation Notes
 

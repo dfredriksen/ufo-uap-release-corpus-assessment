@@ -2,7 +2,7 @@
 
 These scripts are repeatable analysis passes copied from the working planning repo.
 
-Most scripts expect public-release source videos to exist under `I:\My Drive\UFO`. Where supported, pass an alternate source path with the script's `--video` argument.
+Most scripts expect public-release source videos to exist outside Git, preferably under the ignored `source-files-not-included/` directory. Where supported, pass an alternate source path with the script's `--video` or `--source-root` argument.
 
 The scripts do not modify source videos. They write derived CSVs and visual artifacts under `research/`.
 

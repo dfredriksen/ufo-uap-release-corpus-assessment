@@ -13,6 +13,7 @@ Executive summary:
 - The strongest evidence is in the modern operational subset, especially hard report/video pairings and tightly reconciled report-content/video lanes.
 - The best-supported conclusion is unresolved operational observation, not non-human technology or independently reconstructed extraordinary physics.
 - Release 02 broadens the corpus with a second 64-record tranche, but it mostly adds breadth, controls, and provenance structure rather than raising the claim ceiling.
+- A new measurement-overlay exploitation lane identifies three positive meter-like display-annotation cases (`PR44`, `PR051`, and `PR059`) and compares them against selected controls and residual OCR triage without promoting any overlay to a physical size, range, speed, or acceleration claim.
 - The recurring cross-corpus themes are over-water operational lanes, sensor-mode limitation, metadata hygiene, duplicate/control handling, and historical/archive context that strengthens interpretation but not the physics claims.
 - The final draft is internally consistent and ready for external methodological review, with manual-review counts documented as descriptive acceptance counts rather than inferential statistics.
 
@@ -85,7 +86,8 @@ The analysis used a conservative source-first method:
 8. Rank evidence by provenance, source context, report/video linkage, visual support, and caveats.
 9. Run targeted group-level triage for NASA/DOS, FBI photo, and historical/archive material where local extraction or high-resolution review was blocked by disk/read constraints.
 10. Generate and validate publication figures from the manifest, coverage map, evidence ladder, source-request table, and transparent keyword scans.
-11. Prepare and archive publication-stage review packets and returned outputs: one for ChatGPT Pro to improve professional polish and consistency without strengthening unsupported claims, and one for Claude to provide critical methodological and evidentiary feedback. Both review passes are editorial QA, not independent evidence review.
+11. Exploit visible measurement-like overlays as display annotations: classify positive cases, compare selected controls, run bounded residual OCR triage, and record source requests needed to resolve label semantics.
+12. Prepare and archive publication-stage review packets and returned outputs: one for ChatGPT Pro to improve professional polish and consistency without strengthening unsupported claims, and one for Claude to provide critical methodological and evidentiary feedback. Both review passes are editorial QA, not independent evidence review.
 
 The video work was intentionally bounded. Local visual review can support statements about image-plane features, compact returns, relative contrast, phase sequence, apparent image-plane turns, and visible release-description alignment. It cannot establish true object speed, altitude, range, physical trajectory, or acceleration without sensor geometry and platform data.
 
@@ -108,6 +110,8 @@ Primary methods artifacts:
 - `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-nasa-dos-gap-triage.md`
 - `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-fbi-photo-gap-triage.md`
 - `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-historical-archive-gap-triage.md`
+- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-overlay-measurement-completion-audit.md`
+- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-overlay-measurement-classification.md`
 - `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/figures/figure-validation.md`
 - `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/generate_publication_figures.py`
 - `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/review-packets/chatgpt-pro-touchup-packet.md`
@@ -142,6 +146,9 @@ Machine-readable source: [research/ufo-claim-traceability.csv](research/ufo-clai
 | D61/D65 is a reporting-density lane, not a performance lane | Finding 7 | `research/ufo-persian-gulf-2020-timeline.md` | Pattern / narrative synthesis | Not kinematics |
 | Public videos do not independently establish physical kinematics | Finding 3 | `research/ufo-pr34-d33-geometry-feasibility.md` | Methodological limitation | Telemetry and platform data required |
 | Release 02 broadens breadth without raising the claim ceiling | Findings 10-12 | `research/ufo-release-02-synthesis.md` | Tranche-level synthesis | No hard new pairing |
+| PR44/PR051/PR059 meter-like overlays are display annotations with unresolved semantics | Finding 13 | `research/ufo-overlay-measurement-classification.md` | Display-overlay observation | Not physical measurement |
+| Residual overlay OCR triage found no new promoted meter-label cases | Finding 13 | `research/ufo-overlay-measurement-completion-audit.md` | Bounded OCR triage | No residual promotion under bounded triage |
+| Overlay semantics require source documentation or raw metadata | Finding 13 | `research/ufo-overlay-measurement-source-requests.csv` | Methodological limitation | Falsifiable with source docs/raw telemetry |
 
 ## Figures
 
@@ -363,6 +370,35 @@ Primary support:
 - `research/ufo-release-02-nonvideo-review.md`
 - `research/ufo-release-02-source-review.md`
 - `research/ufo-nasa-dos-gap-triage.md`
+
+### Finding 13: Measurement-Like Overlays Are Display Annotations, Not Physical Measurements
+
+The overlay lane identifies three positive measurement-like display cases: `PR44`, `PR051`, and `PR059`. `PR44` contains a sustained reticle/track-box-associated `12M -> 11M -> 10M -> 9M` sequence. `PR051` contains repeated `5M` / `5m-style` labels in public excerpts and separate reticle-lock meter-like candidates. `PR059` contains a persistent target-adjacent `M` / `m` suffix sequence over a long interval.
+
+These are valid public-frame observations, but they are not physical measurements. The public corpus does not include the display documentation, raw video, frame-level metadata, FOV/zoom state, range series, platform state, gimbal pointing, or chain-of-custody records needed to establish whether the labels encode object size, range, mode, magnification, track state, editing/replay state, or another display variable.
+
+The lane also adds controls. Six selected control clips (`PR31`, `PR32`, `PR33`, `PR34`, `PR36`, and `PR45`) did not reproduce a PR44-style reticle-associated meter-label sequence under the current one-second survey geometry. Bounded residual triage did not promote any additional meter-label cases: Release 01 residual local OCR produced five candidate rows that manual review rejected as direction-marker, reticle, terrain/edge, or texture noise; Release 02 residual remote OCR produced eight candidate rows across six records that manual review rejected as terrain, field, shoreline, vessel/wake, reticle, direction-marker, display-geometry, or compression/contrast OCR noise.
+
+This finding strengthens the report's source-first posture because it converts visually interesting overlay behavior into explicit source requests rather than unsupported physics claims.
+
+Primary support:
+
+- `research/ufo-overlay-measurement-classification.md`
+- `research/ufo-overlay-measurement-completion-audit.md`
+- `research/ufo-overlay-measurement-source-requests.csv`
+- `research/ufo-overlay-measurement-residual-remote-review.md`
+
+## Hypotheses And Falsification Tests
+
+The overlay lane is best used as a hypothesis generator. The table below separates what the current public evidence supports from what would change the conclusion.
+
+| Hypothesis | Current support | Falsification test | Required data | Current status |
+|---|---|---|---|---|
+| PR44/PR051/PR059 meter-like labels are real visible display annotations, not arbitrary OCR noise. | Manual label surveys and repeated frame-local visibility in the positive cases. | Independent blinded review or source-native frames show the apparent labels are compression, reticle, terrain, or replay artifacts. | Raw/native frames, independent annotation, display-layer export if available. | Not falsified; still semantically unresolved. |
+| The PR44 sequence is reticle/track-box associated rather than a random display artifact. | PR44 surveys preserve a sustained `12M -> 11M -> 10M -> 9M` sequence spatially associated with the track/reticle geometry. | Source display layers or raw frame review show the labels are unrelated to the track/reticle state. | Native video, display-layer metadata, track-state logs. | Not falsified by selected controls. |
+| PR051's `5M` / `5m-style` label is visible in public excerpts but chain-of-custody limited. | Repeated visibility in the acquired public MP4 and separate reticle-lock candidates. | Original source export shows the label was added only by editing, replay generation, or presentation processing. | Original source clip, chain-of-custody records, native export metadata. | Visible in public frames; source-chain unresolved. |
+| Residual rows do not contain another promoted PR44/PR051/PR059-style case under the current bounded OCR method. | P1/P2/local/remote residual triage produced candidates but no promoted residual meter-label case. | Source-retained all-frame OCR/contact-sheet review finds a true meter-label sequence meeting the classification rule. | Source-retained MP4s, all-frame OCR, manual review, independent replication. | Supported only within the bounded method. |
+| Public overlay labels alone prove physical size, range, speed, or acceleration. | No current support. | This claim would require source documentation tying labels to calibrated physical variables plus synchronized telemetry. | Display documentation, raw video, FOV/zoom state, range-time series, platform/gimbal state. | Rejected by current evidence. |
 
 ## Evidence Ranking Summary
 
