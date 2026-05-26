@@ -5,7 +5,7 @@ import csv
 import re
 from collections import Counter
 from dataclasses import dataclass
-from pathlib import Path
+from pathlib import Path, PureWindowsPath
 
 try:
     import cv2
@@ -69,6 +69,10 @@ FIELDNAMES = [
 ]
 
 
+def clean(value: object) -> str:
+    return "" if value is None else str(value).strip()
+
+
 @dataclass
 class Candidate:
     candidate_id: str
@@ -103,7 +107,7 @@ class Candidate:
 def public_source_hint(value: str) -> str:
     if not value:
         return ""
-    name = Path(value).name
+    name = path_basename(value)
     if name.lower().endswith(".mp4"):
         return f"source-files-not-included/{name}"
     return value.replace("\\", "/")
@@ -120,6 +124,15 @@ def public_derived_hint(value: str) -> str:
             suffix = normalized[index:]
             return suffix if suffix.startswith("research/") else f"research/{suffix}"
     return normalized
+
+
+def path_basename(value: object) -> str:
+    text = clean(value)
+    if not text:
+        return ""
+    if "\\" in text or ":" in text:
+        return PureWindowsPath(text).name
+    return Path(text).name
 
 
 def read_csv(path: Path) -> list[dict[str, str]]:
@@ -149,7 +162,7 @@ def video_name_from_record(record: dict[str, str]) -> str:
     asset = record.get("asset_filename", "").strip()
     if asset.lower().endswith(".mp4"):
         return asset
-    local = Path(record.get("local_source_path", "")).name
+    local = path_basename(record.get("local_source_path", ""))
     if local.lower().endswith(".mp4"):
         return local
     return ""
@@ -320,11 +333,11 @@ def metadata_scan_candidates(
             if manifest_local.lower().endswith(".mp4"):
                 local = manifest_local
                 if not video_name:
-                    video_name = Path(local).name
+                    video_name = path_basename(local)
             mapped_local = record_video_lookup.get(normalize_record_id(record_id), "")
             if mapped_local:
                 local = mapped_local
-                video_name = Path(mapped_local).name
+                video_name = path_basename(mapped_local)
             if not local and video_name:
                 local = video_lookup.get(video_name.lower(), {}).get("source_path", "")
             terms = sorted(set(match.group(0).lower() for match in OVERLAY_TERMS.finditer(text)))

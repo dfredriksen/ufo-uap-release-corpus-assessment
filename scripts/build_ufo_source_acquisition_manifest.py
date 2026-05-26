@@ -5,7 +5,7 @@ import csv
 import hashlib
 from collections import defaultdict
 from datetime import datetime, timezone
-from pathlib import Path
+from pathlib import Path, PureWindowsPath
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -36,7 +36,16 @@ def parse_int(value: object) -> int | None:
 
 
 def normalize_filename(value: object) -> str:
-    return Path(clean(value)).name.casefold()
+    return path_basename(value).casefold()
+
+
+def path_basename(value: object) -> str:
+    text = clean(value)
+    if not text:
+        return ""
+    if "\\" in text or ":" in text:
+        return PureWindowsPath(text).name
+    return Path(text).name
 
 
 def sha256_file(path: Path) -> str:
@@ -53,7 +62,7 @@ def resolve_source_path(recorded_path: str, source_root: Path | None, use_record
         if candidate.exists():
             return candidate
     if source_root and recorded_path:
-        fallback = source_root / Path(recorded_path).name
+        fallback = source_root / path_basename(recorded_path)
         if fallback.exists():
             return fallback
     return None

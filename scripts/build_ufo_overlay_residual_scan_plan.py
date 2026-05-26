@@ -3,7 +3,7 @@ from __future__ import annotations
 import argparse
 import csv
 from collections import Counter
-from pathlib import Path
+from pathlib import Path, PureWindowsPath
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -57,10 +57,19 @@ def public_source_hint(value: str) -> str:
     value = clean(value).replace("\\", "/")
     if not value:
         return ""
-    name = Path(value).name
+    name = path_basename(value)
     if name.lower().endswith(".mp4"):
         return f"source-files-not-included/{name}"
     return value
+
+
+def path_basename(value: object) -> str:
+    text = clean(value)
+    if not text:
+        return ""
+    if "\\" in text or ":" in text:
+        return PureWindowsPath(text).name
+    return Path(text).name
 
 
 def matched_terms(row: dict[str, str]) -> list[str]:
