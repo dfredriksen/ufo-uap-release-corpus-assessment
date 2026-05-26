@@ -1,4 +1,4 @@
-﻿from __future__ import annotations
+from __future__ import annotations
 
 import argparse
 import csv
@@ -11,8 +11,12 @@ import cv2
 import numpy as np
 
 
+ROOT = Path(__file__).resolve().parents[1]
+SOURCE_ROOT = ROOT / "source-files-not-included"
+
+
 VIDEO_ID = "DOD_111689030"
-DEFAULT_SOURCE = Path(r"I:\My Drive\UFO\DOD_111689030.mp4")
+DEFAULT_SOURCE = SOURCE_ROOT / "DOD_111689030.mp4"
 DEFAULT_MANUAL_TRACK = Path("research/ufo-video-manual-track-dod111689030.csv")
 OUT_ROOT = Path("research/ufo-derived/video-motion-pass/dense-marking") / VIDEO_ID
 

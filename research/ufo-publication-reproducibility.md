@@ -29,6 +29,10 @@ Suggested publish-set examples from this workspace:
 - `research/ufo-final-scientific-report.md`
 - `research/ufo-final-report-consistency-check.md`
 - `research/ufo-release-02-synthesis.md`
+- `research/ufo-telemetry-evidence-inventory.md`
+- `research/ufo-telemetry-explanation-screening.md`
+- `research/ufo-telemetry-recovery-methods.md`
+- `research/ufo-next-value-roadmap.md`
 - `research/ufo-source-acquisition-manifest.csv`
 - `research/ufo-source-acquisition-gaps.csv`
 - `review-packets/` if the paper version carries editorial QA artifacts

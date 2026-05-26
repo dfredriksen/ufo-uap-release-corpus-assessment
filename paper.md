@@ -14,6 +14,7 @@ Executive summary:
 - The best-supported conclusion is unresolved operational observation, not non-human technology or independently reconstructed extraordinary physics.
 - Release 02 broadens the corpus with a second 64-record tranche, but it mostly adds breadth, controls, and provenance structure rather than raising the claim ceiling.
 - A new measurement-overlay exploitation lane identifies three positive meter-like display-annotation cases (`PR44`, `PR051`, and `PR059`) and compares them against selected controls and residual OCR triage without promoting any overlay to a physical size, range, speed, or acceleration claim.
+- A derived-telemetry screening stack now captures report-derived fields, coordinate decodes, image-plane proxies, overlay candidates, ambiguity classes, and falsification tests; it rejects public-corpus overclaims while preserving unresolved and conventional explanation space where raw telemetry is absent.
 - The recurring cross-corpus themes are over-water operational lanes, sensor-mode limitation, metadata hygiene, duplicate/control handling, and historical/archive context that strengthens interpretation but not the physics claims.
 - The final draft is internally consistent and ready for external methodological review, with manual-review counts documented as descriptive acceptance counts rather than inferential statistics.
 
@@ -87,7 +88,8 @@ The analysis used a conservative source-first method:
 9. Run targeted group-level triage for NASA/DOS, FBI photo, and historical/archive material where local extraction or high-resolution review was blocked by disk/read constraints.
 10. Generate and validate publication figures from the manifest, coverage map, evidence ladder, source-request table, and transparent keyword scans.
 11. Exploit visible measurement-like overlays as display annotations: classify positive cases, compare selected controls, run bounded residual OCR triage, and record source requests needed to resolve label semantics.
-12. Prepare and archive publication-stage review packets and returned outputs: one for ChatGPT Pro to improve professional polish and consistency without strengthening unsupported claims, and one for Claude to provide critical methodological and evidentiary feedback. Both review passes are editorial QA, not independent evidence review.
+12. Apply derived-telemetry screening across report fields, coordinate decodes, image-plane measurements, range-geometry fields, and overlay candidates to separate what the public corpus can falsify from what still requires raw telemetry.
+13. Prepare and archive publication-stage review packets and returned outputs: one for ChatGPT Pro to improve professional polish and consistency without strengthening unsupported claims, and one for Claude to provide critical methodological and evidentiary feedback. Both review passes are editorial QA, not independent evidence review.
 
 The video work was intentionally bounded. Local visual review can support statements about image-plane features, compact returns, relative contrast, phase sequence, apparent image-plane turns, and visible release-description alignment. It cannot establish true object speed, altitude, range, physical trajectory, or acceleration without sensor geometry and platform data.
 
@@ -112,6 +114,10 @@ Primary methods artifacts:
 - `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-historical-archive-gap-triage.md`
 - `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-overlay-measurement-completion-audit.md`
 - `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-overlay-measurement-classification.md`
+- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-telemetry-recovery-methods.md`
+- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-telemetry-evidence-inventory.md`
+- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-telemetry-full-stack-application.md`
+- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-telemetry-explanation-screening.md`
 - `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/figures/figure-validation.md`
 - `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/scripts/generate_publication_figures.py`
 - `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/review-packets/chatgpt-pro-touchup-packet.md`
@@ -149,6 +155,7 @@ Machine-readable source: [research/ufo-claim-traceability.csv](research/ufo-clai
 | PR44/PR051/PR059 meter-like overlays are display annotations with unresolved semantics | Finding 13 | `research/ufo-overlay-measurement-classification.md` | Display-overlay observation | Not physical measurement |
 | Residual overlay OCR triage found no new promoted meter-label cases | Finding 13 | `research/ufo-overlay-measurement-completion-audit.md` | Bounded OCR triage | No residual promotion under bounded triage |
 | Overlay semantics require source documentation or raw metadata | Finding 13 | `research/ufo-overlay-measurement-source-requests.csv` | Methodological limitation | Falsifiable with source docs/raw telemetry |
+| Public telemetry-like data rejects extraordinary-performance and origin overclaims | Finding 3 | `research/ufo-telemetry-explanation-screening.md` | Methodological limitation | Telemetry and platform data required |
 
 ## Figures
 
@@ -399,6 +406,7 @@ The overlay lane is best used as a hypothesis generator. The table below separat
 | PR051's `5M` / `5m-style` label is visible in public excerpts but chain-of-custody limited. | Repeated visibility in the acquired public MP4 and separate reticle-lock candidates. | Original source export shows the label was added only by editing, replay generation, or presentation processing. | Original source clip, chain-of-custody records, native export metadata. | Visible in public frames; source-chain unresolved. |
 | Residual rows do not contain another promoted PR44/PR051/PR059-style case under the current bounded OCR method. | P1/P2/local/remote residual triage produced candidates but no promoted residual meter-label case. | Source-retained all-frame OCR/contact-sheet review finds a true meter-label sequence meeting the classification rule. | Source-retained MP4s, all-frame OCR, manual review, independent replication. | Supported only within the bounded method. |
 | Public overlay labels alone prove physical size, range, speed, or acceleration. | No current support. | This claim would require source documentation tying labels to calibrated physical variables plus synchronized telemetry. | Display documentation, raw video, FOV/zoom state, range-time series, platform/gimbal state. | Rejected by current evidence. |
+| Public telemetry-like data proves extraordinary performance or non-human origin. | No current support; the explanation-screening pass preserves conventional, sensor/display, source-index, and unresolved-operational families. | Raw calibrated sensor records validate real-world speed, acceleration, range, and trajectory while ruling out conventional, display, provenance, and artifact explanations. | Raw sensor video, frame metadata, FOV/zoom, range-time series, platform/gimbal state, radar/EW logs, and chain-of-custody records. | Rejected by current public evidence. |
 
 ## Evidence Ranking Summary
 
@@ -542,6 +550,14 @@ Broader corpus triage:
 - `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-fbi-photo-record-index.csv`
 - `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-historical-archive-gap-triage.md`
 - `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-historical-archive-record-index.csv`
+
+Telemetry and hypothesis-screening artifacts:
+
+- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-forensic-telemetry-techniques.md`
+- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-telemetry-recovery-methods.md`
+- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-telemetry-evidence-inventory.md`
+- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-telemetry-full-stack-application.md`
+- `https://github.com/dfredriksen/ufo-uap-release-corpus-assessment/blob/main/research/ufo-telemetry-explanation-screening.md`
 
 Publication figures:
 

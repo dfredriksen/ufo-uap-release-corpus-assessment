@@ -2,7 +2,7 @@
 
 These scripts are repeatable analysis passes copied from the working planning repo.
 
-Most scripts expect public-release source videos to exist outside Git, preferably under the ignored `source-files-not-included/` directory. Where supported, pass an alternate source path with the script's `--video` or `--source-root` argument.
+Most scripts expect public-release source videos to exist outside Git under the ignored `source-files-not-included/` directory. Where supported, pass an alternate source path with the script's `--video` or `--source-root` argument.
 
 The scripts do not modify source videos. They write derived CSVs and visual artifacts under `research/`.
 
@@ -13,7 +13,7 @@ Use `requirements.txt` for general reproduction on Python 3.11+ and `requirement
 
 `scripts/build_ufo_source_acquisition_manifest.py` writes a fresh-clone acquisition manifest plus a gap table for release assets that are not exact local filename matches.
 
-`scripts/validate_publication_paths.py` checks for accidental GitHub URLs embedded inside filesystem path constructors in Python and PowerShell scripts.
+`scripts/validate_publication_paths.py` checks for accidental GitHub URLs or machine-local absolute paths embedded inside filesystem path constructors in Python and PowerShell scripts.
 
 `scripts/validate_claim_traceability.py` validates the machine-readable claim traceability table used by the paper and consistency check.
 

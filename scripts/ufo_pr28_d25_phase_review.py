@@ -1,4 +1,4 @@
-﻿from __future__ import annotations
+from __future__ import annotations
 
 import csv
 import math
@@ -9,12 +9,16 @@ import cv2
 import numpy as np
 
 
+ROOT = Path(__file__).resolve().parents[1]
+SOURCE_ROOT = ROOT / "source-files-not-included"
+
+
 VIDEO_ID = "DOD_111688954"
 VIDEO_NAME = f"{VIDEO_ID}.mp4"
 RELEASE_ID = "DOW-UAP-PR28"
 REPORT_ID = "DoW-UAP-D25"
 REPORTED_DVIDS_LABEL = "DoW-UAP-D7"
-DEFAULT_VIDEO = Path(r"I:\My Drive\UFO\DOD_111688954.mp4")
+DEFAULT_VIDEO = SOURCE_ROOT / "DOD_111688954.mp4"
 
 
 @dataclass(frozen=True)

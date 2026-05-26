@@ -10,3 +10,4 @@
 "PR44/PR051/PR059 meter-like overlays are display annotations with unresolved semantics","Finding 13","research/ufo-overlay-measurement-classification.md","Display-overlay observation","Not physical measurement"
 "Residual overlay OCR triage found no new promoted meter-label cases","Finding 13","research/ufo-overlay-measurement-completion-audit.md","Bounded OCR triage","No residual promotion under bounded triage"
 "Overlay semantics require source documentation or raw metadata","Finding 13","research/ufo-overlay-measurement-source-requests.csv","Methodological limitation","Falsifiable with source docs/raw telemetry"
+"Public telemetry-like data rejects extraordinary-performance and origin overclaims","Finding 3","research/ufo-telemetry-explanation-screening.md","Methodological limitation","Telemetry and platform data required"

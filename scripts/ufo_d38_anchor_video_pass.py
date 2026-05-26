@@ -1,4 +1,4 @@
-﻿from __future__ import annotations
+from __future__ import annotations
 
 import argparse
 import csv
@@ -11,13 +11,13 @@ import cv2
 import numpy as np
 
 
+ROOT = Path(__file__).resolve().parents[1]
+SOURCE_ROOT = ROOT / "source-files-not-included"
+
+
 VIDEO_ID = "DOD_111689030"
-DEFAULT_SOURCE = Path(r"I:\My Drive\UFO\DOD_111689030.mp4")
-DEFAULT_FFPROBE = Path(
-    r"C:\Users\Dan\AppData\Local\Microsoft\WinGet\Packages"
-    r"\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe"
-    r"\ffmpeg-8.1.1-full_build\bin\ffprobe.exe"
-)
+DEFAULT_SOURCE = SOURCE_ROOT / "DOD_111689030.mp4"
+DEFAULT_FFPROBE = Path("ffprobe")
 
 
 @dataclass

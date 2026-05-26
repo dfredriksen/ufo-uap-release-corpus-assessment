@@ -28,6 +28,8 @@ The corpus contains credible unresolved operational observations. The released e
 
 The repository also includes a bounded measurement-overlay exploitation lane. It identifies `PR44`, `PR051`, and `PR059` as positive meter-like display-annotation cases, compares them against selected controls and residual OCR triage, and explicitly does not promote any overlay to a physical size, range, speed, or acceleration claim.
 
+The derived-telemetry notes use report fields, coordinate decodes, image-plane tracks, and overlay candidates to screen hypotheses. They can reject several overclaims from the public corpus, but they preserve conventional, sensor/display, provenance, and unresolved-operational explanation families where raw telemetry is missing.
+
 ## Source Data Notice
 
 Original release media and documents are not included here. Some generated files preserve source filenames and public-source metadata so that readers can retrieve the underlying public records independently.
@@ -46,6 +48,10 @@ Key reproducibility artifacts:
 - [Claim traceability table](research/ufo-claim-traceability.csv)
 - [Measurement overlay completion audit](research/ufo-overlay-measurement-completion-audit.md)
 - [Measurement overlay classification matrix](research/ufo-overlay-measurement-classification.md)
+- [Telemetry evidence inventory](research/ufo-telemetry-evidence-inventory.md)
+- [Telemetry explanation screening](research/ufo-telemetry-explanation-screening.md)
+- [Telemetry recovery methods](research/ufo-telemetry-recovery-methods.md)
+- [Next-value roadmap](research/ufo-next-value-roadmap.md)
 - [Frozen dependency snapshot](requirements-lock.txt)
 
 Official context anchors:

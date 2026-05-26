@@ -1,4 +1,4 @@
-﻿from __future__ import annotations
+from __future__ import annotations
 
 import argparse
 import csv
@@ -12,12 +12,16 @@ import cv2
 import numpy as np
 
 
+ROOT = Path(__file__).resolve().parents[1]
+SOURCE_ROOT = ROOT / "source-files-not-included"
+
+
 REPORT_ID = "DoW-UAP-D32"
 OUT_ROOT = Path("research/ufo-derived/video-motion-pass/pr31-pr33-d32-glare-review")
 DEFAULT_VIDEOS = {
-    "DOW-UAP-PR31": Path(r"I:\My Drive\UFO\DOD_111688970.mp4"),
-    "DOW-UAP-PR32": Path(r"I:\My Drive\UFO\DOD_111688997.mp4"),
-    "DOW-UAP-PR33": Path(r"I:\My Drive\UFO\DOD_111689005.mp4"),
+    "DOW-UAP-PR31": SOURCE_ROOT / "DOD_111688970.mp4",
+    "DOW-UAP-PR32": SOURCE_ROOT / "DOD_111688997.mp4",
+    "DOW-UAP-PR33": SOURCE_ROOT / "DOD_111689005.mp4",
 }
 
 

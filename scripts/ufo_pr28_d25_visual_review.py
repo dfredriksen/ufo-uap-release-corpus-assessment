@@ -1,4 +1,4 @@
-﻿from __future__ import annotations
+from __future__ import annotations
 
 import argparse
 import csv
@@ -11,12 +11,16 @@ import cv2
 import numpy as np
 
 
+ROOT = Path(__file__).resolve().parents[1]
+SOURCE_ROOT = ROOT / "source-files-not-included"
+
+
 VIDEO_ID = "DOD_111688954"
 VIDEO_NAME = f"{VIDEO_ID}.mp4"
 RELEASE_ID = "DOW-UAP-PR28"
 DVIDS_STATED_REPORT_ID = "DoW-UAP-D7"
 CONTENT_REPORT_ID = "DoW-UAP-D25"
-DEFAULT_VIDEO = Path(r"I:\My Drive\UFO\DOD_111688954.mp4")
+DEFAULT_VIDEO = SOURCE_ROOT / "DOD_111688954.mp4"
 OUT_ROOT = Path("research/ufo-derived/video-motion-pass/pr28-d25-review") / VIDEO_ID
 
 ROI_X0 = 245

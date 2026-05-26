@@ -1,4 +1,4 @@
-﻿from __future__ import annotations
+from __future__ import annotations
 
 import csv
 import math
@@ -10,11 +10,11 @@ import cv2
 import numpy as np
 
 
-DEFAULT_FFPROBE = Path(
-    r"C:\Users\Dan\AppData\Local\Microsoft\WinGet\Packages"
-    r"\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe"
-    r"\ffmpeg-8.1.1-full_build\bin\ffprobe.exe"
-)
+ROOT = Path(__file__).resolve().parents[1]
+SOURCE_ROOT = ROOT / "source-files-not-included"
+
+
+DEFAULT_FFPROBE = Path("ffprobe")
 
 
 @dataclass(frozen=True)
@@ -40,7 +40,7 @@ CASES = (
         video_id="DOD_111689011",
         report_id="DoW-UAP-D33",
         release_id="DOW-UAP-PR34",
-        video_path=Path(r"I:\My Drive\UFO\DOD_111689011.mp4"),
+        video_path=SOURCE_ROOT / "DOD_111689011.mp4",
         sample_rate=2.0,
         phases=(
             Phase("pre-entry/context", 0.0, 3.9, "Before DVIDS 00:04 entry note"),
@@ -57,7 +57,7 @@ CASES = (
         video_id="DOD_111689022",
         report_id="DoW-UAP-D35",
         release_id="DOW-UAP-PR35",
-        video_path=Path(r"I:\My Drive\UFO\DOD_111689022-1920x1080-9000k.mp4"),
+        video_path=SOURCE_ROOT / "DOD_111689022-1920x1080-9000k.mp4",
         sample_rate=2.0,
         phases=(
             Phase("pre-zoom/context", 0.0, 1.9, "Before DVIDS 00:02 zoom note"),

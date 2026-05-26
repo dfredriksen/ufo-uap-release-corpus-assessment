@@ -1,4 +1,4 @@
-﻿from __future__ import annotations
+from __future__ import annotations
 
 import csv
 import math
@@ -8,8 +8,12 @@ import cv2
 import numpy as np
 
 
+ROOT = Path(__file__).resolve().parents[1]
+SOURCE_ROOT = ROOT / "source-files-not-included"
+
+
 VIDEO_ID = "DOD_111689030"
-SOURCE_VIDEO = Path(r"I:\My Drive\UFO\DOD_111689030.mp4")
+SOURCE_VIDEO = SOURCE_ROOT / "DOD_111689030.mp4"
 DETECTOR_CSV = Path("research/ufo-video-object-position-dod111689030.csv")
 OUT_ROOT = Path("research/ufo-derived/video-motion-pass/manual-validation") / VIDEO_ID
 
